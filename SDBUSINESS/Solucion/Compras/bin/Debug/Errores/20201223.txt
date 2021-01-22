@@ -1,0 +1,5 @@
+[20201223 10:30][Error de aplicación] - El permiso no se encuenta definido
+[20201223 10:30][Error de aplicación] - El permiso no se encuenta definido
+[20201223 10:31][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201223 10:37][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201223 10:37][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.

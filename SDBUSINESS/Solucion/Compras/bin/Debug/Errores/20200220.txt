@@ -1,0 +1,68 @@
+[20200220 09:55][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 10:00][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 10:01][Error de aplicación] - Los dias de crédito deben de ser mayor o igual a cero 
+[20200220 10:13][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 10:49][Error de aplicación] - No se encontraron las credenciales para la cuenta de correo
+[20200220 10:50][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 10:51][Error de aplicación] - -ERR Logon failure: unknown user name or bad password.
+
+[20200220 10:51][Error de aplicación] - -ERR Logon failure: unknown user name or bad password.
+
+[20200220 10:51][Error de aplicación] - -ERR Logon failure: unknown user name or bad password.
+
+[20200220 10:53][Error de aplicación] - -ERR Logon failure: unknown user name or bad password.
+
+[20200220 11:17][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 11:21][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 11:26][Error de aplicación] - Object reference not set to an instance of an object.
+[20200220 11:30][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 11:31][Error de aplicación] - No se encontro el detalle del documento
+[20200220 11:32][Error de aplicación] - No se encontro el detalle del documento
+[20200220 11:39][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 11:40][Error de aplicación] - Object reference not set to an instance of an object.
+[20200220 12:03][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 12:03][Error de aplicación] - Debe de seleccionar una cuenta de correo
+[20200220 13:03][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
+[20200220 13:14][Error de aplicación] - No se encontro el detalle del documento
+[20200220 13:27][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
+[20200220 13:27][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:27][Error de aplicación] - A0002 NO LOGIN failed.
+
+[20200220 13:28][Error de aplicación] - A0002 NO LOGIN failed.
+
+[20200220 13:29][Error de aplicación] - Data at the root level is invalid. Line 1, position 1.
+[20200220 13:29][Error de aplicación] - Data at the root level is invalid. Line 1, position 1.
+[20200220 13:32][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:34][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:35][Error de aplicación] - Object reference not set to an instance of an object.
+[20200220 13:36][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:38][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200220 13:39][Error de aplicación] - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 173.194.216.108:143
+[20200220 13:43][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:45][Error de aplicación] - Value cannot be null.
+Parameter name: s
+[20200220 13:51][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:56][Error de aplicación] - Debe de seleccionar el proveedor para poder ingresar facturas
+[20200220 13:58][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 13:59][Error de aplicación] - A socket operation failed because the destination host was down
+[20200220 13:59][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 14:03][Error de aplicación] - A0002 NO Unsupported AUTHENTICATE mechanism. j24mb9575141uak
+
+[20200220 14:06][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 14:16][Error de aplicación] - A0002 NO [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+
+[20200220 14:22][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
+[20200220 14:22][Error de aplicación] - Invalid column name  RecepcionFacturaEmail_Id .
+[20200220 14:38][Error de aplicación] - Data at the root level is invalid. Line 1, position 1.
+[20200220 14:42][Error de aplicación] - NO The specified message uid is invalid; A0050 OK UID FETCH command completed
+
+[20200220 14:54][Error de aplicación] - No se encontro el detalle del documento

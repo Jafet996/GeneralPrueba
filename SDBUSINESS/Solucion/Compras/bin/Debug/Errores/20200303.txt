@@ -1,0 +1,8 @@
+[20200303 09:57][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200303 09:58][Error de aplicación] - Para asociar un producto primero debe de crear el proveedor
+[20200303 12:34][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200303 12:38][Error de aplicación] - Debe de ingresar el numero de identificacion
+[20200303 12:58][Error de aplicación] - Column 'ProveedorNombre' does not belong to table Table.
+[20200303 12:59][Error de aplicación] - Column 'ProveedorNombre' does not belong to table Table.
+[20200303 14:50][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
+[20200303 15:53][Error de aplicación] - Aun no se ha indicado una cuenta de correo

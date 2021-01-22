@@ -1,0 +1,6 @@
+[20200825 16:08][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200825 16:08][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200825 16:09][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200825 16:09][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200825 16:09][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200825 16:14][Error de aplicación] - No se encontraron datos para mostrar el reporte

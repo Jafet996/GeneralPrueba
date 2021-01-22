@@ -1,0 +1,5 @@
+[20200320 10:27][Error de aplicación] - Conversion from type 'DataRowView' to type 'Integer' is not valid.
+[20200320 16:02][Error de aplicación] - La cantidad de unidades x empaque debe de ser mayor o igual a 1
+[20200320 16:03][Error de aplicación] - La cantidad de unidades x empaque debe de ser mayor o igual a 1
+[20200320 16:03][Error de aplicación] - La cantidad de unidades x empaque debe de ser mayor o igual a 1
+[20200320 16:03][Error de aplicación] - La cantidad de unidades x empaque debe de ser mayor o igual a 1

@@ -1,0 +1,12 @@
+[20200603 12:00][Error de aplicación] - Ingrese cliente
+[20200603 12:43][Error de aplicación] - El password es incorrecto
+[20200603 12:43][Error de aplicación] - El password es incorrecto
+[20200603 12:44][Error de aplicación] - El password es incorrecto
+[20200603 12:45][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200603 12:45][Error de aplicación] - Cannot find table 0.
+[20200603 12:45][Error de aplicación] - Cannot find table 0.
+[20200603 12:49][Error de aplicación] - Cannot find table 0.
+[20200603 12:49][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200603 12:49][Error de aplicación] - Cannot find table 0.
+[20200603 12:55][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200603 12:56][Error de aplicación] - No se encontraron datos para mostrar el reporte

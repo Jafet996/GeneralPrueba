@@ -1,0 +1,6 @@
+[20200528 13:03][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200528 13:04][Error de aplicación] - Unable to connect to the remote server
+[20200528 14:43][Error de aplicación] - Unable to connect to the remote server
+[20200528 14:50][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20200528 14:52][Error de aplicación] - Debe de ingresar número de factura
+[20200528 14:53][Error de aplicación] - Debe de ingresar número de factura

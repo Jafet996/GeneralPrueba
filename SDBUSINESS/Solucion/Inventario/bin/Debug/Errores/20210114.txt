@@ -1,0 +1,7 @@
+[20210114 14:10][Error de aplicación] - URI no válido: no se puede determinar el formato del URI.
+[20210114 14:10][Error de aplicación] - URI no válido: no se puede determinar el formato del URI.
+[20210114 14:10][Error de aplicación] - URI no válido: no se puede determinar el formato del URI.
+[20210114 14:10][Error de aplicación] - URI no válido: no se puede determinar el formato del URI.
+[20210114 16:14][Error de aplicación] - No se puede definir el articulo que tiene control de lotes, antes debe de dejar la existencia en cero: El articulo tiene un saldo distinto de 0 en la bodega ROHRMOSER
+[20210114 16:14][Error de aplicación] - No se puede definir el articulo que tiene control de lotes, antes debe de dejar la existencia en cero: El articulo tiene un saldo distinto de 0 en la bodega ROHRMOSER
+[20210114 17:08][Error de aplicación] - El password es incorrecto

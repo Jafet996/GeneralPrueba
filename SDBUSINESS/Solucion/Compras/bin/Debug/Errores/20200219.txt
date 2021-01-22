@@ -1,0 +1,8 @@
+[20200219 13:05][Error de aplicación] - Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+[20200219 14:07][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
+Parameter name: index
+[20200219 14:07][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
+Parameter name: index
+[20200219 14:08][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
+Parameter name: index
+[20200219 15:50][Error de aplicación] - El archivo seleccionado no es válido

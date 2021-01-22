@@ -1,0 +1,57 @@
+[20201125 08:09][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201125 08:29][Error de aplicación] - No se asignó ningún código  al producto
+[20201125 09:51][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 09:56][Error de aplicación] - Exception has been thrown by the target of an invocation.
+[20201125 09:57][Error de aplicación] - No se asignó ningún código  al producto
+[20201125 10:03][Error de aplicación] - No se asignó ningún código  al producto
+[20201125 10:22][Error de aplicación] - Debe de ingresar el monto de prima
+[20201125 10:25][Error de aplicación] - Exception has been thrown by the target of an invocation.
+[20201125 10:27][Error de aplicación] - Exception has been thrown by the target of an invocation.
+[20201125 10:34][Error de aplicación] - No se asignó ningún código  al producto
+[20201125 10:42][Error de aplicación] - No se asignó ningún código  al producto
+[20201125 10:43][Error de aplicación] - El precio debe de ser mayor a cero
+[20201125 10:58][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 11:01][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 11:03][Error de aplicación] - Debe de seleccionar un valor
+[20201125 11:06][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 11:12][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201125 11:13][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201125 11:26][Error de aplicación] - El permiso no se encuenta definido
+[20201125 11:26][Error de aplicación] - No tiene marcar el apartado como abandonado
+[20201125 11:59][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 11:59][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:00][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:00][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:01][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:07][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:09][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:11][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 12:12][Conexión] - El password es incorrecto
+[20201125 12:25][Error de aplicación] - Debe de seleccionar un valor
+[20201125 12:25][Error de aplicación] - Debe de seleccionar un valor
+[20201125 13:23][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 13:31][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 13:31][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 13:42][Error de aplicación] - InvalidArgument=Value of '8' is not valid for 'index'.
+Parameter name: index
+[20201125 13:43][Error de aplicación] - Column 'Cod Cliente' does not belong to table Table.
+[20201125 13:46][Conexión] - El password es incorrecto
+[20201125 13:57][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 14:13][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201125 14:30][Error de aplicación] - No se encontraron cortes de venta para el usuario en ese rango de fechas
+[20201125 14:30][Error de aplicación] - No se encontraron cortes de venta para el usuario en ese rango de fechas
+[20201125 14:30][Error de aplicación] - Imposible abrir la caja, ya que esta ya se encuentra abierta
+[20201125 14:31][Error de aplicación] - Invalid object name  SDFINANCIAL..Cuenta .
+[20201125 14:35][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201125 14:35][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201125 14:35][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201125 14:38][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 14:38][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 14:39][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 14:39][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 14:53][Error de aplicación] - El precio debe de ser mayor a cero
+[20201125 15:08][Error de aplicación] - El permiso no se encuenta definido
+[20201125 15:10][Error de aplicación] - El permiso no se encuenta definido
+[20201125 15:21][Error de aplicación] - No se asignó ningún código  al producto
+[20201125 15:46][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201125 15:47][Error de aplicación] - Debe seleccionar un cliente para buscar

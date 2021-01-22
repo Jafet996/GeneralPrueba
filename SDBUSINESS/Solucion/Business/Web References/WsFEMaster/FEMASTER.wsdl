@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FEMASTER" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_IFEMASTER_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://www.facturar.cr:152/FEMASTER.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFEMASTER_GetConnectionConsulta_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionConsulta" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetConnectionConsulta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionConsultaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetConnectionFeCore_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionFeCore" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetConnectionFeCore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionFeCoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetConnectionSource_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionSource" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetConnectionSource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionSourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetEmisor_Id_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmisor_Id" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetEmisor_Id_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmisor_IdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetEmisorByClave_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmisorByClave" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_GetEmisorByClave_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmisorByClaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_SaveEmisor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveEmisor" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_SaveEmisor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveEmisorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_VerificaBatch_Id_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaBatch_Id" />
+  </wsdl:message>
+  <wsdl:message name="IFEMASTER_VerificaBatch_Id_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaBatch_IdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFEMASTER">
+    <wsdl:operation name="GetConnectionConsulta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/GetConnectionConsulta" message="tns:IFEMASTER_GetConnectionConsulta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/GetConnectionConsultaResponse" message="tns:IFEMASTER_GetConnectionConsulta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionFeCore">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/GetConnectionFeCore" message="tns:IFEMASTER_GetConnectionFeCore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/GetConnectionFeCoreResponse" message="tns:IFEMASTER_GetConnectionFeCore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionSource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/GetConnectionSource" message="tns:IFEMASTER_GetConnectionSource_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/GetConnectionSourceResponse" message="tns:IFEMASTER_GetConnectionSource_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmisor_Id">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/GetEmisor_Id" message="tns:IFEMASTER_GetEmisor_Id_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/GetEmisor_IdResponse" message="tns:IFEMASTER_GetEmisor_Id_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmisorByClave">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/GetEmisorByClave" message="tns:IFEMASTER_GetEmisorByClave_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/GetEmisorByClaveResponse" message="tns:IFEMASTER_GetEmisorByClave_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveEmisor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/SaveEmisor" message="tns:IFEMASTER_SaveEmisor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/SaveEmisorResponse" message="tns:IFEMASTER_SaveEmisor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificaBatch_Id">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFEMASTER/VerificaBatch_Id" message="tns:IFEMASTER_VerificaBatch_Id_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFEMASTER/VerificaBatch_IdResponse" message="tns:IFEMASTER_VerificaBatch_Id_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpsBinding_IFEMASTER" type="tns:IFEMASTER">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_IFEMASTER_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetConnectionConsulta">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/GetConnectionConsulta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionFeCore">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/GetConnectionFeCore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionSource">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/GetConnectionSource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmisor_Id">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/GetEmisor_Id" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmisorByClave">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/GetEmisorByClave" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveEmisor">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/SaveEmisor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificaBatch_Id">
+      <soap:operation soapAction="http://tempuri.org/IFEMASTER/VerificaBatch_Id" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FEMASTER">
+    <wsdl:port name="BasicHttpsBinding_IFEMASTER" binding="tns:BasicHttpsBinding_IFEMASTER">
+      <soap:address location="https://www.facturar.cr:152/FEMASTER.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,30 @@
+[20201113 07:58][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20201113 07:59][Gurdando en FacturaElectronica] - Almacenadp Doc 50613112000310173467500100250040000000034100001419
+[20201113 08:14][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201113 08:14][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201113 08:14][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201113 08:21][Error de aplicación] - El precio debe de ser mayor a cero
+[20201113 08:21][Error de aplicación] - El precio debe de ser mayor a cero
+[20201113 08:22][Error de aplicación] - No se asignó ningún código  al producto
+[20201113 08:22][Gurdando en FacturaElectronica] - Almacenadp Doc 50613112000310173467500100250040000000035100001420
+[20201113 08:33][Conexión] - Usuario no válido
+[20201113 09:12][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20201113 09:19][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20201113 10:11][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 10:11][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 10:11][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 10:12][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 10:15][Conexión] - Usuario no válido
+[20201113 10:43][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 14:43][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:05][Error de aplicación] - Could not find stored procedure  RptVentasDetalladoXEmpresa_CR .
+[20201113 15:07][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:09][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:10][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:12][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:12][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:13][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:13][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:15][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201113 15:48][Error de aplicación] - La ventana de detalle se encuentra abierta
+[20201113 16:58][Error de aplicación] - La ventana de detalle se encuentra abierta

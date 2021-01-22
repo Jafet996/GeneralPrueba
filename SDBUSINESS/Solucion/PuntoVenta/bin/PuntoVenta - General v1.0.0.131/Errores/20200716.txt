@@ -1,0 +1,1 @@
+[20200716 07:15][Error de aplicación] - Unable to connect to the remote server

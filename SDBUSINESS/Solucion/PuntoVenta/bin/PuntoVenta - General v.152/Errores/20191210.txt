@@ -1,0 +1,6 @@
+[20191210 10:50][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20191210 11:03][Error de aplicación] - No se encontró el archivo de configuración
+[20191210 11:03][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20191210 12:16][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191210 12:16][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191210 15:29][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!

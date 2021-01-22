@@ -1,0 +1,10 @@
+[20200218 16:12][Error de aplicación] - El tipo de documento no es valido para realizar una devolución
+[20200218 16:13][Error de aplicación] - El monto del IVA no puede ser mayor al precio : IngresaArticuloCargadoDev
+[20200218 16:13][Error de aplicación] - El monto del IVA no puede ser mayor al precio : IngresaArticuloCargadoDev
+[20200218 16:16][Error de aplicación] - El impuesto no puede ser mayor al precio
+[20200218 16:18][Gurdando en FacturaElectronica] - Almacenadp Doc 50618022000310159787200100001030000000764100005602
+[20200218 16:19][Error de aplicación] - Debe de seleccionar los documentos a los que desea aplicarles el monto a favor
+[20200218 16:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50618022000310159787200100001030000000765100005603
+[20200218 16:32][Gurdando en FacturaElectronica] - Almacenadp Doc 50618022000310173467500100135010000000286100001348
+[20200218 16:40][Error de aplicación] - Existe más de 1 cliente para el mismo número de cédula, favor verificar desde el mantenimiento de clientes
+[20200218 16:42][Gurdando en FacturaElectronica] - Almacenadp Doc 50618022000310173467500100135010000000287100001349

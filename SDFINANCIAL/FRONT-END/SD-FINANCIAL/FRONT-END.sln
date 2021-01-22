@@ -1,0 +1,143 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BUSINESS", "BUSINESS\BUSINESS.vbproj", "{D43A208B-8DE9-4054-B0EC-055112F29339}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CONTABILIDAD", "SD-CONTABILIDAD\CONTABILIDAD.vbproj", "{FD048C49-C4DA-49A9-93C1-3FED71AF319D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CXC", "SD-CXC\CXC.vbproj", "{619B7723-26D4-465C-BEF8-8B890497AA34}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CXP", "SD-CXP\CXP.vbproj", "{AF33352A-6AE1-4847-A435-9350F08BC3A5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BANCOS", "SD-BANCOS\BANCOS.vbproj", "{2AE5569A-BD74-431F-B704-C68A26769625}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorCXC", "InstaladorCXC\InstaladorCXC.vdproj", "{BEF3FB7E-91A7-4CB1-927D-AC0780CCA01C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorCxP", "InstaladorCxP\InstaladorCxP.vdproj", "{CA55648F-B54D-4E02-AFE2-EF74B4EE0B5D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorBancos", "InstaladorBancos\InstaladorBancos.vdproj", "{401CC421-5778-48B5-94AD-B0F66CAE1CC7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorCXC32", "InstaladorCXC32\InstaladorCXC32.vdproj", "{D47B190E-F4C7-4961-B200-5A5F5A337993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{D43A208B-8DE9-4054-B0EC-055112F29339}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{FD048C49-C4DA-49A9-93C1-3FED71AF319D}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{619B7723-26D4-465C-BEF8-8B890497AA34}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{AF33352A-6AE1-4847-A435-9350F08BC3A5}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE5569A-BD74-431F-B704-C68A26769625}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{BEF3FB7E-91A7-4CB1-927D-AC0780CCA01C}.CD_ROM|Any CPU.ActiveCfg = Release
+		{BEF3FB7E-91A7-4CB1-927D-AC0780CCA01C}.Debug|Any CPU.ActiveCfg = Debug
+		{BEF3FB7E-91A7-4CB1-927D-AC0780CCA01C}.DVD-5|Any CPU.ActiveCfg = Debug
+		{BEF3FB7E-91A7-4CB1-927D-AC0780CCA01C}.Release|Any CPU.ActiveCfg = Release
+		{BEF3FB7E-91A7-4CB1-927D-AC0780CCA01C}.SingleImage|Any CPU.ActiveCfg = Release
+		{CA55648F-B54D-4E02-AFE2-EF74B4EE0B5D}.CD_ROM|Any CPU.ActiveCfg = Release
+		{CA55648F-B54D-4E02-AFE2-EF74B4EE0B5D}.Debug|Any CPU.ActiveCfg = Debug
+		{CA55648F-B54D-4E02-AFE2-EF74B4EE0B5D}.DVD-5|Any CPU.ActiveCfg = Debug
+		{CA55648F-B54D-4E02-AFE2-EF74B4EE0B5D}.Release|Any CPU.ActiveCfg = Release
+		{CA55648F-B54D-4E02-AFE2-EF74B4EE0B5D}.SingleImage|Any CPU.ActiveCfg = Release
+		{401CC421-5778-48B5-94AD-B0F66CAE1CC7}.CD_ROM|Any CPU.ActiveCfg = Release
+		{401CC421-5778-48B5-94AD-B0F66CAE1CC7}.Debug|Any CPU.ActiveCfg = Debug
+		{401CC421-5778-48B5-94AD-B0F66CAE1CC7}.DVD-5|Any CPU.ActiveCfg = Debug
+		{401CC421-5778-48B5-94AD-B0F66CAE1CC7}.Release|Any CPU.ActiveCfg = Release
+		{401CC421-5778-48B5-94AD-B0F66CAE1CC7}.SingleImage|Any CPU.ActiveCfg = Release
+		{D47B190E-F4C7-4961-B200-5A5F5A337993}.CD_ROM|Any CPU.ActiveCfg = Release
+		{D47B190E-F4C7-4961-B200-5A5F5A337993}.Debug|Any CPU.ActiveCfg = Debug
+		{D47B190E-F4C7-4961-B200-5A5F5A337993}.DVD-5|Any CPU.ActiveCfg = Debug
+		{D47B190E-F4C7-4961-B200-5A5F5A337993}.Release|Any CPU.ActiveCfg = Release
+		{D47B190E-F4C7-4961-B200-5A5F5A337993}.SingleImage|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD4573B-CFAF-4DED-991D-90191FE9D947}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://104.254.244.194:8080/tfs/crconsulting
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BUSINESS\\BUSINESS.vbproj
+		SccProjectName1 = BUSINESS
+		SccLocalPath1 = BUSINESS
+		SccProjectUniqueName2 = SD-CONTABILIDAD\\CONTABILIDAD.vbproj
+		SccProjectName2 = SD-CONTABILIDAD
+		SccLocalPath2 = SD-CONTABILIDAD
+		SccProjectUniqueName3 = SD-CXC\\CXC.vbproj
+		SccProjectName3 = SD-CXC
+		SccLocalPath3 = SD-CXC
+		SccProjectUniqueName4 = SD-CXP\\CXP.vbproj
+		SccProjectName4 = SD-CXP
+		SccLocalPath4 = SD-CXP
+		SccProjectUniqueName5 = SD-BANCOS\\BANCOS.vbproj
+		SccProjectName5 = SD-BANCOS
+		SccLocalPath5 = SD-BANCOS
+		SccProjectUniqueName6 = InstaladorCXC\\InstaladorCXC.vdproj
+		SccProjectName6 = InstaladorCXC
+		SccLocalPath6 = InstaladorCXC
+		SccProjectUniqueName7 = InstaladorCxP\\InstaladorCxP.vdproj
+		SccProjectName7 = InstaladorCxP
+		SccLocalPath7 = InstaladorCxP
+		SccProjectUniqueName8 = InstaladorBancos\\InstaladorBancos.vdproj
+		SccProjectName8 = InstaladorBancos
+		SccLocalPath8 = InstaladorBancos
+		SccProjectUniqueName9 = InstaladorCXC32\\InstaladorCXC32.vdproj
+		SccProjectName9 = InstaladorCXC32
+		SccLocalPath9 = InstaladorCXC32
+	EndGlobalSection
+EndGlobal

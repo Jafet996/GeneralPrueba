@@ -1,0 +1,2 @@
+[20200106 15:44][Error de aplicación] - The underlying connection was closed: An unexpected error occurred on a send.
+[20200106 15:44][Error de aplicación] - The underlying connection was closed: An unexpected error occurred on a send.

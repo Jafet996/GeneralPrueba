@@ -1,0 +1,12 @@
+[20200225 08:37][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130317700100001010000002339100001204
+[20200225 09:05][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200225 09:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50625022000310173467500100135010000000292100001357
+[20200225 15:42][Error de aplicación] - El número de identificacion debe de contener 9 digitos
+[20200225 15:42][Error de aplicación] - El número de identificacion debe de contener 9 digitos
+[20200225 15:42][Error de aplicación] - El número de identificacion debe de contener 9 digitos
+[20200225 15:42][Error de aplicación] - El número de identificacion debe de contener 9 digitos
+[20200225 15:44][Error de aplicación] - No tiene permiso para modificar la información de los clientes
+[20200225 15:59][Error de aplicación] - Se presentaron errores creando cliente en CXC : Violation of PRIMARY KEY constraint  PK_Cliente . Cannot insert duplicate key in object  dbo.Cliente . The duplicate key value is (1, 272).
+The statement has been terminated.
+[20200225 16:00][Error de aplicación] - Se presentaron errores creando cliente en CXC : Violation of PRIMARY KEY constraint  PK_Cliente . Cannot insert duplicate key in object  dbo.Cliente . The duplicate key value is (1, 272).
+The statement has been terminated.

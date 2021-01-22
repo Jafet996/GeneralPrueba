@@ -1,0 +1,15 @@
+[20200614 10:15][Error de aplicación] - El password es incorrecto
+[20200614 10:24][Error de aplicación] - Debe de ingresar al menos un teléfono
+[20200614 10:25][Error de aplicación] - El número de cédula de identidad debe de contener 9 digitos númericos
+[20200614 10:25][Error de aplicación] - Debe de ingresar una cuenta contable
+[20200614 10:25][Error de aplicación] - La cuenta ingresada no es válida
+[20200614 10:25][Error de aplicación] - Debe de ingresar una cuenta contable
+[20200614 10:27][Error de aplicación] - Debe de ingresar al menos un teléfono
+[20200614 11:03][Error de aplicación] - The operation has timed out
+[20200614 16:02][Error de aplicación] - El password es incorrecto
+[20200614 16:07][Error de aplicación] - No se encontraron movimientos aplicados para mostrar
+[20200614 16:37][Error de aplicación] - El password es incorrecto
+[20200614 17:09][Error de aplicación] - El password es incorrecto
+[20200614 17:17][Error de aplicación] - El password es incorrecto
+[20200614 17:28][Error de aplicación] - El password es incorrecto
+[20200614 18:09][Error de aplicación] - No se encontraron movimientos aplicados para mostrar

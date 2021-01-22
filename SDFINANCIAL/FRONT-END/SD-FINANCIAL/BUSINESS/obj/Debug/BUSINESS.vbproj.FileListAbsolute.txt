@@ -1,0 +1,136 @@
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\stdole.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmEncriptador.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmListaResultados.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMacAddress.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMensaje.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmPermiso.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmSolicitaNombreMaquina.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.Resources.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbprojAssemblyReference.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll.config
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.pdb
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.xml
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Shared.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\stdole.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbprojAssemblyReference.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmEncriptador.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmListaResultados.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMacAddress.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMensaje.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmPermiso.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmSolicitaNombreMaquina.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.Resources.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.GenerateResource.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CoreCompileInputs.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CopyComplete
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.xml
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmEncriptador.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmListaResultados.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMacAddress.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMensaje.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmPermiso.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmSolicitaNombreMaquina.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.Resources.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll.config
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmEncriptador.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmListaResultados.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMacAddress.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmMensaje.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmPermiso.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.FrmSolicitaNombreMaquina.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.Resources.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\BUSINESS\obj\Debug\BUSINESS.pdb

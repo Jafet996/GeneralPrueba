@@ -1,0 +1,13 @@
+[20200323 10:56][Conexión] - El password es incorrecto
+[20200323 10:59][Error de aplicación] - Debe de selecciona un UPC
+[20200323 11:01][Error de aplicación] - Debe de selecciona un UPC
+[20200323 12:23][Error de aplicación] - Debe de seleccionar una categoría
+[20200323 12:25][Gurdando en FacturaElectronica] - Almacenadp Doc 50623032000310173467500100135040000000315100001370
+[20200323 12:29][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20200323 12:31][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20200323 13:35][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20200323 13:36][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20200323 13:37][Gurdando en FacturaElectronica] - Almacenadp Doc 50623032000310278954800200005010000000001100000001
+[20200323 13:39][Error de aplicación] - El tipo de documento no es valido para realizar una devolución
+[20200323 13:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50623032000310278954800200005030000000001100000002
+[20200323 13:41][Error de aplicación] - Imposible facturar, primero debe de abrir caja

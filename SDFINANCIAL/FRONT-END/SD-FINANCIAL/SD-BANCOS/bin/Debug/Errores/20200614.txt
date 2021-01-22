@@ -1,0 +1,13 @@
+[20200614 11:05][Error de aplicación] - El password es incorrecto
+[20200614 11:09][Error de aplicación] - Debe de digitar el número de transferencia
+[20200614 11:10][Error de aplicación] - El password es incorrecto
+[20200614 11:13][Error de aplicación] - El password es incorrecto
+[20200614 11:14][Error de aplicación] - Debe de digitar el número de transferencia
+[20200614 11:15][Error de aplicación] - El password es incorrecto
+[20200614 11:38][Error de aplicación] - Debe de digitar el número de transferencia
+[20200614 11:55][Error de aplicación] - El password es incorrecto
+[20200614 12:06][Error de aplicación] - El password es incorrecto
+[20200614 12:18][Error de aplicación] - The request was aborted: The operation has timed out.
+[20200614 13:07][Error de aplicación] - El número digitado no puede no puede ser mayor a ¢9414.86
+[20200614 17:14][Error de aplicación] - El password es incorrecto
+[20200614 17:17][Error de aplicación] - La ventana de detalle se encuentra abierta

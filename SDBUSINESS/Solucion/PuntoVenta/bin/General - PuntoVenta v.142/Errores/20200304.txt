@@ -1,0 +1,8 @@
+[20200304 10:26][Gurdando en FacturaElectronica] - Almacenadp Doc 50604032000310173467500100135010000000296100001363
+[20200304 10:29][Error de aplicación] - Imposible guardar el documento, al menos tiene que ingresar un producto
+[20200304 10:29][Gurdando en FacturaElectronica] - Almacenadp Doc 50604032000310173467500100135010000000297100001364
+[20200304 10:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50604032000310173467500100135010000000298100001365
+[20200304 16:30][Error de aplicación] - El monto del IVA no puede ser mayor al precio : IngresaArticuloCargado
+[20200304 16:31][Error de aplicación] - El monto del IVA no puede ser mayor al precio : IngresaArticuloCargado
+[20200304 16:50][Error de aplicación] - Imposible modificar el documento debido a que la prefactura comprometió inventario, para cualquier modificación debe de eliminar la prefactura y volver a crearla
+[20200304 16:57][Conexión] - Usuario no válido

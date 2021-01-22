@@ -1,0 +1,1 @@
+[20191205 15:18][Error de aplicación] - Column 'ArticuloSolicitaCantidadDefecto' does not belong to table Table.

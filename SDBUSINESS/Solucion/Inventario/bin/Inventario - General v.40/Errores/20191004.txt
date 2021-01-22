@@ -1,0 +1,1 @@
+[20191004 15:37][Error de aplicación] - No se encontró el archivo de configuración

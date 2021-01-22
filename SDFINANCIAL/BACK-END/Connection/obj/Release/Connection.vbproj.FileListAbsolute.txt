@@ -1,0 +1,9 @@
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\bin\Release\Connection.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\bin\Release\Connection.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\bin\Release\Connection.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\obj\Release\Connection.Resources.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\obj\Release\Connection.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\obj\Release\Connection.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\obj\Release\Connection.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\obj\Release\Connection.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Connection\obj\Release\Connection.pdb

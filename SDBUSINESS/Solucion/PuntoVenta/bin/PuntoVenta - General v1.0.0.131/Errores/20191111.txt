@@ -1,0 +1,17 @@
+[20191111 13:05][Error de aplicación] - No se puede crear una Nota de Crédito sin una referencia
+[20191111 15:08][Error de aplicación] - Opción disponible únicamente para facturas
+[20191111 15:08][Error de aplicación] - Opción disponible únicamente para facturas
+[20191111 15:08][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20191111 15:08][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20191111 15:09][Error de aplicación] - Debe de ingresar un número de documento
+[20191111 15:11][Error de aplicación] - Opción disponible únicamente para facturas
+[20191111 15:24][Error de aplicación] - No se almacenenó la informacion de referencia
+[20191111 15:25][Error de aplicación] - No se almacenenó la informacion de referencia
+[20191111 15:25][Error de aplicación] - NO se almacenó la información de referencia
+[20191111 15:44][Error de aplicación] - La fecha seleccionada no puede ser mayor al dia de hoy
+[20191111 15:45][Error de aplicación] - Object reference not set to an instance of an object.
+[20191111 15:57][Error de aplicación] - NO se almacenó la información de referencia
+[20191111 15:58][Error de aplicación] - NO se almacenó la información de referencia
+[20191111 15:59][Error de aplicación] - NO se almacenó la información de referencia
+[20191111 16:14][Gurdando en FacturaElectronica] - Almacenadp Doc 50611111900310173467500100135010000000242100001254
+[20191111 16:58][Conexión] - El password es incorrecto

@@ -1,0 +1,4 @@
+[20200422 10:57][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20200422 10:58][Gurdando en FacturaElectronica] - Almacenadp Doc 50622042000310173467500100135010000000305100001382
+[20200422 11:08][Gurdando en FacturaElectronica] - Almacenadp Doc 50622042000310173467500100135030000000137100001383
+[20200422 11:14][Gurdando en FacturaElectronica] - Almacenadp Doc 50622042000310173467500100135010000000306100001384

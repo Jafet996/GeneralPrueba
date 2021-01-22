@@ -1,0 +1,13 @@
+[20201105 13:17][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 13:18][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+[20201105 13:20][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 13:21][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 13:21][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 13:21][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 13:21][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 13:24][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+[20201105 13:27][Error de aplicación] - No hay ningun registros para asignar código cabys
+[20201105 14:49][Error de aplicación] - The operation was canceled by the user
+[20201105 14:53][Error de aplicación] - The operation was canceled by the user

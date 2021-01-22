@@ -1,0 +1,6 @@
+[20201013 11:04][Error de aplicación] - Usuario no válido
+[20201013 11:04][Error de aplicación] - El artículo es gravado, debe de contener impuestos
+[20201013 11:05][Error de aplicación] - El artículo es gravado, debe de contener impuestos
+[20201013 11:09][Error de aplicación] - El artículo es gravado, debe de contener impuestos
+[20201013 11:30][Error de aplicación] - El artículo es gravado, debe de contener impuestos
+[20201013 11:35][Error de aplicación] - El artículo es gravado, debe de contener impuestos

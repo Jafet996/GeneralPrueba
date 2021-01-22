@@ -1,0 +1,6 @@
+[20200325 10:12][Error de aplicación] - Debe de seleccionar el tipo de documento
+[20200325 10:13][Error de aplicación] - Object reference not set to an instance of an object.
+[20200325 10:13][Error de aplicación] - Object reference not set to an instance of an object.
+[20200325 10:14][Error de aplicación] - El limite de crédito debe de ser mayor a 0
+[20200325 10:14][Error de aplicación] - Los días de crédito debe de ser mayor a 0
+[20200325 10:15][Error de aplicación] - Incorrect syntax near the keyword  Where .

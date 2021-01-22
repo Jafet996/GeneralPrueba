@@ -1,0 +1,6 @@
+[20201110 08:04][Error de aplicación] - No se encontró el archivo de configuración
+[20201110 08:19][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201110 08:19][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20201110 08:20][Error de aplicación] - Debe de seleccionar un registro
+[20201110 08:20][Error de aplicación] - Debe de seleccionar un registro
+[20201110 08:29][Conexión] - Usuario no válido

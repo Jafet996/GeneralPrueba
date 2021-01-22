@@ -1,0 +1,5 @@
+[20201109 08:11][Conexión] - Debe de seleccionar un Password
+[20201109 08:19][Error de aplicación] - La ventana de detalle se encuentra abierta
+[20201109 08:43][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201109 09:56][Error de aplicación] - Usuario no válido
+[20201109 11:22][Error de aplicación] - Usuario no válido

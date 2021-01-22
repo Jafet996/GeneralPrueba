@@ -1,0 +1,4 @@
+[20200311 09:27][Error de aplicación] - Incorrect syntax near  ArticuloEquivalente .
+[20200311 09:49][Error de aplicación] - The multi-part identifier "c.CodigoProveedor" could not be bound.
+[20200311 09:54][Error de aplicación] - Ya existe un artículo que tiene asignado el con el código equivalente 0024
+[20200311 09:54][Error de aplicación] - Verifique los códigos equivalentes

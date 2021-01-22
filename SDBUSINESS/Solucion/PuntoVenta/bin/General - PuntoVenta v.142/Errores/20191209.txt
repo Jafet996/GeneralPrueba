@@ -1,0 +1,3 @@
+[20191209 09:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50609121900310173467500100135010000000262100001294
+[20191209 10:04][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20191209 16:53][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!

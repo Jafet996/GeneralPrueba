@@ -1,0 +1,28 @@
+[20201120 09:26][Error de aplicación] - El cliente no posee apartados
+[20201120 09:26][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201120 09:27][Error de aplicación] - El permiso no se encuenta definido
+[20201120 09:27][Error de aplicación] - No tiene marcar el apartado como abandonado
+[20201120 09:28][Error de aplicación] - No se le pueden crear apartados al Cliente General, Debe de seleccionar un cliente válido
+[20201120 09:28][Error de aplicación] - El cliente tiene precio de mayoreo y no ha comprado en mas de 60 días.
+[20201120 09:29][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201120 09:40][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201120 09:41][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201120 09:42][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20201120 10:18][Error de aplicación] - El cliente no posee apartados
+[20201120 10:18][Error de aplicación] - El cliente no posee apartados
+[20201120 10:18][Error de aplicación] - El cliente no posee apartados
+[20201120 10:18][Error de aplicación] - El cliente no posee apartados
+[20201120 10:18][Error de aplicación] - El cliente no posee apartados
+[20201120 10:18][Error de aplicación] - El cliente no posee apartados
+[20201120 10:19][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201120 10:20][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201120 10:26][Error de aplicación] - El permiso no se encuenta definido
+[20201120 10:26][Error de aplicación] - No tiene marcar el apartado como abandonado
+[20201120 14:03][Error de aplicación] - El permiso no se encuenta definido
+[20201120 14:03][Error de aplicación] - No tiene marcar el apartado como abandonado
+[20201120 14:12][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201120 14:19][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201120 14:32][Error de aplicación] - Debe seleccionar un cliente para buscar
+[20201120 15:21][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20201120 17:01][Error de aplicación] - Conversion from string "Estado" to type 'Integer' is not valid.
+[20201120 17:01][Error de aplicación] - Conversion from string "Estado" to type 'Integer' is not valid.

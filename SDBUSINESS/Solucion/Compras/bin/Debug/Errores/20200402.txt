@@ -1,0 +1,3 @@
+[20200402 16:02][Error de aplicación] - No se encontraron documentos en www.facturar.cr
+[20200402 17:27][Error de aplicación] - Debe de seleccionar una categoría
+[20200402 17:28][Error de aplicación] - El precio debe de ser mayor o igual al costo

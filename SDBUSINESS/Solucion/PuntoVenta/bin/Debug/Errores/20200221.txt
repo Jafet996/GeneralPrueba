@@ -1,0 +1,16 @@
+[20200221 10:00][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20200221 14:16][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135040000000308100001350
+[20200221 15:42][Error de aplicación] - No Existe existencia suficiente
+[20200221 15:44][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135010000000288100001351
+[20200221 15:49][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135010000000289100001352
+[20200221 15:51][Error de aplicación] - Los datos del documento han sido guardados de manera correcta para su posterior Facturación
+[20200221 15:52][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135040000000309100001353
+[20200221 15:53][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135010000000290100001354
+[20200221 15:54][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135030000000134100001355
+[20200221 15:55][Error de aplicación] - The ConnectionString property has not been initialized.
+[20200221 16:04][Error de aplicación] - Imposible crear apartados, primero debe de abrir caja
+[20200221 16:05][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20200221 16:31][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20200221 16:31][Error de aplicación] - El limite de crédito debe de ser mayor a 0
+[20200221 16:32][Error de aplicación] - Los días de crédito debe de ser mayor a 0
+[20200221 16:32][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310173467500100135010000000291100001356

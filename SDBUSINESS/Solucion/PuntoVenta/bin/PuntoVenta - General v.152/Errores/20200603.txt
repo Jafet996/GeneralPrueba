@@ -1,0 +1,2 @@
+[20200603 12:04][Conexión] - El password es incorrecto
+[20200603 12:05][Error de aplicación] - Unable to connect to the remote server

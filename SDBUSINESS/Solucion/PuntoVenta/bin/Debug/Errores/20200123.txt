@@ -1,0 +1,4 @@
+[20200123 11:08][Error de aplicación] - The operation was canceled by the user
+[20200123 11:19][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200123 11:20][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20200123 16:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50623012000310173467500100135040000000303100001334

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetConnectionConsulta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmisor_Id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConnectionConsultaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GetConnectionConsultaResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConnectionFeCore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmisor_Id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConnectionFeCoreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GetConnectionFeCoreResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConnectionSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmisor_Id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConnectionSourceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GetConnectionSourceResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmisor_Id">
+    <xs:complexType />
+  </xs:element>
+  <xs:element name="GetEmisor_IdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GetEmisor_IdResult" type="tns:RespuestaConsecutivo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="RespuestaConsecutivo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="errorCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="errorMessage" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="emisor_Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetEmisorByClave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pClave" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmisorByClaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GetEmisorByClaveResult" type="tns:RespuestaConsecutivo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveEmisor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pEmisor" type="tns:Emisor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Emisor">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="emisor_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sucursal" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="identificacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="servidor" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="baseDatos" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="usuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="password" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SaveEmisorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SaveEmisorResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaBatch_Id">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmisor_Id" type="xs:int" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pBatch_Id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaBatch_IdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="VerificaBatch_IdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

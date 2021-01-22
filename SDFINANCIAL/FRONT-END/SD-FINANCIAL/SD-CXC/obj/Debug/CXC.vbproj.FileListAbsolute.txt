@@ -1,0 +1,360 @@
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.manifest
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.application
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\dje-NE\SD-CXC.resources.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Shared.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\FlashControlV71.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\stdole.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\ShockwaveFlashObjects.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbprojAssemblyReference.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmReporte.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptClientesConSaldo.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptCobrosPorFechas.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptComisionesPorVendedor.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosProximosVencer.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosVencidos.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptEstadoCuenta.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptFacturaPendiente.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosGenerales.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosPorCliente.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAcercaDe.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAjusteDeFacturaConSaldo.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAsignaFacturaVendedor.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCentroCosto.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCliente.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCuentaContable.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaFactura.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaUsuario.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaApertura.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaCierre.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCambiaMoneda.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmConexion.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmDescargueConsumo.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmIngresaMonto.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoCrea.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoFormaPago.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoListaAplicados.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoElectronico.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientosCliente.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoFisico.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmPagoRapidoFacturas.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmSolictaCxCMovimientos.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmVuelto.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMain.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTipoCambio.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.Resources.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.dje-NE.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\dje-NE\SD-CXC.resources.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe.manifest
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.application
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.pdb
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.config
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.manifest
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.application
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.pdb
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.xml
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\dje-NE\SD-CXC.resources.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Shared.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\FlashControlV71.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\stdole.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\ShockwaveFlashObjects.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.pdb
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.xml
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll.config
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbprojAssemblyReference.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmReporte.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptClientesConSaldo.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptCobrosPorFechas.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptComisionesPorVendedor.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosProximosVencer.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosVencidos.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptEstadoCuenta.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptFacturaPendiente.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosGenerales.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosPorCliente.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAcercaDe.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAjusteDeFacturaConSaldo.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAsignaFacturaVendedor.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCentroCosto.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCliente.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCuentaContable.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaFactura.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaUsuario.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaApertura.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaCierre.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCambiaMoneda.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmConexion.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmDescargueConsumo.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmIngresaMonto.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoCrea.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoFormaPago.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoListaAplicados.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoElectronico.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientosCliente.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoFisico.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmPagoRapidoFacturas.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmSolictaCxCMovimientos.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmVuelto.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMain.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTipoCambio.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioDetalle.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoLista.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteLista.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaLista.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoLista.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaLista.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.Resources.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.dje-NE.resources
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.GenerateResource.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CoreCompileInputs.cache
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\dje-NE\SD-CXC.resources.dll
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe.manifest
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.application
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CopyComplete
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.xml
+C:\FuentesLeiner\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.manifest
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.application
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\dje-NE\SD-CXC.resources.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmReporte.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptClientesConSaldo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptCobrosPorFechas.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptComisionesPorVendedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosProximosVencer.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosVencidos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptEstadoCuenta.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptFacturaPendiente.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosGenerales.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosPorCliente.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAcercaDe.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAjusteDeFacturaConSaldo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAsignaFacturaVendedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCentroCosto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCliente.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCuentaContable.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaFactura.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaApertura.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaCierre.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCambiaMoneda.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmConexion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmDescargueConsumo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmIngresaMonto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoCrea.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoFormaPago.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoListaAplicados.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoElectronico.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientosCliente.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoFisico.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmPagoRapidoFacturas.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmSolictaCxCMovimientos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmVuelto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMain.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTipoCambio.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.Resources.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.dje-NE.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\dje-NE\SD-CXC.resources.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe.manifest
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.application
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.config
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe.manifest
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.application
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.exe
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\SD-CXC.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\dje-NE\SD-CXC.resources.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\bin\Debug\BUSINESS.dll.config
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmReporte.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptClientesConSaldo.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptCobrosPorFechas.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptComisionesPorVendedor.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosProximosVencer.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDocumentosVencidos.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptEstadoCuenta.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptFacturaPendiente.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosGenerales.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptMovimientosPorCliente.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAcercaDe.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAjusteDeFacturaConSaldo.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmAsignaFacturaVendedor.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCentroCosto.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCliente.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaCuentaContable.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaFactura.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaApertura.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCajaCierre.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmCambiaMoneda.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmConexion.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmDescargueConsumo.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmIngresaMonto.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoCrea.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoFormaPago.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoListaAplicados.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoElectronico.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientosCliente.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMovimientoPagoFisico.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmPagoRapidoFacturas.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmSolictaCxCMovimientos.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmVuelto.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMain.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTipoCambio.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantBancoLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantClienteLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantEmpresaLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmMantTarjetaLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.Resources.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SDCXC.FrmRptDescargueConsumoInterno.dje-NE.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\dje-NE\SD-CXC.resources.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe.manifest
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.application
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\CXC.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.exe
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CXC\obj\Debug\SD-CXC.pdb

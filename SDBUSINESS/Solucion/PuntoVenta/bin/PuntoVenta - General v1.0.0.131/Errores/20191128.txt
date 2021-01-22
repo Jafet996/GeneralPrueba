@@ -1,0 +1,3 @@
+[20191128 09:27][Gurdando en FacturaElectronica] - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_FacturaElectronica_FacturaElectronicaEstado". The conflict occurred in database "SDG-PBS", table "dbo.FacturaElectronicaEstado", column  Estado_Id .
+The statement has been terminated.
+[20191128 09:44][Gurdando en FacturaElectronica] - Almacenadp Doc 50627111900310174112900100001030000000015100000001

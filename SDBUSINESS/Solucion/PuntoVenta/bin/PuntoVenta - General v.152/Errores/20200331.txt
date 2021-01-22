@@ -1,0 +1,8 @@
+[20200331 10:29][Error de aplicación] - Unable to connect to the remote server
+[20200331 10:29][Error de aplicación] - Unable to connect to the remote server
+[20200331 11:33][Error de aplicación] - Unable to connect to the remote server
+[20200331 11:34][Error de aplicación] - Unable to connect to the remote server
+[20200331 18:31][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20200331 18:31][Error de aplicación] - Unable to connect to the remote server
+[20200331 18:32][Error de aplicación] - Unable to connect to the remote server
+[20200331 18:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50631032000310173467500100135010000000300100001373

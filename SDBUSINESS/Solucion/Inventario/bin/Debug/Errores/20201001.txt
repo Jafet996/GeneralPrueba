@@ -1,0 +1,3 @@
+[20201001 07:59][Error de aplicación] - Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+[20201001 08:41][Conexión] - Debe de seleccionar un Password
+[20201001 09:11][Conexión] - Debe de seleccionar un Password

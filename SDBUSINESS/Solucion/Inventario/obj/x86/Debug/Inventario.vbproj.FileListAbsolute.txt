@@ -1,0 +1,453 @@
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.rpt
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.vb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe.config
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\FlashControlV71.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\EAGetMail45.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CORE-CLIENT.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Web.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\RestSharp.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Newtonsoft.Json.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\stdole.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll.config
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CORE-CLIENT.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\RestSharp.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Newtonsoft.Json.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbprojAssemblyReference.cache
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPreciosCambiados.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepDiferencias.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepInactivosConSaldo.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexDetallado.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPreciosxCategoria.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepResultadoTomaFisica.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPrecios.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioAgrupado.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioUbicacion.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioProveedor.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexArticulo.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventario.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosXDepartamento.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXBodega.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXCategoria.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepTrasladosXArticulo.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmActualizacionArticulos.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteInventario.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteMargenMasivo.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteProduccion.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteVentasyCompras.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmArticuloEstado.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloCompuesto.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloSucBodOnLine.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloTomaFisica.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaMovimiento.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaProduccion.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaTraslado.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaUsuario.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCargaArticulos.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConexion.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConteoFisicoBodegas.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiqueta.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaIVP.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaMediKam.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraListadoArticulos.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmIngresaMonto.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmListaArticulos.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPonerSaldosenCero.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRebajoVentas.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmReporte.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmSeleccionaTomaFisica.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaAplica.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaCancela.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaIniciar.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTrasladoinventario.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantArticuloPromocionDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDetalleFamiliaArt.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUsuarioDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantFamiliaArt.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMain.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.Resources.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.exe
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.rpt
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.vb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe.config
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\FlashControlV71.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\EAGetMail45.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CORE-CLIENT.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Web.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\stdole.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll.config
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbprojAssemblyReference.cache
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPreciosCambiados.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepDiferencias.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepInactivosConSaldo.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexDetallado.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPreciosxCategoria.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepResultadoTomaFisica.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPrecios.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioAgrupado.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioUbicacion.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioProveedor.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexArticulo.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventario.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosXDepartamento.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXBodega.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXCategoria.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepTrasladosXArticulo.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmActualizacionArticulos.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteInventario.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteMargenMasivo.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteProduccion.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteVentasyCompras.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmArticuloEstado.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloCompuesto.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloSucBodOnLine.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloTomaFisica.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaMovimiento.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaProduccion.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaTraslado.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaUsuario.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCargaArticulos.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConexion.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConteoFisicoBodegas.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiqueta.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaIVP.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaMediKam.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraListadoArticulos.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmIngresaMonto.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmListaArticulos.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPonerSaldosenCero.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRebajoVentas.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmReporte.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmSeleccionaTomaFisica.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaAplica.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaCancela.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaIniciar.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTrasladoinventario.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantArticuloPromocionDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDetalleFamiliaArt.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUsuarioDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantFamiliaArt.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMain.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.Resources.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.GenerateResource.cache
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CoreCompileInputs.cache
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CopyComplete
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.exe
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FRMBuscquedaArticuloCabys.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCabys.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantarticuloDetalle_.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPreciosCambiados.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepDiferencias.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepInactivosConSaldo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexDetallado.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPreciosxCategoria.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepResultadoTomaFisica.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPrecios.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioAgrupado.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioUbicacion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioProveedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexArticulo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosXDepartamento.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXBodega.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXCategoria.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepTrasladosXArticulo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmActualizacionArticulos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteInventario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteMargenMasivo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteProduccion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteVentasyCompras.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmArticuloEstado.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloCompuesto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloSucBodOnLine.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloTomaFisica.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FRMBuscquedaArticuloCabys.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaMovimiento.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaProduccion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaTraslado.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCabys.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCargaArticulos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConexion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConteoFisicoBodegas.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiqueta.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaIVP.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaMediKam.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraListadoArticulos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmIngresaMonto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmListaArticulos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPonerSaldosenCero.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRebajoVentas.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmReporte.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmSeleccionaTomaFisica.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaAplica.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaCancela.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaIniciar.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTrasladoinventario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantarticuloDetalle_.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantArticuloPromocionDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDetalleFamiliaArt.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantFamiliaArt.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMain.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.Resources.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.rpt
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.vb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\EAGetMail45.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CORE-CLIENT.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\RestSharp.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.rpt
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Reports\GeneraEtiqueta.vb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.exe
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Inventario.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\EAGetMail45.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CORE-CLIENT.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\RestSharp.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\stdole.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Business.dll.config
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Connection.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbprojAssemblyReference.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPreciosCambiados.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepDiferencias.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepInactivosConSaldo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexDetallado.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPreciosxCategoria.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepResultadoTomaFisica.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepListadoPrecios.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioAgrupado.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioUbicacion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventarioProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepKardexArticulo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosInventario.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldosXDepartamento.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXBodega.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepSaldoXCategoria.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRepTrasladosXArticulo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmActualizacionArticulos.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteInventario.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteMargenMasivo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteProduccion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmAjusteVentasyCompras.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmArticuloEstado.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloCompuesto.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloSucBodOnLine.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBuscaArticuloTomaFisica.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FRMBuscquedaArticuloCabys.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaMovimiento.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaProduccion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaTraslado.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmBusquedaUsuario.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCabys.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmCargaArticulos.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConexion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmConteoFisicoBodegas.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiqueta.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaIVP.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraEtiquetaMediKam.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmGeneraListadoArticulos.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmIngresaMonto.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmListaArticulos.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmPonerSaldosenCero.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmRebajoVentas.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmReporte.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmSeleccionaTomaFisica.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaAplica.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaCancela.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTomaFisicaIniciar.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmTrasladoinventario.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantarticuloDetalle_.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantArticuloPromocionDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDetalleFamiliaArt.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUsuarioDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantFamiliaArt.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantLoteLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantGrupoLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantSubCategoriaLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantUnidadMedidaLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantDepartamentoLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMain.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.FrmMantCategoriaLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.Resources.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.GenerateResource.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CoreCompileInputs.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.vbproj.CopyComplete
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.exe
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Inventario\obj\x86\Debug\Inventario.pdb

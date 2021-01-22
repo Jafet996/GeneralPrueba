@@ -1,0 +1,5 @@
+[20200721 09:55][Error de aplicación] - Conversion from string "" to type 'Integer' is not valid.
+[20200721 09:56][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200721 11:19][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200721 11:19][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200721 11:19][Error de aplicación] - No se encontraron datos para mostrar el reporte

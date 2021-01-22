@@ -1,0 +1,15 @@
+[20191216 14:09][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20191216 14:09][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:09][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:19][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:19][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:25][Gurdando en FacturaElectronica] - Almacenadp Doc 50616121900310173467500100135040000000293100001302
+[20191216 14:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50616121900310173467500100135010000000266100001303
+[20191216 14:28][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20191216 14:29][Gurdando en FacturaElectronica] - Almacenadp Doc 50616121900310173467500100135030000000123100001304
+[20191216 14:32][Gurdando en FacturaElectronica] - Almacenadp Doc 50616121900310173467500100135010000000267100001305
+[20191216 14:35][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:35][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50616121900310173467500100135040000000294100001306
+[20191216 14:45][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191216 14:45][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.

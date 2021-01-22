@@ -1,0 +1,1899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SDFinancial" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_ISDFinancial_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:16284/SDFinancial.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:16284/SDFinancial.svc?xsd=xsd1" namespace="http://microsoft.com/wsdl/types/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISDFinancial_VerificaProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaProveedor" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_VerificaProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_VendedorMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:VendedorMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_VendedorMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VendedorMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoDetalleMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoDetalleMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoDetalleMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoDetalleMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoEncabezadoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoEncabezadoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoEncabezadoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoEncabezadoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoEstadoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoEstadoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoEstadoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoEstadoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoOrigenMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoOrigenMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoOrigenMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoOrigenMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoTipoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoTipoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AsientoTipoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AsientoTipoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AuxAsientoDetalleMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuxAsientoDetalleMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AuxAsientoDetalleMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuxAsientoDetalleMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AuxAsientoEncabezadoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuxAsientoEncabezadoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_AuxAsientoEncabezadoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuxAsientoEncabezadoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BancoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:BancoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BancoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BancoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoPagoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:BcoPagoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoPagoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BcoPagoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoPagoChequeMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:BcoPagoChequeMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoPagoChequeMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BcoPagoChequeMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoPagoTransferenciaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:BcoPagoTransferenciaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoPagoTransferenciaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BcoPagoTransferenciaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoTipoPagoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:BcoTipoPagoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_BcoTipoPagoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BcoTipoPagoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CajaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CajaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CajaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CajaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CajaCierreDetalleMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CajaCierreDetalleMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CajaCierreDetalleMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CajaCierreDetalleMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CajaCierreEncabezadoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CajaCierreEncabezadoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CajaCierreEncabezadoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CajaCierreEncabezadoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CambioMonedaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CambioMonedaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CambioMonedaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CambioMonedaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CambioMonedaTipoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CambioMonedaTipoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CambioMonedaTipoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CambioMonedaTipoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CentroCostoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CentroCostoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CentroCostoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CentroCostoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CentroCostoTipoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CentroCostoTipoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CentroCostoTipoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CentroCostoTipoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ClienteMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClienteMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ClienteMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClienteMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ClienteMovimientos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClienteMovimientos" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ClienteMovimientos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClienteMovimientosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CodigoPermisoBitacoraMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CodigoPermisoBitacoraMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CodigoPermisoBitacoraMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CodigoPermisoBitacoraMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ConvierteNumeroLetras_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConvierteNumeroLetras" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ConvierteNumeroLetras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConvierteNumeroLetrasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaFlujoEfectivoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaFlujoEfectivoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaFlujoEfectivoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaFlujoEfectivoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaTipoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaTipoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaTipoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaTipoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaTipoClaseMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaTipoClaseMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaTipoClaseMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaTipoClaseMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaTipoFlujoEfectivoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaTipoFlujoEfectivoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CuentaTipoFlujoEfectivoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CuentaTipoFlujoEfectivoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoMantSD_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoMantSD" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoMantSD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoMantSDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoAplicaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoAplicaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoAplicaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoAplicaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoPagoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoPagoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoPagoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoPagoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoTipoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoTipoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCMovimientoTipoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCMovimientoTipoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoAplicaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoAplicaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoAplicaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoAplicaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoPagoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoPagoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoPagoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoPagoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoTipoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoTipoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPMovimientoTipoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxPMovimientoTipoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPSolicitudPagoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxPSolicitudPagoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxPSolicitudPagoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxPSolicitudPagoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCEntregaDocumentoEncabezadoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCEntregaDocumentoEncabezadoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCEntregaDocumentoEncabezadoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCEntregaDocumentoEncabezadoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCEntregaDocumentoDetalleMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:CxCEntregaDocumentoDetalleMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_CxCEntregaDocumentoDetalleMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CxCEntregaDocumentoDetalleMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_EmpresaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmpresaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_EmpresaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmpresaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_EmpresaCuentaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmpresaCuentaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_EmpresaCuentaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmpresaCuentaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_EmpresaParametroMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmpresaParametroMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_EmpresaParametroMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmpresaParametroMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ExecuteQuery_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteQuery" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ExecuteQuery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_FacturaEncabezadoCxCMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:FacturaEncabezadoCxCMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_FacturaEncabezadoCxCMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FacturaEncabezadoCxCMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_GrupoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrupoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_GrupoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrupoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_GrupoMenuMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:GrupoMenuMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_GrupoMenuMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrupoMenuMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_GetIp_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIp" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_GetIp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIpResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_MaquinaConfiguracionMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:MaquinaConfiguracionMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_MaquinaConfiguracionMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MaquinaConfiguracionMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_MenuMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:MenuMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_MenuMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MenuMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ModuloMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModuloMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ModuloMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModuloMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_PermisoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:PermisoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_PermisoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PermisoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_PermisoBitacoraMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:PermisoBitacoraMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_PermisoBitacoraMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PermisoBitacoraMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ProveedorMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProveedorMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ProveedorMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProveedorMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ProveedorCuentaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProveedorCuentaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_ProveedorCuentaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProveedorCuentaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_SelectQuery_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectQuery" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_SelectQuery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TipoIdentificacionMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:TipoIdentificacionMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TipoIdentificacionMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TipoIdentificacionMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TarjetaMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:TarjetaMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TarjetaMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TarjetaMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TipoCambioMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:TipoCambioMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TipoCambioMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TipoCambioMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TipoPagoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:TipoPagoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_TipoPagoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TipoPagoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_UsuarioMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_UsuarioMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_UsuarioCodigoPermisoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioCodigoPermisoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_UsuarioCodigoPermisoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioCodigoPermisoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_UsuarioPermisoMant_InputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioPermisoMant" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_UsuarioPermisoMant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioPermisoMantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_VerificaCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaCliente" />
+  </wsdl:message>
+  <wsdl:message name="ISDFinancial_VerificaCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerificaClienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISDFinancial">
+    <wsdl:operation name="VerificaProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/VerificaProveedor" message="tns:ISDFinancial_VerificaProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/VerificaProveedorResponse" message="tns:ISDFinancial_VerificaProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VendedorMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/VendedorMant" message="tns:ISDFinancial_VendedorMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/VendedorMantResponse" message="tns:ISDFinancial_VendedorMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AsientoDetalleMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AsientoDetalleMant" message="tns:ISDFinancial_AsientoDetalleMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AsientoDetalleMantResponse" message="tns:ISDFinancial_AsientoDetalleMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AsientoEncabezadoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AsientoEncabezadoMant" message="tns:ISDFinancial_AsientoEncabezadoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AsientoEncabezadoMantResponse" message="tns:ISDFinancial_AsientoEncabezadoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AsientoEstadoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AsientoEstadoMant" message="tns:ISDFinancial_AsientoEstadoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AsientoEstadoMantResponse" message="tns:ISDFinancial_AsientoEstadoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AsientoOrigenMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AsientoOrigenMant" message="tns:ISDFinancial_AsientoOrigenMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AsientoOrigenMantResponse" message="tns:ISDFinancial_AsientoOrigenMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AsientoTipoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AsientoTipoMant" message="tns:ISDFinancial_AsientoTipoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AsientoTipoMantResponse" message="tns:ISDFinancial_AsientoTipoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuxAsientoDetalleMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AuxAsientoDetalleMant" message="tns:ISDFinancial_AuxAsientoDetalleMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AuxAsientoDetalleMantResponse" message="tns:ISDFinancial_AuxAsientoDetalleMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuxAsientoEncabezadoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/AuxAsientoEncabezadoMant" message="tns:ISDFinancial_AuxAsientoEncabezadoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/AuxAsientoEncabezadoMantResponse" message="tns:ISDFinancial_AuxAsientoEncabezadoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BancoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/BancoMant" message="tns:ISDFinancial_BancoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/BancoMantResponse" message="tns:ISDFinancial_BancoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/BcoPagoMant" message="tns:ISDFinancial_BcoPagoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/BcoPagoMantResponse" message="tns:ISDFinancial_BcoPagoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoChequeMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/BcoPagoChequeMant" message="tns:ISDFinancial_BcoPagoChequeMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/BcoPagoChequeMantResponse" message="tns:ISDFinancial_BcoPagoChequeMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoTransferenciaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/BcoPagoTransferenciaMant" message="tns:ISDFinancial_BcoPagoTransferenciaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/BcoPagoTransferenciaMantResponse" message="tns:ISDFinancial_BcoPagoTransferenciaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BcoTipoPagoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/BcoTipoPagoMant" message="tns:ISDFinancial_BcoTipoPagoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/BcoTipoPagoMantResponse" message="tns:ISDFinancial_BcoTipoPagoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CajaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CajaMant" message="tns:ISDFinancial_CajaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CajaMantResponse" message="tns:ISDFinancial_CajaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CajaCierreDetalleMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CajaCierreDetalleMant" message="tns:ISDFinancial_CajaCierreDetalleMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CajaCierreDetalleMantResponse" message="tns:ISDFinancial_CajaCierreDetalleMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CajaCierreEncabezadoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CajaCierreEncabezadoMant" message="tns:ISDFinancial_CajaCierreEncabezadoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CajaCierreEncabezadoMantResponse" message="tns:ISDFinancial_CajaCierreEncabezadoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CambioMonedaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CambioMonedaMant" message="tns:ISDFinancial_CambioMonedaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CambioMonedaMantResponse" message="tns:ISDFinancial_CambioMonedaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CambioMonedaTipoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CambioMonedaTipoMant" message="tns:ISDFinancial_CambioMonedaTipoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CambioMonedaTipoMantResponse" message="tns:ISDFinancial_CambioMonedaTipoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CentroCostoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CentroCostoMant" message="tns:ISDFinancial_CentroCostoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CentroCostoMantResponse" message="tns:ISDFinancial_CentroCostoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CentroCostoTipoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CentroCostoTipoMant" message="tns:ISDFinancial_CentroCostoTipoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CentroCostoTipoMantResponse" message="tns:ISDFinancial_CentroCostoTipoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClienteMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ClienteMant" message="tns:ISDFinancial_ClienteMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ClienteMantResponse" message="tns:ISDFinancial_ClienteMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClienteMovimientos">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ClienteMovimientos" message="tns:ISDFinancial_ClienteMovimientos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ClienteMovimientosResponse" message="tns:ISDFinancial_ClienteMovimientos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CodigoPermisoBitacoraMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CodigoPermisoBitacoraMant" message="tns:ISDFinancial_CodigoPermisoBitacoraMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CodigoPermisoBitacoraMantResponse" message="tns:ISDFinancial_CodigoPermisoBitacoraMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvierteNumeroLetras">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ConvierteNumeroLetras" message="tns:ISDFinancial_ConvierteNumeroLetras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ConvierteNumeroLetrasResponse" message="tns:ISDFinancial_ConvierteNumeroLetras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CuentaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CuentaMant" message="tns:ISDFinancial_CuentaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CuentaMantResponse" message="tns:ISDFinancial_CuentaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CuentaFlujoEfectivoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CuentaFlujoEfectivoMant" message="tns:ISDFinancial_CuentaFlujoEfectivoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CuentaFlujoEfectivoMantResponse" message="tns:ISDFinancial_CuentaFlujoEfectivoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CuentaTipoMant" message="tns:ISDFinancial_CuentaTipoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CuentaTipoMantResponse" message="tns:ISDFinancial_CuentaTipoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoClaseMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CuentaTipoClaseMant" message="tns:ISDFinancial_CuentaTipoClaseMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CuentaTipoClaseMantResponse" message="tns:ISDFinancial_CuentaTipoClaseMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoFlujoEfectivoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CuentaTipoFlujoEfectivoMant" message="tns:ISDFinancial_CuentaTipoFlujoEfectivoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CuentaTipoFlujoEfectivoMantResponse" message="tns:ISDFinancial_CuentaTipoFlujoEfectivoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoMant" message="tns:ISDFinancial_CxCMovimientoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoMantResponse" message="tns:ISDFinancial_CxCMovimientoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoMantSD">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoMantSD" message="tns:ISDFinancial_CxCMovimientoMantSD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoMantSDResponse" message="tns:ISDFinancial_CxCMovimientoMantSD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoAplicaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoAplicaMant" message="tns:ISDFinancial_CxCMovimientoAplicaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoAplicaMantResponse" message="tns:ISDFinancial_CxCMovimientoAplicaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoPagoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoPagoMant" message="tns:ISDFinancial_CxCMovimientoPagoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoPagoMantResponse" message="tns:ISDFinancial_CxCMovimientoPagoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoTipoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoTipoMant" message="tns:ISDFinancial_CxCMovimientoTipoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCMovimientoTipoMantResponse" message="tns:ISDFinancial_CxCMovimientoTipoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoMant" message="tns:ISDFinancial_CxPMovimientoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoMantResponse" message="tns:ISDFinancial_CxPMovimientoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoAplicaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoAplicaMant" message="tns:ISDFinancial_CxPMovimientoAplicaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoAplicaMantResponse" message="tns:ISDFinancial_CxPMovimientoAplicaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoPagoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoPagoMant" message="tns:ISDFinancial_CxPMovimientoPagoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoPagoMantResponse" message="tns:ISDFinancial_CxPMovimientoPagoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoTipoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoTipoMant" message="tns:ISDFinancial_CxPMovimientoTipoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxPMovimientoTipoMantResponse" message="tns:ISDFinancial_CxPMovimientoTipoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxPSolicitudPagoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxPSolicitudPagoMant" message="tns:ISDFinancial_CxPSolicitudPagoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxPSolicitudPagoMantResponse" message="tns:ISDFinancial_CxPSolicitudPagoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCEntregaDocumentoEncabezadoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoEncabezadoMant" message="tns:ISDFinancial_CxCEntregaDocumentoEncabezadoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoEncabezadoMantResponse" message="tns:ISDFinancial_CxCEntregaDocumentoEncabezadoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CxCEntregaDocumentoDetalleMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoDetalleMant" message="tns:ISDFinancial_CxCEntregaDocumentoDetalleMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoDetalleMantResponse" message="tns:ISDFinancial_CxCEntregaDocumentoDetalleMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/EmpresaMant" message="tns:ISDFinancial_EmpresaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/EmpresaMantResponse" message="tns:ISDFinancial_EmpresaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaCuentaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/EmpresaCuentaMant" message="tns:ISDFinancial_EmpresaCuentaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/EmpresaCuentaMantResponse" message="tns:ISDFinancial_EmpresaCuentaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaParametroMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/EmpresaParametroMant" message="tns:ISDFinancial_EmpresaParametroMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/EmpresaParametroMantResponse" message="tns:ISDFinancial_EmpresaParametroMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteQuery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ExecuteQuery" message="tns:ISDFinancial_ExecuteQuery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ExecuteQueryResponse" message="tns:ISDFinancial_ExecuteQuery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FacturaEncabezadoCxCMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/FacturaEncabezadoCxCMant" message="tns:ISDFinancial_FacturaEncabezadoCxCMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/FacturaEncabezadoCxCMantResponse" message="tns:ISDFinancial_FacturaEncabezadoCxCMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrupoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/GrupoMant" message="tns:ISDFinancial_GrupoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/GrupoMantResponse" message="tns:ISDFinancial_GrupoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GrupoMenuMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/GrupoMenuMant" message="tns:ISDFinancial_GrupoMenuMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/GrupoMenuMantResponse" message="tns:ISDFinancial_GrupoMenuMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIp">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/GetIp" message="tns:ISDFinancial_GetIp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/GetIpResponse" message="tns:ISDFinancial_GetIp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MaquinaConfiguracionMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/MaquinaConfiguracionMant" message="tns:ISDFinancial_MaquinaConfiguracionMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/MaquinaConfiguracionMantResponse" message="tns:ISDFinancial_MaquinaConfiguracionMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MenuMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/MenuMant" message="tns:ISDFinancial_MenuMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/MenuMantResponse" message="tns:ISDFinancial_MenuMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModuloMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ModuloMant" message="tns:ISDFinancial_ModuloMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ModuloMantResponse" message="tns:ISDFinancial_ModuloMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PermisoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/PermisoMant" message="tns:ISDFinancial_PermisoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/PermisoMantResponse" message="tns:ISDFinancial_PermisoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PermisoBitacoraMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/PermisoBitacoraMant" message="tns:ISDFinancial_PermisoBitacoraMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/PermisoBitacoraMantResponse" message="tns:ISDFinancial_PermisoBitacoraMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProveedorMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ProveedorMant" message="tns:ISDFinancial_ProveedorMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ProveedorMantResponse" message="tns:ISDFinancial_ProveedorMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProveedorCuentaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/ProveedorCuentaMant" message="tns:ISDFinancial_ProveedorCuentaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/ProveedorCuentaMantResponse" message="tns:ISDFinancial_ProveedorCuentaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectQuery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/SelectQuery" message="tns:ISDFinancial_SelectQuery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/SelectQueryResponse" message="tns:ISDFinancial_SelectQuery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TipoIdentificacionMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/TipoIdentificacionMant" message="tns:ISDFinancial_TipoIdentificacionMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/TipoIdentificacionMantResponse" message="tns:ISDFinancial_TipoIdentificacionMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TarjetaMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/TarjetaMant" message="tns:ISDFinancial_TarjetaMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/TarjetaMantResponse" message="tns:ISDFinancial_TarjetaMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TipoCambioMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/TipoCambioMant" message="tns:ISDFinancial_TipoCambioMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/TipoCambioMantResponse" message="tns:ISDFinancial_TipoCambioMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TipoPagoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/TipoPagoMant" message="tns:ISDFinancial_TipoPagoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/TipoPagoMantResponse" message="tns:ISDFinancial_TipoPagoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/UsuarioMant" message="tns:ISDFinancial_UsuarioMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/UsuarioMantResponse" message="tns:ISDFinancial_UsuarioMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioCodigoPermisoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/UsuarioCodigoPermisoMant" message="tns:ISDFinancial_UsuarioCodigoPermisoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/UsuarioCodigoPermisoMantResponse" message="tns:ISDFinancial_UsuarioCodigoPermisoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioPermisoMant">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/UsuarioPermisoMant" message="tns:ISDFinancial_UsuarioPermisoMant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/UsuarioPermisoMantResponse" message="tns:ISDFinancial_UsuarioPermisoMant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificaCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISDFinancial/VerificaCliente" message="tns:ISDFinancial_VerificaCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISDFinancial/VerificaClienteResponse" message="tns:ISDFinancial_VerificaCliente_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISDFinancial" type="tns:ISDFinancial">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="VerificaProveedor">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/VerificaProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VendedorMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/VendedorMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoEstadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoEstadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoOrigenMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoOrigenMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuxAsientoDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AuxAsientoDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuxAsientoEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AuxAsientoEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BancoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BancoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoChequeMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoPagoChequeMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoTransferenciaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoPagoTransferenciaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoTipoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoTipoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CajaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CajaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CajaCierreDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CajaCierreDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CajaCierreEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CajaCierreEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambioMonedaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CambioMonedaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambioMonedaTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CambioMonedaTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CentroCostoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CentroCostoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CentroCostoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CentroCostoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClienteMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ClienteMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClienteMovimientos">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ClienteMovimientos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodigoPermisoBitacoraMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CodigoPermisoBitacoraMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvierteNumeroLetras">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ConvierteNumeroLetras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaFlujoEfectivoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaFlujoEfectivoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoClaseMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaTipoClaseMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoFlujoEfectivoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaTipoFlujoEfectivoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoMantSD">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoMantSD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoAplicaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoAplicaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoAplicaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoAplicaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPSolicitudPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPSolicitudPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCEntregaDocumentoEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCEntregaDocumentoDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/EmpresaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaCuentaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/EmpresaCuentaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaParametroMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/EmpresaParametroMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteQuery">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ExecuteQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FacturaEncabezadoCxCMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/FacturaEncabezadoCxCMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrupoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/GrupoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrupoMenuMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/GrupoMenuMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIp">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/GetIp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaquinaConfiguracionMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/MaquinaConfiguracionMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MenuMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/MenuMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModuloMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ModuloMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PermisoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/PermisoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PermisoBitacoraMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/PermisoBitacoraMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProveedorMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ProveedorMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProveedorCuentaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ProveedorCuentaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectQuery">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/SelectQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TipoIdentificacionMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TipoIdentificacionMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TarjetaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TarjetaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TipoCambioMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TipoCambioMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TipoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TipoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/UsuarioMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioCodigoPermisoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/UsuarioCodigoPermisoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioPermisoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/UsuarioPermisoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificaCliente">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/VerificaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpsBinding_ISDFinancial" type="tns:ISDFinancial">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_ISDFinancial_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="VerificaProveedor">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/VerificaProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VendedorMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/VendedorMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoEstadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoEstadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoOrigenMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoOrigenMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsientoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AsientoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuxAsientoDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AuxAsientoDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuxAsientoEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/AuxAsientoEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BancoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BancoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoChequeMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoPagoChequeMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoPagoTransferenciaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoPagoTransferenciaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BcoTipoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/BcoTipoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CajaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CajaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CajaCierreDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CajaCierreDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CajaCierreEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CajaCierreEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambioMonedaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CambioMonedaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambioMonedaTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CambioMonedaTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CentroCostoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CentroCostoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CentroCostoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CentroCostoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClienteMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ClienteMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClienteMovimientos">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ClienteMovimientos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodigoPermisoBitacoraMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CodigoPermisoBitacoraMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvierteNumeroLetras">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ConvierteNumeroLetras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaFlujoEfectivoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaFlujoEfectivoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoClaseMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaTipoClaseMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuentaTipoFlujoEfectivoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CuentaTipoFlujoEfectivoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoMantSD">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoMantSD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoAplicaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoAplicaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCMovimientoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCMovimientoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoAplicaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoAplicaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPMovimientoTipoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPMovimientoTipoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxPSolicitudPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxPSolicitudPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCEntregaDocumentoEncabezadoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoEncabezadoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CxCEntregaDocumentoDetalleMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/CxCEntregaDocumentoDetalleMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/EmpresaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaCuentaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/EmpresaCuentaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmpresaParametroMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/EmpresaParametroMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteQuery">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ExecuteQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FacturaEncabezadoCxCMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/FacturaEncabezadoCxCMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrupoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/GrupoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrupoMenuMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/GrupoMenuMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIp">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/GetIp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaquinaConfiguracionMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/MaquinaConfiguracionMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MenuMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/MenuMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModuloMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ModuloMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PermisoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/PermisoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PermisoBitacoraMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/PermisoBitacoraMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProveedorMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ProveedorMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProveedorCuentaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/ProveedorCuentaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectQuery">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/SelectQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TipoIdentificacionMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TipoIdentificacionMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TarjetaMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TarjetaMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TipoCambioMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TipoCambioMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TipoPagoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/TipoPagoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/UsuarioMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioCodigoPermisoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/UsuarioCodigoPermisoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsuarioPermisoMant">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/UsuarioPermisoMant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificaCliente">
+      <soap:operation soapAction="http://tempuri.org/ISDFinancial/VerificaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SDFinancial">
+    <wsdl:port name="BasicHttpBinding_ISDFinancial" binding="tns:BasicHttpBinding_ISDFinancial">
+      <soap:address location="http://localhost:16284/SDFinancial.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpsBinding_ISDFinancial" binding="tns:BasicHttpsBinding_ISDFinancial">
+      <soap:address location="https://localhost:44301/SDFinancial.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

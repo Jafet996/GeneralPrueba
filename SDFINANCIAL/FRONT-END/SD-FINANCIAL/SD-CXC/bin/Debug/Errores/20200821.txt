@@ -1,0 +1,27 @@
+[20200821 11:21][Error de aplicación] - El password es incorrecto
+[20200821 11:21][Error de aplicación] - El password es incorrecto
+[20200821 11:21][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200821 11:21][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200821 11:22][Error de aplicación] - Ingrese cliente
+[20200821 11:22][Error de aplicación] - Ingrese cliente
+[20200821 11:22][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:27][Error de aplicación] - No se encontró un cliente con el código: 2
+[20200821 11:27][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:27][Error de aplicación] - El cliente seleccionado se encuentra inactivo
+[20200821 11:28][Error de aplicación] - Ingrese cliente
+[20200821 11:28][Error de aplicación] - Ingrese cliente
+[20200821 11:28][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:28][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:40][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200821 11:40][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200821 11:40][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:41][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:41][Error de aplicación] - Ingrese cliente
+[20200821 11:41][Error de aplicación] - Ingrese cliente
+[20200821 11:41][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:41][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:52][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 11:53][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200821 12:04][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200821 12:04][Error de aplicación] - The request failed with HTTP status 404: Not Found.
+[20200821 12:05][Error de aplicación] - No se encontraron datos para mostrar el reporte

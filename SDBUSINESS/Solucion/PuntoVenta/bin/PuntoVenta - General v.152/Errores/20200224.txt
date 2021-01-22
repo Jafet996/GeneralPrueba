@@ -1,0 +1,22 @@
+[20200224 10:20][Conexión] - El password es incorrecto
+[20200224 10:20][Conexión] - El password es incorrecto
+[20200224 10:20][Conexión] - El password es incorrecto
+[20200224 10:21][Conexión] - El password es incorrecto
+[20200224 10:22][Gurdando en FacturaElectronica] - Almacenadp Doc 50607022000310130567200100001010000002692100006242
+[20200224 10:22][Gurdando en FacturaElectronica] - Almacenadp Doc 50607022000310130567200100001030000000191100006245
+[20200224 10:22][Gurdando en FacturaElectronica] - Almacenadp Doc 50607022000310130567200100001010000002693100006246
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004010000001742100006369
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004030000000097100006370
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004010000001743100006371
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004030000000098100006373
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004010000001748100006377
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004030000000099100006378
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004010000001749100006379
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004010000001750100006380
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50621022000310130567200100004030000000100100006381
+[20200224 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50624022000310130567200100004030000000101100006384
+[20200224 10:24][Error de aplicación] - El email es necesario para la creación de un cliente para Facturación Electrónica
+[20200224 10:24][Error de aplicación] - El email es necesario para la creación de un cliente para Facturación Electrónica
+[20200224 10:32][Gurdando en FacturaElectronica] - Almacenadp Doc 50622012000310130567200100004010000001526100006052
+[20200224 16:48][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200224 17:01][Error de aplicación] - Imposible facturar, primero debe de abrir caja

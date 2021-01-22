@@ -1,0 +1,11 @@
+[20200521 11:43][Error de aplicación] - El password es incorrecto
+[20200521 11:43][Error de aplicación] - El password es incorrecto
+[20200521 12:08][Error de aplicación] - No se encontraron movimientos aplicados para mostrar
+[20200521 12:10][Error de aplicación] - El password es incorrecto
+[20200521 13:22][Error de aplicación] - El password es incorrecto
+[20200521 13:35][Error de aplicación] - Could not find stored procedure  RptConsultaInformacionProveedor .
+[20200521 14:18][Error de aplicación] - El password es incorrecto
+[20200521 14:36][Error de aplicación] - El password es incorrecto
+[20200521 14:37][Error de aplicación] - Operator '<>' is not defined for type 'DBNull' and type 'Integer'.
+[20200521 14:38][Error de aplicación] - Operator '<>' is not defined for type 'DBNull' and type 'Integer'.
+[20200521 14:38][Error de aplicación] - Operator '<>' is not defined for type 'DBNull' and type 'Integer'.

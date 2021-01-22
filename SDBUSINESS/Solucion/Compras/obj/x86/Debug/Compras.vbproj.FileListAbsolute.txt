@@ -1,0 +1,453 @@
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe.config
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Shared.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\FlashControlV71.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\EAGetMail45.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\ShockwaveFlashObjects.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\stdole.dll
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll.config
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.pdb
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbprojAssemblyReference.cache
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasPorProveedor.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFecha.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFechaDetallado.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasXUnidades.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBuscaArticuloOnLine.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaArticuloOnLine.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaArticulos.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaFacturaElectronica.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmComprasFacturarCR.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConsultaArticulo.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneo.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmSelecionaFechas.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmAjusteCosto.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmArticuloAnotacion.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantArticuloProveedor.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEtiquetaCodigoBarra.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaEntrada.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaUsuario.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCreaArticuloSuelto.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaFactura.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaMercaderia.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaOrdenCompra.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaProveedor.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmOrdenCompra.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConexion.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmReporte.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMain.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailRecepcionDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantRecetaDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantUsuarioDetalle.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailReceptorLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorLista.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.Resources.resources
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.exe
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.xml
+C:\Fuentes\SDB\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe.config
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Shared.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\FlashControlV71.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\EAGetMail45.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\ShockwaveFlashObjects.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\stdole.dll
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll.config
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.pdb
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbprojAssemblyReference.cache
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasPorProveedor.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFecha.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFechaDetallado.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasXUnidades.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBuscaArticuloOnLine.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaArticuloOnLine.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaArticulos.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaFacturaElectronica.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmComprasFacturarCR.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConsultaArticulo.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneo.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmSelecionaFechas.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmAjusteCosto.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmArticuloAnotacion.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantArticuloProveedor.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEtiquetaCodigoBarra.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaEntrada.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaUsuario.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCreaArticuloSuelto.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaFactura.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaMercaderia.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaOrdenCompra.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaProveedor.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmOrdenCompra.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConexion.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmReporte.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMain.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailRecepcionDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantRecetaDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantUsuarioDetalle.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailReceptorLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorLista.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.Resources.resources
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.GenerateResource.cache
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CoreCompileInputs.cache
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CopyComplete
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.exe
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.xml
+C:\FuentesLeiner\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasPorProveedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFecha.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFechaDetallado.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasXUnidades.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBuscaArticuloOnLine.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaArticuloOnLine.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaArticulos.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaFacturaElectronica.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmComprasFacturarCR.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConsultaArticulo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmSelecionaFechas.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmAjusteCosto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmArticuloAnotacion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantArticuloProveedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEtiquetaCodigoBarra.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaEntrada.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCreaArticuloSuelto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaFactura.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaMercaderia.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaOrdenCompra.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaProveedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmOrdenCompra.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConexion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmReporte.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMain.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailRecepcionDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantRecetaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailReceptorLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.Resources.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\EAGetMail45.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe.config
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\EAGetMail45.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll.config
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.pdb
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasPorProveedor.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFecha.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFechaDetallado.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasXUnidades.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBuscaArticuloOnLine.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaArticuloOnLine.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaArticulos.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaFacturaElectronica.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmComprasFacturarCR.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConsultaArticulo.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneo.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmSelecionaFechas.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmAjusteCosto.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmArticuloAnotacion.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantArticuloProveedor.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEtiquetaCodigoBarra.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaEntrada.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCreaArticuloSuelto.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaFactura.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaMercaderia.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaOrdenCompra.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaProveedor.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmOrdenCompra.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConexion.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmReporte.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMain.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailRecepcionDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantRecetaDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailReceptorLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorLista.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.Resources.resources
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.exe
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.xml
+C:\Users\Jimmy Trejos\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe.config
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\EAGetMail45.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\stdole.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll.config
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbprojAssemblyReference.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasPorProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFecha.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFechaDetallado.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasXUnidades.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBuscaArticuloOnLine.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaArticuloOnLine.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaArticulos.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaFacturaElectronica.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmComprasFacturarCR.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConsultaArticulo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmSelecionaFechas.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmAjusteCosto.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmArticuloAnotacion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantArticuloProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEtiquetaCodigoBarra.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaEntrada.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaUsuario.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCreaArticuloSuelto.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaFactura.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaMercaderia.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaOrdenCompra.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmOrdenCompra.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConexion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmReporte.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMain.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailRecepcionDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantRecetaDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantUsuarioDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailReceptorLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.Resources.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.GenerateResource.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CoreCompileInputs.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CopyComplete
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.exe
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe.config
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.exe
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Compras.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\EAGetMail45.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\CORE-CLIENT.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\RestSharp.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\stdole.dll
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Business.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Business.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Business.dll.config
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Connection.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\bin\Debug\Neodynamic.WinControls.BarcodeProfessional.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbprojAssemblyReference.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasPorProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFecha.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasxFechaDetallado.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmRepEntradasXUnidades.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBuscaArticuloOnLine.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaArticuloOnLine.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaArticulos.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCargaFacturaElectronica.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmComprasFacturarCR.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConsultaArticulo.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmSelecionaFechas.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmAjusteCosto.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmArticuloAnotacion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantArticuloProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEtiquetaCodigoBarra.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaEntrada.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaUsuario.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmCreaArticuloSuelto.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaFactura.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaMercaderia.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaOrdenCompra.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmBusquedaProveedor.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmOrdenCompra.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmConexion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmReporte.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMain.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailRecepcionDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantRecetaDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantUsuarioDetalle.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantEmailReceptorLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantGrupoLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmMantProveedorLista.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.Resources.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.GenerateResource.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CoreCompileInputs.cache
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.vbproj.CopyComplete
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.exe
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.xml
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.pdb
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneoOld.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Compras\obj\x86\Debug\Compras.FrmEntradaEscaneo.resources

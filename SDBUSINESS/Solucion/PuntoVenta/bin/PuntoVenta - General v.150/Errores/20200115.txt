@@ -1,0 +1,4 @@
+[20200115 15:48][Error de aplicación] - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_ApartadoPago_Banco". The conflict occurred in database "SDG-AVA", table "dbo.Banco".
+The statement has been terminated.
+[20200115 16:43][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20200115 16:54][Error de aplicación] - Debe de completar el encabezado del documento para poder realizar una carga

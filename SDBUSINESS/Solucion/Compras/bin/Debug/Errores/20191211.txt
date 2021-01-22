@@ -1,0 +1,8 @@
+[20191211 14:18][Error de aplicación] - Artículo inválido, no se le puede hacer una entrada a un codigo de servicio
+[20191211 14:18][Error de aplicación] - Artículo inválido, no se le puede hacer una entrada a un codigo de servicio
+[20191211 14:18][Error de aplicación] - Artículo inválido, no se le puede hacer una entrada a un codigo de servicio
+[20191211 15:19][Conexión] - Debe de seleccionar un Password
+[20191211 15:19][Conexión] - Debe de seleccionar un Password
+[20191211 15:46][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20191211 15:46][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20191211 16:04][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.

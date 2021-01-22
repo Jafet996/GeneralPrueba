@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SD-CONTABILIDAD
+</name>
+</assembly>
+<members>
+<member name="T:SDCONTABILIDAD.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_Esc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Blue_F9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.book_blue_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.books">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.calendar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.camera2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.Company_Building">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.data">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.folder_view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.House__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.LOGO_SBD_CR_web_transparencia_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.LogoSDB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.server_client_exchange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.user1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.user11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.users4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.usuario_default">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDCONTABILIDAD.My.Resources.Resources.view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

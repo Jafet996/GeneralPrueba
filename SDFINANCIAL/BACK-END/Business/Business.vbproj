@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D3353FD-1949-4361-A7B0-0D09CC217F6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Business</RootNamespace>
+    <AssemblyName>Business</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Business.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Business.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClasses\TBaseClassManager.vb" />
+    <Compile Include="Modules\Declaraciones.vb" />
+    <Compile Include="Modules\General.vb" />
+    <Compile Include="Modules\NumeroLetras.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TableClasses\ExecuteSQL.vb" />
+    <Compile Include="TableClasses\TAsientoDetalle.vb" />
+    <Compile Include="TableClasses\TAsientoEncabezado.vb" />
+    <Compile Include="TableClasses\TAsientoEstado.vb" />
+    <Compile Include="TableClasses\TAsientoOrigen.vb" />
+    <Compile Include="TableClasses\TAsientoTipo.vb" />
+    <Compile Include="TableClasses\TAuxAsientoDetalle.vb" />
+    <Compile Include="TableClasses\TAuxAsientoEncabezado.vb" />
+    <Compile Include="TableClasses\TBanco.vb" />
+    <Compile Include="TableClasses\TBcoPago.vb" />
+    <Compile Include="TableClasses\TBcoPagoCheque.vb" />
+    <Compile Include="TableClasses\TBcoPagoTransferencia.vb" />
+    <Compile Include="TableClasses\TBcoTipoPago.vb" />
+    <Compile Include="TableClasses\TCaja.vb" />
+    <Compile Include="TableClasses\TCajaCierreDetalle.vb" />
+    <Compile Include="TableClasses\TCajaCierreEncabezado.vb" />
+    <Compile Include="TableClasses\TCambioMoneda.vb" />
+    <Compile Include="TableClasses\TCambioMonedaTipo.vb" />
+    <Compile Include="TableClasses\TCentroCosto.vb" />
+    <Compile Include="TableClasses\TCentroCostoTipo.vb" />
+    <Compile Include="TableClasses\TCliente.vb" />
+    <Compile Include="TableClasses\TCodigoPermisoBitacora.vb" />
+    <Compile Include="TableClasses\TCuenta.vb" />
+    <Compile Include="TableClasses\TCuentaFlujoEfectivo.vb" />
+    <Compile Include="TableClasses\TCuentaTipo.vb" />
+    <Compile Include="TableClasses\TCuentaTipoClase.vb" />
+    <Compile Include="TableClasses\TCuentaTipoFlujoEfectivo.vb" />
+    <Compile Include="TableClasses\TCxCEntregaDocumentoDetalle.vb" />
+    <Compile Include="TableClasses\TCxCEntregaDocumentoEncabezado.vb" />
+    <Compile Include="TableClasses\TCxCMovimiento.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoAplica.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoLinea.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoPago.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoTipo.vb" />
+    <Compile Include="TableClasses\TCxPMovimiento.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoAplica.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoLinea.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoPago.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoTipo.vb" />
+    <Compile Include="TableClasses\TCxPSolicitudPago.vb" />
+    <Compile Include="TableClasses\TEmpresa.vb" />
+    <Compile Include="TableClasses\TEmpresaCuenta.vb" />
+    <Compile Include="TableClasses\TEmpresaParametro.vb" />
+    <Compile Include="TableClasses\TFacturaEncabezado.vb" />
+    <Compile Include="TableClasses\TFacturaEncabezadoCxC.vb" />
+    <Compile Include="TableClasses\TGrupo.vb" />
+    <Compile Include="TableClasses\TGrupoMenu.vb" />
+    <Compile Include="TableClasses\TMaquinaConfiguracion.vb" />
+    <Compile Include="TableClasses\TMenu.vb" />
+    <Compile Include="TableClasses\TModulo.vb" />
+    <Compile Include="TableClasses\TPermiso.vb" />
+    <Compile Include="TableClasses\TPermisoBitacora.vb" />
+    <Compile Include="TableClasses\TProveedor.vb" />
+    <Compile Include="TableClasses\TProveedorCuenta.vb" />
+    <Compile Include="TableClasses\TTarjeta.vb" />
+    <Compile Include="TableClasses\TTipoCambio.vb" />
+    <Compile Include="TableClasses\TTipoIdentificacion.vb" />
+    <Compile Include="TableClasses\TTipoPago.vb" />
+    <Compile Include="TableClasses\TUsuario.vb" />
+    <Compile Include="TableClasses\TUsuarioCodigoPermiso.vb" />
+    <Compile Include="TableClasses\TUsuarioPermiso.vb" />
+    <Compile Include="TableClasses\TVendedor.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Connection\Connection.vbproj">
+      <Project>{8b3e2622-6ee4-4919-9f1c-5c1572ab243b}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:16284/SDFinancial.svc?xsd=xsd1" namespace="http://microsoft.com/wsdl/types/" />
+  <xs:element name="VerificaProveedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmp_Id" type="xs:int" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pProveedor_Id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaProveedorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="VerificaProveedorResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VendedorMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTVendedor" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTVendedor">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Vendedor_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Comision" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="EnumOperacionMant">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="List" />
+      <xs:enumeration value="Insertar" />
+      <xs:enumeration value="Modificar" />
+      <xs:enumeration value="Eliminar" />
+      <xs:enumeration value="ListKey" />
+      <xs:enumeration value="LoadCombo" />
+      <xs:enumeration value="ListMant" />
+      <xs:enumeration value="NextOne" />
+      <xs:enumeration value="FacturasAtrasadas" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="VendedorMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="VendedorMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="TResultado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Datos">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Valor" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RowsAffected" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AsientoDetalleMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAsientoDetalle" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAsientoDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Asiento_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Linea_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element xmlns:q1="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q1:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CC_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta_Id" type="xs:string" />
+      <xs:element xmlns:q2="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Tipo" type="q2:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MontoDolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Referencia" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AsientoDetalleMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AsientoDetalleMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AsientoEncabezadoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAsientoEncabezado" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAsientoEncabezado">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Asiento_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Annio" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mes" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Comentario" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Estado_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Debitos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Creditos" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UsuarioAplica_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Origen_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaDetalle" type="tns:ArrayOfDTAsientoDetalle" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AplicarAsiento" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDTAsientoDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DTAsientoDetalle" nillable="true" type="tns:DTAsientoDetalle" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AsientoEncabezadoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AsientoEncabezadoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AsientoEstadoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAsientoEstado" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAsientoEstado">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Estado_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AsientoEstadoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AsientoEstadoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AsientoOrigenMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAsientoOrigen" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAsientoOrigen">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Origen_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AsientoOrigenMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AsientoOrigenMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AsientoTipoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAsientoTipo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAsientoTipo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AsientoTipoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AsientoTipoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuxAsientoDetalleMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAuxAsientoDetalle" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAuxAsientoDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Asiento_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Linea_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element xmlns:q3="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q3:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CC_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta_Id" type="xs:string" />
+      <xs:element xmlns:q4="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Tipo" type="q4:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MontoDolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Referencia" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AuxAsientoDetalleMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AuxAsientoDetalleMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuxAsientoEncabezadoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTAuxAsientoEncabezado" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTAuxAsientoEncabezado">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Asiento_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Annio" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mes" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Comentario" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Debitos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Creditos" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Origen_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MAC_Address" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaDetalle" type="tns:ArrayOfDTAuxAsientoDetalle" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDTAuxAsientoDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DTAuxAsientoDetalle" nillable="true" type="tns:DTAuxAsientoDetalle" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AuxAsientoEncabezadoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AuxAsientoEncabezadoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BancoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTBanco" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTBanco">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BancoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="BancoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BcoPagoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTBcoPago" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTBcoPago">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BcoPago_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoPago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Prov_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta" type="xs:string" />
+      <xs:element xmlns:q5="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q5:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Concepto" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cheque" type="tns:DTBcoPagoCheque" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Transferencia" type="tns:DTBcoPagoTransferencia" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaSolicitudes" type="tns:ArrayOfDTCxPSolicitudPago" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DTBcoPagoCheque">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BcoPago_Id" type="xs:long" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Numero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DTBcoPagoTransferencia">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BcoPago_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta" type="xs:string" />
+      <xs:element xmlns:q6="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q6:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Numero" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDTCxPSolicitudPago">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DTCxPSolicitudPago" nillable="true" type="tns:DTCxPSolicitudPago" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DTCxPSolicitudPago">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Solicitud_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Prov_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element xmlns:q7="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q7:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PagoMonto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PagoDolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Diferencial" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaMovimientos" type="tns:ArrayOfDTCxPMovimientoLinea" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDTCxPMovimientoLinea">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DTCxPMovimientoLinea" nillable="true" type="tns:DTCxPMovimientoLinea" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DTCxPMovimientoLinea">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element xmlns:q8="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q8:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BcoPagoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="BcoPagoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BcoPagoChequeMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTBcoPagoCheque" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BcoPagoChequeMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="BcoPagoChequeMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BcoPagoTransferenciaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTBcoPagoTransferencia" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BcoPagoTransferenciaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="BcoPagoTransferenciaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BcoTipoPagoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTBcoTipoPago" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTBcoTipoPago">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoPago_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BcoTipoPagoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="BcoTipoPagoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CajaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCaja" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCaja">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Abierta" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cierre_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CajaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CajaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CajaCierreDetalleMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCajaCierreDetalle" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCajaCierreDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cierre_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Detalle_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Pago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoPago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ChequeNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tarjeta_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TarjetaNumero" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TarjetaAutorizacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CajaCierreDetalleMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CajaCierreDetalleMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CajaCierreEncabezadoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCajaCierreEncabezado" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCajaCierreEncabezado">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cierre_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cerrado" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaCierre" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaApertura" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Efectivo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tarjeta" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cheque" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fondo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Transferencia" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Deposito" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CajeroEfectivo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CajeroTarjeta" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CajeroCheque" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CajeroDocumentos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CajeroDolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CajaCierreEncabezadoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CajaCierreEncabezadoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CambioMonedaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCambioMoneda" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCambioMoneda">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cambio_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cierre_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Efectivo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CambioMonedaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CambioMonedaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CambioMonedaTipoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCambioMonedaTipo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCambioMonedaTipo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CambioMonedaTipoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CambioMonedaTipoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CentroCostoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCentroCosto" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCentroCosto">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CC_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CCTipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CentroCostoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CentroCostoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CentroCostoTipoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCentroCostoTipo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCentroCostoTipo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CCTipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CentroCostoTipoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CentroCostoTipoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClienteMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCliente" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCliente">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cliente_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoIdentificacion_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Identificacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Telefono1" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Telefono2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Direccion" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Debitos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Creditos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Saldo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiasCredito" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PorcMora" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiasGraciaMora" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AplicaMora" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LimiteCredito" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CxC_Colones" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CxC_Dolares" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombreComercial" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Vendedor_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EsInterno" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClienteMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ClienteMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClienteMovimientos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCliente" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pDesde" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pHasta" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClienteMovimientosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ClienteMovimientosResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodigoPermisoBitacoraMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCodigoPermisoBitacora" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCodigoPermisoBitacora">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Bitacora_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UsuarioUtilizo_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Permiso_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Codigo" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CodigoPermisoBitacoraMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CodigoPermisoBitacoraMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConvierteNumeroLetras">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pNumero" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConvierteNumeroLetrasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ConvierteNumeroLetrasResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CuentaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCuenta" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCuenta">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Clase_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Nivel" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Padre_Id" type="xs:string" />
+      <xs:element xmlns:q9="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q9:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AceptaMovimiento" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SolicitaCentroCosto" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CuentaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CuentaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CuentaFlujoEfectivoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCuentaFlujoEfectivo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCuentaFlujoEfectivo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Entrada" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CuentaFlujoEfectivoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CuentaFlujoEfectivoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CuentaTipoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCuentaTipo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCuentaTipo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CCTipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CuentaTipoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CuentaTipoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CuentaTipoClaseMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCuentaTipoClase" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCuentaTipoClase">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Clase_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CuentaTipoClaseMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CuentaTipoClaseMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CuentaTipoFlujoEfectivoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCuentaTipoFlujoEfectivo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCuentaTipoFlujoEfectivo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CuentaTipoFlujoEfectivoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CuentaTipoFlujoEfectivoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCMovimientoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCMovimiento" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxCMovimiento">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cliente_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Referencia" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaRecibido" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaDocumento" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaVencimiento" type="xs:dateTime" />
+      <xs:element xmlns:q10="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q10:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Saldo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AplicaMora" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaCalculoMora" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Batch_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cierre_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Suc_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaPagos" type="tns:ArrayOfDTCxCMovimientoPago" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaMovimientos" type="tns:ArrayOfDTCxCMovimientoLinea" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GeneraNotaCredito" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MontoNotaCredito" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MAC_Address" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GeneraAsiento" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AsientoEncabezado" type="tns:DTAuxAsientoEncabezado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDTCxCMovimientoPago">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DTCxCMovimientoPago" nillable="true" type="tns:DTCxCMovimientoPago" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DTCxCMovimientoPago">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Pago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cierre_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoPago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ChequeNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ChequeFecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DepositoNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DepositoFecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TransferenciaNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tarjeta_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TarjetaNumero" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TarjetaAutorizacion" type="xs:string" />
+      <xs:element xmlns:q11="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q11:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Batch_Id" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDTCxCMovimientoLinea">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DTCxCMovimientoLinea" nillable="true" type="tns:DTCxCMovimientoLinea" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DTCxCMovimientoLinea">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxCMovimientoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCMovimientoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCMovimientoMantSD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCMovimiento" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pFacturaEncabezado" type="tns:TFacturaEncabezado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="TFacturaEncabezado">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Suc_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoDoc_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Documento_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxCMovimientoMantSDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCMovimientoMantSDResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCMovimientoAplicaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCMovimientoAplica" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxCMovimientoAplica">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Aplica_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoAplica_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MovAplica_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxCMovimientoAplicaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCMovimientoAplicaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCMovimientoPagoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCMovimientoPago" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCMovimientoPagoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCMovimientoPagoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCMovimientoTipoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCMovimientoTipo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxCMovimientoTipo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IncrementaSaldo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxCMovimientoTipoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCMovimientoTipoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxPMovimientoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxPMovimiento" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxPMovimiento">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Prov_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Estado_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Referencia" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaRecibido" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaDocumento" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaVencimiento" type="xs:dateTime" />
+      <xs:element xmlns:q12="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q12:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Saldo" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Batch_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GeneraAsiento" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AsientoEncabezado" type="tns:DTAuxAsientoEncabezado" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiasCredito" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxPMovimientoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxPMovimientoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxPMovimientoAplicaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxPMovimientoAplica" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxPMovimientoAplica">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Aplica_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoAplica_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MovAplica_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxPMovimientoAplicaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxPMovimientoAplicaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxPMovimientoPagoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxPMovimientoPago" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxPMovimientoPago">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Pago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoPago_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Monto" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ChequeNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ChequeFecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DepositoNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DepositoFecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TransferenciaNumero" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tarjeta_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TarjetaNumero" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TarjetaAutorizacion" type="xs:string" />
+      <xs:element xmlns:q13="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q13:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Dolares" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Batch_Id" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxPMovimientoPagoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxPMovimientoPagoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxPMovimientoTipoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxPMovimientoTipo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxPMovimientoTipo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IncrementaSaldo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxPMovimientoTipoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxPMovimientoTipoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxPSolicitudPagoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxPSolicitudPago" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxPSolicitudPagoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxPSolicitudPagoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCEntregaDocumentoEncabezadoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCEntregaDocumentoEncabezado" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxCEntregaDocumentoEncabezado">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Entrega_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Vendedor_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxCEntregaDocumentoEncabezadoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCEntregaDocumentoEncabezadoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CxCEntregaDocumentoDetalleMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTCxCEntregaDocumentoDetalle" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTCxCEntregaDocumentoDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Entrega_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Doc_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CxCEntregaDocumentoDetalleMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="CxCEntregaDocumentoDetalleMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmpresaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTEmpresa" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTEmpresa">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cedula" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Fax" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Direccion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DireccionWeb" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Logo" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmpresaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="EmpresaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmpresaCuentaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTEmpresaCuenta" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTEmpresaCuenta">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cuenta_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta" type="xs:string" />
+      <xs:element xmlns:q14="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q14:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmpresaCuentaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="EmpresaCuentaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmpresaParametroMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTEmpresaParametro" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTEmpresaParametro">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ProcesoAnnio" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ProcesoMes" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MesCierreFiscal" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CuentaResultadoPeriodo" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiasCredito" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PorcMora" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiasGraciaMora" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AplicaMora" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CuentaIngresoXDiferencial" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CuentaGastoXDiferencial" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CuentaRedondeo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmpresaParametroMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="EmpresaParametroMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteQuery">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pQuery" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCnStr" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteQueryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ExecuteQueryResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FacturaEncabezadoCxCMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTFacturaEncabezadoCxC" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTFacturaEncabezadoCxC">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Suc_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoDoc_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Documento_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tipo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mov_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FacturaEncabezadoCxCMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="FacturaEncabezadoCxCMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrupoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTGrupo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTGrupo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Grupo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GrupoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GrupoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GrupoMenuMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTGrupoMenu" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTGrupoMenu">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Grupo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Modulo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Menu_Id" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GrupoMenuMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GrupoMenuMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pIp" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIpResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="GetIpResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MaquinaConfiguracionMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTMaquinaConfiguracion" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTMaquinaConfiguracion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="MAC_Address" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Caja_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ClienteDefault" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComPort" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConfirmaImpresionFactura" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FacturaContadoSolicitaCliente" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ImprimeCodigoArticulo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ImprimePrefactura" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Interfaz" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ParallePort" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PrefacturaTipoEntrega" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PrinterName" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PrintLocation" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="URLTipoCambio" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaIngreso" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MaquinaConfiguracionMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="MaquinaConfiguracionMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MenuMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTMenu" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTMenu">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Modulo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Menu_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MenuPadre_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Orden" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MenuMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="MenuMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModuloMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTModulo" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTModulo">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Modulo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Major" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Menor" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Bug" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Build" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ModuloMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ModuloMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PermisoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTPermiso" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTPermiso">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Permiso_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Modulo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PermisoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="PermisoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PermisoBitacoraMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTPermisoBitacora" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTPermisoBitacora">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Bitacora_Id" type="xs:long" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Permiso_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Observacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PermisoBitacoraMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="PermisoBitacoraMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProveedorMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTProveedor" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTProveedor">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Prov_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoIdentificacion_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Identificacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Telefono1" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Telefono2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Direccion" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Debitos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Creditos" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Saldo" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CxP_Colones" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CxP_Dolares" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiasCredito" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProveedorMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ProveedorMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ProveedorCuentaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTProveedorCuenta" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTProveedorCuenta">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Prov_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Cuenta_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Banco_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Cuenta" type="xs:string" />
+      <xs:element xmlns:q15="http://microsoft.com/wsdl/types/" minOccurs="1" maxOccurs="1" name="Moneda" type="q15:char" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProveedorCuentaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ProveedorCuentaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectQuery">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pQuery" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCnStr" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectQueryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SelectQueryResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoIdentificacionMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTTipoIdentificacion" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTTipoIdentificacion">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoIdentificacion_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TipoIdentificacionMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="TipoIdentificacionMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TarjetaMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTTarjeta" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTTarjeta">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Tarjeta_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TarjetaMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="TarjetaMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoCambioMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTTipoCambio" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTTipoCambio">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoCambio_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Compra" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Venta" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TipoCambioMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="TipoCambioMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoPagoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTTipoPago" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTTipoPago">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoPago_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TipoPagoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="TipoPagoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsuarioMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTUsuario" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTUsuario">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Password" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Grupo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="UsuarioMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsuarioCodigoPermisoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTUsuarioCodigoPermiso" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTUsuarioCodigoPermiso">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Codigo_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Codigo" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FechaVencimiento" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioCodigoPermisoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="UsuarioCodigoPermisoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsuarioPermisoMant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pTabla" type="tns:DTUsuarioPermiso" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pOperacion" type="tns:EnumOperacionMant" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pCriterio" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTUsuarioPermiso">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emp_Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario_Id" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Permiso_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Modulo_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UltimaModificacion" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioPermisoMantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="UsuarioPermisoMantResult" type="tns:TResultado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmp_Id" type="xs:int" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pCliente_Id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerificaClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="VerificaClienteResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

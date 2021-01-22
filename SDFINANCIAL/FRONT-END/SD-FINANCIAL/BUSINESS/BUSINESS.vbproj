@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D43A208B-8DE9-4054-B0EC-055112F29339}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BUSINESS</RootNamespace>
+    <AssemblyName>BUSINESS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BUSINESS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BUSINESS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClasses\TBaseClassManager.vb" />
+    <Compile Include="Forms\FrmEncriptador.Designer.vb">
+      <DependentUpon>FrmEncriptador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEncriptador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmListaResultados.Designer.vb">
+      <DependentUpon>FrmListaResultados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmListaResultados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMacAddress.Designer.vb">
+      <DependentUpon>FrmMacAddress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMacAddress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMensaje.Designer.vb">
+      <DependentUpon>FrmMensaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMensaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPermiso.Designer.vb">
+      <DependentUpon>FrmPermiso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPermiso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSolicitaNombreMaquina.Designer.vb">
+      <DependentUpon>FrmSolicitaNombreMaquina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSolicitaNombreMaquina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralClases\TLineaAsiento.vb" />
+    <Compile Include="Modules\Declaraciones.vb" />
+    <Compile Include="Modules\General.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TableClasses\TBcoPago.vb" />
+    <Compile Include="TableClasses\TBcoPagoCheque.vb" />
+    <Compile Include="TableClasses\TBcoPagoTransferencia.vb" />
+    <Compile Include="TableClasses\TBcoTipoPago.vb" />
+    <Compile Include="TableClasses\TCambioMoneda.vb" />
+    <Compile Include="TableClasses\TCambioMonedaTipo.vb" />
+    <Compile Include="TableClasses\TCuentaFlujoEfectivo.vb" />
+    <Compile Include="TableClasses\TCuentaTipoFlujoEfectivo.vb" />
+    <Compile Include="TableClasses\TCxCEntregaDocumentoDetalle.vb" />
+    <Compile Include="TableClasses\TCxCEntregaDocumentoEncabezado.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoLinea.vb" />
+    <Compile Include="TableClasses\TAsientoDetalle.vb" />
+    <Compile Include="TableClasses\TAsientoEncabezado.vb" />
+    <Compile Include="TableClasses\TAsientoEstado.vb" />
+    <Compile Include="TableClasses\TAsientoOrigen.vb" />
+    <Compile Include="TableClasses\TAsientoTipo.vb" />
+    <Compile Include="TableClasses\TAuxAsientoDetalle.vb" />
+    <Compile Include="TableClasses\TAuxAsientoEncabezado.vb" />
+    <Compile Include="TableClasses\TBanco.vb" />
+    <Compile Include="TableClasses\TCaja.vb" />
+    <Compile Include="TableClasses\TCajaCierreDetalle.vb" />
+    <Compile Include="TableClasses\TCajaCierreEncabezado.vb" />
+    <Compile Include="TableClasses\TCentroCosto.vb" />
+    <Compile Include="TableClasses\TCentroCostoTipo.vb" />
+    <Compile Include="TableClasses\TCierrePeriodo.vb" />
+    <Compile Include="TableClasses\TCliente.vb" />
+    <Compile Include="TableClasses\TCodigoPermisoBitacora.vb" />
+    <Compile Include="TableClasses\TCuenta.vb" />
+    <Compile Include="TableClasses\TCuentaTipo.vb" />
+    <Compile Include="TableClasses\TCuentaTipoClase.vb" />
+    <Compile Include="TableClasses\TCxCMovimiento.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoAplica.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoPago.vb" />
+    <Compile Include="TableClasses\TCxCMovimientoTipo.vb" />
+    <Compile Include="TableClasses\TCxPMovimiento.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoAplica.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoLinea.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoPago.vb" />
+    <Compile Include="TableClasses\TCxPMovimientoTipo.vb" />
+    <Compile Include="TableClasses\TCxPSolicitudPago.vb" />
+    <Compile Include="TableClasses\TEmpresa.vb" />
+    <Compile Include="TableClasses\TEmpresaCuenta.vb" />
+    <Compile Include="TableClasses\TEmpresaParametro.vb" />
+    <Compile Include="TableClasses\TGrupo.vb" />
+    <Compile Include="TableClasses\TGrupoMenu.vb" />
+    <Compile Include="TableClasses\TMaquinaConfiguracion.vb" />
+    <Compile Include="TableClasses\TMenu.vb" />
+    <Compile Include="TableClasses\TModulo.vb" />
+    <Compile Include="TableClasses\TPermiso.vb" />
+    <Compile Include="TableClasses\TPermisoBitacora.vb" />
+    <Compile Include="TableClasses\TProveedor.vb" />
+    <Compile Include="TableClasses\TProveedorCuenta.vb" />
+    <Compile Include="TableClasses\TTarjeta.vb" />
+    <Compile Include="TableClasses\TTipoCambio.vb" />
+    <Compile Include="TableClasses\TTipoIdentificacion.vb" />
+    <Compile Include="TableClasses\TTipoPago.vb" />
+    <Compile Include="TableClasses\TUsuario.vb" />
+    <Compile Include="TableClasses\TUsuarioCodigoPermiso.vb" />
+    <Compile Include="TableClasses\TUsuarioPermiso.vb" />
+    <Compile Include="TableClasses\TVendedor.vb" />
+    <Compile Include="Web References\SDFinancial\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TipoCamboBCCR\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FrmEncriptador.resx">
+      <DependentUpon>FrmEncriptador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmListaResultados.resx">
+      <DependentUpon>FrmListaResultados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMacAddress.resx">
+      <DependentUpon>FrmMacAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMensaje.resx">
+      <DependentUpon>FrmMensaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmPermiso.resx">
+      <DependentUpon>FrmPermiso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSolicitaNombreMaquina.resx">
+      <DependentUpon>FrmSolicitaNombreMaquina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\SDFinancial\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\SDFinancial\SDFinancial.wsdl" />
+    <None Include="Web References\SDFinancial\SDFinancial.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SDFinancial\SDFinancial0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SDFinancial\TResultado.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TipoCamboBCCR\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\TipoCamboBCCR\wsindicadoreseconomicos.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_Esc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:16284/SDFinancial.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SDFinancial\</RelPath>
+      <UpdateFromURL>http://localhost:16284/SDFinancial.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BUSINESS_SDFinancial_SDFinancial</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\TipoCamboBCCR\</RelPath>
+      <UpdateFromURL>https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BUSINESS_TipoCamboBCCR_wsindicadoreseconomicos</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\SDFinancial\SDFinancial.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\TipoCamboBCCR\wsindicadoreseconomicos.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

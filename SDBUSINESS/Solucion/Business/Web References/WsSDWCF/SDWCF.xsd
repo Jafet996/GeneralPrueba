@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ActualizaEstadoDocumentoElectronico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pDocumento" type="tns:DTActualizaDocumentoElectronico" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="DTActualizaDocumentoElectronico">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Emisor_Id" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Doc_Id" type="xs:long" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Clave" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Estado_Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ActualizaEstadoDocumentoElectronicoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ActualizaEstadoDocumentoElectronicoResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaCedula">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="pCedula" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaCedulaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ConsultaCedulaResult" type="tns:TPersona" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="TPersona">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Cedula" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Apellido1" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Apellido2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombreCompleto" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReenvioDocumentoElectronico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="pEmisor_Id" type="xs:int" />
+        <xs:element minOccurs="1" maxOccurs="1" name="pDoc_Id" type="xs:long" />
+        <xs:element minOccurs="0" maxOccurs="1" name="pEmail" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReenvioDocumentoElectronicoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ReenvioDocumentoElectronicoResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

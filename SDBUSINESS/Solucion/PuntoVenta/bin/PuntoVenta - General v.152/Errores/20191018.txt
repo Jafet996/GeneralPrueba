@@ -1,0 +1,5 @@
+[20191018 08:45][Error de aplicación] - Column 'ProformaCopiaGuardado' does not belong to table Table.
+[20191018 10:20][Error de aplicación] - Verifica Módulo : Object reference not set to an instance of an object.
+[20191018 15:02][Error de aplicación] - El artículo no está disponible para la venta
+[20191018 15:03][Error de aplicación] - El precio no  puede ser menor al costo
+[20191018 15:12][Error de aplicación] - Debe de ingresar el monto

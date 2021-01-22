@@ -1,0 +1,2 @@
+[20191017 10:47][Error de aplicación] - No se encontró definida una bodega de apartados
+[20191017 10:49][Error de aplicación] - Artículo inválido, no se encontraron datos

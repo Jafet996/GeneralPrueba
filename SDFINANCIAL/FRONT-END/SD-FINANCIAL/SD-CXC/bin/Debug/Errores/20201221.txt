@@ -1,0 +1,21 @@
+[20201221 15:47][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:47][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:54][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:55][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:55][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:55][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:55][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:56][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:56][Error de aplicación] - Parameter is not valid.
+[20201221 15:56][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:56][Error de aplicación] - Parameter is not valid.
+[20201221 15:56][Error de aplicación] - Unable to connect to the remote server
+[20201221 15:59][Error de aplicación] - Parameter is not valid.
+[20201221 16:00][Error de aplicación] - Parameter is not valid.
+[20201221 16:00][Error de aplicación] - Usuario no válido
+[20201221 16:03][Error de aplicación] - Parameter is not valid.
+[20201221 16:03][Error de aplicación] - Parameter is not valid.
+[20201221 16:05][Error de aplicación] - Parameter is not valid.
+[20201221 16:07][Error de aplicación] - Parameter is not valid.
+[20201221 16:08][Error de aplicación] - Parameter is not valid.
+[20201221 16:08][Error de aplicación] - Parameter is not valid.

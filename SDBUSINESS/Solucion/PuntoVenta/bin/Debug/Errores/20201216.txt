@@ -1,0 +1,82 @@
+[20201216 08:21][Error de aplicación] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[20201216 08:26][Error de aplicación] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[20201216 08:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000146100001620
+[20201216 08:32][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000147100001621
+[20201216 08:37][Error de aplicación] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[20201216 08:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000148100001622
+[20201216 08:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000149100001623
+[20201216 08:43][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000150100001624
+[20201216 08:44][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000151100001625
+[20201216 08:45][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000152100001626
+[20201216 08:55][Error de aplicación] - Unable to connect to the remote server
+[20201216 08:57][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201216 09:31][Error de aplicación] - Los datos del documento han sido guardados de manera correcta para su posterior Facturación
+[20201216 09:39][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201216 09:48][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201216 09:48][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201216 09:48][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201216 09:57][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201216 10:00][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201216 10:00][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201216 10:09][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo 3 está definido como gravado pero no tiene impuestos asignados, por favor verificar
+[20201216 11:29][Conexión] - El password es incorrecto
+[20201216 11:29][Conexión] - El password es incorrecto
+[20201216 11:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000153100001627
+[20201216 11:37][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000154100001628
+[20201216 11:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000155100001629
+[20201216 11:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000156100001630
+[20201216 11:51][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000157100001631
+[20201216 11:52][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000158100001632
+[20201216 11:53][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000159100001633
+[20201216 12:59][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000160100001634
+[20201216 13:03][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000161100001635
+[20201216 13:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000162100001636
+[20201216 13:09][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000163100001637
+[20201216 13:16][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201216 13:17][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000164100001638
+[20201216 13:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000165100001639
+[20201216 13:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000166100001640
+[20201216 13:25][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000167100001641
+[20201216 13:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000168100001642
+[20201216 13:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000169100001643
+[20201216 13:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000170100001644
+[20201216 13:37][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000171100001645
+[20201216 13:38][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000172100001646
+[20201216 13:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000173100001647
+[20201216 14:53][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000174100001648
+[20201216 15:00][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000175100001649
+[20201216 15:01][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000176100001650
+[20201216 15:18][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000177100001651
+[20201216 15:28][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000178100001652
+[20201216 15:29][Error de aplicación] - Debe de seleccionar una línea
+[20201216 15:29][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000179100001653
+[20201216 15:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000180100001654
+[20201216 15:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000181100001655
+[20201216 15:52][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000182100001656
+[20201216 16:02][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000183100001657
+[20201216 16:03][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000184100001658
+[20201216 16:07][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000185100001659
+[20201216 16:10][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000186100001660
+[20201216 16:20][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000187100001661
+[20201216 16:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000188100001662
+[20201216 16:36][Error de aplicación] - Debe de seleccionar una línea
+[20201216 16:36][Error de aplicación] - Debe de seleccionar una línea
+[20201216 16:38][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000189100001663
+[20201216 16:53][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000190100001664
+[20201216 16:53][Error de aplicación] - Imposible guardar el documento, al menos tiene que ingresar un producto
+[20201216 16:54][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000191100001665
+[20201216 16:55][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000192100001666
+[20201216 16:57][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000193100001667
+[20201216 16:59][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000194100001668
+[20201216 17:02][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000195100001669
+[20201216 17:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000196100001670
+[20201216 17:07][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000197100001671
+[20201216 17:15][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000198100001672
+[20201216 17:17][Error de aplicación] - Debe de seleccionar una línea
+[20201216 17:17][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000199100001673
+[20201216 17:19][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000200100001674
+[20201216 17:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000201100001675
+[20201216 17:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000202100001676
+[20201216 17:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000203100001677
+[20201216 17:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50616122000310173467500100251040000000204100001678
+[20201216 17:35][Error de aplicación] - Los datos del documento han sido guardados de manera correcta para su posterior Facturación

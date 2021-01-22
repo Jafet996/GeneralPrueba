@@ -1,0 +1,11 @@
+[20200228 08:59][Error de aplicación] - No se encontro el detalle del documento
+[20200228 09:10][Error de aplicación] - El tipo de documento seleccionado corresponde a un Acuse de Recibido, imposible cargar
+[20200228 09:11][Error de aplicación] - Debe de seleccionar al menos una línea
+[20200228 09:52][Error de aplicación] - The handshake failed due to an unexpected packet format.
+[20200228 11:38][Error de aplicación] - Para asociar un producto primero debe de crear el proveedor
+[20200228 11:38][Error de aplicación] - Debe de seleccionar un valor
+[20200228 11:38][Error de aplicación] - Debe de seleccionar un valor
+[20200228 11:39][Error de aplicación] - Debe de seleccionar una categoría
+[20200228 11:40][Error de aplicación] - Debe de seleccionar un departamento
+[20200228 11:41][Error de aplicación] - El porcentaje de utilidad debe de ser mayor a cero
+[20200228 11:41][Error de aplicación] - El porcentaje de utilidad debe de ser mayor a cero

@@ -1,0 +1,5 @@
+[20200421 13:34][Error de aplicación] - Column 'PermiteFacturacionBajoCosto' does not belong to table Table.
+[20200421 13:37][Error de aplicación] - El tipo de documento no es valido para realizar una devolución
+[20200421 13:39][Error de aplicación] - Debe de seleccionar que hacer el con el saldo a favor del cliente
+[20200421 13:39][Error de aplicación] - Debe de seleccionar que hacer el con el saldo a favor del cliente
+[20200421 13:41][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado

@@ -1,0 +1,10 @@
+[20200717 10:45][Error de aplicación] - El código de artículo no existe
+[20200717 11:30][Conexión] - Debe de seleccionar un Password
+[20200717 11:31][Error de aplicación] - Index was outside the bounds of the array.
+[20200717 11:33][Error de aplicación] - Index was outside the bounds of the array.
+[20200717 11:38][Error de aplicación] - Index was outside the bounds of the array.
+[20200717 11:39][Error de aplicación] - El password es incorrecto
+[20200717 14:31][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200717 14:32][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200717 14:32][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20200717 14:33][Error de aplicación] - No se encontraron datos para mostrar el reporte

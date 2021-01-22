@@ -1,0 +1,142 @@
+[20201215 08:18][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 08:28][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:29][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:29][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:29][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:30][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:30][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:30][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
+[20201215 08:41][Error de aplicación] - Conversion from string "System.Windows.Forms.ListView+Se" to type 'Double' is not valid.
+[20201215 08:53][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 09:00][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
+Parameter name: index
+[20201215 09:00][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
+Parameter name: index
+[20201215 09:02][Error de aplicación] - Los datos del documento han sido guardados de manera correcta para su posterior Facturación
+[20201215 09:03][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 09:09][Error de aplicación] - Conversion from string "Tarjeta" to type 'Boolean' is not valid.
+[20201215 09:10][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 10:07][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 10:09][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000075100001544
+[20201215 10:12][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000076100001545
+[20201215 10:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000077100001546
+[20201215 10:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000078100001547
+[20201215 10:37][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000079100001548
+[20201215 10:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000080100001549
+[20201215 10:45][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000081100001550
+[20201215 10:54][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000082100001551
+[20201215 10:55][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000083100001552
+[20201215 11:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000084100001553
+[20201215 11:34][Error de aplicación] - Violation of PRIMARY KEY constraint  PK_FacturaEncabezado_1 . Cannot insert duplicate key in object  dbo.FacturaEncabezado . The duplicate key value is (1, 1, 251, 1, 78).
+The statement has been terminated.
+[20201215 11:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000085100001554
+[20201215 11:41][Error de aplicación] - Violation of PRIMARY KEY constraint  PK_FacturaDetalle . Cannot insert duplicate key in object  dbo.FacturaDetalle . The duplicate key value is (1, 1, 251, 1, 80, 1).
+[20201215 11:48][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 11:51][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000086100001555
+[20201215 11:51][Error de aplicación] - Debe de seleccionar una línea
+[20201215 11:51][Error de aplicación] - Debe de seleccionar una línea
+[20201215 11:51][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000087100001556
+[20201215 11:56][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000088100001557
+[20201215 12:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000089100001558
+[20201215 12:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000090100001559
+[20201215 12:25][Error de aplicación] - No se puede crear una Nota de Crédito sin una referencia
+[20201215 12:25][Error de aplicación] - El cliente supera el límite de crédito
+[20201215 12:25][Error de aplicación] - No se puede guardar el documento
+[20201215 13:25][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 13:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000091100001561
+[20201215 13:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000092100001562
+[20201215 13:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000093100001563
+[20201215 13:36][Error de aplicación] - Debe de seleccionar una línea
+[20201215 13:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000094100001564
+[20201215 13:43][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000095100001565
+[20201215 14:04][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 14:17][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000096100001566
+[20201215 14:19][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000097100001567
+[20201215 14:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000098100001568
+[20201215 14:26][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000099100001569
+[20201215 14:28][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000100100001570
+[20201215 14:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000101100001571
+[20201215 14:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000102100001572
+[20201215 14:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251030000000014100001573
+[20201215 14:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000103100001574
+[20201215 14:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000104100001575
+[20201215 14:40][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 14:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000105100001576
+[20201215 14:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000106100001577
+[20201215 14:42][Error de aplicación] - No se puede facturar el artículo porque no posee código CABYS
+[20201215 14:42][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251030000000015100001578
+[20201215 14:43][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251030000000016100001579
+[20201215 14:49][Error de aplicación] - No se puede facturar el artículo porque no posee código CABYS
+[20201215 14:49][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000107100001580
+[20201215 14:49][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000108100001581
+[20201215 14:53][Error de aplicación] - Conversion from type 'DBNull' to type 'String' is not valid.
+[20201215 14:55][Error de aplicación] - Conversion from type 'DBNull' to type 'String' is not valid.
+[20201215 14:56][Error de aplicación] - Conversion from type 'DBNull' to type 'String' is not valid.
+[20201215 14:57][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251030000000017100001582
+[20201215 14:58][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000109100001583
+[20201215 15:11][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000110100001584
+[20201215 15:12][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:12][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:12][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:17][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 15:17][Error de aplicación] - No tiene permiso para Eliminar líneas
+[20201215 15:17][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:17][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201215 15:18][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo 4 está definido como gravado pero no tiene impuestos asignados, por favor verificar
+[20201215 15:18][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo 3 está definido como gravado pero no tiene impuestos asignados, por favor verificar
+[20201215 15:19][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:20][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:27][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:27][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:28][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201215 15:29][Error de aplicación] - No se puede facturar el artículo porque no posee código CABYS
+[20201215 15:31][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000111100001585
+[20201215 15:31][Error de aplicación] - El precio debe de ser mayor a cero
+[20201215 15:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000112100001586
+[20201215 15:34][Error de aplicación] - Debe de seleccionar una línea
+[20201215 15:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000113100001587
+[20201215 15:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000114100001588
+[20201215 15:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000115100001589
+[20201215 15:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000116100001590
+[20201215 15:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000117100001591
+[20201215 15:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000118100001592
+[20201215 15:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000119100001593
+[20201215 15:36][Error de aplicación] - No se asignó ningún código  al producto
+[20201215 15:51][Error de aplicación] - No se asignó ningún código  al producto
+[20201215 15:52][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000120100001594
+[20201215 16:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000121100001595
+[20201215 16:36][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 16:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000122100001596
+[20201215 16:58][Error de aplicación] - Conversion from string " - " to type 'Double' is not valid.
+[20201215 16:58][Error de aplicación] - Conversion from string " - " to type 'Double' is not valid.
+[20201215 16:58][Error de aplicación] - Conversion from string " - " to type 'Double' is not valid.
+[20201215 17:00][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000123100001597
+[20201215 17:03][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000124100001598
+[20201215 17:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000125100001599
+[20201215 17:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000126100001600
+[20201215 17:07][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000127100001601
+[20201215 17:08][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000128100001602
+[20201215 17:09][Error de aplicación] - El cliente tiene precio de mayoreo y no ha comprado en mas de 60 días.
+[20201215 17:09][Error de aplicación] - El cliente tiene precio de mayoreo y no ha comprado en mas de 60 días.
+[20201215 17:09][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000129100001603
+[20201215 17:10][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000130100001604
+[20201215 17:11][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000131100001605
+[20201215 17:11][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000132100001606
+[20201215 17:16][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000133100001607
+[20201215 17:19][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000134100001608
+[20201215 17:30][Error de aplicación] - Debe de seleccionar una línea
+[20201215 17:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000135100001609
+[20201215 17:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000136100001610
+[20201215 17:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000137100001611
+[20201215 17:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000138100001612
+[20201215 17:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000139100001613
+[20201215 17:42][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 17:42][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000140100001614
+[20201215 17:42][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000141100001615
+[20201215 17:43][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 17:43][Gurdando en FacturaElectronica] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201215 17:43][Error enviando documento electronico50615122000310173467500100251040000000142100001616] - ExecuteNonQuery requires an open and available Connection. The connection s current state is closed.
+[20201215 17:48][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000143100001617
+[20201215 17:49][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000144100001618
+[20201215 17:49][Gurdando en FacturaElectronica] - Almacenadp Doc 50615122000310173467500100251040000000145100001619

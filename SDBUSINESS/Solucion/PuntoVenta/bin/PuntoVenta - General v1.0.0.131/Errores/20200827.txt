@@ -1,0 +1,4 @@
+[20200827 15:51][Error de aplicación] - No se encontró el archivo de configuración
+[20200827 16:00][Error de aplicación] - No se encontró el archivo de configuración
+[20200827 16:00][Error de aplicación] - No se encontró el archivo de configuración
+[20200827 16:12][Error de aplicación] - No se encontró el archivo de configuración

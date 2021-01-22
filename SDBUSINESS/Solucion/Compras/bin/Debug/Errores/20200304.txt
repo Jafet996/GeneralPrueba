@@ -1,0 +1,16 @@
+[20200304 09:22][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200304 10:46][Error de aplicación] - El tipo de documento seleccionado corresponde a un Acuse de Recibido, imposible cargar
+[20200304 10:50][Error de aplicación] - Se presentaron errores creando cliente en CXP : Violation of PRIMARY KEY constraint  PK_Proveedor . Cannot insert duplicate key in object  dbo.Proveedor . The duplicate key value is (1, 48).
+The statement has been terminated.
+[20200304 10:51][Error de aplicación] - Debe de seleccionar al menos una línea
+[20200304 10:55][Error de aplicación] - El precio no puede ser menor al costo
+[20200304 11:01][Error de aplicación] - El tipo de documento seleccionado corresponde a un Acuse de Recibido, imposible cargar
+[20200304 11:36][Error de aplicación] - Se presentaron errores creando cliente en CXP : Violation of PRIMARY KEY constraint  PK_Proveedor . Cannot insert duplicate key in object  dbo.Proveedor . The duplicate key value is (1, 49).
+The statement has been terminated.
+[20200304 11:39][Error de aplicación] - Se presentaron errores creando cliente en CXP : Violation of PRIMARY KEY constraint  PK_Proveedor . Cannot insert duplicate key in object  dbo.Proveedor . The duplicate key value is (1, 50).
+The statement has been terminated.
+[20200304 11:42][Error de aplicación] - No se indicó ninguna factura
+[20200304 11:58][Error de aplicación] - Se presentaron errores creando cliente en CXP : Violation of PRIMARY KEY constraint  PK_Proveedor . Cannot insert duplicate key in object  dbo.Proveedor . The duplicate key value is (1, 51).
+The statement has been terminated.
+[20200304 11:58][Error de aplicación] - Debe de seleccionar al menos una línea
+[20200304 16:20][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)

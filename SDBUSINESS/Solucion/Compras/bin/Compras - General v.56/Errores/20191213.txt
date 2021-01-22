@@ -1,0 +1,1 @@
+[20191213 17:13][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.

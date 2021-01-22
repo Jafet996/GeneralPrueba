@@ -1,0 +1,6 @@
+[20200720 14:00][Error de aplicación] - Debe Seleccionar al menos un documento para asignar al vendedor
+[20200720 14:01][Error de aplicación] - La ventana de detalle se encuentra abierta
+[20200720 14:03][Error de aplicación] - La ventana de detalle se encuentra abierta
+[20200720 16:16][Error de aplicación] - No se encontró un vendedor con el código: 241
+[20200720 16:17][Error de aplicación] - No se encontró un vendedor con el código: 123
+[20200720 16:27][Error de aplicación] - El vendedor seleccionado se encuentra inactivo

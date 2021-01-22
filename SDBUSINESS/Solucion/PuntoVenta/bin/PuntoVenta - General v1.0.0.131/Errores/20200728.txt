@@ -1,0 +1,2 @@
+[20200728 09:07][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20200728 11:36][Error de aplicación] - No se encontraron datos para mostrar el reporte

@@ -1,0 +1,939 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PuntoVenta
+</name>
+</assembly>
+<members>
+<member name="T:PuntoVenta.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.add2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.address_book2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.arrow_left_blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_Esc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Blue_F9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.box_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.box_previous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.box_view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.box_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.branch_element">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.businessman">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.businessman_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.businessman_view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.cashier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.cashier1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.certificate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Claro">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Claro1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.COCO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.creditcards">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Customer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.CustomerService">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.document_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.document_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.document_exchange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.document_view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.ElectronicDocument">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Esc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F121">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.F9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.FacturaElectronica">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.FMovil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.folder_out">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.FullMovil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.gears">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Gmail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Hotmail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.house">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.houses">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Icloud">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.icono_dinero">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Inventory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Kolbi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Kolbi1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.LOGO_SB_CR_web_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.LOGO_SB_CR_web_011">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.mail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.mail_attachment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.money">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.money_envelope">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.money_envelope1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.money2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.moneybag_dollar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.moneybag_dollar1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Movistar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.note_pinned">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.notebook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Outlook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.pawn_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.printer2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.product">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.RedAlo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.server">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.server_client_exchange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.shoppingbasket_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.text">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Tigo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Total">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Total1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Total2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Total3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.TotalesFactura">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.TUYO2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.TuyoM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.UltimoArticulo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.user1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.user1_monitor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.user1_view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.users3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.users4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Visualpharm_Finance_Invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PuntoVenta.My.Resources.Resources.Yahoo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.CxCAbonoEncabezadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.EmpresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.ClienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.CxCAbonoDetalleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.CxCAbonoEncabezadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.EmpresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.ClienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.CxCAbonoDetalleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.CxCAbonoEncabezadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.EmpresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.ClienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosCxCAbono.CxCAbonoDetalleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ProformaDetalleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ClienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ProformaEncabezadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.EmpresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ProformaDetalleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ClienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ProformaEncabezadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.EmpresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ProformaDetalleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ClienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.ProformaEncabezadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosProforma.EmpresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.FacturaDetalleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.FacturaEncabezadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.ClienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.EmpresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.FacturaDetalleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.FacturaEncabezadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.ClienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.EmpresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.FacturaDetalleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.FacturaEncabezadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.ClienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DatosPuntoVenta.EmpresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.DSResportes">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PuntoVenta.DSResportes.ProformaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DSResportes.ProformaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PuntoVenta.DSResportes.ProformaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.AloIntegraLTI">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.#ctor">
+<remarks/>
+</member>
+<member name="E:PuntoVenta.TiempoAireWS.AloIntegraLTI.PingCompleted">
+<remarks/>
+</member>
+<member name="E:PuntoVenta.TiempoAireWS.AloIntegraLTI.ProcesoGeneralCompleted">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.Ping(PuntoVenta.TiempoAireWS.Ping)">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.PingAsync(PuntoVenta.TiempoAireWS.Ping)">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.PingAsync(PuntoVenta.TiempoAireWS.Ping,System.Object)">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.ProcesoGeneral(PuntoVenta.TiempoAireWS.ProcesoGeneral)">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.ProcesoGeneralAsync(PuntoVenta.TiempoAireWS.ProcesoGeneral)">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.ProcesoGeneralAsync(PuntoVenta.TiempoAireWS.ProcesoGeneral,System.Object)">
+<remarks/>
+</member>
+<member name="M:PuntoVenta.TiempoAireWS.AloIntegraLTI.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.Ping">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.tipoTransaccion">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Operacion">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Servicio">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Telefono">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Monto">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Vendedor">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Documento">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoTransaccion.Fecha">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.tipoSeguridad">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoSeguridad.Entidad">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoSeguridad.Usuario">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.tipoSeguridad.Clave">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.Pong">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.ProcesoGeneral">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.ProcesoGeneral.Seguridad">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.ProcesoGeneral.Transaccion">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.TransaccionOutput">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Operacion">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Servicio">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Telefono">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Monto">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Vendedor">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Documento">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Fecha">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.TransProveedor">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Recibo">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Serie">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Comision">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.Saldo">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.ErrorCodigo">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.ErrorDes">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.RecargaEstado">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.TransaccionOutput.RecargaDetalle">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.PingCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.PingCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.PingCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.ProcesoGeneralCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PuntoVenta.TiempoAireWS.ProcesoGeneralCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PuntoVenta.TiempoAireWS.ProcesoGeneralCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

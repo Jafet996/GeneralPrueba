@@ -1,0 +1,164 @@
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.exe.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.exe.manifest
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.application
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.exe
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.Shared.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\FlashControlV71.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\stdole.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\ShockwaveFlashObjects.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.dll.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbprojAssemblyReference.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmReporte.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptAsientosDeDiario.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptBalanceDeSituacion.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptBalanceDeComprobacion.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptCambiosPatrimonio.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptConsultaMovimientoCuenta.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptEstadoResultados.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptFlujoEfeectivo.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptSaldoxCuentas.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAcercaDe.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAsientoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAuxAsientoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaCentroCosto.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaTipoCambio.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmCierreProcesoAnnio.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmCierreProcesoMes.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantAsientoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAsientoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaCuentaContable.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaUsuario.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantAsientoTipoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCentroCostoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaFlujoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaHijaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaMayorDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantTipoCambio.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantAsientoTipoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCatalogoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmComentario.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmConexion.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMain.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoClaseDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantEmpresaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantGrupoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantUsuarioDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCentroCostoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoClaseLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantEmpresaLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantGrupoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.Resources.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.TrustInfo.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.exe.manifest
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.application
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.exe
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.exe.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.exe.manifest
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.application
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\SD-CONTABILIDAD.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\bin\Debug\BUSINESS.dll.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmReporte.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptAsientosDeDiario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptBalanceDeSituacion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptBalanceDeComprobacion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptCambiosPatrimonio.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptConsultaMovimientoCuenta.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptEstadoResultados.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptFlujoEfeectivo.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmRptSaldoxCuentas.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAcercaDe.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAsientoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAuxAsientoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaCentroCosto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaTipoCambio.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmCierreProcesoAnnio.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmCierreProcesoMes.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantAsientoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmAsientoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaCuentaContable.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantAsientoTipoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCentroCostoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaFlujoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaHijaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaMayorDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantTipoCambio.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantAsientoTipoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCatalogoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmComentario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmConexion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMain.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoClaseDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantEmpresaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCentroCostoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoClaseLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantEmpresaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.FrmMantCuentaTipoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SDCONTABILIDAD.Resources.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.TrustInfo.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.exe.manifest
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.application
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\CONTABILIDAD.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-CONTABILIDAD\obj\Debug\SD-CONTABILIDAD.pdb

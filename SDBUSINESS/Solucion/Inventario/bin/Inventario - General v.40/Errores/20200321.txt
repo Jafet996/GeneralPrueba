@@ -1,0 +1,5 @@
+[20200321 12:13][Error de aplicación] - Debe de ingresar un valor
+[20200321 14:24][Error de aplicación] - Debe de digitar un código
+[20200321 14:24][Error de aplicación] - Debe de digitar un código
+[20200321 14:56][Error de aplicación] - Debe de selecciona un UPC
+[20200321 15:31][Error de aplicación] - El password es incorrecto

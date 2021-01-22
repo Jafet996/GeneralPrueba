@@ -1,0 +1,28 @@
+[20210121 08:26][Error de aplicación] - El valor no puede ser mayor a -1
+[20210121 08:26][Error de aplicación] - The DELETE statement conflicted with the REFERENCE constraint "FK_TrasladoDetalleLote_TrasladoDetalle". The conflict occurred in database "SDG-DMO", table "dbo.TrasladoDetalleLote".
+The statement has been terminated.
+[20210121 08:31][Error de aplicación] - The DELETE statement conflicted with the REFERENCE constraint "FK_TrasladoDetalleLote_TrasladoDetalle". The conflict occurred in database "SDG-DMO", table "dbo.TrasladoDetalleLote".
+The statement has been terminated.
+[20210121 08:31][Error de aplicación] - The DELETE statement conflicted with the REFERENCE constraint "FK_TrasladoDetalleLote_TrasladoDetalle". The conflict occurred in database "SDG-DMO", table "dbo.TrasladoDetalleLote".
+The statement has been terminated.
+[20210121 08:35][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:36][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:37][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 08:39][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:39][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 08:40][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:41][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:41][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 08:42][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:53][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 08:54][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 08:54][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 09:15][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 09:16][Error de aplicación] - Debe de seleccionar un valor
+[20210121 09:16][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 09:16][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 09:17][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 09:17][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 09:18][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210121 09:21][Error de aplicación] - La bodega origen y destino no pueden ser iguales
+[20210121 10:10][Error de aplicación] - No existe información de lotes

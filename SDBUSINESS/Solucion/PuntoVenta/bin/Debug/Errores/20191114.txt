@@ -1,0 +1,1 @@
+[20191114 16:49][Error de aplicación] - Debe Seleccionar todo el historial o un rango de fechas

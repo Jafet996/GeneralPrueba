@@ -1,0 +1,14 @@
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\bin\Release\Business.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\bin\Release\Business.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\bin\Release\Business.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\bin\Release\Connection.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\bin\Release\Connection.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\bin\Release\Connection.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.vbprojAssemblyReference.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.Resources.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\BACK-END\Business\obj\Release\Business.pdb

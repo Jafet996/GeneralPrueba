@@ -1,0 +1,1 @@
+[20191002 14:22][Error de aplicación] - Si el cliente es un extranjero únicamente puede generar Tiquete Electrónico

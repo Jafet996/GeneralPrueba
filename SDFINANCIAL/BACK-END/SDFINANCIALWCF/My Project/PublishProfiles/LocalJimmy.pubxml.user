@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\SD-BACKEND</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Business.dll">
+      <publishTime>07/19/2020 18:05:55</publishTime>
+    </File>
+    <File Include="bin/Business.pdb">
+      <publishTime>07/19/2020 18:05:55</publishTime>
+    </File>
+    <File Include="bin/Connection.dll">
+      <publishTime>07/19/2020 18:05:55</publishTime>
+    </File>
+    <File Include="bin/Connection.pdb">
+      <publishTime>07/19/2020 18:05:55</publishTime>
+    </File>
+    <File Include="bin/SDFINANCIALWCF.dll">
+      <publishTime>07/19/2020 18:06:30</publishTime>
+    </File>
+    <File Include="bin/SDFINANCIALWCF.pdb">
+      <publishTime>07/19/2020 18:06:30</publishTime>
+    </File>
+    <File Include="bin/SDFINANCIALWCF.xml">
+      <publishTime>07/19/2020 18:06:30</publishTime>
+    </File>
+    <File Include="SDFinancial.svc">
+      <publishTime>09/24/2019 10:07:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/19/2020 18:05:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

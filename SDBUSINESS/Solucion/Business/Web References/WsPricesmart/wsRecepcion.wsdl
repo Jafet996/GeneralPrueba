@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ValidarDocumentoElectronico_SinReceptor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cContrasena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuesta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalDocumentoRecibido" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cTipoMensaje" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDocumentoElectronico_SinReceptorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuesta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalDocumentoRecibido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDocumentoElectronico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cContrasena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuesta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalDocumentoRecibido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cTipoIdReceptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cIdReceptor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cTipoMensaje" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDocumentoElectronicoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuesta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalDocumentoRecibido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecibirAcuseEmisor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cContrasena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuesta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoFiscal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cTipoIdReceptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cIdReceptor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecibirAcuseEmisorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuesta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoFiscal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscal" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerAcuseRecepcion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalCR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuestaXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cDetalleMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cTipoIdReceptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cIdReceptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoAcuseRecepcion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoDocumentoRecibido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cFechaHora" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cCorreoElectronicoEmisor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cForzarMensaje" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerAcuseRecepcionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalCR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuestaXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cDetalleMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoAcuseRecepcion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoDocumentoRecibido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cFechaHora" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cCorreoElectronicoEmisor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VistaPreviaAcuseRecepcion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalCR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuestaXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cDetalleMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cTipoIdReceptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cIdReceptor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoAcuseRecepcion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoDocumentoRecibido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cFechaHora" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cCorreoElectronicoEmisor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VistaPreviaAcuseRecepcionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalCR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cRespuestaXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cDetalleMensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoAcuseRecepcion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cConsecutivoDocumentoRecibido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cFechaHora" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cCorreoElectronicoEmisor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cError" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="cMensaje" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDocumentoElectronico_RespuestaXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cContrasena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDocumentoElectronico_RespuestaXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidarDocumentoElectronico_RespuestaXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerAcuseRecepcion_RespuestaXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cContrasena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cClaveFiscalCR" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerAcuseRecepcion_RespuestaXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerAcuseRecepcion_RespuestaXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidarDocumentoElectronico_SinReceptorSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarDocumentoElectronico_SinReceptor" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDocumentoElectronico_SinReceptorSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarDocumentoElectronico_SinReceptorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDocumentoElectronicoSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarDocumentoElectronico" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDocumentoElectronicoSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarDocumentoElectronicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecibirAcuseEmisorSoapIn">
+    <wsdl:part name="parameters" element="tns:RecibirAcuseEmisor" />
+  </wsdl:message>
+  <wsdl:message name="RecibirAcuseEmisorSoapOut">
+    <wsdl:part name="parameters" element="tns:RecibirAcuseEmisorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerAcuseRecepcionSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerAcuseRecepcion" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerAcuseRecepcionSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerAcuseRecepcionResponse" />
+  </wsdl:message>
+  <wsdl:message name="VistaPreviaAcuseRecepcionSoapIn">
+    <wsdl:part name="parameters" element="tns:VistaPreviaAcuseRecepcion" />
+  </wsdl:message>
+  <wsdl:message name="VistaPreviaAcuseRecepcionSoapOut">
+    <wsdl:part name="parameters" element="tns:VistaPreviaAcuseRecepcionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDocumentoElectronico_RespuestaXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarDocumentoElectronico_RespuestaXML" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDocumentoElectronico_RespuestaXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarDocumentoElectronico_RespuestaXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerAcuseRecepcion_RespuestaXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerAcuseRecepcion_RespuestaXML" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerAcuseRecepcion_RespuestaXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerAcuseRecepcion_RespuestaXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:getVersion" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:getVersionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsRecepcionSoap">
+    <wsdl:operation name="ValidarDocumentoElectronico_SinReceptor">
+      <wsdl:input message="tns:ValidarDocumentoElectronico_SinReceptorSoapIn" />
+      <wsdl:output message="tns:ValidarDocumentoElectronico_SinReceptorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDocumentoElectronico">
+      <wsdl:input message="tns:ValidarDocumentoElectronicoSoapIn" />
+      <wsdl:output message="tns:ValidarDocumentoElectronicoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecibirAcuseEmisor">
+      <wsdl:input message="tns:RecibirAcuseEmisorSoapIn" />
+      <wsdl:output message="tns:RecibirAcuseEmisorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAcuseRecepcion">
+      <wsdl:input message="tns:ObtenerAcuseRecepcionSoapIn" />
+      <wsdl:output message="tns:ObtenerAcuseRecepcionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VistaPreviaAcuseRecepcion">
+      <wsdl:input message="tns:VistaPreviaAcuseRecepcionSoapIn" />
+      <wsdl:output message="tns:VistaPreviaAcuseRecepcionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDocumentoElectronico_RespuestaXML">
+      <wsdl:input message="tns:ValidarDocumentoElectronico_RespuestaXMLSoapIn" />
+      <wsdl:output message="tns:ValidarDocumentoElectronico_RespuestaXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAcuseRecepcion_RespuestaXML">
+      <wsdl:input message="tns:ObtenerAcuseRecepcion_RespuestaXMLSoapIn" />
+      <wsdl:output message="tns:ObtenerAcuseRecepcion_RespuestaXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <wsdl:input message="tns:getVersionSoapIn" />
+      <wsdl:output message="tns:getVersionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsRecepcionSoap" type="tns:wsRecepcionSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidarDocumentoElectronico_SinReceptor">
+      <soap:operation soapAction="http://tempuri.org/ValidarDocumentoElectronico_SinReceptor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDocumentoElectronico">
+      <soap:operation soapAction="http://tempuri.org/ValidarDocumentoElectronico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirAcuseEmisor">
+      <soap:operation soapAction="http://tempuri.org/RecibirAcuseEmisor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAcuseRecepcion">
+      <soap:operation soapAction="http://tempuri.org/ObtenerAcuseRecepcion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VistaPreviaAcuseRecepcion">
+      <soap:operation soapAction="http://tempuri.org/VistaPreviaAcuseRecepcion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDocumentoElectronico_RespuestaXML">
+      <soap:operation soapAction="http://tempuri.org/ValidarDocumentoElectronico_RespuestaXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAcuseRecepcion_RespuestaXML">
+      <soap:operation soapAction="http://tempuri.org/ObtenerAcuseRecepcion_RespuestaXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsRecepcionSoap12" type="tns:wsRecepcionSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidarDocumentoElectronico_SinReceptor">
+      <soap12:operation soapAction="http://tempuri.org/ValidarDocumentoElectronico_SinReceptor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDocumentoElectronico">
+      <soap12:operation soapAction="http://tempuri.org/ValidarDocumentoElectronico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirAcuseEmisor">
+      <soap12:operation soapAction="http://tempuri.org/RecibirAcuseEmisor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAcuseRecepcion">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerAcuseRecepcion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VistaPreviaAcuseRecepcion">
+      <soap12:operation soapAction="http://tempuri.org/VistaPreviaAcuseRecepcion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDocumentoElectronico_RespuestaXML">
+      <soap12:operation soapAction="http://tempuri.org/ValidarDocumentoElectronico_RespuestaXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAcuseRecepcion_RespuestaXML">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerAcuseRecepcion_RespuestaXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap12:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsRecepcion">
+    <wsdl:port name="wsRecepcionSoap" binding="tns:wsRecepcionSoap">
+      <soap:address location="http://pricesmarttest.avdcloud.com/WSRecepcion-Pricesmart/wsRecepcion.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsRecepcionSoap12" binding="tns:wsRecepcionSoap12">
+      <soap12:address location="http://pricesmarttest.avdcloud.com/WSRecepcion-Pricesmart/wsRecepcion.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

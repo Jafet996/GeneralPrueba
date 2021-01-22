@@ -1,0 +1,54 @@
+[20191217 09:57][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 09:57][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 10:02][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135010000000268100001307
+[20191217 10:26][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135030000000124100001308
+[20191217 10:28][Error de aplicación] - Código de cliente no válido
+[20191217 10:48][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 10:48][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 10:50][Error de aplicación] - Debe de seleccionar el tipo de devolución
+[20191217 10:50][Error de aplicación] - Debe de seleccionar el tipo de devolución
+[20191217 10:55][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 10:55][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 11:04][Error de aplicación] - Debe de digitar un valor válido
+[20191217 11:04][Error de aplicación] - Debe de ingresar un cliente válido
+[20191217 11:16][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 11:16][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 11:17][Error de aplicación] - Cannot insert the value NULL into column  ChequeNumero , table  SDG-IVA.dbo.FacturaPago ; column does not allow nulls. INSERT fails.
+[20191217 11:17][Error de aplicación] - Cannot insert the value NULL into column  Fecha , table  SDG-IVA.dbo.FacturaPago ; column does not allow nulls. INSERT fails.
+[20191217 11:19][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135030000000126100001311
+[20191217 11:25][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135030000000127100001312
+[20191217 11:37][Error de aplicación] - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_FacturaPago_FacturaEncabezado". The conflict occurred in database "SDG-IVA", table "dbo.FacturaEncabezado".
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+[20191217 12:49][Error de aplicación] - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_FacturaPago_FacturaEncabezado". The conflict occurred in database "SDG-IVA", table "dbo.FacturaEncabezado".
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+[20191217 13:23][Error de aplicación] - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_FacturaPago_FacturaEncabezado". The conflict occurred in database "SDG-IVA", table "dbo.FacturaEncabezado".
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+[20191217 13:27][Error de aplicación] - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_FacturaPago_FacturaEncabezado". The conflict occurred in database "SDG-IVA", table "dbo.FacturaEncabezado".
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+[20191217 13:32][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 13:32][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 13:33][Error de aplicación] - No se puede crear una Nota de Crédito sin una referencia
+[20191217 13:33][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20191217 13:33][Error de aplicación] - El tipo de documento no está permitido para el cliente seleccionado
+[20191217 13:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135010000000270100001314
+[20191217 13:34][Error de aplicación] - Debe de seleccionar únicamente la línea que desea eliminar
+[20191217 13:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135030000000129100001315
+[20191217 13:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50617121900310173467500100135030000000130100001316
+[20191217 14:37][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 14:37][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 14:37][Error de aplicación] - No se encontraron datos para mostrar el reporte
+[20191217 14:56][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 14:56][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 14:57][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20191217 14:59][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 14:59][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:13][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:13][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:16][Error de aplicación] - Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
+[20191217 15:18][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:18][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:28][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:28][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:28][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20191217 15:42][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
+[20191217 15:42][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.

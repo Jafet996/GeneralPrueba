@@ -1,0 +1,7 @@
+[20200609 10:18][Error de aplicación] - El password es incorrecto
+[20200609 10:54][Error de aplicación] - El password es incorrecto
+[20200609 10:54][Error de aplicación] - Could not find stored procedure  RptConsultaInformacionProveedor .
+[20200609 12:24][Error de aplicación] - El password es incorrecto
+[20200609 12:28][Error de aplicación] - El password es incorrecto
+[20200609 12:28][Error de aplicación] - El password es incorrecto
+[20200609 13:54][Error de aplicación] - No se encontró un proveedor con el código: 72

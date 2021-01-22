@@ -1,0 +1,4071 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BUSINESS
+</name>
+</assembly>
+<members>
+<member name="T:BUSINESS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BUSINESS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BUSINESS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BUSINESS.My.Resources.Resources.Blue_Esc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BUSINESS.My.Resources.Resources.key1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:BUSINESS.SDFinancial.SDFinancial">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.#ctor">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AsientoDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AsientoEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AsientoEstadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AsientoOrigenMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AsientoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AuxAsientoDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.AuxAsientoEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.BancoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.BcoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.BcoPagoChequeMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.BcoPagoTransferenciaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.BcoTipoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CajaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CajaCierreDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CajaCierreEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CambioMonedaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CambioMonedaTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CentroCostoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CentroCostoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ClienteMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ClienteMovimientosCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CodigoPermisoBitacoraMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ConvierteNumeroLetrasCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CuentaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CuentaFlujoEfectivoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CuentaTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CuentaTipoClaseMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CuentaTipoFlujoEfectivoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoAplicaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoAplicaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxPSolicitudPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.EmpresaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.EmpresaCuentaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.EmpresaParametroMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ExecuteQueryCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.GrupoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.GrupoMenuMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.GetIpCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.MaquinaConfiguracionMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.MenuMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ModuloMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.PermisoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.PermisoBitacoraMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ProveedorMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.ProveedorCuentaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.SelectQueryCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.TipoIdentificacionMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.TarjetaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.TipoCambioMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.TipoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.UsuarioMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.UsuarioCodigoPermisoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.UsuarioPermisoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.VerificaClienteCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.VerificaProveedorCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.SDFinancial.VendedorMantCompleted">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoDetalleMant(BUSINESS.SDFinancial.DTAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoEncabezadoMant(BUSINESS.SDFinancial.DTAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoEstadoMant(BUSINESS.SDFinancial.DTAsientoEstado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoEstadoMantAsync(BUSINESS.SDFinancial.DTAsientoEstado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoEstadoMantAsync(BUSINESS.SDFinancial.DTAsientoEstado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoOrigenMant(BUSINESS.SDFinancial.DTAsientoOrigen,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoOrigenMantAsync(BUSINESS.SDFinancial.DTAsientoOrigen,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoOrigenMantAsync(BUSINESS.SDFinancial.DTAsientoOrigen,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoTipoMant(BUSINESS.SDFinancial.DTAsientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoTipoMantAsync(BUSINESS.SDFinancial.DTAsientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AsientoTipoMantAsync(BUSINESS.SDFinancial.DTAsientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AuxAsientoDetalleMant(BUSINESS.SDFinancial.DTAuxAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AuxAsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAuxAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AuxAsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAuxAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AuxAsientoEncabezadoMant(BUSINESS.SDFinancial.DTAuxAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AuxAsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAuxAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.AuxAsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAuxAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BancoMant(BUSINESS.SDFinancial.DTBanco,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BancoMantAsync(BUSINESS.SDFinancial.DTBanco,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BancoMantAsync(BUSINESS.SDFinancial.DTBanco,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoMant(BUSINESS.SDFinancial.DTBcoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoMantAsync(BUSINESS.SDFinancial.DTBcoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoMantAsync(BUSINESS.SDFinancial.DTBcoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoChequeMant(BUSINESS.SDFinancial.DTBcoPagoCheque,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoChequeMantAsync(BUSINESS.SDFinancial.DTBcoPagoCheque,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoChequeMantAsync(BUSINESS.SDFinancial.DTBcoPagoCheque,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoTransferenciaMant(BUSINESS.SDFinancial.DTBcoPagoTransferencia,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoTransferenciaMantAsync(BUSINESS.SDFinancial.DTBcoPagoTransferencia,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoPagoTransferenciaMantAsync(BUSINESS.SDFinancial.DTBcoPagoTransferencia,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoTipoPagoMant(BUSINESS.SDFinancial.DTBcoTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoTipoPagoMantAsync(BUSINESS.SDFinancial.DTBcoTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.BcoTipoPagoMantAsync(BUSINESS.SDFinancial.DTBcoTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaMant(BUSINESS.SDFinancial.DTCaja,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaMantAsync(BUSINESS.SDFinancial.DTCaja,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaMantAsync(BUSINESS.SDFinancial.DTCaja,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaCierreDetalleMant(BUSINESS.SDFinancial.DTCajaCierreDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaCierreDetalleMantAsync(BUSINESS.SDFinancial.DTCajaCierreDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaCierreDetalleMantAsync(BUSINESS.SDFinancial.DTCajaCierreDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaCierreEncabezadoMant(BUSINESS.SDFinancial.DTCajaCierreEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaCierreEncabezadoMantAsync(BUSINESS.SDFinancial.DTCajaCierreEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CajaCierreEncabezadoMantAsync(BUSINESS.SDFinancial.DTCajaCierreEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CambioMonedaMant(BUSINESS.SDFinancial.DTCambioMoneda,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CambioMonedaMantAsync(BUSINESS.SDFinancial.DTCambioMoneda,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CambioMonedaMantAsync(BUSINESS.SDFinancial.DTCambioMoneda,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CambioMonedaTipoMant(BUSINESS.SDFinancial.DTCambioMonedaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CambioMonedaTipoMantAsync(BUSINESS.SDFinancial.DTCambioMonedaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CambioMonedaTipoMantAsync(BUSINESS.SDFinancial.DTCambioMonedaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CentroCostoMant(BUSINESS.SDFinancial.DTCentroCosto,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CentroCostoMantAsync(BUSINESS.SDFinancial.DTCentroCosto,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CentroCostoMantAsync(BUSINESS.SDFinancial.DTCentroCosto,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CentroCostoTipoMant(BUSINESS.SDFinancial.DTCentroCostoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CentroCostoTipoMantAsync(BUSINESS.SDFinancial.DTCentroCostoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CentroCostoTipoMantAsync(BUSINESS.SDFinancial.DTCentroCostoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ClienteMant(BUSINESS.SDFinancial.DTCliente,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ClienteMantAsync(BUSINESS.SDFinancial.DTCliente,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ClienteMantAsync(BUSINESS.SDFinancial.DTCliente,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ClienteMovimientos(BUSINESS.SDFinancial.DTCliente,System.DateTime,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ClienteMovimientosAsync(BUSINESS.SDFinancial.DTCliente,System.DateTime,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ClienteMovimientosAsync(BUSINESS.SDFinancial.DTCliente,System.DateTime,System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CodigoPermisoBitacoraMant(BUSINESS.SDFinancial.DTCodigoPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CodigoPermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTCodigoPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CodigoPermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTCodigoPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ConvierteNumeroLetras(System.Double)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ConvierteNumeroLetrasAsync(System.Double)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ConvierteNumeroLetrasAsync(System.Double,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaMant(BUSINESS.SDFinancial.DTCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaMantAsync(BUSINESS.SDFinancial.DTCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaMantAsync(BUSINESS.SDFinancial.DTCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaFlujoEfectivoMant(BUSINESS.SDFinancial.DTCuentaFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoMant(BUSINESS.SDFinancial.DTCuentaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoMantAsync(BUSINESS.SDFinancial.DTCuentaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoMantAsync(BUSINESS.SDFinancial.DTCuentaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoClaseMant(BUSINESS.SDFinancial.DTCuentaTipoClase,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoClaseMantAsync(BUSINESS.SDFinancial.DTCuentaTipoClase,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoClaseMantAsync(BUSINESS.SDFinancial.DTCuentaTipoClase,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoFlujoEfectivoMant(BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CuentaTipoFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoMant(BUSINESS.SDFinancial.DTCxCMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoMantAsync(BUSINESS.SDFinancial.DTCxCMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoMantAsync(BUSINESS.SDFinancial.DTCxCMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoAplicaMant(BUSINESS.SDFinancial.DTCxCMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoPagoMant(BUSINESS.SDFinancial.DTCxCMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoTipoMant(BUSINESS.SDFinancial.DTCxCMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoMant(BUSINESS.SDFinancial.DTCxPMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoMantAsync(BUSINESS.SDFinancial.DTCxPMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoMantAsync(BUSINESS.SDFinancial.DTCxPMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoAplicaMant(BUSINESS.SDFinancial.DTCxPMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoPagoMant(BUSINESS.SDFinancial.DTCxPMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoTipoMant(BUSINESS.SDFinancial.DTCxPMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPSolicitudPagoMant(BUSINESS.SDFinancial.DTCxPSolicitudPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPSolicitudPagoMantAsync(BUSINESS.SDFinancial.DTCxPSolicitudPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxPSolicitudPagoMantAsync(BUSINESS.SDFinancial.DTCxPSolicitudPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoEncabezadoMant(BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoEncabezadoMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoEncabezadoMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoDetalleMant(BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoDetalleMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CxCEntregaDocumentoDetalleMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaMant(BUSINESS.SDFinancial.DTEmpresa,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaMantAsync(BUSINESS.SDFinancial.DTEmpresa,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaMantAsync(BUSINESS.SDFinancial.DTEmpresa,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaCuentaMant(BUSINESS.SDFinancial.DTEmpresaCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaCuentaMantAsync(BUSINESS.SDFinancial.DTEmpresaCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaCuentaMantAsync(BUSINESS.SDFinancial.DTEmpresaCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaParametroMant(BUSINESS.SDFinancial.DTEmpresaParametro,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaParametroMantAsync(BUSINESS.SDFinancial.DTEmpresaParametro,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.EmpresaParametroMantAsync(BUSINESS.SDFinancial.DTEmpresaParametro,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ExecuteQuery(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ExecuteQueryAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ExecuteQueryAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GrupoMant(BUSINESS.SDFinancial.DTGrupo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GrupoMantAsync(BUSINESS.SDFinancial.DTGrupo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GrupoMantAsync(BUSINESS.SDFinancial.DTGrupo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GrupoMenuMant(BUSINESS.SDFinancial.DTGrupoMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GrupoMenuMantAsync(BUSINESS.SDFinancial.DTGrupoMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GrupoMenuMantAsync(BUSINESS.SDFinancial.DTGrupoMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GetIp(System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GetIpAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.GetIpAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.MaquinaConfiguracionMant(BUSINESS.SDFinancial.DTMaquinaConfiguracion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.MaquinaConfiguracionMantAsync(BUSINESS.SDFinancial.DTMaquinaConfiguracion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.MaquinaConfiguracionMantAsync(BUSINESS.SDFinancial.DTMaquinaConfiguracion,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.MenuMant(BUSINESS.SDFinancial.DTMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.MenuMantAsync(BUSINESS.SDFinancial.DTMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.MenuMantAsync(BUSINESS.SDFinancial.DTMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ModuloMant(BUSINESS.SDFinancial.DTModulo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ModuloMantAsync(BUSINESS.SDFinancial.DTModulo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ModuloMantAsync(BUSINESS.SDFinancial.DTModulo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.PermisoMant(BUSINESS.SDFinancial.DTPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.PermisoMantAsync(BUSINESS.SDFinancial.DTPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.PermisoMantAsync(BUSINESS.SDFinancial.DTPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.PermisoBitacoraMant(BUSINESS.SDFinancial.DTPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.PermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.PermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ProveedorMant(BUSINESS.SDFinancial.DTProveedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ProveedorMantAsync(BUSINESS.SDFinancial.DTProveedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ProveedorMantAsync(BUSINESS.SDFinancial.DTProveedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ProveedorCuentaMant(BUSINESS.SDFinancial.DTProveedorCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ProveedorCuentaMantAsync(BUSINESS.SDFinancial.DTProveedorCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.ProveedorCuentaMantAsync(BUSINESS.SDFinancial.DTProveedorCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.SelectQuery(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.SelectQueryAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.SelectQueryAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoIdentificacionMant(BUSINESS.SDFinancial.DTTipoIdentificacion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoIdentificacionMantAsync(BUSINESS.SDFinancial.DTTipoIdentificacion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoIdentificacionMantAsync(BUSINESS.SDFinancial.DTTipoIdentificacion,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TarjetaMant(BUSINESS.SDFinancial.DTTarjeta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TarjetaMantAsync(BUSINESS.SDFinancial.DTTarjeta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TarjetaMantAsync(BUSINESS.SDFinancial.DTTarjeta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoCambioMant(BUSINESS.SDFinancial.DTTipoCambio,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoCambioMantAsync(BUSINESS.SDFinancial.DTTipoCambio,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoCambioMantAsync(BUSINESS.SDFinancial.DTTipoCambio,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoPagoMant(BUSINESS.SDFinancial.DTTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoPagoMantAsync(BUSINESS.SDFinancial.DTTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.TipoPagoMantAsync(BUSINESS.SDFinancial.DTTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioMant(BUSINESS.SDFinancial.DTUsuario,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioMantAsync(BUSINESS.SDFinancial.DTUsuario,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioMantAsync(BUSINESS.SDFinancial.DTUsuario,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioCodigoPermisoMant(BUSINESS.SDFinancial.DTUsuarioCodigoPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioCodigoPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioCodigoPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioCodigoPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioCodigoPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioPermisoMant(BUSINESS.SDFinancial.DTUsuarioPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.UsuarioPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VerificaCliente(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VerificaClienteAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VerificaClienteAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VerificaProveedor(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VerificaProveedorAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VerificaProveedorAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VendedorMant(BUSINESS.SDFinancial.DTVendedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VendedorMantAsync(BUSINESS.SDFinancial.DTVendedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.VendedorMantAsync(BUSINESS.SDFinancial.DTVendedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.SDFinancial.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.#ctor">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEstadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoOrigenMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BancoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoChequeMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoTransferenciaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoTipoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMovimientosCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CodigoPermisoBitacoraMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ConvierteNumeroLetrasCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaFlujoEfectivoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoClaseMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoFlujoEfectivoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoAplicaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoAplicaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoTipoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPSolicitudPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoEncabezadoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoDetalleMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaCuentaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaParametroMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ExecuteQueryCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMenuMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GetIpCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MaquinaConfiguracionMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MenuMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ModuloMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoBitacoraMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorCuentaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.SelectQueryCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoIdentificacionMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TarjetaMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoCambioMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoPagoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioCodigoPermisoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioPermisoMantCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaClienteCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaProveedorCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VendedorMantCompleted">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoDetalleMant(BUSINESS.SDFinancial.DTAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEncabezadoMant(BUSINESS.SDFinancial.DTAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEstadoMant(BUSINESS.SDFinancial.DTAsientoEstado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEstadoMantAsync(BUSINESS.SDFinancial.DTAsientoEstado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoEstadoMantAsync(BUSINESS.SDFinancial.DTAsientoEstado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoOrigenMant(BUSINESS.SDFinancial.DTAsientoOrigen,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoOrigenMantAsync(BUSINESS.SDFinancial.DTAsientoOrigen,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoOrigenMantAsync(BUSINESS.SDFinancial.DTAsientoOrigen,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoTipoMant(BUSINESS.SDFinancial.DTAsientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoTipoMantAsync(BUSINESS.SDFinancial.DTAsientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AsientoTipoMantAsync(BUSINESS.SDFinancial.DTAsientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoDetalleMant(BUSINESS.SDFinancial.DTAuxAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAuxAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoDetalleMantAsync(BUSINESS.SDFinancial.DTAuxAsientoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoEncabezadoMant(BUSINESS.SDFinancial.DTAuxAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAuxAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.AuxAsientoEncabezadoMantAsync(BUSINESS.SDFinancial.DTAuxAsientoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BancoMant(BUSINESS.SDFinancial.DTBanco,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BancoMantAsync(BUSINESS.SDFinancial.DTBanco,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BancoMantAsync(BUSINESS.SDFinancial.DTBanco,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoMant(BUSINESS.SDFinancial.DTBcoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoMantAsync(BUSINESS.SDFinancial.DTBcoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoMantAsync(BUSINESS.SDFinancial.DTBcoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoChequeMant(BUSINESS.SDFinancial.DTBcoPagoCheque,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoChequeMantAsync(BUSINESS.SDFinancial.DTBcoPagoCheque,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoChequeMantAsync(BUSINESS.SDFinancial.DTBcoPagoCheque,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoTransferenciaMant(BUSINESS.SDFinancial.DTBcoPagoTransferencia,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoTransferenciaMantAsync(BUSINESS.SDFinancial.DTBcoPagoTransferencia,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoPagoTransferenciaMantAsync(BUSINESS.SDFinancial.DTBcoPagoTransferencia,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoTipoPagoMant(BUSINESS.SDFinancial.DTBcoTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoTipoPagoMantAsync(BUSINESS.SDFinancial.DTBcoTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.BcoTipoPagoMantAsync(BUSINESS.SDFinancial.DTBcoTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaMant(BUSINESS.SDFinancial.DTCaja,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaMantAsync(BUSINESS.SDFinancial.DTCaja,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaMantAsync(BUSINESS.SDFinancial.DTCaja,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreDetalleMant(BUSINESS.SDFinancial.DTCajaCierreDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreDetalleMantAsync(BUSINESS.SDFinancial.DTCajaCierreDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreDetalleMantAsync(BUSINESS.SDFinancial.DTCajaCierreDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreEncabezadoMant(BUSINESS.SDFinancial.DTCajaCierreEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreEncabezadoMantAsync(BUSINESS.SDFinancial.DTCajaCierreEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CajaCierreEncabezadoMantAsync(BUSINESS.SDFinancial.DTCajaCierreEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaMant(BUSINESS.SDFinancial.DTCambioMoneda,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaMantAsync(BUSINESS.SDFinancial.DTCambioMoneda,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaMantAsync(BUSINESS.SDFinancial.DTCambioMoneda,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaTipoMant(BUSINESS.SDFinancial.DTCambioMonedaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaTipoMantAsync(BUSINESS.SDFinancial.DTCambioMonedaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CambioMonedaTipoMantAsync(BUSINESS.SDFinancial.DTCambioMonedaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoMant(BUSINESS.SDFinancial.DTCentroCosto,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoMantAsync(BUSINESS.SDFinancial.DTCentroCosto,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoMantAsync(BUSINESS.SDFinancial.DTCentroCosto,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoTipoMant(BUSINESS.SDFinancial.DTCentroCostoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoTipoMantAsync(BUSINESS.SDFinancial.DTCentroCostoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CentroCostoTipoMantAsync(BUSINESS.SDFinancial.DTCentroCostoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMant(BUSINESS.SDFinancial.DTCliente,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMantAsync(BUSINESS.SDFinancial.DTCliente,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMantAsync(BUSINESS.SDFinancial.DTCliente,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMovimientos(BUSINESS.SDFinancial.DTCliente,System.DateTime,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMovimientosAsync(BUSINESS.SDFinancial.DTCliente,System.DateTime,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ClienteMovimientosAsync(BUSINESS.SDFinancial.DTCliente,System.DateTime,System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CodigoPermisoBitacoraMant(BUSINESS.SDFinancial.DTCodigoPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CodigoPermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTCodigoPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CodigoPermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTCodigoPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ConvierteNumeroLetras(System.Double)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ConvierteNumeroLetrasAsync(System.Double)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ConvierteNumeroLetrasAsync(System.Double,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaMant(BUSINESS.SDFinancial.DTCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaMantAsync(BUSINESS.SDFinancial.DTCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaMantAsync(BUSINESS.SDFinancial.DTCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaFlujoEfectivoMant(BUSINESS.SDFinancial.DTCuentaFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoMant(BUSINESS.SDFinancial.DTCuentaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoMantAsync(BUSINESS.SDFinancial.DTCuentaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoMantAsync(BUSINESS.SDFinancial.DTCuentaTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoClaseMant(BUSINESS.SDFinancial.DTCuentaTipoClase,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoClaseMantAsync(BUSINESS.SDFinancial.DTCuentaTipoClase,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoClaseMantAsync(BUSINESS.SDFinancial.DTCuentaTipoClase,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoFlujoEfectivoMant(BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CuentaTipoFlujoEfectivoMantAsync(BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoMant(BUSINESS.SDFinancial.DTCxCMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoMantAsync(BUSINESS.SDFinancial.DTCxCMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoMantAsync(BUSINESS.SDFinancial.DTCxCMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoAplicaMant(BUSINESS.SDFinancial.DTCxCMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoPagoMant(BUSINESS.SDFinancial.DTCxCMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoTipoMant(BUSINESS.SDFinancial.DTCxCMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxCMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoMant(BUSINESS.SDFinancial.DTCxPMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoMantAsync(BUSINESS.SDFinancial.DTCxPMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoMantAsync(BUSINESS.SDFinancial.DTCxPMovimiento,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoAplicaMant(BUSINESS.SDFinancial.DTCxPMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoAplicaMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoAplica,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoPagoMant(BUSINESS.SDFinancial.DTCxPMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoPagoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoTipoMant(BUSINESS.SDFinancial.DTCxPMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPMovimientoTipoMantAsync(BUSINESS.SDFinancial.DTCxPMovimientoTipo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPSolicitudPagoMant(BUSINESS.SDFinancial.DTCxPSolicitudPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPSolicitudPagoMantAsync(BUSINESS.SDFinancial.DTCxPSolicitudPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxPSolicitudPagoMantAsync(BUSINESS.SDFinancial.DTCxPSolicitudPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoEncabezadoMant(BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoEncabezadoMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoEncabezadoMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoDetalleMant(BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoDetalleMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CxCEntregaDocumentoDetalleMantAsync(BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaMant(BUSINESS.SDFinancial.DTEmpresa,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaMantAsync(BUSINESS.SDFinancial.DTEmpresa,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaMantAsync(BUSINESS.SDFinancial.DTEmpresa,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaCuentaMant(BUSINESS.SDFinancial.DTEmpresaCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaCuentaMantAsync(BUSINESS.SDFinancial.DTEmpresaCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaCuentaMantAsync(BUSINESS.SDFinancial.DTEmpresaCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaParametroMant(BUSINESS.SDFinancial.DTEmpresaParametro,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaParametroMantAsync(BUSINESS.SDFinancial.DTEmpresaParametro,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.EmpresaParametroMantAsync(BUSINESS.SDFinancial.DTEmpresaParametro,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ExecuteQuery(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ExecuteQueryAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ExecuteQueryAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMant(BUSINESS.SDFinancial.DTGrupo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMantAsync(BUSINESS.SDFinancial.DTGrupo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMantAsync(BUSINESS.SDFinancial.DTGrupo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMenuMant(BUSINESS.SDFinancial.DTGrupoMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMenuMantAsync(BUSINESS.SDFinancial.DTGrupoMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GrupoMenuMantAsync(BUSINESS.SDFinancial.DTGrupoMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GetIp(System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GetIpAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.GetIpAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MaquinaConfiguracionMant(BUSINESS.SDFinancial.DTMaquinaConfiguracion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MaquinaConfiguracionMantAsync(BUSINESS.SDFinancial.DTMaquinaConfiguracion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MaquinaConfiguracionMantAsync(BUSINESS.SDFinancial.DTMaquinaConfiguracion,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MenuMant(BUSINESS.SDFinancial.DTMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MenuMantAsync(BUSINESS.SDFinancial.DTMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.MenuMantAsync(BUSINESS.SDFinancial.DTMenu,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ModuloMant(BUSINESS.SDFinancial.DTModulo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ModuloMantAsync(BUSINESS.SDFinancial.DTModulo,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ModuloMantAsync(BUSINESS.SDFinancial.DTModulo,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoMant(BUSINESS.SDFinancial.DTPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoMantAsync(BUSINESS.SDFinancial.DTPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoMantAsync(BUSINESS.SDFinancial.DTPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoBitacoraMant(BUSINESS.SDFinancial.DTPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.PermisoBitacoraMantAsync(BUSINESS.SDFinancial.DTPermisoBitacora,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorMant(BUSINESS.SDFinancial.DTProveedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorMantAsync(BUSINESS.SDFinancial.DTProveedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorMantAsync(BUSINESS.SDFinancial.DTProveedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorCuentaMant(BUSINESS.SDFinancial.DTProveedorCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorCuentaMantAsync(BUSINESS.SDFinancial.DTProveedorCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.ProveedorCuentaMantAsync(BUSINESS.SDFinancial.DTProveedorCuenta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.SelectQuery(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.SelectQueryAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.SelectQueryAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoIdentificacionMant(BUSINESS.SDFinancial.DTTipoIdentificacion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoIdentificacionMantAsync(BUSINESS.SDFinancial.DTTipoIdentificacion,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoIdentificacionMantAsync(BUSINESS.SDFinancial.DTTipoIdentificacion,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TarjetaMant(BUSINESS.SDFinancial.DTTarjeta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TarjetaMantAsync(BUSINESS.SDFinancial.DTTarjeta,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TarjetaMantAsync(BUSINESS.SDFinancial.DTTarjeta,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoCambioMant(BUSINESS.SDFinancial.DTTipoCambio,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoCambioMantAsync(BUSINESS.SDFinancial.DTTipoCambio,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoCambioMantAsync(BUSINESS.SDFinancial.DTTipoCambio,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoPagoMant(BUSINESS.SDFinancial.DTTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoPagoMantAsync(BUSINESS.SDFinancial.DTTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.TipoPagoMantAsync(BUSINESS.SDFinancial.DTTipoPago,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioMant(BUSINESS.SDFinancial.DTUsuario,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioMantAsync(BUSINESS.SDFinancial.DTUsuario,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioMantAsync(BUSINESS.SDFinancial.DTUsuario,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioCodigoPermisoMant(BUSINESS.SDFinancial.DTUsuarioCodigoPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioCodigoPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioCodigoPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioCodigoPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioCodigoPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioPermisoMant(BUSINESS.SDFinancial.DTUsuarioPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.UsuarioPermisoMantAsync(BUSINESS.SDFinancial.DTUsuarioPermiso,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaCliente(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaClienteAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaClienteAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaProveedor(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaProveedorAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VerificaProveedorAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VendedorMant(BUSINESS.SDFinancial.DTVendedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VendedorMantAsync(BUSINESS.SDFinancial.DTVendedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.VendedorMantAsync(BUSINESS.SDFinancial.DTVendedor,BUSINESS.SDFinancial.EnumOperacionMant,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.SDFinancial.BasicHttpsBinding_ISDFinancial.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAsientoDetalle">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Asiento_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Linea_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.CC_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Cuenta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Tipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.MontoDolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Referencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoDetalle.Descripcion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTVendedor">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTVendedor.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTVendedor.Vendedor_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTVendedor.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTVendedor.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTVendedor.Comision">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTVendedor.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTUsuarioPermiso">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioPermiso.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioPermiso.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioPermiso.Permiso_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioPermiso.Modulo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioPermiso.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.Codigo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.Codigo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuarioCodigoPermiso.FechaVencimiento">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTUsuario">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.Password">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.Grupo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTUsuario.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTTipoPago">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoPago.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoPago.TipoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoPago.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoPago.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoPago.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTTipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoCambio.TipoCambio_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoCambio.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoCambio.Compra">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoCambio.Venta">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTTarjeta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTarjeta.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTarjeta.Tarjeta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTarjeta.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTarjeta.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTarjeta.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTTipoIdentificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoIdentificacion.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoIdentificacion.TipoIdentificacion_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoIdentificacion.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTTipoIdentificacion.Activo">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTProveedorCuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Prov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Cuenta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Cuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedorCuenta.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTProveedor">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Prov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.TipoIdentificacion_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Identificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Telefono1">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Telefono2">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Email">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Direccion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Debitos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Creditos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Saldo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.CxP_Colones">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.CxP_Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTProveedor.DiasCredito">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTPermisoBitacora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermisoBitacora.Bitacora_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermisoBitacora.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermisoBitacora.Permiso_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermisoBitacora.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermisoBitacora.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermisoBitacora.Observacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTPermiso">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermiso.Permiso_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermiso.Modulo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermiso.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTPermiso.Activo">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTModulo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTModulo.Modulo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTModulo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTModulo.Major">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTModulo.Menor">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTModulo.Bug">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTModulo.Build">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTMenu">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMenu.Modulo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMenu.Menu_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMenu.MenuPadre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMenu.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMenu.Orden">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTMaquinaConfiguracion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.MAC_Address">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.ClienteDefault">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.ComPort">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.ConfirmaImpresionFactura">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.FacturaContadoSolicitaCliente">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.ImprimeCodigoArticulo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.ImprimePrefactura">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.Interfaz">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.ParallePort">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.PrefacturaTipoEntrega">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.PrinterName">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.PrintLocation">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.URLTipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTMaquinaConfiguracion.FechaIngreso">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTGrupoMenu">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupoMenu.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupoMenu.Grupo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupoMenu.Modulo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupoMenu.Menu_Id">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTGrupo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupo.Grupo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTGrupo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTEmpresaParametro">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.ProcesoAnnio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.ProcesoMes">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.MesCierreFiscal">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.CuentaResultadoPeriodo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.DiasCredito">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.PorcMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.DiasGraciaMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.AplicaMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.CuentaIngresoXDiferencial">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.CuentaGastoXDiferencial">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaParametro.CuentaRedondeo">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTEmpresaCuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.Cuenta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.Cuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresaCuenta.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTEmpresa">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Cedula">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Telefono">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Fax">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Email">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Direccion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.DireccionWeb">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTEmpresa.Logo">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle.Entrega_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle.Doc_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoDetalle.Mov_Id">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado.Entrega_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado.Vendedor_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCEntregaDocumentoEncabezado.Activo">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxPMovimientoTipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoTipo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoTipo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoTipo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoTipo.IncrementaSaldo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoTipo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoTipo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxPMovimientoPago">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Pago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.TipoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.ChequeNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.ChequeFecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.DepositoNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.DepositoFecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.TransferenciaNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Tarjeta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.TarjetaNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.TarjetaAutorizacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoPago.Batch_Id">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxPMovimientoAplica">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.Aplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.TipoAplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.MovAplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoAplica.Monto">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxPMovimiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Prov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Estado_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Referencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.FechaRecibido">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.FechaDocumento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.FechaVencimiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Saldo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.Batch_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.GeneraAsiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.AsientoEncabezado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimiento.DiasCredito">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAuxAsientoEncabezado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Asiento_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Annio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Mes">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Comentario">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Debitos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Creditos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.Origen_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.MAC_Address">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoEncabezado.ListaDetalle">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAuxAsientoDetalle">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Asiento_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Linea_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.CC_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Cuenta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Tipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.MontoDolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Referencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAuxAsientoDetalle.Descripcion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCMovimientoTipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoTipo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoTipo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoTipo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoTipo.IncrementaSaldo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoTipo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoTipo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCMovimientoAplica">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.Aplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.TipoAplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.MovAplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoAplica.Monto">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCMovimientoLinea">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoLinea.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoLinea.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoLinea.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoLinea.Monto">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCMovimientoPago">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Pago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Cierre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.TipoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Cuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.ChequeNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.ChequeFecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.DepositoNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.DepositoFecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.TransferenciaNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Tarjeta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.TarjetaNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.TarjetaAutorizacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimientoPago.Batch_Id">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxCMovimiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Cliente_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Referencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.FechaRecibido">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.FechaDocumento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.FechaVencimiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Saldo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.AplicaMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.FechaCalculoMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Batch_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Cierre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.Suc_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.ListaPagos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.ListaMovimientos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.GeneraNotaCredito">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.MontoNotaCredito">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.MAC_Address">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.GeneraAsiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxCMovimiento.AsientoEncabezado">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoFlujoEfectivo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCuentaTipoClase">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoClase.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoClase.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoClase.Clase_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoClase.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoClase.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipoClase.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCuentaTipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipo.CCTipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaTipo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCuentaFlujoEfectivo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaFlujoEfectivo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaFlujoEfectivo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaFlujoEfectivo.Cuenta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuentaFlujoEfectivo.Entrada">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Cuenta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Clase_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Nivel">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Padre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.AceptaMovimiento">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCuenta.SolicitaCentroCosto">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCodigoPermisoBitacora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.Bitacora_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.UsuarioUtilizo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.Permiso_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.Codigo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCodigoPermisoBitacora.Fecha">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCliente">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Cliente_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.TipoIdentificacion_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Identificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Telefono1">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Telefono2">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Email">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Direccion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Debitos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Creditos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Saldo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.DiasCredito">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.PorcMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.DiasGraciaMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.AplicaMora">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.LimiteCredito">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.CxC_Colones">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.CxC_Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.NombreComercial">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.Vendedor_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCliente.EsInterno">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCentroCostoTipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCostoTipo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCostoTipo.CCTipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCostoTipo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCostoTipo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCostoTipo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCentroCosto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCosto.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCosto.CC_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCosto.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCosto.CCTipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCosto.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCentroCosto.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCambioMonedaTipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMonedaTipo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMonedaTipo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMonedaTipo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMonedaTipo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMonedaTipo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCambioMoneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Cambio_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Cierre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Efectivo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCambioMoneda.Usuario_Id">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCajaCierreEncabezado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Cierre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Cerrado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.FechaCierre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.FechaApertura">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Efectivo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Tarjeta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Cheque">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Fondo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Transferencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.Deposito">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.CajeroEfectivo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.CajeroTarjeta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.CajeroCheque">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.CajeroDocumentos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.CajeroDolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreEncabezado.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCajaCierreDetalle">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Cierre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Detalle_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Pago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.TipoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.ChequeNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.Tarjeta_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.TarjetaNumero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCajaCierreDetalle.TarjetaAutorizacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCaja">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.Caja_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.Abierta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.Cierre_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCaja.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTBcoTipoPago">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoTipoPago.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoTipoPago.TipoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoTipoPago.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoTipoPago.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoTipoPago.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxPMovimientoLinea">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPMovimientoLinea.Dolares">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTCxPSolicitudPago">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Solicitud_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Prov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Mov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.UltimaModificacion">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.PagoMonto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.PagoDolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.Diferencial">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTCxPSolicitudPago.ListaMovimientos">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTBcoPagoTransferencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.BcoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.Cuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoTransferencia.Numero">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTBcoPagoCheque">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoCheque.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoCheque.BcoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoCheque.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoCheque.Numero">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPagoCheque.Fecha">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTBcoPago">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.BcoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.TipoPago_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Prov_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Cuenta">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Moneda">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Monto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.TipoCambio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Dolares">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Concepto">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Cheque">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.Transferencia">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBcoPago.ListaSolicitudes">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTBanco">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBanco.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBanco.Banco_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBanco.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBanco.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTBanco.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAsientoTipo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoTipo.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoTipo.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoTipo.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoTipo.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoTipo.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAsientoOrigen">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoOrigen.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoOrigen.Origen_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoOrigen.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoOrigen.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoOrigen.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAsientoEstado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEstado.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEstado.Estado_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEstado.Nombre">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEstado.Activo">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEstado.UltimaModificacion">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.DTAsientoEncabezado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Emp_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Asiento_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Annio">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Mes">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Fecha">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Tipo_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Comentario">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Estado_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Debitos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Creditos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Usuario_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.UsuarioAplica_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.Origen_Id">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.ListaDetalle">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.DTAsientoEncabezado.AplicarAsiento">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TResultado">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TResultado.ErrorCode">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TResultado.ErrorDescription">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TResultado.Datos">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TResultado.Valor">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TResultado.RowsAffected">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EnumOperacionMant">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.List">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.Insertar">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.Modificar">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.Eliminar">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.ListKey">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.LoadCombo">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.ListMant">
+<remarks/>
+</member>
+<member name="F:BUSINESS.SDFinancial.EnumOperacionMant.NextOne">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoDetalleMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoDetalleMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AsientoDetalleMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoEncabezadoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoEncabezadoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AsientoEncabezadoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoEstadoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoEstadoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AsientoEstadoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoOrigenMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoOrigenMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AsientoOrigenMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoTipoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AsientoTipoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AsientoTipoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AuxAsientoDetalleMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AuxAsientoDetalleMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AuxAsientoDetalleMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AuxAsientoEncabezadoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.AuxAsientoEncabezadoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.AuxAsientoEncabezadoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BancoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BancoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.BancoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoPagoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoPagoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.BcoPagoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoPagoChequeMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoPagoChequeMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.BcoPagoChequeMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoPagoTransferenciaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoPagoTransferenciaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.BcoPagoTransferenciaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoTipoPagoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.BcoTipoPagoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.BcoTipoPagoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CajaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CajaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CajaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CajaCierreDetalleMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CajaCierreDetalleMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CajaCierreDetalleMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CajaCierreEncabezadoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CajaCierreEncabezadoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CajaCierreEncabezadoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CambioMonedaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CambioMonedaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CambioMonedaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CambioMonedaTipoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CambioMonedaTipoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CambioMonedaTipoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CentroCostoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CentroCostoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CentroCostoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CentroCostoTipoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CentroCostoTipoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CentroCostoTipoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ClienteMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ClienteMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ClienteMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ClienteMovimientosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ClienteMovimientosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ClienteMovimientosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CodigoPermisoBitacoraMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CodigoPermisoBitacoraMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CodigoPermisoBitacoraMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ConvierteNumeroLetrasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ConvierteNumeroLetrasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ConvierteNumeroLetrasCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CuentaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaFlujoEfectivoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaFlujoEfectivoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CuentaFlujoEfectivoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaTipoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaTipoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CuentaTipoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaTipoClaseMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaTipoClaseMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CuentaTipoClaseMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaTipoFlujoEfectivoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CuentaTipoFlujoEfectivoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CuentaTipoFlujoEfectivoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxCMovimientoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoAplicaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoAplicaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxCMovimientoAplicaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoPagoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoPagoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxCMovimientoPagoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoTipoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCMovimientoTipoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxCMovimientoTipoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxPMovimientoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoAplicaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoAplicaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxPMovimientoAplicaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoPagoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoPagoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxPMovimientoPagoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoTipoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPMovimientoTipoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxPMovimientoTipoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPSolicitudPagoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxPSolicitudPagoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxPSolicitudPagoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCEntregaDocumentoEncabezadoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCEntregaDocumentoEncabezadoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxCEntregaDocumentoEncabezadoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCEntregaDocumentoDetalleMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.CxCEntregaDocumentoDetalleMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.CxCEntregaDocumentoDetalleMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EmpresaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EmpresaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.EmpresaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EmpresaCuentaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EmpresaCuentaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.EmpresaCuentaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EmpresaParametroMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.EmpresaParametroMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.EmpresaParametroMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ExecuteQueryCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ExecuteQueryCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ExecuteQueryCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.GrupoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.GrupoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.GrupoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.GrupoMenuMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.GrupoMenuMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.GrupoMenuMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.GetIpCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.GetIpCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.GetIpCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.MaquinaConfiguracionMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.MaquinaConfiguracionMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.MaquinaConfiguracionMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.MenuMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.MenuMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.MenuMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ModuloMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ModuloMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ModuloMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.PermisoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.PermisoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.PermisoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.PermisoBitacoraMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.PermisoBitacoraMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.PermisoBitacoraMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ProveedorMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ProveedorMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ProveedorMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ProveedorCuentaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.ProveedorCuentaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.ProveedorCuentaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.SelectQueryCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.SelectQueryCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.SelectQueryCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TipoIdentificacionMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TipoIdentificacionMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TipoIdentificacionMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TarjetaMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TarjetaMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TarjetaMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TipoCambioMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TipoCambioMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TipoCambioMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TipoPagoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.TipoPagoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.TipoPagoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.UsuarioMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.UsuarioMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.UsuarioMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.UsuarioCodigoPermisoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.UsuarioCodigoPermisoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.UsuarioCodigoPermisoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.UsuarioPermisoMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.UsuarioPermisoMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.UsuarioPermisoMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.VerificaClienteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.VerificaClienteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.VerificaClienteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.VerificaProveedorCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.VerificaProveedorCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.VerificaProveedorCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.VendedorMantCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.SDFinancial.VendedorMantCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.SDFinancial.VendedorMantCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.#ctor">
+<remarks/>
+</member>
+<member name="E:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosCompleted">
+<remarks/>
+</member>
+<member name="E:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosXMLCompleted">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicos(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosXML(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosXMLAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.ObtenerIndicadoresEconomicosXMLAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BUSINESS.TipoCamboBCCR.wsindicadoreseconomicos.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:BUSINESS.TipoCamboBCCR.ObtenerIndicadoresEconomicosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.TipoCamboBCCR.ObtenerIndicadoresEconomicosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.TipoCamboBCCR.ObtenerIndicadoresEconomicosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BUSINESS.TipoCamboBCCR.ObtenerIndicadoresEconomicosXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BUSINESS.TipoCamboBCCR.ObtenerIndicadoresEconomicosXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BUSINESS.TipoCamboBCCR.ObtenerIndicadoresEconomicosXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

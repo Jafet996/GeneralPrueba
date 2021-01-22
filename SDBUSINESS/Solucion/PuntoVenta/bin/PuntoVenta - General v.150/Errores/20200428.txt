@@ -1,0 +1,3 @@
+[20200428 10:46][Gurdando en FacturaElectronica] - Almacenadp Doc 50617101900310134583000100004010000004908100020786
+[20200428 10:47][Error de aplicación] - No tiene permisos para ejecutar esta acción
+[20200428 11:02][Error de aplicación] - Unable to connect to the remote server

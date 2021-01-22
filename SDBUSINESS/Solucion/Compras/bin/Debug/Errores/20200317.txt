@@ -1,0 +1,16 @@
+[20200317 10:54][Error de aplicación] - El password es incorrecto
+[20200317 11:43][Error de aplicación] - El password es incorrecto
+[20200317 11:44][Error de aplicación] - El password es incorrecto
+[20200317 11:44][Error de aplicación] - El password es incorrecto
+[20200317 14:39][Error de aplicación] - El password es incorrecto
+[20200317 14:40][Error de aplicación] - El password es incorrecto
+[20200317 16:23][Error de aplicación] - El password es incorrecto
+[20200317 16:23][Error de aplicación] - InvalidArgument=Value of '1' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+[20200317 16:25][Error de aplicación] - Conversion from string "dd/MM/yyyy" to type 'Integer' is not valid.
+[20200317 16:26][Error de aplicación] - Conversion from string "dd/MM/yyyy" to type 'Integer' is not valid.
+[20200317 16:35][Error de aplicación] - El password es incorrecto
+[20200317 16:36][Error de aplicación] - El password es incorrecto
+[20200317 16:48][Error de aplicación] - El password es incorrecto
+[20200317 16:50][Error de aplicación] - Aun no se ha indicado una cuenta de correo
+[20200317 16:51][Error de aplicación] - Debe de seleccionar al menos una línea

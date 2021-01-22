@@ -1,0 +1,6 @@
+[20191212 10:50][Error de aplicación] - No tiene permiso para facturar sin existencia
+[20191212 10:50][Error de aplicación] - No Existe existencia suficiente
+[20191212 10:51][Error de aplicación] - No tiene permiso para facturar sin existencia
+[20191212 10:54][Error de aplicación] - Password incorrecto
+[20191212 10:54][Gurdando en FacturaElectronica] - Almacenadp Doc 50612121900310173467500100135010000000263100001295
+[20191212 11:55][Error de aplicación] - No Existe existencia suficiente

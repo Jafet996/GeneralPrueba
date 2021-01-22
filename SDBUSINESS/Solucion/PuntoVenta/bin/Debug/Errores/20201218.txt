@@ -1,0 +1,32 @@
+[20201218 08:12][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201218 08:13][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000274100001757
+[20201218 09:08][Error de aplicación] - El número de cédula ya lo tiene asigando el cliente 7817 - MIKE
+[20201218 09:08][Error de aplicación] - El número de cédula ya lo tiene asigando el cliente 7817 - MIKE
+[20201218 09:11][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000015100001765
+[20201218 09:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000279100001766
+[20201218 09:30][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000280100001767
+[20201218 09:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000281100001768
+[20201218 09:52][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201218 09:53][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000016100001769
+[20201218 09:54][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000282100001770
+[20201218 09:57][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000283100001771
+[20201218 10:00][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000284100001772
+[20201218 10:04][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201218 10:04][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201218 10:04][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000285100001773
+[20201218 10:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000017100001774
+[20201218 10:43][Error de aplicación] - La cédula es fisica debe tener 9 digitos 
+[20201218 10:43][Error de aplicación] - La cédula es fisica debe tener 9 digitos 
+[20201218 10:44][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000018100001775
+[20201218 10:47][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000019100001776
+[20201218 11:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000020100001777
+[20201218 11:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000021100001778
+[20201218 11:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000022100001779
+[20201218 11:46][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251010000000023100001780
+[20201218 11:59][Conexión] - El password es incorrecto
+[20201218 12:00][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000287100001782
+[20201218 12:03][Error de aplicación] - Debe de seleccionar una línea
+[20201218 12:03][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000288100001783
+[20201218 12:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000289100001784
+[20201218 12:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000290100001785
+[20201218 12:07][Gurdando en FacturaElectronica] - Almacenadp Doc 50618122000310173467500100251040000000291100001786

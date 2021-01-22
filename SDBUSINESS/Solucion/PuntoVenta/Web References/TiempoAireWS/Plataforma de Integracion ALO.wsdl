@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.lticr.com/ALO-JIMMY/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" name="Plataforma de Integracion ALO" targetNamespace="http://www.lticr.com/ALO-JIMMY/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <documentation>Proyecto: Plataforma de Integracion ALO - LTI-ALO</documentation>
+  <documentation>Canal: AloIntegraLTI - </documentation>
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.lticr.com/ALO-JIMMY/">
+      <s:element name="Ping">
+        <s:complexType>
+          <s:sequence />
+        </s:complexType>
+      </s:element>
+      <s:element name="Pong">
+        <s:complexType>
+          <s:sequence />
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcesoGeneral">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Seguridad" type="tns:tipoSeguridad" />
+            <s:element minOccurs="1" maxOccurs="1" name="Transaccion" type="tns:tipoTransaccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="tipoSeguridad">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Entidad" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Clave" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="tipoTransaccion">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Operacion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Servicio" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Telefono" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Monto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Vendedor" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TransaccionOutput">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Operacion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Servicio" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Telefono" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Monto" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Vendedor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Documento" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TransProveedor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Recibo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Comision" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Saldo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ErrorCodigo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ErrorDes" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="RecargaEstado" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="RecargaDetalle" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="Ping">
+    <part name="param" element="tns:Ping" />
+  </message>
+  <message name="Pong">
+    <part name="param" element="tns:Pong" />
+  </message>
+  <message name="ProcesoGeneral">
+    <part name="param" element="tns:ProcesoGeneral" />
+  </message>
+  <message name="TransaccionOutput">
+    <part name="param" element="tns:TransaccionOutput" />
+  </message>
+  <portType name="AloIntegraLTI">
+    <operation name="Ping">
+      <documentation>Permite validar que el servicio este funcionando</documentation>
+      <input message="tns:Ping" />
+      <output message="tns:Pong" />
+    </operation>
+    <operation name="ProcesoGeneral">
+      <documentation>Permite realizar recargas de Tiempo AIRE</documentation>
+      <input message="tns:ProcesoGeneral" />
+      <output message="tns:TransaccionOutput" />
+    </operation>
+  </portType>
+  <binding name="AloIntegraLTI" type="tns:AloIntegraLTI">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Ping">
+      <soap:operation soapAction="http://www.lticr.com/ALO-JIMMY/Ping" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ProcesoGeneral">
+      <soap:operation soapAction="http://www.lticr.com/ALO-JIMMY/ProcesoGeneral" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="AloIntegraLTI">
+    <documentation>
+    </documentation>
+    <port name="AloIntegraLTI" binding="tns:AloIntegraLTI">
+      <soap:address location="http://www.aloprepago.com:11025/stxIntegraALOJIMMY/STXws" />
+    </port>
+  </service>
+</definitions>

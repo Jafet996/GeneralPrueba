@@ -1,0 +1,105 @@
+[20201222 09:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000324100001819
+[20201222 09:38][Error de aplicación] - InvalidArgument=Value of '1' is not valid for 'index'.
+Parameter name: index
+[20201222 09:38][Error de aplicación] - InvalidArgument=Value of '1' is not valid for 'index'.
+Parameter name: index
+[20201222 09:38][Error de aplicación] - InvalidArgument=Value of '1' is not valid for 'index'.
+Parameter name: index
+[20201222 09:51][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo 3 está definido como gravado pero no tiene impuestos asignados, por favor verificar
+[20201222 09:51][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo 3 está definido como gravado pero no tiene impuestos asignados, por favor verificar
+[20201222 09:51][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo 4 está definido como gravado pero no tiene impuestos asignados, por favor verificar
+[20201222 09:56][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000325100001820
+[20201222 09:57][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20201222 09:57][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000326100001821
+[20201222 09:58][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201222 09:58][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201222 09:59][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201222 10:00][Error de aplicación] - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+[20201222 10:00][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20201222 10:01][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000327100001822
+[20201222 10:37][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000328100001823
+[20201222 10:43][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000329100001824
+[20201222 10:45][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000330100001825
+[20201222 10:46][Error de aplicación] - La cantidad debe de ser mayor a cero
+[20201222 10:47][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000331100001826
+[20201222 10:49][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000332100001827
+[20201222 10:54][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000333100001828
+[20201222 10:54][Error de aplicación] - Debe de seleccionar una línea
+[20201222 10:54][Error de aplicación] - Debe de seleccionar una línea
+[20201222 11:01][Error de aplicación] - Conversion from string "6,527.0046,372.00" to type 'Double' is not valid.
+[20201222 11:03][Error de aplicación] - Conversion from string "6,527.0046,372.00" to type 'Double' is not valid.
+[20201222 11:07][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000334100001829
+[20201222 11:07][Error de aplicación] - Debe de seleccionar una línea
+[20201222 11:12][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000335100001830
+[20201222 11:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000336100001831
+[20201222 11:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000337100001832
+[20201222 11:44][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000338100001833
+[20201222 11:45][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000339100001834
+[20201222 11:46][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000340100001835
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:09][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:10][Conexión] - Debe de seleccionar un Usuario
+[20201222 13:13][Conexión] - Debe de seleccionar un Password
+[20201222 13:15][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251010000000024100001836
+[20201222 13:18][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000341100001837
+[20201222 13:20][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000342100001838
+[20201222 13:20][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000343100001839
+[20201222 13:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000344100001840
+[20201222 13:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000345100001841
+[20201222 13:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000346100001842
+[20201222 13:22][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000347100001843
+[20201222 13:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000348100001844
+[20201222 13:26][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000349100001845
+[20201222 13:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000350100001846
+[20201222 13:27][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000351100001847
+[20201222 13:28][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000352100001848
+[20201222 13:28][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000353100001849
+[20201222 13:29][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000354100001850
+[20201222 13:30][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000355100001851
+[20201222 13:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000356100001852
+[20201222 13:32][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000357100001853
+[20201222 13:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000358100001854
+[20201222 14:09][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000359100001855
+[20201222 14:11][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000360100001856
+[20201222 14:41][Error de aplicación] - El precio debe de ser mayor a cero
+[20201222 14:41][Error de aplicación] - El precio debe de ser mayor a cero
+[20201222 14:41][Error de aplicación] - El precio debe de ser mayor a cero
+[20201222 14:41][Error de aplicación] - El precio debe de ser mayor a cero
+[20201222 14:41][Error de aplicación] - El precio debe de ser mayor a cero
+[20201222 14:45][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000361100001857
+[20201222 14:58][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000362100001858
+[20201222 14:58][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000363100001859
+[20201222 15:00][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000364100001860
+[20201222 15:03][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000365100001861
+[20201222 15:04][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000366100001862
+[20201222 15:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000367100001863
+[20201222 15:17][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000368100001864
+[20201222 15:29][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000369100001865
+[20201222 15:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000370100001866
+[20201222 15:38][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000371100001867
+[20201222 15:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000372100001868
+[20201222 15:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000373100001869
+[20201222 15:42][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000374100001870
+[20201222 15:56][Gurdando en FacturaElectronica] - Almacenadp Doc 50622122000310173467500100251040000000375100001871

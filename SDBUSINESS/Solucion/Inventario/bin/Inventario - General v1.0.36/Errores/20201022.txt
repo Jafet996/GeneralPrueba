@@ -1,0 +1,3 @@
+[20201022 00:03][Error de aplicación] - No se encontró el archivo de configuración
+[20201022 14:38][Error de aplicación] - El password es incorrecto
+[20201022 14:42][Error de aplicación] - El password es incorrecto

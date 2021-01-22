@@ -1,0 +1,16 @@
+[20200130 10:42][Error de aplicación] - Debe de seleccionar el tipo de documento
+[20200130 11:28][Error de aplicación] - Unable to connect to the remote server
+[20200130 11:32][Error de aplicación] - Unable to connect to the remote server
+[20200130 15:02][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200130 15:10][Gurdando en FacturaElectronica] - Almacenadp Doc 50630012000310173467500100135010000000279100001335
+[20200130 15:12][Error enviando CXC Ref 113520000070-00100135010000000279] - CxC -> Error el monto debe de ser mayor a cero
+[20200130 15:17][Gurdando en FacturaElectronica] - Almacenadp Doc 50630012000310173467500100135040000000304100001336
+[20200130 15:21][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200130 15:22][Error de aplicación] - No se encontraron facturas
+[20200130 15:23][Gurdando en FacturaElectronica] - Almacenadp Doc 50630012000310173467500100135010000000280100001337
+[20200130 15:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50630012000310173467500100135030000000132100001338
+[20200130 15:26][Error de aplicación] - No se encontraron facturas
+[20200130 15:26][Gurdando en FacturaElectronica] - Almacenadp Doc 50630012000310173467500100135010000000281100001339
+[20200130 15:27][Error de aplicación] - El documento se pasó correctamente
+[20200130 15:28][Gurdando en FacturaElectronica] - Almacenadp Doc 50630012000310173467500100135030000000133100001340
+[20200130 16:26][Error de aplicación] - Error en la linea # 1 Artículo = HAPPY HEART MUJER 100ML EDP CLINIQUE - ERROR : No existe saldo suficiente para realizar el apartado

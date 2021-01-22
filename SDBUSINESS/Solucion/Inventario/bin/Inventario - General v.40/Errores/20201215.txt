@@ -1,0 +1,8 @@
+[20201215 13:47][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201215 13:48][Error de aplicación] - No se encontró el archivo de configuración
+[20201215 13:56][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201215 13:56][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201215 13:56][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201215 13:56][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201215 13:58][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.
+[20201215 14:02][Error de aplicación] - Column 'DevuelveIV' does not belong to table Table.

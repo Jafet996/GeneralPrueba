@@ -1,0 +1,18 @@
+[20200320 08:18][Error de aplicación] - El password es incorrecto
+[20200320 11:49][Error de aplicación] - El password es incorrecto
+[20200320 11:49][Error de aplicación] - No se encontraron documentos en www.facturar.cr
+[20200320 12:20][Error de aplicación] - El password es incorrecto
+[20200320 12:53][Conexión] - Debe de seleccionar un Password
+[20200320 12:53][Error de aplicación] - Usuario no válido
+[20200320 12:53][Error de aplicación] - No se encontraron documentos en www.facturar.cr
+[20200320 13:32][Conexión] - Debe de seleccionar un Password
+[20200320 13:32][Conexión] - Debe de seleccionar un Password
+[20200320 13:35][Error de aplicación] - Debe de seleccionar un valor
+[20200320 13:35][Error de aplicación] - Debe de seleccionar un valor
+[20200320 13:35][Error de aplicación] - Debe de seleccionar un valor
+[20200320 13:59][Error de aplicación] - Se presentaron errores creando cliente en CXP : Violation of PRIMARY KEY constraint  PK_Proveedor . Cannot insert duplicate key in object  dbo.Proveedor . The duplicate key value is (1, 52).
+The statement has been terminated.
+[20200320 13:59][Error de aplicación] - Se presentaron errores creando cliente en CXP : Violation of PRIMARY KEY constraint  PK_Proveedor . Cannot insert duplicate key in object  dbo.Proveedor . The duplicate key value is (1, 53).
+The statement has been terminated.
+[20200320 14:13][Error de aplicación] - Debe de digitar al menos un telefono
+[20200320 14:14][Error de aplicación] - Para asociar un producto primero debe de crear el proveedor

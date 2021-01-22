@@ -1,0 +1,12 @@
+[20200206 11:00][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200206 11:34][Error de aplicación] - Debe de seleccionar un valor
+[20200206 13:38][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200206 13:41][Error de aplicación] - Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+[20200206 13:42][Error de aplicación] - Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+[20200206 13:43][Error de aplicación] - Opción disponible únicamente para facturas
+[20200206 13:44][Error de aplicación] - Debe de seleccionar el tipo de documento
+[20200206 13:44][Error de aplicación] - Debe de seleccionar el tipo de documento
+[20200206 13:58][Gurdando en FacturaElectronica] - Almacenadp Doc 50606022000310173467500100135010000000284100001344
+[20200206 14:08][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200206 14:25][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+[20200206 14:30][Gurdando en FacturaElectronica] - Almacenadp Doc 50606022000310173467500100135040000000306100001345

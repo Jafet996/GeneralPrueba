@@ -1,0 +1,134 @@
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.exe.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.exe.manifest
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.application
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.exe
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\FlashControlV71.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\stdole.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.pdb
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.dll.config
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbprojAssemblyReference.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmReporte.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmAcercaDe.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmBusquedaCuentaContable.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmBusquedaProveedor.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmBusquedaUsuario.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmConexion.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmCxPPagoPendiente.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmGeneraDocumentoTransferencia.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmIngresaMonto.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmPagoTransferencia.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmPagoCheque.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmVuelto.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMain.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantBancoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantEmpresaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantGrupoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorCuentaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantTarjetaDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantTipoCambio.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantUsuarioDetalle.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantBancoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantEmpresaLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantGrupoLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorCuentaLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantTarjetaLista.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.Resources.resources
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbproj.GenerateResource.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbproj.CoreCompileInputs.cache
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.exe.manifest
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.application
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbproj.CopyComplete
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.exe
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.xml
+C:\Fuentes\SDB\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.exe.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.exe.manifest
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.application
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\SD-BANCOS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\stdole.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.pdb
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\bin\Debug\BUSINESS.dll.config
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbprojAssemblyReference.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmReporte.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmAcercaDe.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmBusquedaCuentaContable.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmBusquedaProveedor.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmBusquedaUsuario.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmConexion.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmCxPPagoPendiente.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmGeneraDocumentoTransferencia.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmIngresaMonto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmPagoTransferencia.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmPagoCheque.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmVuelto.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMain.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantBancoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantEmpresaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantGrupoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorCuentaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantTarjetaDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantTipoCambio.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantUsuarioCodigoPermisoDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantUsuarioDetalle.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantBancoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantEmpresaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantGrupoLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorCuentaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantProveedorLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.FrmMantTarjetaLista.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SDBANCOS.Resources.resources
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbproj.GenerateResource.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbproj.CoreCompileInputs.cache
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.exe.manifest
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.application
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\BANCOS.vbproj.CopyComplete
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.exe
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.xml
+C:\Users\Jimmy Trejos\Desktop\Respaldo\General\SDFINANCIAL\FRONT-END\SD-FINANCIAL\SD-BANCOS\obj\Debug\SD-BANCOS.pdb

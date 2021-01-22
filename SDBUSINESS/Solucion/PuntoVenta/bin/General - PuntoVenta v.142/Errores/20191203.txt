@@ -1,0 +1,8 @@
+[20191203 10:27][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20191203 10:27][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
+[20191203 14:06][Error de aplicación] - Debe de indicar el URL de Facturación Electrónica
+[20191203 14:14][Error de aplicación] - La Cédula Jurídica tiene menos o mas caracteres
+[20191203 14:15][Conexión] - Debe de seleccionar un Password
+[20191203 14:15][Conexión] - Debe de seleccionar un Password
+[20191203 14:16][Error de aplicación] - Imposible facturar, primero debe de abrir caja
+[20191203 15:48][Error de aplicación] - Imposible facturar, primero debe de abrir caja
