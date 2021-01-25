@@ -1,6 +1,7 @@
 ﻿Imports Business
 Imports System.Threading
 Imports System.Text.RegularExpressions
+Imports System.ComponentModel
 
 Public Class FrmPuntoVentaRetail
 #Region "Declaración de variables"
@@ -26,6 +27,8 @@ Public Class FrmPuntoVentaRetail
     Dim _FacturaExoneracion As New TFacturaExoneracion(EmpresaInfo.Emp_Id)
     Public _OtroValores As New List(Of TOtroValor)
     Dim _Activado As Boolean = False
+    Dim _Lotes As New List(Of TArticuloLote)
+    Dim _Garantias As New List(Of TGarantiaInfo)
     Private TotalIVADevolver As Double = 0
 #End Region
 #Region "Declaracion de Enums"
@@ -44,20 +47,22 @@ Public Class FrmPuntoVentaRetail
         Cantidad = 2
         Nombre = 3
         Precio = 4
-        PorcDescuento = 5
-        MontoDescuento = 6
-        Suelto = 7
-        Padre = 8
-        Conjunto = 9
-        Exento = 10
-        MontoIV = 11
-        Saldo = 12
-        Costo = 13
-        TotalLinea = 14
-        Observacion = 15
-        Servicio = 16
-        CalculaCantidadFactura = 17
-        CABYS = 18
+        Lote = 5
+        Garantia = 6
+        PorcDescuento = 7
+        MontoDescuento = 8
+        Suelto = 9
+        Padre = 10
+        Conjunto = 11
+        Exento = 12
+        MontoIV = 13
+        Saldo = 14
+        Costo = 15
+        TotalLinea = 16
+        Observacion = 17
+        Servicio = 18
+        CalculaCantidadFactura = 19
+        CABYS = 20
     End Enum
 #End Region
 
@@ -198,9 +203,17 @@ Public Class FrmPuntoVentaRetail
                 .Columns(ColumnasDetalle.CalculaCantidadFactura).Text = "CalculaCantidadFactura"
                 .Columns(ColumnasDetalle.CalculaCantidadFactura).Width = 0
 
+                .Columns(ColumnasDetalle.Lote).Text = "Lote"
+                .Columns(ColumnasDetalle.Lote).Width = IIf(_TipoFacturacion = Enum_TipoFacturacion.Factura, 40, 0)
+                .Columns(ColumnasDetalle.Lote).TextAlign = HorizontalAlignment.Center
+
                 .Columns(ColumnasDetalle.Saldo).Text = "Stock"
                 .Columns(ColumnasDetalle.Saldo).TextAlign = HorizontalAlignment.Right
                 .Columns(ColumnasDetalle.Saldo).Width = 65
+
+                .Columns(ColumnasDetalle.Garantia).Text = "Gtía"
+                .Columns(ColumnasDetalle.Garantia).Width = IIf(_TipoFacturacion = Enum_TipoFacturacion.Factura, 40, 0)
+                .Columns(ColumnasDetalle.Garantia).TextAlign = HorizontalAlignment.Center
 
             End With
 
@@ -2661,8 +2674,9 @@ Public Class FrmPuntoVentaRetail
     'End Function
 
     Private Sub IngresaArticulo(pArtConjunto As Boolean)
+        Dim ArticuloLote As TArticuloLote = Nothing
         Dim Item As ListViewItem
-        Dim Items(18) As String
+        Dim Items(20) As String
         Dim Linea_Id As Integer = 0
         Dim Accion As AccionDetalle = AccionDetalle.Nuevo
         Dim ArticuloImpuestos As New List(Of TInfoArticuloImpuesto)
@@ -2752,6 +2766,8 @@ Public Class FrmPuntoVentaRetail
                 .SubItems(ColumnasDetalle.CalculaCantidadFactura).Text = InfoArticulo.CalculaCantidadFactura
                 .SubItems(ColumnasDetalle.TotalLinea).Text = Format(((CDbl(.SubItems(ColumnasDetalle.Precio).Text) - CDbl(.SubItems(ColumnasDetalle.MontoDescuento).Text)) + CDbl(.SubItems(ColumnasDetalle.MontoIV).Text)) * CDbl(.SubItems(ColumnasDetalle.Cantidad).Text), "##0.0000")
                 '.SubItems(ColumnasDetalle.Comentario).Text = ""
+                .SubItems(ColumnasDetalle.Lote).Text = IIf(InfoArticulo.Lote, "SI", "NO")
+                .SubItems(ColumnasDetalle.Garantia).Text = IIf(InfoArticulo.Garantia, "SI", "NO")
             End With
 
 
@@ -2767,6 +2783,29 @@ Public Class FrmPuntoVentaRetail
             If Accion = AccionDetalle.Nuevo Then
                 LvwDetalle.Items.Add(Item)
                 Item.EnsureVisible()
+            End If
+
+            If _TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso Item.SubItems(ColumnasDetalle.Lote).Text = "SI" Then
+                Item.UseItemStyleForSubItems = False
+                ListViewCambiaCeldaBackForeColor(Item, Color.Teal, Color.White, ColumnasDetalle.Lote)
+                Item.SubItems(ColumnasDetalle.Lote).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+
+                ArticuloLote = New TArticuloLote
+
+                With ArticuloLote
+                    .Art_Id = InfoArticulo.Art_Id
+                    .Nombre = InfoArticulo.Nombre
+                    .Cantidad = CDbl(TxtCantidad.Text)
+                    .Escaneado = 0
+                End With
+
+                _Lotes.Add(ArticuloLote)
+            End If
+
+            If Item.SubItems(ColumnasDetalle.Garantia).Text = "SI" Then
+                Item.UseItemStyleForSubItems = False
+                ListViewCambiaCeldaBackForeColor(Item, Color.Plum, Color.White, ColumnasDetalle.Garantia)
+                Item.SubItems(ColumnasDetalle.Garantia).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
             End If
 
             'Marca la ultima linea modificada o ingresada
@@ -2793,6 +2832,49 @@ Public Class FrmPuntoVentaRetail
         End Try
     End Sub
 
+    Private Sub LoteDetalle()
+        Dim Forma As New FrmLoteSeleccion
+
+        Try
+            If _Lotes.Count = 0 Then
+                VerificaMensaje("No existe información de lotes")
+            End If
+
+            For Each Item As ListViewItem In LvwDetalle.Items
+                For Each ArticuloLote As TArticuloLote In _Lotes
+                    If Item.SubItems(ColumnasDetalle.Articulo).Text = ArticuloLote.Art_Id Then
+                        With ArticuloLote
+                            .Nombre = Item.SubItems(ColumnasDetalle.Nombre).Text
+                            .Cantidad = 0
+                            If IsNumeric(Item.SubItems(ColumnasDetalle.Cantidad).Text) Then
+                                .Cantidad += CDbl(Item.SubItems(ColumnasDetalle.Cantidad).Text)
+                            End If
+                        End With
+                        Exit For
+                    End If
+                Next
+            Next
+
+            With Forma
+                .Emp_Id = CajaInfo.Emp_Id
+                .Suc_Id = CajaInfo.Suc_Id
+                .Bod_Id = CajaInfo.Bod_Id
+                .Lotes = _Lotes
+
+                If Not _FacturaDev Is Nothing OrElse CInt(TxtTipoDocumento.Text.Trim) = Enum_TipoDocumento.DevolucionContado Or CInt(TxtTipoDocumento.Text.Trim) = Enum_TipoDocumento.DevolucionContado Then
+                    .ReadLonly = True
+                    .Execute(_FacturaDev.Lotes)
+                Else
+                    .ReadLonly = False
+                    .Execute()
+                End If
+            End With
+        Catch ex As Exception
+            MensajeError(ex.Message)
+        Finally
+            Forma = Nothing
+        End Try
+    End Sub
     Private Function ValidaDescuento() As Boolean
         Try
 
@@ -3671,10 +3753,12 @@ Public Class FrmPuntoVentaRetail
         Dim FormaPago As New FrmPago
         Dim FormaVuelto As New FrmVuelto
         Dim FacturaDetalles As New List(Of TFacturaDetalle)
+        Dim LoteTemp As TLote = Nothing
         Dim FacturaPagos As New List(Of TFacturaPago)
         Dim FormaPagos As New List(Of FrmPago)
         Dim FacturaDetalle As TFacturaDetalle = Nothing
         Dim FacturaPago As TFacturaPago = Nothing
+        Dim ArticuloLoteTemp As TArticuloLote = Nothing
         Dim TipoDoc_Id As Enum_TipoDocumento
         Dim Mensaje As String = ""
         Dim Fecha As DateTime
@@ -3793,6 +3877,7 @@ Public Class FrmPuntoVentaRetail
                 .TipoCambio = IIf(TxtDolares.Text = "SI", CDbl(TxtTipoCambio.Text), 1)
                 .FacturaCxCLlave = Nothing
                 .Proforma = _Proforma
+                .Garantias = _Garantias
 
                 .FacturaDev = _FacturaDev
                 .CxCDevolucionFacturas = _CxCDevolucionFacturas
@@ -3997,6 +4082,8 @@ Public Class FrmPuntoVentaRetail
                     .Observacion = Fila.SubItems(ColumnasDetalle.Observacion).Text.Trim()
                     .Servicio = Fila.SubItems(ColumnasDetalle.Servicio).Text
                     .CalculaCantidadFactura = Fila.SubItems(ColumnasDetalle.CalculaCantidadFactura).Text
+                    .Lote = IIf(Fila.SubItems(ColumnasDetalle.Lote).Text = "SI", 1, 0)
+                    .Garantia = IIf(Fila.SubItems(ColumnasDetalle.Garantia).Text = "SI", 1, 0)
                     .CabysCodigo = Fila.SubItems(ColumnasDetalle.CABYS).Text
                     For Each impuesto As TInfoArticuloImpuesto In CType(Fila.Tag, List(Of TInfoArticuloImpuesto))
 
@@ -4013,6 +4100,31 @@ Public Class FrmPuntoVentaRetail
                 End With
 
                 FacturaDetalles.Add(FacturaDetalle)
+            Next
+
+            For Each ArticuloLote As TArticuloLote In _Lotes
+                ArticuloLoteTemp = New TArticuloLote
+
+                With ArticuloLoteTemp
+                    .Art_Id = ArticuloLote.Art_Id
+                    .Nombre = ArticuloLote.Nombre
+                    .Cantidad = ArticuloLote.Cantidad
+                    .Escaneado = ArticuloLote.Escaneado
+                End With
+
+                For Each Lote As TLote In ArticuloLote.Lotes
+                    LoteTemp = New TLote
+
+                    With LoteTemp
+                        .Lote = Lote.Lote
+                        .Vencimiento = Lote.Vencimiento
+                        .Cantidad = Lote.Cantidad * Factor
+                    End With
+
+                    ArticuloLoteTemp.Lotes.Add(LoteTemp)
+                Next
+
+                FacturaEncabezado.Lotes.Add(ArticuloLoteTemp)
             Next
 
             'Agrega listas al encabezado de la factura
@@ -4584,6 +4696,80 @@ Public Class FrmPuntoVentaRetail
         End Try
     End Sub
 
+    Private Sub CMSDetalle_Opening(sender As Object, e As CancelEventArgs) Handles CMSDetalle.Opening
+        Dim item As ListViewItem = Nothing
+        Try
+
+            If Not LvwDetalle.SelectedItems Is Nothing AndAlso LvwDetalle.SelectedItems.Count > 0 Then
+                item = LvwDetalle.SelectedItems(0)
+            End If
+
+            MnuLotes.Enabled = (_TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso VerificaDetalleValor(ColumnasDetalle.Lote, "SI"))
+
+            If item Is Nothing Then
+                MnuGarantia.Enabled = False
+            Else
+                MnuGarantia.Enabled = (_TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso item.SubItems(ColumnasDetalle.Garantia).Text = "SI")
+            End If
+
+            e.Cancel = (Not MnuLotes.Enabled And Not MnuGarantia.Enabled)
+
+        Catch ex As Exception
+            MensajeError(ex.Message)
+        End Try
+    End Sub
+    Private Sub MnuLotes_Click(sender As Object, e As EventArgs) Handles MnuLotes.Click
+        Try
+            If _Lotes.Count = 0 Then
+                VerificaMensaje("No hay artículos con control de lotes")
+                Exit Try
+            End If
+
+            LoteDetalle()
+
+        Catch ex As Exception
+            MensajeError(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub MnuGarantia_Click(sender As Object, e As EventArgs) Handles MnuGarantia.Click
+        Dim Forma As New FrmGarantiaAsignacion
+        Dim Garantia As TGarantiaInfo = Nothing
+        Try
+
+            If LvwDetalle.SelectedItems Is Nothing OrElse LvwDetalle.Items.Count = 0 Then
+                VerificaMensaje("Debe de seleccionar una línea")
+            End If
+
+            Garantia = _Garantias.Find(Function(p) p.Art_Id = LvwDetalle.SelectedItems(0).SubItems(ColumnasDetalle.Articulo).Text)
+
+
+            Forma.Execute(LvwDetalle.SelectedItems(0).SubItems(ColumnasDetalle.Articulo).Text, Garantia)
+
+            If Forma.Eliminar Then
+                _Garantias.Remove(Garantia)
+            Else
+                If Forma.Acepto Then
+                    If Garantia Is Nothing Then
+                        _Garantias.Add(Forma.Garantia)
+                    Else
+                        With _Garantias.Find(Function(p) p.Art_Id = LvwDetalle.SelectedItems(0).SubItems(ColumnasDetalle.Articulo).Text)
+                            .Art_Id = Forma.Garantia.Art_Id
+                            .Fecha = Forma.Garantia.Fecha
+                            .OrdenNumero = Forma.Garantia.OrdenNumero
+                            .Vencimiento = Forma.Garantia.Vencimiento
+                        End With
+                    End If
+                End If
+            End If
+
+
+        Catch ex As Exception
+            MensajeError(ex.Message)
+        Finally
+            Forma = Nothing
+        End Try
+    End Sub
 
 
 
@@ -4885,6 +5071,19 @@ Public Class FrmPuntoVentaRetail
         FrmPuntoVenta_KeyDown(Nothing, New KeyEventArgs(Keys.F12))
     End Sub
 
+    Private Function VerificaDetalleValor(pColumna As ColumnasDetalle, pValor As String) As Boolean
+        Dim Resultado As Boolean = False
+
+        For Each item As ListViewItem In LvwDetalle.Items
+            If item.SubItems(pColumna).Text = pValor Then
+                Resultado = True
+                Exit For
+            End If
+        Next
+
+        Return Resultado
+    End Function
+
     Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
 
     End Sub
@@ -4905,7 +5104,6 @@ Public Class FrmPuntoVentaRetail
 
 
 #End Region
-
 
 
 

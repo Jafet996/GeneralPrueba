@@ -287,6 +287,7 @@
     <Compile Include="GeneralClases\TFacturacionElectronica.vb" />
     <Compile Include="GeneralClases\TFacturaCxCLlave.vb" />
     <Compile Include="GeneralClases\TFacturaLlave.vb" />
+    <Compile Include="GeneralClases\TGarantiaInfo.vb" />
     <Compile Include="GeneralClases\TInfoArticuloImpuesto.vb" />
     <Compile Include="GeneralClases\TInfoArticuloConjunto.vb" />
     <Compile Include="GeneralClases\TInfoAticuloCompra.vb" />
@@ -398,6 +399,7 @@
     <Compile Include="TableClasses\TFacturaExoneracion.vb" />
     <Compile Include="TableClasses\TFacturaPago.vb" />
     <Compile Include="TableClasses\TFeAdjuntoEncabezado.vb" />
+    <Compile Include="TableClasses\TGarantiaPeriodo.vb" />
     <Compile Include="TableClasses\TGrupo.vb" />
     <Compile Include="TableClasses\TGrupoMenu.vb" />
     <Compile Include="TableClasses\TImpuestoCodigo.vb" />

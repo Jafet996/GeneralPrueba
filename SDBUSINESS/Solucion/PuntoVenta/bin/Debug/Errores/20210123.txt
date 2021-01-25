@@ -1,0 +1,4 @@
+[20210123 22:33][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20210123 22:34][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
+[20210123 22:42][Error de aplicación] - InvalidArgument=El valor de '18' no es válido para 'index'.
+Nombre del parámetro: index

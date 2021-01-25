@@ -46,3 +46,13 @@ C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Sol
 C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.dll
 C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.xml
 C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.pdb
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\bin\Debug\Connection.dll
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\bin\Debug\Connection.pdb
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\bin\Debug\Connection.xml
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.vbprojAssemblyReference.cache
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.Resources.resources
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.vbproj.GenerateResource.cache
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.vbproj.CoreCompileInputs.cache
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.dll
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.xml
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.pdb

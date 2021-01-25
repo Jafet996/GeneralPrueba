@@ -22,6 +22,7 @@ Partial Class FrmPuntoVentaRetail
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmPuntoVentaRetail))
         Me.PanelEncabezado = New System.Windows.Forms.Panel()
         Me.LblClienteAdd = New System.Windows.Forms.Label()
@@ -82,6 +83,8 @@ Partial Class FrmPuntoVentaRetail
         Me.ColumnHeader16 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader17 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader18 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader19 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader20 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.LblSubTotal = New System.Windows.Forms.Label()
         Me.LblDescuento = New System.Windows.Forms.Label()
         Me.LblImpuestoVenta = New System.Windows.Forms.Label()
@@ -130,6 +133,9 @@ Partial Class FrmPuntoVentaRetail
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.PanlePiePantalla = New System.Windows.Forms.Panel()
         Me.PicLogo = New System.Windows.Forms.PictureBox()
+        Me.CMSDetalle = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.MnuLotes = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MnuGarantia = New System.Windows.Forms.ToolStripMenuItem()
         Me.PanelEncabezado.SuspendLayout()
         Me.PanelDetalle.SuspendLayout()
         Me.PanelTotales.SuspendLayout()
@@ -160,6 +166,7 @@ Partial Class FrmPuntoVentaRetail
         Me.StatusStrip1.SuspendLayout()
         Me.PanlePiePantalla.SuspendLayout()
         CType(Me.PicLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.CMSDetalle.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelEncabezado
@@ -687,7 +694,8 @@ Partial Class FrmPuntoVentaRetail
         'LvwDetalle
         '
         Me.LvwDetalle.BackColor = System.Drawing.Color.White
-        Me.LvwDetalle.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10, Me.ColumnHeader11, Me.ColumnHeader12, Me.ColumnHeader13, Me.ColumnHeader14, Me.ColumnHeader15, Me.ColumnHeader16, Me.ColumnHeader17, Me.ColumnHeader18})
+        Me.LvwDetalle.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10, Me.ColumnHeader11, Me.ColumnHeader12, Me.ColumnHeader13, Me.ColumnHeader14, Me.ColumnHeader15, Me.ColumnHeader16, Me.ColumnHeader17, Me.ColumnHeader18, Me.ColumnHeader19, Me.ColumnHeader20})
+        Me.LvwDetalle.ContextMenuStrip = Me.CMSDetalle
         Me.LvwDetalle.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LvwDetalle.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LvwDetalle.ForeColor = System.Drawing.Color.DarkBlue
@@ -1298,13 +1306,13 @@ Partial Class FrmPuntoVentaRetail
         Me.TSSLDocumentosPendientes.LinkColor = System.Drawing.Color.Red
         Me.TSSLDocumentosPendientes.LinkVisited = True
         Me.TSSLDocumentosPendientes.Name = "TSSLDocumentosPendientes"
-        Me.TSSLDocumentosPendientes.Size = New System.Drawing.Size(300, 19)
+        Me.TSSLDocumentosPendientes.Size = New System.Drawing.Size(300, 18)
         Me.TSSLDocumentosPendientes.VisitedLinkColor = System.Drawing.Color.Red
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(0, 19)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(0, 18)
         '
         'TSSLDocumentosPendientesCxC
         '
@@ -1314,7 +1322,7 @@ Partial Class FrmPuntoVentaRetail
         Me.TSSLDocumentosPendientesCxC.IsLink = True
         Me.TSSLDocumentosPendientesCxC.LinkColor = System.Drawing.Color.Orange
         Me.TSSLDocumentosPendientesCxC.Name = "TSSLDocumentosPendientesCxC"
-        Me.TSSLDocumentosPendientesCxC.Size = New System.Drawing.Size(400, 19)
+        Me.TSSLDocumentosPendientesCxC.Size = New System.Drawing.Size(400, 18)
         Me.TSSLDocumentosPendientesCxC.VisitedLinkColor = System.Drawing.Color.Orange
         '
         'StatusStrip1
@@ -1362,6 +1370,25 @@ Partial Class FrmPuntoVentaRetail
         Me.PicLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PicLogo.TabIndex = 68
         Me.PicLogo.TabStop = False
+        '
+        'CMSDetalle
+        '
+        Me.CMSDetalle.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.CMSDetalle.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuLotes, Me.MnuGarantia})
+        Me.CMSDetalle.Name = "CMSDetalle"
+        Me.CMSDetalle.Size = New System.Drawing.Size(211, 80)
+        '
+        'MnuLotes
+        '
+        Me.MnuLotes.Name = "MnuLotes"
+        Me.MnuLotes.Size = New System.Drawing.Size(210, 24)
+        Me.MnuLotes.Text = "Lotes"
+        '
+        'MnuGarantia
+        '
+        Me.MnuGarantia.Name = "MnuGarantia"
+        Me.MnuGarantia.Size = New System.Drawing.Size(210, 24)
+        Me.MnuGarantia.Text = "Garantía"
         '
         'FrmPuntoVentaRetail
         '
@@ -1417,6 +1444,7 @@ Partial Class FrmPuntoVentaRetail
         Me.StatusStrip1.PerformLayout()
         Me.PanlePiePantalla.ResumeLayout(False)
         CType(Me.PicLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.CMSDetalle.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1528,4 +1556,9 @@ Partial Class FrmPuntoVentaRetail
     Friend WithEvents PanlePiePantalla As Panel
     Friend WithEvents LblCliente As Label
     Friend WithEvents LblClienteAdd As Label
+    Friend WithEvents ColumnHeader19 As ColumnHeader
+    Friend WithEvents ColumnHeader20 As ColumnHeader
+    Friend WithEvents CMSDetalle As ContextMenuStrip
+    Friend WithEvents MnuLotes As ToolStripMenuItem
+    Friend WithEvents MnuGarantia As ToolStripMenuItem
 End Class

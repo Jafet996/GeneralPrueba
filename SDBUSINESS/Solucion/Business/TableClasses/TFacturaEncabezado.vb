@@ -60,6 +60,8 @@ Public Class TFacturaEncabezado
     Private _FacturaDev As TFacturaEncabezado
     Private _ReferenciaNC As TReferenciaNC
     Private _Exoneracion As Integer
+    Private _Lotes As New List(Of TArticuloLote)
+    Private _Garantias As New List(Of TGarantiaInfo)
     Private _Data As DataSet
     Private _SDL As New SDFinancial.SDFinancial
     Private _DTMovimiento As New SDFinancial.DTCxCMovimiento
@@ -74,6 +76,7 @@ Public Class TFacturaEncabezado
     Private _VendedorNombre As String
     Private _EsPrefactura As Boolean
     Private _OtroValores As New List(Of TOtroValor)
+
     'Cambios Mike: 03/11/2020
     Public _IVA1 As Double = 0
     Public _IVA13 As Double = 0
@@ -521,6 +524,23 @@ Public Class TFacturaEncabezado
         End Get
         Set(value As TFacturaElectronica)
             _FacturaElectronica = value
+        End Set
+    End Property
+
+    Public Property Lotes As List(Of TArticuloLote)
+        Get
+            Return _Lotes
+        End Get
+        Set(value As List(Of TArticuloLote))
+            _Lotes = value
+        End Set
+    End Property
+    Public Property Garantias As List(Of TGarantiaInfo)
+        Get
+            Return _Garantias
+        End Get
+        Set(value As List(Of TGarantiaInfo))
+            _Garantias = value
         End Set
     End Property
 
@@ -1686,7 +1706,7 @@ Public Class TFacturaEncabezado
                     & "," & Detalle.TipoDoc_Id.ToString() & "," & Detalle.Documento_Id.ToString() & "," & Detalle.Detalle_Id.ToString() & ",'" & Detalle.Art_Id _
                     & "'," & Detalle.Cantidad.ToString() & ",'" & Format(Detalle.Fecha, "yyyyMMdd HH:mm:ss") & "'," & Detalle.Costo.ToString() & "," & Detalle.Precio.ToString() _
                     & "," & Detalle.PorcDescuento.ToString() & "," & Detalle.MontoDescuento.ToString() & "," & Detalle.MontoIV.ToString() & "," & Detalle.TotalLinea.ToString() _
-                    & "," & Detalle.ExentoIV & "," & Detalle.Suelto & ",'" & _Usuario_Id & "','" & Detalle.Observacion & "'," & Detalle.Servicio & ",'" & Mid(Cliente.Nombre.ToUpper(), 1, 80) _
+                   & "," & Detalle.ExentoIV & "," & Detalle.Suelto & ",'" & _Usuario_Id & "','" & Detalle.Observacion & "'," & Detalle.Servicio & ",'" & Mid(Cliente.Nombre.ToUpper(), 1, 80) _
                     & "','" & _FacturaElectronica.Consecutivo & "','" & _FacturaElectronica.Clave & "'"
 
                 Cn.Ejecutar(Query)

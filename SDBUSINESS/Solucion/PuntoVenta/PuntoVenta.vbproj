@@ -381,6 +381,12 @@
     <Compile Include="Forms\FrmEntradaEfectivo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\FrmGarantiaAsignacion.Designer.vb">
+      <DependentUpon>FrmGarantiaAsignacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmGarantiaAsignacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\FrmInfoExoneracion.Designer.vb">
       <DependentUpon>FrmInfoExoneracion.vb</DependentUpon>
     </Compile>
@@ -1494,6 +1500,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmEntradaEfectivo.resx">
       <DependentUpon>FrmEntradaEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmGarantiaAsignacion.resx">
+      <DependentUpon>FrmGarantiaAsignacion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmInfoExoneracion.resx">
       <DependentUpon>FrmInfoExoneracion.vb</DependentUpon>

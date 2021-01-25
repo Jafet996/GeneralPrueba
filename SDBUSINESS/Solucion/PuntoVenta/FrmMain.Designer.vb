@@ -57,6 +57,7 @@ Partial Class FrmMain
         Me.MnuReimpresionSalidas = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnuRepCorteVentasXCajero = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnuImpresionApartado = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MnuImpresionAbono = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnuTipoPrecioXCliente = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnuCompaDolares = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnuSalidasDeEfectivo = New System.Windows.Forms.ToolStripMenuItem()
@@ -138,7 +139,6 @@ Partial Class FrmMain
         Me.PicSD = New System.Windows.Forms.PictureBox()
         Me.PicFacturacionElectronica = New System.Windows.Forms.PictureBox()
         Me.PicLogo = New System.Windows.Forms.PictureBox()
-        Me.MnuImpresionAbono = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStripPrincipal.SuspendLayout()
         Me.StatusBar.SuspendLayout()
         Me.PanelMain.SuspendLayout()
@@ -154,8 +154,7 @@ Partial Class FrmMain
         Me.MenuStripPrincipal.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuCatalogos, Me.MnuConsultas, Me.MnuProcesos, Me.MnuReportes, Me.MnuControlDeServicios, Me.MnuFacturacionElectronica, Me.MnuCuentasXCobrar, Me.MnuSistema})
         Me.MenuStripPrincipal.Location = New System.Drawing.Point(0, 0)
         Me.MenuStripPrincipal.Name = "MenuStripPrincipal"
-        Me.MenuStripPrincipal.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-        Me.MenuStripPrincipal.Size = New System.Drawing.Size(1712, 28)
+        Me.MenuStripPrincipal.Size = New System.Drawing.Size(1712, 30)
         Me.MenuStripPrincipal.TabIndex = 0
         Me.MenuStripPrincipal.Text = "MenuStrip1"
         '
@@ -163,111 +162,111 @@ Partial Class FrmMain
         '
         Me.MnuCatalogos.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuEmpresa, Me.MnuClientes, Me.MnuSeguridad, Me.MnuVendedor, Me.MnuTipoPago, Me.MnuBanco, Me.MnuTarjeta, Me.MnuTipoDeCambio, Me.MnuTecnico, Me.SucursalToolStripMenuItem})
         Me.MnuCatalogos.Name = "MnuCatalogos"
-        Me.MnuCatalogos.Size = New System.Drawing.Size(88, 24)
+        Me.MnuCatalogos.Size = New System.Drawing.Size(90, 26)
         Me.MnuCatalogos.Text = "Catálogos"
         '
         'MnuEmpresa
         '
         Me.MnuEmpresa.Name = "MnuEmpresa"
-        Me.MnuEmpresa.Size = New System.Drawing.Size(191, 26)
+        Me.MnuEmpresa.Size = New System.Drawing.Size(199, 26)
         Me.MnuEmpresa.Text = "Empresa"
         '
         'MnuClientes
         '
         Me.MnuClientes.Name = "MnuClientes"
-        Me.MnuClientes.Size = New System.Drawing.Size(191, 26)
+        Me.MnuClientes.Size = New System.Drawing.Size(199, 26)
         Me.MnuClientes.Text = "Clientes"
         '
         'MnuSeguridad
         '
         Me.MnuSeguridad.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuUsuario, Me.MnuGrupo})
         Me.MnuSeguridad.Name = "MnuSeguridad"
-        Me.MnuSeguridad.Size = New System.Drawing.Size(191, 26)
+        Me.MnuSeguridad.Size = New System.Drawing.Size(199, 26)
         Me.MnuSeguridad.Text = "Seguridad"
         '
         'MnuUsuario
         '
         Me.MnuUsuario.Name = "MnuUsuario"
-        Me.MnuUsuario.Size = New System.Drawing.Size(134, 26)
+        Me.MnuUsuario.Size = New System.Drawing.Size(142, 26)
         Me.MnuUsuario.Text = "Usuario"
         '
         'MnuGrupo
         '
         Me.MnuGrupo.Name = "MnuGrupo"
-        Me.MnuGrupo.Size = New System.Drawing.Size(134, 26)
+        Me.MnuGrupo.Size = New System.Drawing.Size(142, 26)
         Me.MnuGrupo.Text = "Grupo"
         '
         'MnuVendedor
         '
         Me.MnuVendedor.Name = "MnuVendedor"
-        Me.MnuVendedor.Size = New System.Drawing.Size(191, 26)
+        Me.MnuVendedor.Size = New System.Drawing.Size(199, 26)
         Me.MnuVendedor.Text = "Vendedor"
         '
         'MnuTipoPago
         '
         Me.MnuTipoPago.Name = "MnuTipoPago"
-        Me.MnuTipoPago.Size = New System.Drawing.Size(191, 26)
+        Me.MnuTipoPago.Size = New System.Drawing.Size(199, 26)
         Me.MnuTipoPago.Text = "Tipo Pago"
         '
         'MnuBanco
         '
         Me.MnuBanco.Name = "MnuBanco"
-        Me.MnuBanco.Size = New System.Drawing.Size(191, 26)
+        Me.MnuBanco.Size = New System.Drawing.Size(199, 26)
         Me.MnuBanco.Text = "Banco"
         '
         'MnuTarjeta
         '
         Me.MnuTarjeta.Name = "MnuTarjeta"
-        Me.MnuTarjeta.Size = New System.Drawing.Size(191, 26)
+        Me.MnuTarjeta.Size = New System.Drawing.Size(199, 26)
         Me.MnuTarjeta.Text = "Tarjeta"
         '
         'MnuTipoDeCambio
         '
         Me.MnuTipoDeCambio.Name = "MnuTipoDeCambio"
-        Me.MnuTipoDeCambio.Size = New System.Drawing.Size(191, 26)
+        Me.MnuTipoDeCambio.Size = New System.Drawing.Size(199, 26)
         Me.MnuTipoDeCambio.Text = "Tipo de Cambio"
         '
         'MnuTecnico
         '
         Me.MnuTecnico.Name = "MnuTecnico"
-        Me.MnuTecnico.Size = New System.Drawing.Size(191, 26)
+        Me.MnuTecnico.Size = New System.Drawing.Size(199, 26)
         Me.MnuTecnico.Text = "Técnico"
         '
         'SucursalToolStripMenuItem
         '
         Me.SucursalToolStripMenuItem.Name = "SucursalToolStripMenuItem"
-        Me.SucursalToolStripMenuItem.Size = New System.Drawing.Size(191, 26)
+        Me.SucursalToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
         Me.SucursalToolStripMenuItem.Text = "Sucursal"
         '
         'MnuConsultas
         '
         Me.MnuConsultas.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuSaldosInventario, Me.MnuConsultaCliente, Me.MnuEncargoDeMercaderia, Me.MnuPreFacturas})
         Me.MnuConsultas.Name = "MnuConsultas"
-        Me.MnuConsultas.Size = New System.Drawing.Size(84, 24)
+        Me.MnuConsultas.Size = New System.Drawing.Size(86, 26)
         Me.MnuConsultas.Text = "Consultas"
         '
         'MnuSaldosInventario
         '
         Me.MnuSaldosInventario.Name = "MnuSaldosInventario"
-        Me.MnuSaldosInventario.Size = New System.Drawing.Size(238, 26)
+        Me.MnuSaldosInventario.Size = New System.Drawing.Size(246, 26)
         Me.MnuSaldosInventario.Text = "Saldos Inventario"
         '
         'MnuConsultaCliente
         '
         Me.MnuConsultaCliente.Name = "MnuConsultaCliente"
-        Me.MnuConsultaCliente.Size = New System.Drawing.Size(238, 26)
+        Me.MnuConsultaCliente.Size = New System.Drawing.Size(246, 26)
         Me.MnuConsultaCliente.Text = "Clientes"
         '
         'MnuEncargoDeMercaderia
         '
         Me.MnuEncargoDeMercaderia.Name = "MnuEncargoDeMercaderia"
-        Me.MnuEncargoDeMercaderia.Size = New System.Drawing.Size(238, 26)
+        Me.MnuEncargoDeMercaderia.Size = New System.Drawing.Size(246, 26)
         Me.MnuEncargoDeMercaderia.Text = "Encargo de Mercadería"
         '
         'MnuPreFacturas
         '
         Me.MnuPreFacturas.Name = "MnuPreFacturas"
-        Me.MnuPreFacturas.Size = New System.Drawing.Size(238, 26)
+        Me.MnuPreFacturas.Size = New System.Drawing.Size(246, 26)
         Me.MnuPreFacturas.Text = "Pre-Facturas"
         '
         'MnuProcesos
@@ -275,414 +274,420 @@ Partial Class FrmMain
         Me.MnuProcesos.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuApartado, Me.MnuPreFactura, Me.MnuProforma, Me.MnuFacturacion, Me.MnuAbrirCaja, Me.MnuCierreCaja, Me.ReimpresiónToolStripMenuItem, Me.MnuTipoPrecioXCliente, Me.MnuCompaDolares, Me.MnuSalidasDeEfectivo, Me.MnuArqueoDeCaja, Me.MnuCorteVentasXCajero, Me.MnuGeneracionAsientosContables, Me.AdministrarCajasMnu, Me.MnuEntradaEfectivo})
         Me.MnuProcesos.Name = "MnuProcesos"
         Me.MnuProcesos.ShowShortcutKeys = False
-        Me.MnuProcesos.Size = New System.Drawing.Size(79, 24)
+        Me.MnuProcesos.Size = New System.Drawing.Size(81, 26)
         Me.MnuProcesos.Text = "Procesos"
         '
         'MnuApartado
         '
         Me.MnuApartado.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuApartadoNuevo, Me.MnuApartadoAbono})
         Me.MnuApartado.Name = "MnuApartado"
-        Me.MnuApartado.Size = New System.Drawing.Size(225, 26)
+        Me.MnuApartado.Size = New System.Drawing.Size(233, 26)
         Me.MnuApartado.Text = "Apartado"
         '
         'MnuApartadoNuevo
         '
         Me.MnuApartadoNuevo.Name = "MnuApartadoNuevo"
-        Me.MnuApartadoNuevo.Size = New System.Drawing.Size(147, 26)
+        Me.MnuApartadoNuevo.Size = New System.Drawing.Size(155, 26)
         Me.MnuApartadoNuevo.Text = "Apartado"
         '
         'MnuApartadoAbono
         '
         Me.MnuApartadoAbono.Name = "MnuApartadoAbono"
-        Me.MnuApartadoAbono.Size = New System.Drawing.Size(147, 26)
+        Me.MnuApartadoAbono.Size = New System.Drawing.Size(155, 26)
         Me.MnuApartadoAbono.Text = "Abono"
         '
         'MnuPreFactura
         '
         Me.MnuPreFactura.Name = "MnuPreFactura"
-        Me.MnuPreFactura.Size = New System.Drawing.Size(225, 26)
+        Me.MnuPreFactura.Size = New System.Drawing.Size(233, 26)
         Me.MnuPreFactura.Text = "Pre-Factura"
         '
         'MnuProforma
         '
         Me.MnuProforma.Name = "MnuProforma"
-        Me.MnuProforma.Size = New System.Drawing.Size(225, 26)
+        Me.MnuProforma.Size = New System.Drawing.Size(233, 26)
         Me.MnuProforma.Text = "Proforma"
         '
         'MnuFacturacion
         '
         Me.MnuFacturacion.Name = "MnuFacturacion"
-        Me.MnuFacturacion.Size = New System.Drawing.Size(225, 26)
+        Me.MnuFacturacion.Size = New System.Drawing.Size(233, 26)
         Me.MnuFacturacion.Text = "Facturación"
         '
         'MnuAbrirCaja
         '
         Me.MnuAbrirCaja.Name = "MnuAbrirCaja"
-        Me.MnuAbrirCaja.Size = New System.Drawing.Size(225, 26)
+        Me.MnuAbrirCaja.Size = New System.Drawing.Size(233, 26)
         Me.MnuAbrirCaja.Text = "Abrir Caja"
         '
         'MnuCierreCaja
         '
         Me.MnuCierreCaja.Name = "MnuCierreCaja"
-        Me.MnuCierreCaja.Size = New System.Drawing.Size(225, 26)
+        Me.MnuCierreCaja.Size = New System.Drawing.Size(233, 26)
         Me.MnuCierreCaja.Text = "Cerrar Caja"
         '
         'ReimpresiónToolStripMenuItem
         '
         Me.ReimpresiónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuReImprimirCierre, Me.MnuReimpresionDocumentos, Me.MnuReimpresionSalidas, Me.MnuRepCorteVentasXCajero, Me.MnuImpresionApartado, Me.MnuImpresionAbono})
         Me.ReimpresiónToolStripMenuItem.Name = "ReimpresiónToolStripMenuItem"
-        Me.ReimpresiónToolStripMenuItem.Size = New System.Drawing.Size(225, 26)
+        Me.ReimpresiónToolStripMenuItem.Size = New System.Drawing.Size(233, 26)
         Me.ReimpresiónToolStripMenuItem.Text = "Impresión"
         '
         'MnuReImprimirCierre
         '
         Me.MnuReImprimirCierre.Name = "MnuReImprimirCierre"
-        Me.MnuReImprimirCierre.Size = New System.Drawing.Size(225, 26)
+        Me.MnuReImprimirCierre.Size = New System.Drawing.Size(233, 26)
         Me.MnuReImprimirCierre.Text = "Cierre Caja"
         '
         'MnuReimpresionDocumentos
         '
         Me.MnuReimpresionDocumentos.Name = "MnuReimpresionDocumentos"
-        Me.MnuReimpresionDocumentos.Size = New System.Drawing.Size(225, 26)
+        Me.MnuReimpresionDocumentos.Size = New System.Drawing.Size(233, 26)
         Me.MnuReimpresionDocumentos.Text = "Facturas"
         '
         'MnuReimpresionSalidas
         '
         Me.MnuReimpresionSalidas.Name = "MnuReimpresionSalidas"
-        Me.MnuReimpresionSalidas.Size = New System.Drawing.Size(225, 26)
+        Me.MnuReimpresionSalidas.Size = New System.Drawing.Size(233, 26)
         Me.MnuReimpresionSalidas.Text = "Salidas de Efectivo"
         '
         'MnuRepCorteVentasXCajero
         '
         Me.MnuRepCorteVentasXCajero.Name = "MnuRepCorteVentasXCajero"
-        Me.MnuRepCorteVentasXCajero.Size = New System.Drawing.Size(225, 26)
+        Me.MnuRepCorteVentasXCajero.Size = New System.Drawing.Size(233, 26)
         Me.MnuRepCorteVentasXCajero.Text = "Corte Ventas x Cajero"
         '
         'MnuImpresionApartado
         '
         Me.MnuImpresionApartado.Name = "MnuImpresionApartado"
-        Me.MnuImpresionApartado.Size = New System.Drawing.Size(225, 26)
+        Me.MnuImpresionApartado.Size = New System.Drawing.Size(233, 26)
         Me.MnuImpresionApartado.Text = "Apartado"
+        '
+        'MnuImpresionAbono
+        '
+        Me.MnuImpresionAbono.Name = "MnuImpresionAbono"
+        Me.MnuImpresionAbono.Size = New System.Drawing.Size(233, 26)
+        Me.MnuImpresionAbono.Text = "Abono"
         '
         'MnuTipoPrecioXCliente
         '
         Me.MnuTipoPrecioXCliente.Name = "MnuTipoPrecioXCliente"
-        Me.MnuTipoPrecioXCliente.Size = New System.Drawing.Size(225, 26)
+        Me.MnuTipoPrecioXCliente.Size = New System.Drawing.Size(233, 26)
         Me.MnuTipoPrecioXCliente.Text = "Tipo Precio x Cliente"
         '
         'MnuCompaDolares
         '
         Me.MnuCompaDolares.Name = "MnuCompaDolares"
-        Me.MnuCompaDolares.Size = New System.Drawing.Size(225, 26)
+        Me.MnuCompaDolares.Size = New System.Drawing.Size(233, 26)
         Me.MnuCompaDolares.Text = "Compa Dólares"
         '
         'MnuSalidasDeEfectivo
         '
         Me.MnuSalidasDeEfectivo.Name = "MnuSalidasDeEfectivo"
-        Me.MnuSalidasDeEfectivo.Size = New System.Drawing.Size(225, 26)
+        Me.MnuSalidasDeEfectivo.Size = New System.Drawing.Size(233, 26)
         Me.MnuSalidasDeEfectivo.Text = "Salidas de Efectivo"
         '
         'MnuArqueoDeCaja
         '
         Me.MnuArqueoDeCaja.Name = "MnuArqueoDeCaja"
-        Me.MnuArqueoDeCaja.Size = New System.Drawing.Size(225, 26)
+        Me.MnuArqueoDeCaja.Size = New System.Drawing.Size(233, 26)
         Me.MnuArqueoDeCaja.Text = "Arqueo de Caja"
         '
         'MnuCorteVentasXCajero
         '
         Me.MnuCorteVentasXCajero.Name = "MnuCorteVentasXCajero"
-        Me.MnuCorteVentasXCajero.Size = New System.Drawing.Size(225, 26)
+        Me.MnuCorteVentasXCajero.Size = New System.Drawing.Size(233, 26)
         Me.MnuCorteVentasXCajero.Text = "Corte Ventas x Cajero"
         '
         'MnuGeneracionAsientosContables
         '
         Me.MnuGeneracionAsientosContables.Name = "MnuGeneracionAsientosContables"
-        Me.MnuGeneracionAsientosContables.Size = New System.Drawing.Size(225, 26)
+        Me.MnuGeneracionAsientosContables.Size = New System.Drawing.Size(233, 26)
         Me.MnuGeneracionAsientosContables.Text = "Asientos Contables"
         '
         'AdministrarCajasMnu
         '
         Me.AdministrarCajasMnu.Name = "AdministrarCajasMnu"
-        Me.AdministrarCajasMnu.Size = New System.Drawing.Size(225, 26)
+        Me.AdministrarCajasMnu.Size = New System.Drawing.Size(233, 26)
         Me.AdministrarCajasMnu.Text = "Administrar Cajas"
         '
         'MnuEntradaEfectivo
         '
         Me.MnuEntradaEfectivo.Name = "MnuEntradaEfectivo"
-        Me.MnuEntradaEfectivo.Size = New System.Drawing.Size(225, 26)
+        Me.MnuEntradaEfectivo.Size = New System.Drawing.Size(233, 26)
         Me.MnuEntradaEfectivo.Text = "Entrada Efectivo"
         '
         'MnuReportes
         '
         Me.MnuReportes.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuVentasXCategoria, Me.MnuVentasXFecha, Me.MnuVentasxArticulo, Me.MnuVentasxArticuloFecha, Me.MnuVentasXHoraXCategoría, Me.VentasXHoraToolStripMenuItem, Me.MnuArticulosPreFacturados, Me.MnuRepVentasGenerales, Me.MnuVentasDetallado, Me.MnuVentasXTipoPago, Me.MnuVentasXClienteDetallado, Me.MnuVentasXArticulos, Me.MnuVentasXCliente, Me.MnuReporteCliente, Me.MnuRepEncargosDeMercadería, Me.MnuDescuentosXUsuario, Me.ComisiónXVendedorToolStripMenuItem, Me.ReposicionInventario, Me.MnuCierreDeCaja, Me.MnuVentasPorArtículoPorSucursal, Me.MnuVentasExentasGravadas, Me.ApartadosPendientesToolStripMenuItem, Me.UtilidadXFacturaToolStripMenuItem, Me.MnuCostoDeVentaXFactura, Me.MnuFacturaElectrónicaEstado, Me.MovimientosPorUsuarioYCajaToolStripMenuItem, Me.EntradaDeEfectivoToolStripMenuItem, Me.MnuCierreCajaDetallado})
         Me.MnuReportes.Name = "MnuReportes"
-        Me.MnuReportes.Size = New System.Drawing.Size(80, 24)
+        Me.MnuReportes.Size = New System.Drawing.Size(82, 26)
         Me.MnuReportes.Text = "Reportes"
         '
         'MnuVentasXCategoria
         '
         Me.MnuVentasXCategoria.Name = "MnuVentasXCategoria"
-        Me.MnuVentasXCategoria.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXCategoria.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXCategoria.Text = "Ventas x Categoría"
         '
         'MnuVentasXFecha
         '
         Me.MnuVentasXFecha.Name = "MnuVentasXFecha"
-        Me.MnuVentasXFecha.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXFecha.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXFecha.Text = "Promedio Ventas x Fecha"
         '
         'MnuVentasxArticulo
         '
         Me.MnuVentasxArticulo.Name = "MnuVentasxArticulo"
-        Me.MnuVentasxArticulo.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasxArticulo.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasxArticulo.Text = "Promedio Ventas x Artículos"
         '
         'MnuVentasxArticuloFecha
         '
         Me.MnuVentasxArticuloFecha.Name = "MnuVentasxArticuloFecha"
-        Me.MnuVentasxArticuloFecha.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasxArticuloFecha.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasxArticuloFecha.Text = "Ventas x Articulo Fecha"
         '
         'MnuVentasXHoraXCategoría
         '
         Me.MnuVentasXHoraXCategoría.Name = "MnuVentasXHoraXCategoría"
-        Me.MnuVentasXHoraXCategoría.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXHoraXCategoría.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXHoraXCategoría.Text = "Ventas x Hora x Categoría"
         '
         'VentasXHoraToolStripMenuItem
         '
         Me.VentasXHoraToolStripMenuItem.Name = "VentasXHoraToolStripMenuItem"
-        Me.VentasXHoraToolStripMenuItem.Size = New System.Drawing.Size(295, 26)
+        Me.VentasXHoraToolStripMenuItem.Size = New System.Drawing.Size(303, 26)
         Me.VentasXHoraToolStripMenuItem.Text = "Ventas x Hora"
         '
         'MnuArticulosPreFacturados
         '
         Me.MnuArticulosPreFacturados.Name = "MnuArticulosPreFacturados"
-        Me.MnuArticulosPreFacturados.Size = New System.Drawing.Size(295, 26)
+        Me.MnuArticulosPreFacturados.Size = New System.Drawing.Size(303, 26)
         Me.MnuArticulosPreFacturados.Text = "Artículos PreFacturados"
         '
         'MnuRepVentasGenerales
         '
         Me.MnuRepVentasGenerales.Name = "MnuRepVentasGenerales"
-        Me.MnuRepVentasGenerales.Size = New System.Drawing.Size(295, 26)
+        Me.MnuRepVentasGenerales.Size = New System.Drawing.Size(303, 26)
         Me.MnuRepVentasGenerales.Text = "Ventas Generales"
         '
         'MnuVentasDetallado
         '
         Me.MnuVentasDetallado.Name = "MnuVentasDetallado"
-        Me.MnuVentasDetallado.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasDetallado.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasDetallado.Text = "Ventas Detallado"
         '
         'MnuVentasXTipoPago
         '
         Me.MnuVentasXTipoPago.Name = "MnuVentasXTipoPago"
-        Me.MnuVentasXTipoPago.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXTipoPago.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXTipoPago.Text = "Ventas x Tipo Pago"
         '
         'MnuVentasXClienteDetallado
         '
         Me.MnuVentasXClienteDetallado.Name = "MnuVentasXClienteDetallado"
-        Me.MnuVentasXClienteDetallado.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXClienteDetallado.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXClienteDetallado.Text = "Ventas x Cliente"
         '
         'MnuVentasXArticulos
         '
         Me.MnuVentasXArticulos.Name = "MnuVentasXArticulos"
-        Me.MnuVentasXArticulos.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXArticulos.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXArticulos.Text = "Ventas x Artículo"
         '
         'MnuVentasXCliente
         '
         Me.MnuVentasXCliente.Name = "MnuVentasXCliente"
-        Me.MnuVentasXCliente.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasXCliente.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasXCliente.Text = "Clientes Mas Facturados"
         '
         'MnuReporteCliente
         '
         Me.MnuReporteCliente.Name = "MnuReporteCliente"
-        Me.MnuReporteCliente.Size = New System.Drawing.Size(295, 26)
+        Me.MnuReporteCliente.Size = New System.Drawing.Size(303, 26)
         Me.MnuReporteCliente.Text = "Clientes"
         '
         'MnuRepEncargosDeMercadería
         '
         Me.MnuRepEncargosDeMercadería.Name = "MnuRepEncargosDeMercadería"
-        Me.MnuRepEncargosDeMercadería.Size = New System.Drawing.Size(295, 26)
+        Me.MnuRepEncargosDeMercadería.Size = New System.Drawing.Size(303, 26)
         Me.MnuRepEncargosDeMercadería.Text = "Encargo de Mercadería"
         '
         'MnuDescuentosXUsuario
         '
         Me.MnuDescuentosXUsuario.Name = "MnuDescuentosXUsuario"
-        Me.MnuDescuentosXUsuario.Size = New System.Drawing.Size(295, 26)
+        Me.MnuDescuentosXUsuario.Size = New System.Drawing.Size(303, 26)
         Me.MnuDescuentosXUsuario.Text = "Descuentos x Usuario"
         '
         'ComisiónXVendedorToolStripMenuItem
         '
         Me.ComisiónXVendedorToolStripMenuItem.Name = "ComisiónXVendedorToolStripMenuItem"
-        Me.ComisiónXVendedorToolStripMenuItem.Size = New System.Drawing.Size(295, 26)
+        Me.ComisiónXVendedorToolStripMenuItem.Size = New System.Drawing.Size(303, 26)
         Me.ComisiónXVendedorToolStripMenuItem.Text = "Comisión x Vendedor"
         '
         'ReposicionInventario
         '
         Me.ReposicionInventario.Name = "ReposicionInventario"
-        Me.ReposicionInventario.Size = New System.Drawing.Size(295, 26)
+        Me.ReposicionInventario.Size = New System.Drawing.Size(303, 26)
         Me.ReposicionInventario.Text = "Reposición Inventario"
         '
         'MnuCierreDeCaja
         '
         Me.MnuCierreDeCaja.Name = "MnuCierreDeCaja"
-        Me.MnuCierreDeCaja.Size = New System.Drawing.Size(295, 26)
+        Me.MnuCierreDeCaja.Size = New System.Drawing.Size(303, 26)
         Me.MnuCierreDeCaja.Text = "Arqueos de caja"
         '
         'MnuVentasPorArtículoPorSucursal
         '
         Me.MnuVentasPorArtículoPorSucursal.Name = "MnuVentasPorArtículoPorSucursal"
-        Me.MnuVentasPorArtículoPorSucursal.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasPorArtículoPorSucursal.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasPorArtículoPorSucursal.Text = "Ventas por Artículo por Sucursal"
         '
         'MnuVentasExentasGravadas
         '
         Me.MnuVentasExentasGravadas.Name = "MnuVentasExentasGravadas"
-        Me.MnuVentasExentasGravadas.Size = New System.Drawing.Size(295, 26)
+        Me.MnuVentasExentasGravadas.Size = New System.Drawing.Size(303, 26)
         Me.MnuVentasExentasGravadas.Text = "Ventas Exentas y Gravadas"
         '
         'ApartadosPendientesToolStripMenuItem
         '
         Me.ApartadosPendientesToolStripMenuItem.Name = "ApartadosPendientesToolStripMenuItem"
-        Me.ApartadosPendientesToolStripMenuItem.Size = New System.Drawing.Size(295, 26)
+        Me.ApartadosPendientesToolStripMenuItem.Size = New System.Drawing.Size(303, 26)
         Me.ApartadosPendientesToolStripMenuItem.Text = "Apartados Pendientes"
         '
         'UtilidadXFacturaToolStripMenuItem
         '
         Me.UtilidadXFacturaToolStripMenuItem.Name = "UtilidadXFacturaToolStripMenuItem"
-        Me.UtilidadXFacturaToolStripMenuItem.Size = New System.Drawing.Size(295, 26)
+        Me.UtilidadXFacturaToolStripMenuItem.Size = New System.Drawing.Size(303, 26)
         Me.UtilidadXFacturaToolStripMenuItem.Text = "Utilidad x Factura"
         '
         'MnuCostoDeVentaXFactura
         '
         Me.MnuCostoDeVentaXFactura.Name = "MnuCostoDeVentaXFactura"
-        Me.MnuCostoDeVentaXFactura.Size = New System.Drawing.Size(295, 26)
+        Me.MnuCostoDeVentaXFactura.Size = New System.Drawing.Size(303, 26)
         Me.MnuCostoDeVentaXFactura.Text = "Costo de Venta x Factura "
         '
         'MnuFacturaElectrónicaEstado
         '
         Me.MnuFacturaElectrónicaEstado.Name = "MnuFacturaElectrónicaEstado"
-        Me.MnuFacturaElectrónicaEstado.Size = New System.Drawing.Size(295, 26)
+        Me.MnuFacturaElectrónicaEstado.Size = New System.Drawing.Size(303, 26)
         Me.MnuFacturaElectrónicaEstado.Text = "Factura Electrónica Estado"
         '
         'MovimientosPorUsuarioYCajaToolStripMenuItem
         '
         Me.MovimientosPorUsuarioYCajaToolStripMenuItem.Name = "MovimientosPorUsuarioYCajaToolStripMenuItem"
-        Me.MovimientosPorUsuarioYCajaToolStripMenuItem.Size = New System.Drawing.Size(295, 26)
+        Me.MovimientosPorUsuarioYCajaToolStripMenuItem.Size = New System.Drawing.Size(303, 26)
         Me.MovimientosPorUsuarioYCajaToolStripMenuItem.Text = "Movimientos por Usuario y Caja"
         '
         'EntradaDeEfectivoToolStripMenuItem
         '
         Me.EntradaDeEfectivoToolStripMenuItem.Name = "EntradaDeEfectivoToolStripMenuItem"
-        Me.EntradaDeEfectivoToolStripMenuItem.Size = New System.Drawing.Size(295, 26)
+        Me.EntradaDeEfectivoToolStripMenuItem.Size = New System.Drawing.Size(303, 26)
         Me.EntradaDeEfectivoToolStripMenuItem.Text = "Entrada de Efectivo"
         '
         'MnuCierreCajaDetallado
         '
         Me.MnuCierreCajaDetallado.Name = "MnuCierreCajaDetallado"
-        Me.MnuCierreCajaDetallado.Size = New System.Drawing.Size(295, 26)
+        Me.MnuCierreCajaDetallado.Size = New System.Drawing.Size(303, 26)
         Me.MnuCierreCajaDetallado.Text = "Cierre Caja Detallado"
         '
         'MnuControlDeServicios
         '
         Me.MnuControlDeServicios.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuBoletaDeServicio})
         Me.MnuControlDeServicios.Name = "MnuControlDeServicios"
-        Me.MnuControlDeServicios.Size = New System.Drawing.Size(153, 24)
+        Me.MnuControlDeServicios.Size = New System.Drawing.Size(155, 26)
         Me.MnuControlDeServicios.Text = "Control de Servicios"
         '
         'MnuBoletaDeServicio
         '
         Me.MnuBoletaDeServicio.Name = "MnuBoletaDeServicio"
-        Me.MnuBoletaDeServicio.Size = New System.Drawing.Size(183, 26)
+        Me.MnuBoletaDeServicio.Size = New System.Drawing.Size(191, 26)
         Me.MnuBoletaDeServicio.Text = "Boleta Servicio"
         '
         'MnuFacturacionElectronica
         '
         Me.MnuFacturacionElectronica.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuFacturaElectronicaPendiente, Me.MnuRecepcionDocumentoElectronicos, Me.EnvioPricesmartToolStripMenuItem})
         Me.MnuFacturacionElectronica.Name = "MnuFacturacionElectronica"
-        Me.MnuFacturacionElectronica.Size = New System.Drawing.Size(173, 24)
+        Me.MnuFacturacionElectronica.Size = New System.Drawing.Size(175, 26)
         Me.MnuFacturacionElectronica.Text = "Facturación Electrónica"
         '
         'MnuFacturaElectronicaPendiente
         '
         Me.MnuFacturaElectronicaPendiente.Name = "MnuFacturaElectronicaPendiente"
-        Me.MnuFacturaElectronicaPendiente.Size = New System.Drawing.Size(241, 26)
+        Me.MnuFacturaElectronicaPendiente.Size = New System.Drawing.Size(249, 26)
         Me.MnuFacturaElectronicaPendiente.Text = "Pendiente Envío"
         '
         'MnuRecepcionDocumentoElectronicos
         '
         Me.MnuRecepcionDocumentoElectronicos.Name = "MnuRecepcionDocumentoElectronicos"
-        Me.MnuRecepcionDocumentoElectronicos.Size = New System.Drawing.Size(241, 26)
+        Me.MnuRecepcionDocumentoElectronicos.Size = New System.Drawing.Size(249, 26)
         Me.MnuRecepcionDocumentoElectronicos.Text = "Recepción Documentos"
         '
         'EnvioPricesmartToolStripMenuItem
         '
         Me.EnvioPricesmartToolStripMenuItem.Name = "EnvioPricesmartToolStripMenuItem"
-        Me.EnvioPricesmartToolStripMenuItem.Size = New System.Drawing.Size(241, 26)
+        Me.EnvioPricesmartToolStripMenuItem.Size = New System.Drawing.Size(249, 26)
         Me.EnvioPricesmartToolStripMenuItem.Text = "Envío PRICESMART"
         '
         'MnuCuentasXCobrar
         '
         Me.MnuCuentasXCobrar.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuPagos, Me.MnuAnulaPagos, Me.FrmFacturasPendientesCxC})
         Me.MnuCuentasXCobrar.Name = "MnuCuentasXCobrar"
-        Me.MnuCuentasXCobrar.Size = New System.Drawing.Size(133, 24)
+        Me.MnuCuentasXCobrar.Size = New System.Drawing.Size(135, 26)
         Me.MnuCuentasXCobrar.Text = "Cuentas x Cobrar"
         '
         'MnuPagos
         '
         Me.MnuPagos.Name = "MnuPagos"
-        Me.MnuPagos.Size = New System.Drawing.Size(241, 26)
+        Me.MnuPagos.Size = New System.Drawing.Size(249, 26)
         Me.MnuPagos.Text = "Pagos"
         '
         'MnuAnulaPagos
         '
         Me.MnuAnulaPagos.Name = "MnuAnulaPagos"
-        Me.MnuAnulaPagos.Size = New System.Drawing.Size(241, 26)
+        Me.MnuAnulaPagos.Size = New System.Drawing.Size(249, 26)
         Me.MnuAnulaPagos.Text = "Anula Pagos"
         '
         'FrmFacturasPendientesCxC
         '
         Me.FrmFacturasPendientesCxC.Name = "FrmFacturasPendientesCxC"
-        Me.FrmFacturasPendientesCxC.Size = New System.Drawing.Size(241, 26)
+        Me.FrmFacturasPendientesCxC.Size = New System.Drawing.Size(249, 26)
         Me.FrmFacturasPendientesCxC.Text = "Facturas Pendientes CxC"
         '
         'MnuSistema
         '
         Me.MnuSistema.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuAcercaDe, Me.MnuConexión, Me.MnuSalir})
         Me.MnuSistema.Name = "MnuSistema"
-        Me.MnuSistema.Size = New System.Drawing.Size(73, 24)
+        Me.MnuSistema.Size = New System.Drawing.Size(75, 26)
         Me.MnuSistema.Text = "Sistema"
         '
         'MnuAcercaDe
         '
         Me.MnuAcercaDe.Name = "MnuAcercaDe"
-        Me.MnuAcercaDe.Size = New System.Drawing.Size(152, 26)
+        Me.MnuAcercaDe.Size = New System.Drawing.Size(160, 26)
         Me.MnuAcercaDe.Text = "Acerca De"
         '
         'MnuConexión
         '
         Me.MnuConexión.Name = "MnuConexión"
-        Me.MnuConexión.Size = New System.Drawing.Size(152, 26)
+        Me.MnuConexión.Size = New System.Drawing.Size(160, 26)
         Me.MnuConexión.Text = "Conexión"
         '
         'MnuSalir
         '
         Me.MnuSalir.Name = "MnuSalir"
-        Me.MnuSalir.Size = New System.Drawing.Size(152, 26)
+        Me.MnuSalir.Size = New System.Drawing.Size(160, 26)
         Me.MnuSalir.Text = "Salir"
         '
         'StatusBar
         '
         Me.StatusBar.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.StatusBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSSCompaniaLabel, Me.TSSCompania, Me.ToolStripStatusLabel2, Me.TSSSucursal, Me.TSSCajaLabel, Me.TSSCaja, Me.TSSUsuarioLabel, Me.TSSUsuario, Me.ToolStripStatusLabel1, Me.TSSTipoCambio})
-        Me.StatusBar.Location = New System.Drawing.Point(0, 821)
+        Me.StatusBar.Location = New System.Drawing.Point(0, 820)
         Me.StatusBar.Name = "StatusBar"
         Me.StatusBar.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
-        Me.StatusBar.Size = New System.Drawing.Size(1712, 25)
+        Me.StatusBar.Size = New System.Drawing.Size(1712, 26)
         Me.StatusBar.TabIndex = 1
         Me.StatusBar.Text = "StatusStrip1"
         '
@@ -768,7 +773,7 @@ Partial Class FrmMain
         Me.PanelMain.Controls.Add(Me.LblEmpresaNombre)
         Me.PanelMain.Controls.Add(Me.Label1)
         Me.PanelMain.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelMain.Location = New System.Drawing.Point(0, 28)
+        Me.PanelMain.Location = New System.Drawing.Point(0, 30)
         Me.PanelMain.Margin = New System.Windows.Forms.Padding(5)
         Me.PanelMain.Name = "PanelMain"
         Me.PanelMain.Size = New System.Drawing.Size(1712, 86)
@@ -1080,12 +1085,6 @@ Partial Class FrmMain
         Me.PicLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PicLogo.TabIndex = 9
         Me.PicLogo.TabStop = False
-        '
-        'MnuImpresionAbono
-        '
-        Me.MnuImpresionAbono.Name = "MnuImpresionAbono"
-        Me.MnuImpresionAbono.Size = New System.Drawing.Size(225, 26)
-        Me.MnuImpresionAbono.Text = "Abono"
         '
         'FrmMain
         '

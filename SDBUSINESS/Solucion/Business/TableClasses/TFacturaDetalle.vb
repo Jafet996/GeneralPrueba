@@ -24,6 +24,8 @@
     Private _Usuario As String
     Private _Observacion As String
     Private _Servicio As Integer
+    Private _Lote As Integer
+    Private _Garantia As Integer
     Private _CalculaCantidadFactura As Integer
     Private _Ubicacion As String
     Private _CodigoProveedor As String
@@ -209,6 +211,22 @@
         End Get
         Set(value As Integer)
             _Servicio = value
+        End Set
+    End Property
+    Public Property Lote As Integer
+        Get
+            Return _Lote
+        End Get
+        Set(value As Integer)
+            _Lote = value
+        End Set
+    End Property
+    Public Property Garantia As Integer
+        Get
+            Return _Garantia
+        End Get
+        Set(value As Integer)
+            _Garantia = value
         End Set
     End Property
     Public Property CalculaCantidadFactura As Integer
