@@ -58,6 +58,13 @@
 
         Return Adapter
     End Function
+    Public Function GetTransaction() As IDbTransaction
+        Try
+            Return _Tran
+        Catch ex As Exception
+            Return Nothing
+        End Try
+    End Function
 #End Region
 #Region "Metodos Publicos"
     Public Function Open() As Boolean

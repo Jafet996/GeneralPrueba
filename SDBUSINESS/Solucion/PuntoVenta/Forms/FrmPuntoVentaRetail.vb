@@ -238,6 +238,23 @@ Public Class FrmPuntoVentaRetail
             MensajeError(ex.Message)
         End Try
     End Sub
+    Private Function CantidadLotesxArticulo(pArt_Id As String) As Double
+        Dim Cantidad As Double = 0
+
+        Try
+            For Each Articulo As TArticuloLote In _Lotes
+                If Articulo.Art_Id = pArt_Id Then
+                    For Each Lote As TLote In Articulo.Lotes
+                        Cantidad += Lote.Cantidad
+                    Next
+                End If
+            Next
+        Catch ex As Exception
+            Cantidad = -1
+        End Try
+
+        Return Cantidad
+    End Function
 
     Private Sub Inicializa()
         Try
@@ -250,7 +267,8 @@ Public Class FrmPuntoVentaRetail
             End If
 
             '_FacturaDetalleImpuestos.Clear()
-
+            _Lotes.Clear()
+            _Garantias.Clear()
             _OtroValores.Clear()
 
             TxtTipoCambio.Text = TipoCambioCierreCaja(CajaInfo.Suc_Id, CajaInfo.Caja_Id, CajaInfo.Cierre_Id).ToString("#,##0.00")
@@ -1121,6 +1139,28 @@ Public Class FrmPuntoVentaRetail
                     End If
                 Next
             End If
+            If _TipoFacturacion = Enum_TipoFacturacion.Factura Then
+                For Each Item As ListViewItem In LvwDetalle.Items
+                    If Item.SubItems(ColumnasDetalle.Lote).Text = "SI" And CDbl(Item.SubItems(ColumnasDetalle.Cantidad).Text) <> CantidadLotesxArticulo(Item.SubItems(ColumnasDetalle.Articulo).Text) Then
+                        LvwDetalle.SelectedItems.Clear()
+                        Item.EnsureVisible()
+                        Item.Selected = True
+                        VerificaMensaje("Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto " & Item.SubItems(ColumnasDetalle.Articulo).Text & " - " & Item.SubItems(ColumnasDetalle.Nombre).Text & ", favor verificar")
+                    End If
+                Next
+            End If
+
+            If _TipoFacturacion = Enum_TipoFacturacion.Factura Then
+                For Each Item As ListViewItem In LvwDetalle.Items
+                    If Item.SubItems(ColumnasDetalle.Garantia).Text = "SI" Then
+                        If _Garantias.Find(Function(p) p.Art_Id = Item.SubItems(ColumnasDetalle.Articulo).Text) Is Nothing Then
+                            Item.EnsureVisible()
+                            Item.Selected = True
+                            VerificaMensaje("No se han indicado los datos de la garantía para el producto " & Item.SubItems(ColumnasDetalle.Articulo).Text & " - " & Item.SubItems(ColumnasDetalle.Nombre).Text & ", favor verificar")
+                        End If
+                    End If
+                Next
+            End If
 
 
             If _TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso CInt(TxtTipoDocumento.Text) = Enum_TipoDocumento.Credito AndAlso EmpresaParametroInfo.InterfazCxC AndAlso EmpresaParametroInfo.ValidaClienteMorosoCxC Then
@@ -1956,7 +1996,7 @@ Public Class FrmPuntoVentaRetail
 
 
             TxtComentario.Text = _Comentario
-
+            _Lotes.Clear()
 
 
             'Detalle
@@ -4212,6 +4252,12 @@ Public Class FrmPuntoVentaRetail
                     ThdImpresion = New Thread(AddressOf ImprimeFactura)
                     ThdImpresion.Start(FacturaEncabezado)
                 End If
+            End If
+
+            If FacturaEncabezado.GarantiasId.Count > 0 Then
+                For Each GId In FacturaEncabezado.GarantiasId
+                    ImprimeGarantia(GId, False)
+                Next
             End If
 
             Select Case TipoDoc_Id

@@ -351,6 +351,12 @@
     <Compile Include="Formas Reportes\FrmRptVentasXArticulo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formas Reportes\FrmRptVentasXArticuloLotes.Designer.vb">
+      <DependentUpon>FrmRptVentasXArticuloLotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formas Reportes\FrmRptVentasXArticuloLotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formas Reportes\FrmRptVentasxHora.Designer.vb">
       <DependentUpon>FrmRptVentasxHora.vb</DependentUpon>
     </Compile>
@@ -385,6 +391,12 @@
       <DependentUpon>FrmGarantiaAsignacion.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmGarantiaAsignacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmGarantiaBusqueda.Designer.vb">
+      <DependentUpon>FrmGarantiaBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmGarantiaBusqueda.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FrmInfoExoneracion.Designer.vb">
@@ -490,6 +502,18 @@
       <AutoGen>True</AutoGen>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\RptGarantia.vb">
+      <DependentUpon>RptGarantia.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\RptGarantiaEvySecurity.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptGarantiaEvySecurity.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\RptHistorialClienteSDC.vb">
       <DependentUpon>RptHistorialClienteSDC.rpt</DependentUpon>
@@ -1329,6 +1353,12 @@
       <DependentUpon>RptVentasXArticulo.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\RptVentasXArticuloLote.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptVentasXArticuloLote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\RptVentasxCategoria.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1504,6 +1534,9 @@
     <EmbeddedResource Include="Forms\FrmGarantiaAsignacion.resx">
       <DependentUpon>FrmGarantiaAsignacion.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmGarantiaBusqueda.resx">
+      <DependentUpon>FrmGarantiaBusqueda.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmInfoExoneracion.resx">
       <DependentUpon>FrmInfoExoneracion.vb</DependentUpon>
     </EmbeddedResource>
@@ -1564,6 +1597,14 @@
     <EmbeddedResource Include="Reports\RptFacturaEvySecurity.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>RptFacturaEvySecurity.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptGarantia.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptGarantia.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptGarantiaEvySecurity.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptGarantiaEvySecurity.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\RptHistorialClienteSDC.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -2030,6 +2071,10 @@
     <EmbeddedResource Include="Reports\RptVentasXArticulo.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>RptVentasXArticulo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptVentasXArticuloLote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptVentasXArticuloLote.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\RptVentasxCategoria.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

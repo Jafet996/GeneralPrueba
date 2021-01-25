@@ -85,5 +85,12 @@
 
         Return Datos
     End Function
+    Public Function GetTransaction() As IDbTransaction
+        Try
+            Return _Conexion.GetTransaction()
+        Catch ex As Exception
+            Return Nothing
+        End Try
+    End Function
 #End Region
 End Class

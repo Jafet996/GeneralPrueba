@@ -391,6 +391,7 @@
     <Compile Include="TableClasses\TEntradaFacturaTipo.vb" />
     <Compile Include="TableClasses\TEtiquetaTipo.vb" />
     <Compile Include="TableClasses\TFacturaDetalle.vb" />
+    <Compile Include="TableClasses\TFacturaDetalleGarantia.vb" />
     <Compile Include="TableClasses\TFacturaDetalleImpuesto.vb" />
     <Compile Include="TableClasses\TFacturaDevolucion.vb" />
     <Compile Include="TableClasses\TFacturaElectronica.vb" />

@@ -178,6 +178,23 @@ Public Module General
             FacturaDetalle = Nothing
         End Try
     End Sub
+
+    Public Function ImprimeGarantia(pGarantia_Id As Long, pReimpresion As Boolean) As String
+        Try
+            Select Case InfoMaquina.PrintLocation
+                Case PrintLocation.EVISecurity
+                    Return ImprimeGarantiaEvySecurity(pGarantia_Id, pReimpresion)
+                Case Else
+                    Return ImprimeGarantiaGeneral(pGarantia_Id, pReimpresion)
+                    'VerificaMensaje("No se ha definido el formato de impresión de garantía")
+            End Select
+
+            Return String.Empty
+        Catch ex As Exception
+            Return ex.Message
+        End Try
+    End Function
+    
     Public Function ImprimeFactura(pFacturaEncabezado As TFacturaEncabezado)
         Try
             'Cambios Mike: 03/11/2020
@@ -846,6 +863,88 @@ Public Module General
         End Try
     End Function
 
+    Private Function ImprimeGarantiaEvySecurity(pGarantia_Id As Long, pReImpresion As Boolean) As String
+        Dim Reporte As New RptGarantiaEvySecurity
+        Dim FormaReporte As New FrmReporte
+        Dim FacturaDetalleGarantia As New TFacturaDetalleGarantia(EmpresaInfo.Emp_Id)
+        Try
+            Cursor.Current = Cursors.WaitCursor
+
+            FacturaDetalleGarantia.Garantia_Id = pGarantia_Id
+
+            VerificaMensaje(FacturaDetalleGarantia.RptGarantia())
+            If FacturaDetalleGarantia.RowsAffected = 0 Then
+                VerificaMensaje("No se encontró la garantía")
+            End If
+
+            'VerificaMensaje(EmpresaInfo.GetLogoEmpresa)
+            Reporte.SetDataSource(FacturaDetalleGarantia.Data.Tables(0))
+            'Reporte.Subreports(0).SetDataSource(EmpresaInfo.Data.Tables(0))
+
+            'Reporte.SetParameterValue("SucursalNombre", SucursalInfo.Nombre)
+            'Reporte.SetParameterValue("DireccionWeb", EmpresaInfo.DireccionWeb)
+            If InfoMaquina.PrinterName.Trim <> String.Empty Then
+                Reporte.PrintOptions.PrinterName = InfoMaquina.PrinterName
+            End If
+
+            If Not pReImpresion Then
+                Reporte.PrintToPrinter(1, True, 0, 0)
+            Else
+                FormaReporte.Execute(Reporte)
+            End If
+
+            Return ""
+        Catch ex As Exception
+            Return ex.Message
+        Finally
+            Reporte = Nothing
+            FacturaDetalleGarantia = Nothing
+            Cursor.Current = Cursors.Default
+        End Try
+    End Function
+
+    Private Function ImprimeGarantiaGeneral(pGarantia_Id As Long, pReImpresion As Boolean) As String
+        Dim Reporte As New RptGarantia
+        Dim FormaReporte As New FrmReporte
+        Dim FacturaDetalleGarantia As New TFacturaDetalleGarantia(EmpresaInfo.Emp_Id)
+        Try
+            Cursor.Current = Cursors.WaitCursor
+
+            FacturaDetalleGarantia.Garantia_Id = pGarantia_Id
+
+            VerificaMensaje(FacturaDetalleGarantia.RptGarantia())
+            If FacturaDetalleGarantia.RowsAffected = 0 Then
+                VerificaMensaje("No se encontró la garantía")
+            End If
+
+
+
+            VerificaMensaje(EmpresaInfo.GetLogoEmpresa)
+            Reporte.SetDataSource(FacturaDetalleGarantia.Data.Tables(0))
+            Reporte.Subreports(0).SetDataSource(EmpresaInfo.Data.Tables(0))
+
+
+            'Reporte.SetParameterValue("SucursalNombre", SucursalInfo.Nombre)
+            'Reporte.SetParameterValue("DireccionWeb", EmpresaInfo.DireccionWeb)
+            If InfoMaquina.PrinterName.Trim <> String.Empty Then
+                Reporte.PrintOptions.PrinterName = InfoMaquina.PrinterName
+            End If
+
+            If Not pReImpresion Then
+                Reporte.PrintToPrinter(1, True, 0, 0)
+            Else
+                FormaReporte.Execute(Reporte)
+            End If
+
+            Return ""
+        Catch ex As Exception
+            Return ex.Message
+        Finally
+            Reporte = Nothing
+            FacturaDetalleGarantia = Nothing
+            Cursor.Current = Cursors.Default
+        End Try
+    End Function
     Private Function ImprimeCarta1(pDs As DataSet) As String
         Dim Reporte As New RptFacturaFormatoCarta1
 

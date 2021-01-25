@@ -1,4 +1,5 @@
-﻿Imports System.Windows.Forms
+﻿Imports System.Data.SqlClient
+Imports System.Windows.Forms
 
 Public Class TFacturaEncabezado
     Inherits TBaseClassManager
@@ -76,6 +77,7 @@ Public Class TFacturaEncabezado
     Private _VendedorNombre As String
     Private _EsPrefactura As Boolean
     Private _OtroValores As New List(Of TOtroValor)
+    Private _GarantiasId As New List(Of Long)
 
     'Cambios Mike: 03/11/2020
     Public _IVA1 As Double = 0
@@ -541,6 +543,14 @@ Public Class TFacturaEncabezado
         End Get
         Set(value As List(Of TGarantiaInfo))
             _Garantias = value
+        End Set
+    End Property
+    Public Property GarantiasId As List(Of Long)
+        Get
+            Return _GarantiasId
+        End Get
+        Set(value As List(Of Long))
+            _GarantiasId = value
         End Set
     End Property
 
@@ -1511,16 +1521,51 @@ Public Class TFacturaEncabezado
         Return _Suc_Id.ToString + "-" + _Caja_Id.ToString + "-" + _TipoDoc_Id.ToString + "-" + StrDup(7 - _Documento_Id.ToString.Length, "0") + _Documento_Id.ToString
     End Function
 
+    Private Function CreaTablaInfoLotes(pArt_Id As String) As DataTable
+        Dim Table As New DataTable("InfoLotes")
+        Dim Row As DataRow = Nothing
+
+        Try
+            With Table
+                .Columns.Add("Art_Id", GetType(String))
+                .Columns.Add("Lote", GetType(String))
+                .Columns.Add("Vencimiento", GetType(Date))
+                .Columns.Add("Cantidad", GetType(Double))
+            End With
+
+            For Each ArticuloLote As TArticuloLote In _Lotes
+                If ArticuloLote.Art_Id = pArt_Id Then
+                    For Each Lote As TLote In ArticuloLote.Lotes
+                        Row = Table.NewRow
+                        Row("Art_Id") = ArticuloLote.Art_Id
+                        Row("Lote") = Lote.Lote
+                        Row("Vencimiento") = Lote.Vencimiento
+                        Row("Cantidad") = Lote.Cantidad
+                        Table.Rows.Add(Row)
+                    Next
+                End If
+            Next
+
+            Return Table
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
+
+
 
     Public Function GuardarDocumento() As String
         Dim Query As String = ""
         Dim DocAnterior As Long = -1
+        Dim Lote_Id As Integer = 0
         Dim Mensaje As String = ""
         Dim FE As New TFacturacionElectronica()
         Dim MensajeFE As String = String.Empty
         Dim ListaMovimientos() As SDFinancial.DTCxCMovimientoLinea
         Dim Movimiento_Id As Integer = 0
         Dim CXCFacturaEncabezado As New SDFinancial.TFacturaEncabezado
+        Dim TablaGarantia As DataTable = Nothing
+        Dim Garantia_Id As Long = 0
         Try
 
             Cn.Close()
@@ -1688,7 +1733,7 @@ Public Class TFacturaEncabezado
                 Cn.Ejecutar(Query)
 
             End If
-
+             _GarantiasId.Clear()
 
             '----------- Guarda el detalle de la factura y hace los rebajos de inventario
             For Each Detalle As TFacturaDetalle In _FacturaDetalles
@@ -1702,14 +1747,51 @@ Public Class TFacturaEncabezado
                     VerificaMensaje("El impuesto no puede ser mayor al precio")
                 End If
 
-                Query = "exec GuardaFacturaDetalle " & Detalle.Emp_Id.ToString() & "," & Detalle.Suc_Id.ToString() & "," & Detalle.Caja_Id.ToString() & "," & _Bod_Id.ToString() _
-                    & "," & Detalle.TipoDoc_Id.ToString() & "," & Detalle.Documento_Id.ToString() & "," & Detalle.Detalle_Id.ToString() & ",'" & Detalle.Art_Id _
-                    & "'," & Detalle.Cantidad.ToString() & ",'" & Format(Detalle.Fecha, "yyyyMMdd HH:mm:ss") & "'," & Detalle.Costo.ToString() & "," & Detalle.Precio.ToString() _
-                    & "," & Detalle.PorcDescuento.ToString() & "," & Detalle.MontoDescuento.ToString() & "," & Detalle.MontoIV.ToString() & "," & Detalle.TotalLinea.ToString() _
-                   & "," & Detalle.ExentoIV & "," & Detalle.Suelto & ",'" & _Usuario_Id & "','" & Detalle.Observacion & "'," & Detalle.Servicio & ",'" & Mid(Cliente.Nombre.ToUpper(), 1, 80) _
-                    & "','" & _FacturaElectronica.Consecutivo & "','" & _FacturaElectronica.Clave & "'"
+                Using Command As New SqlCommand(String.Empty, Cn.ConexionObject, Cn.GetTransaction)
+                    With Command
+                        .CommandType = CommandType.StoredProcedure
+                        .CommandText = "GuardaFacturaDetalle"
 
-                Cn.Ejecutar(Query)
+                        .Parameters.Add("@pEmp_Id", SqlDbType.SmallInt).Value = _Emp_Id
+                        .Parameters.Add("@pSuc_Id", SqlDbType.SmallInt).Value = _Suc_Id
+                        .Parameters.Add("@pCaja_Id", SqlDbType.SmallInt).Value = _Caja_Id
+                        .Parameters.Add("@pBod_Id", SqlDbType.SmallInt).Value = _Bod_Id
+                        .Parameters.Add("@pTipoDoc_Id", SqlDbType.SmallInt).Value = _TipoDoc_Id
+                        .Parameters.Add("@pDocumento_Id", SqlDbType.BigInt).Value = _Documento_Id
+                        .Parameters.Add("@pDetalle_Id", SqlDbType.SmallInt).Value = Detalle.Detalle_Id
+                        .Parameters.Add("@pArt_Id", SqlDbType.VarChar, 13).Value = Detalle.Art_Id
+                        .Parameters.Add("@pCantidad", SqlDbType.Float).Value = Detalle.Cantidad
+                        .Parameters.Add("@pFecha", SqlDbType.DateTime).Value = Detalle.Fecha
+                        .Parameters.Add("@pCosto", SqlDbType.Money).Value = Detalle.Costo
+                        .Parameters.Add("@pPrecio", SqlDbType.Money).Value = Detalle.Precio
+                        .Parameters.Add("@pPorcDescuento", SqlDbType.Money).Value = Detalle.PorcDescuento
+                        .Parameters.Add("@pMontoDescuento", SqlDbType.Money).Value = Detalle.MontoDescuento
+                        .Parameters.Add("@pMontoIV", SqlDbType.Money).Value = Detalle.MontoIV
+                        .Parameters.Add("@pTotalLinea", SqlDbType.Money).Value = Detalle.TotalLinea
+                        .Parameters.Add("@pExentoIV", SqlDbType.Bit).Value = Detalle.ExentoIV
+                        .Parameters.Add("@pSuelto", SqlDbType.Bit).Value = Detalle.Suelto
+                        .Parameters.Add("@pUsuario_Id", SqlDbType.VarChar, 20).Value = _Usuario_Id
+                        .Parameters.Add("@pObservacion", SqlDbType.VarChar, 500).Value = Detalle.Observacion
+                        .Parameters.Add("@pServicio", SqlDbType.Bit).Value = Detalle.Servicio
+                        .Parameters.Add("@pNombreEntidad", SqlDbType.VarChar, 80).Value = Mid(Cliente.Nombre.ToUpper(), 1, 80)
+                        .Parameters.Add("@pConsecutivo", SqlDbType.VarChar, 20).Value = _FacturaElectronica.Consecutivo
+                        .Parameters.Add("@pClave", SqlDbType.VarChar, 50).Value = _FacturaElectronica.Clave
+                        .Parameters.Add("@pLote", SqlDbType.Bit).Value = Detalle.Lote
+                        .Parameters.Add("@pGarantia", SqlDbType.Bit).Value = Detalle.Garantia
+                        .Parameters.Add("@pInfoLotes", SqlDbType.Structured).Value = CreaTablaInfoLotes(Detalle.Art_Id)
+
+                        .ExecuteNonQuery()
+                    End With
+                End Using
+
+                ' Query = "exec GuardaFacturaDetalle " & Detalle.Emp_Id.ToString() & "," & Detalle.Suc_Id.ToString() & "," & Detalle.Caja_Id.ToString() & "," & _Bod_Id.ToString() _
+                ' & "," & Detalle.TipoDoc_Id.ToString() & "," & Detalle.Documento_Id.ToString() & "," & Detalle.Detalle_Id.ToString() & ",'" & Detalle.Art_Id _
+                '& "'," & Detalle.Cantidad.ToString() & ",'" & Format(Detalle.Fecha, "yyyyMMdd HH:mm:ss") & "'," & Detalle.Costo.ToString() & "," & Detalle.Precio.ToString() _
+                '& "," & Detalle.PorcDescuento.ToString() & "," & Detalle.MontoDescuento.ToString() & "," & Detalle.MontoIV.ToString() & "," & Detalle.TotalLinea.ToString() _
+                '& "," & Detalle.ExentoIV & "," & Detalle.Suelto & ",'" & _Usuario_Id & "','" & Detalle.Observacion & "'," & Detalle.Servicio & ",'" & Mid(Cliente.Nombre.ToUpper(), 1, 80) _
+                '& "','" & _FacturaElectronica.Consecutivo & "','" & _FacturaElectronica.Clave & "'"
+
+                'Cn.Ejecutar(Query)
 
                 For Each impuesto As TFacturaDetalleImpuesto In Detalle.ArticuloImpuestos
 
@@ -1745,6 +1827,96 @@ Public Class TFacturaEncabezado
 
                 _DetallesGuardados += 1
 
+                ' Guarda los lotes
+                Lote_Id = 0
+
+                For Each ArticuloLote As TArticuloLote In _Lotes
+                    If ArticuloLote.Art_Id = Detalle.Art_Id Then
+                        For Each Lote As TLote In ArticuloLote.Lotes
+                            If Math.Abs(Lote.Cantidad) > 0 Then
+                                Lote_Id += 1
+
+                                Query = " insert into FacturaDetalleLote (" &
+                                        "  Emp_Id" &
+                                        " ,Suc_Id" &
+                                        " ,Caja_Id" &
+                                        " ,TipoDoc_Id" &
+                                        " ,Documento_Id" &
+                                        " ,Detalle_Id" &
+                                        " ,Lote_Id" &
+                                        " ,Art_Id" &
+                                        " ,Lote" &
+                                        " ,Cantidad" &
+                                        " ,Vencimiento" &
+                                        " ,Bod_Id" &
+                                        " ,Fecha )" &
+                                        " values (" &
+                                        _Emp_Id.ToString &
+                                        "," & _Suc_Id.ToString &
+                                        "," & _Caja_Id.ToString &
+                                        "," & _TipoDoc_Id.ToString &
+                                        "," & _Documento_Id.ToString &
+                                        "," & Detalle.Detalle_Id.ToString &
+                                        "," & Lote_Id.ToString &
+                                        ",'" & ArticuloLote.Art_Id & "'" &
+                                        ",'" & Lote.Lote & "'" &
+                                        "," & Lote.Cantidad.ToString &
+                                        ",'" & Lote.Vencimiento.ToString("yyyyMMdd") & "'" &
+                                        "," & _Bod_Id.ToString &
+                                        ",'" & Format(Detalle.Fecha, "yyyyMMdd HH:mm:ss") & "')"
+
+                                Cn.Ejecutar(Query)
+                            End If
+                        Next
+                    End If
+                Next
+                For Each Garantia As TGarantiaInfo In _Garantias
+                    If Garantia.Art_Id = Detalle.Art_Id Then
+
+                        'VerificaMensaje(FacturaDetalleGarantia.Siguiente())
+                        Query = "select isnull(max(Garantia_Id),0) + 1 From FacturaDetalleGarantia Where Emp_Id=" & _Emp_Id.ToString()
+
+                        TablaGarantia = Cn.Seleccionar(Query).Copy
+
+                        If Not TablaGarantia Is Nothing AndAlso TablaGarantia.Rows.Count > 0 Then
+                            Garantia_Id = TablaGarantia.Rows(0).Item(0)
+                        Else
+                            VerificaMensaje("No se pudo obtener el número de garantía")
+                        End If
+
+
+                        Query = "insert into FacturaDetalleGarantia " &
+                                "(Emp_Id" &
+                                ",Suc_Id" &
+                                ",Caja_Id" &
+                                ",TipoDoc_Id" &
+                                ",Documento_Id" &
+                                ",Detalle_Id" &
+                                ",Garantia_Id" &
+                                ",FechaInicio" &
+                                ",FechaFinal" &
+                                ",OrdenNumero" &
+                                ",Usuario_Id) " &
+                                "values(" &
+                                _Emp_Id.ToString &
+                                "," & _Suc_Id.ToString &
+                                "," & _Caja_Id.ToString &
+                                "," & _TipoDoc_Id.ToString &
+                                "," & _Documento_Id.ToString &
+                                "," & Detalle.Detalle_Id.ToString &
+                                "," & Garantia_Id.ToString() &
+                                ",'" & Format(Garantia.Fecha, "yyyyMMdd") &
+                                "','" & Format(Garantia.Vencimiento, "yyyyMMdd") &
+                                "','" & Garantia.OrdenNumero.Trim() &
+                                "','" & _Usuario_Id & "')"
+
+                        Cn.Ejecutar(Query)
+
+                        _GarantiasId.Add(Garantia_Id)
+
+                    End If
+
+                Next
 
             Next
 
@@ -2599,6 +2771,30 @@ Public Class TFacturaEncabezado
             Cn.Open()
 
             Query = "exec RptVentasXArticulo " & _Emp_Id.ToString & "," & _Suc_Id.ToString & ",'" & Format(pFechaIni, "yyyyMMdd") & "','" & Format(pFechaFin, "yyyyMMdd") & "'"
+
+            Tabla = Cn.Seleccionar(Query).Copy
+
+            If _Data.Tables.Contains(Tabla.TableName) Then
+                _Data.Tables.Remove(Tabla.TableName)
+            End If
+
+            _Data.Tables.Add(Tabla)
+
+            Return ""
+        Catch ex As Exception
+            Return ex.Message
+        Finally
+            Cn.Close()
+        End Try
+    End Function
+    Public Function RptVentasXArticuloLote(pFechaIni As DateTime, pFechaFin As DateTime, Serie As String, Nombre As String) As String
+        Dim Query As String
+        Dim Tabla As DataTable
+
+        Try
+            Cn.Open()
+
+            Query = "exec RptVentasXArticuloLote " & _Emp_Id.ToString & "," & _Suc_Id.ToString & ",'" & Format(pFechaIni, "yyyyMMdd") & "','" & Format(pFechaFin, "yyyyMMdd") & "', " & "'" & Serie.ToString & "'," & "'" & Nombre.ToString & "'"
 
             Tabla = Cn.Seleccionar(Query).Copy
 

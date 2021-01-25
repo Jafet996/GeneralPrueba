@@ -1413,4 +1413,27 @@ Public Class FrmMain
             Forma = Nothing
         End Try
     End Sub
+
+    Private Sub MnuGarantias_Click(sender As Object, e As EventArgs) Handles MnuGarantias.Click
+        Dim Forma As New FrmGarantiaBusqueda
+        Try
+            Forma.Execute()
+        Catch ex As Exception
+            MensajeError(ex.Message)
+        Finally
+            Forma = Nothing
+        End Try
+    End Sub
+
+    Private Sub MnuVentasXArticuloXLotes_Click(sender As Object, e As EventArgs) Handles MnuVentasXArticuloXLotes.Click
+        Dim Forma As New FrmRptVentasXArticuloLotes
+
+        Try
+            Forma.Execute()
+        Catch ex As Exception
+            MensajeError(ex.Message)
+        Finally
+            Forma = Nothing
+        End Try
+    End Sub
 End Class

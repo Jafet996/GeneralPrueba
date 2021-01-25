@@ -972,3 +972,5 @@ C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Punt
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.xml
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.pdb
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmGarantiaAsignacion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmGarantiaAsignacion.resources
+C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmGarantiaBusqueda.resources

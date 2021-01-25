@@ -1,0 +1,8 @@
+[20210125 11:01][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto MPD9821 - PRUEBAS, favor verificar
+[20210125 11:02][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto MPD9821 - PRUEBAS, favor verificar
+[20210125 11:03][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar
+[20210125 11:03][Gurdando en FacturaElectronica] - Almacenadp Doc 50625012100310173467500100251040000000465100002066
+[20210125 11:40][Error de aplicación] - Could not find stored procedure  BuscaGarantia .
+[20210125 11:44][Error de aplicación] - Debe de seleccionar una garantía
+[20210125 13:37][Conexión] - El password es incorrecto
+[20210125 15:43][Error de aplicación] - No se encontraron garantías
