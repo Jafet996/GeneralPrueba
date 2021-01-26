@@ -1,0 +1,5 @@
+[20210126 16:03][Error de aplicación] - Debe de ingresar un valor
+[20210126 16:03][Error de aplicación] - InvalidArgument=El valor de '0' no es válido para 'index'.
+Nombre del parámetro: index
+[20210126 16:06][Error de aplicación] - No se puede definir el articulo que tiene control de lotes, antes debe de dejar la existencia en cero: El articulo tiene un saldo distinto de 0 en la bodega ROHRMOSER
+[20210126 16:07][Error de aplicación] - Debe de seleccionar un valor

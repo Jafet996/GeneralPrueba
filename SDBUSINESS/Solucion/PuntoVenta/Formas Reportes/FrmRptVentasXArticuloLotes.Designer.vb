@@ -22,10 +22,7 @@ Partial Class FrmRptVentasXArticuloLotes
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmRptVentasXArticulo))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.BtnSalir = New System.Windows.Forms.Button()
-        Me.BtnImprimir = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.DtpPFechaFin = New System.Windows.Forms.DateTimePicker()
@@ -35,6 +32,8 @@ Partial Class FrmRptVentasXArticuloLotes
         Me.DtpPSerie = New System.Windows.Forms.TextBox()
         Me.LabelCliente = New System.Windows.Forms.Label()
         Me.DtpPNombre = New System.Windows.Forms.TextBox()
+        Me.BtnSalir = New System.Windows.Forms.Button()
+        Me.BtnImprimir = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -46,36 +45,10 @@ Partial Class FrmRptVentasXArticuloLotes
         Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(95, 185)
         Me.Panel1.TabIndex = 9
-        '
-        'BtnSalir
-        '
-        Me.BtnSalir.BackColor = System.Drawing.Color.White
-        Me.BtnSalir.Image = Global.PuntoVenta.My.Resources.Resources.Blue_Esc
-        Me.BtnSalir.Location = New System.Drawing.Point(8, 94)
-        Me.BtnSalir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.BtnSalir.Name = "BtnSalir"
-        Me.BtnSalir.Size = New System.Drawing.Size(79, 86)
-        Me.BtnSalir.TabIndex = 13
-        Me.BtnSalir.Text = "Salir"
-        Me.BtnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.BtnSalir.UseVisualStyleBackColor = False
-        '
-        'BtnImprimir
-        '
-        Me.BtnImprimir.BackColor = System.Drawing.Color.White
-        Me.BtnImprimir.Image = Global.PuntoVenta.My.Resources.Resources.Blue_F3
-        Me.BtnImprimir.Location = New System.Drawing.Point(8, 4)
-        Me.BtnImprimir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.BtnImprimir.Name = "BtnImprimir"
-        Me.BtnImprimir.Size = New System.Drawing.Size(79, 86)
-        Me.BtnImprimir.TabIndex = 12
-        Me.BtnImprimir.Text = "Imprimir"
-        Me.BtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.BtnImprimir.UseVisualStyleBackColor = False
         '
         'Label9
         '
@@ -103,7 +76,7 @@ Partial Class FrmRptVentasXArticuloLotes
         Me.DtpPFechaFin.CustomFormat = "dd/MM/yyyy"
         Me.DtpPFechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DtpPFechaFin.Location = New System.Drawing.Point(392, 106)
-        Me.DtpPFechaFin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DtpPFechaFin.Margin = New System.Windows.Forms.Padding(4)
         Me.DtpPFechaFin.Name = "DtpPFechaFin"
         Me.DtpPFechaFin.Size = New System.Drawing.Size(125, 22)
         Me.DtpPFechaFin.TabIndex = 12
@@ -125,7 +98,7 @@ Partial Class FrmRptVentasXArticuloLotes
         Me.DtpPFechaIni.CustomFormat = "dd/MM/yyyy"
         Me.DtpPFechaIni.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DtpPFechaIni.Location = New System.Drawing.Point(179, 108)
-        Me.DtpPFechaIni.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DtpPFechaIni.Margin = New System.Windows.Forms.Padding(4)
         Me.DtpPFechaIni.Name = "DtpPFechaIni"
         Me.DtpPFechaIni.Size = New System.Drawing.Size(125, 22)
         Me.DtpPFechaIni.TabIndex = 10
@@ -144,7 +117,7 @@ Partial Class FrmRptVentasXArticuloLotes
         'DtpPSerie
         '
         Me.DtpPSerie.Location = New System.Drawing.Point(179, 57)
-        Me.DtpPSerie.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DtpPSerie.Margin = New System.Windows.Forms.Padding(4)
         Me.DtpPSerie.Name = "DtpPSerie"
         Me.DtpPSerie.Size = New System.Drawing.Size(132, 22)
         Me.DtpPSerie.TabIndex = 15
@@ -158,16 +131,44 @@ Partial Class FrmRptVentasXArticuloLotes
         Me.LabelCliente.Size = New System.Drawing.Size(51, 17)
         Me.LabelCliente.TabIndex = 16
         Me.LabelCliente.Text = "Cliente"
+        Me.LabelCliente.Visible = False
         '
         'DtpPNombre
         '
         Me.DtpPNombre.Location = New System.Drawing.Point(392, 57)
-        Me.DtpPNombre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DtpPNombre.Margin = New System.Windows.Forms.Padding(4)
         Me.DtpPNombre.Name = "DtpPNombre"
         Me.DtpPNombre.Size = New System.Drawing.Size(132, 22)
         Me.DtpPNombre.TabIndex = 17
+        Me.DtpPNombre.Visible = False
         '
-        'FrmRptVentasXArticulo
+        'BtnSalir
+        '
+        Me.BtnSalir.BackColor = System.Drawing.Color.White
+        Me.BtnSalir.Image = Global.PuntoVenta.My.Resources.Resources.Blue_Esc
+        Me.BtnSalir.Location = New System.Drawing.Point(8, 94)
+        Me.BtnSalir.Margin = New System.Windows.Forms.Padding(4)
+        Me.BtnSalir.Name = "BtnSalir"
+        Me.BtnSalir.Size = New System.Drawing.Size(79, 86)
+        Me.BtnSalir.TabIndex = 13
+        Me.BtnSalir.Text = "Salir"
+        Me.BtnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnSalir.UseVisualStyleBackColor = False
+        '
+        'BtnImprimir
+        '
+        Me.BtnImprimir.BackColor = System.Drawing.Color.White
+        Me.BtnImprimir.Image = Global.PuntoVenta.My.Resources.Resources.Blue_F3
+        Me.BtnImprimir.Location = New System.Drawing.Point(8, 4)
+        Me.BtnImprimir.Margin = New System.Windows.Forms.Padding(4)
+        Me.BtnImprimir.Name = "BtnImprimir"
+        Me.BtnImprimir.Size = New System.Drawing.Size(79, 86)
+        Me.BtnImprimir.TabIndex = 12
+        Me.BtnImprimir.Text = "Imprimir"
+        Me.BtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnImprimir.UseVisualStyleBackColor = False
+        '
+        'FrmRptVentasXArticuloLotes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -183,12 +184,11 @@ Partial Class FrmRptVentasXArticuloLotes
         Me.Controls.Add(Me.DtpPFechaIni)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "FrmRptVentasXArticulo"
+        Me.Name = "FrmRptVentasXArticuloLotes"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Reporte Ventas x Artículo"
         Me.Panel1.ResumeLayout(False)

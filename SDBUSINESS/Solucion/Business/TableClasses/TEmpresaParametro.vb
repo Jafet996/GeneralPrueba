@@ -71,6 +71,9 @@
     Private _CnnFacturar As String
     Private _ValidaCabys As Boolean
     Private _EscaneaEntradaMercaderia As Boolean
+    Private _LeyendaGarantia As String
+    Private _Lote As Boolean
+    Private _Garantia As Boolean
     Public Property ValidaClienteMorosoCxC As Integer
     Private _SDL As New SDFinancial.SDFinancial()
     Private _Resultado As New SDFinancial.TResultado
@@ -126,6 +129,31 @@
         End Get
         Set(ByVal Value As String)
             _LeyendaFactura1 = Value
+        End Set
+    End Property
+    Public Property LeyendaGarantia() As String
+        Get
+            Return _LeyendaGarantia
+        End Get
+        Set(ByVal Value As String)
+            _LeyendaGarantia = Value
+        End Set
+    End Property
+
+    Public Property Lote() As Boolean
+        Get
+            Return _Lote
+        End Get
+        Set(ByVal Value As Boolean)
+            _Lote = Value
+        End Set
+    End Property
+    Public Property Garantia() As Boolean
+        Get
+            Return _Garantia
+        End Get
+        Set(ByVal Value As Boolean)
+            _Garantia = Value
         End Set
     End Property
     Public Property LeyendaFactura2() As String
@@ -734,6 +762,8 @@
         _FinancialDB = String.Empty
         _CnnFacturar = String.Empty
         _Data = New DataSet
+        _LeyendaGarantia = String.Empty
+
     End Sub
 #End Region
 #Region "Definicion metodos publicos"
@@ -959,6 +989,11 @@
                 _ValidaCedulaDuplicada = Tabla.Rows(0).Item("ValidaCedulaDuplicada")
                 _CnnFacturar = UnLockPassword(Tabla.Rows(0).Item("CnnFacturar"))
                 _ValidaCabys = Tabla.Rows(0).Item("ValidaCabys")
+                _LeyendaGarantia = Tabla.Rows(0).Item("LeyendaGarantia")
+                _Lote = Tabla.Rows(0).Item("Lote")
+                _Garantia = Tabla.Rows(0).Item("Garantia")
+
+
 
                 Try
                     _EscaneaEntradaMercaderia = Tabla.Rows(0).Item("EscaneaEntradaMercaderia")

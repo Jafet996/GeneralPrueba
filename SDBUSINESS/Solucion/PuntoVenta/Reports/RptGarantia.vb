@@ -166,9 +166,41 @@ Public Class RptGarantia
     
     <Browsable(false),  _
      DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)>  _
-    Public ReadOnly Property Parameter_RptEmpresaLogorpt_pEmp_Id() As CrystalDecisions.[Shared].IParameterField
+    Public ReadOnly Property Parameter_CedulaJuridica() As CrystalDecisions.[Shared].IParameterField
         Get
             Return Me.DataDefinition.ParameterFields(4)
+        End Get
+    End Property
+    
+    <Browsable(false),  _
+     DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)>  _
+    Public ReadOnly Property Parameter_Telefono() As CrystalDecisions.[Shared].IParameterField
+        Get
+            Return Me.DataDefinition.ParameterFields(5)
+        End Get
+    End Property
+    
+    <Browsable(false),  _
+     DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)>  _
+    Public ReadOnly Property Parameter_Email() As CrystalDecisions.[Shared].IParameterField
+        Get
+            Return Me.DataDefinition.ParameterFields(6)
+        End Get
+    End Property
+    
+    <Browsable(false),  _
+     DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)>  _
+    Public ReadOnly Property Parameter_LeyendaGarantia() As CrystalDecisions.[Shared].IParameterField
+        Get
+            Return Me.DataDefinition.ParameterFields(7)
+        End Get
+    End Property
+    
+    <Browsable(false),  _
+     DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)>  _
+    Public ReadOnly Property Parameter_RptEmpresaLogorpt_pEmp_Id() As CrystalDecisions.[Shared].IParameterField
+        Get
+            Return Me.DataDefinition.ParameterFields(8)
         End Get
     End Property
 End Class

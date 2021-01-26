@@ -465,7 +465,7 @@ Public Class TEmpresa
         Try
             Cn.Open()
 
-            Query = "select * From Empresa" & _
+            Query = "select * From Empresa" &
            " Where     Emp_Id=" & _Emp_Id.ToString()
 
             Tabla = Cn.Seleccionar(Query).Copy
@@ -490,7 +490,7 @@ Public Class TEmpresa
                 VerificaMensaje(Mensaje)
 
 
-                Query = "select Logo From Empresa" & _
+                Query = "select Logo From Empresa" &
                 " Where     Emp_Id=" & _Emp_Id.ToString()
 
                 Dim cmd As New SqlCommand(Query, Cn.ConexionObject)

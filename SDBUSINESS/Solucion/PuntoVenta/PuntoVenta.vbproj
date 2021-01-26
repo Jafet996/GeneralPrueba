@@ -1516,6 +1516,9 @@
     <EmbeddedResource Include="Formas Reportes\FrmRptVentasXArticulo.resx">
       <DependentUpon>FrmRptVentasXArticulo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formas Reportes\FrmRptVentasXArticuloLotes.resx">
+      <DependentUpon>FrmRptVentasXArticuloLotes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formas Reportes\FrmRptVentasxHora.resx">
       <DependentUpon>FrmRptVentasxHora.vb</DependentUpon>
     </EmbeddedResource>

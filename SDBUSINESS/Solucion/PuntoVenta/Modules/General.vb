@@ -181,11 +181,14 @@ Public Module General
 
     Public Function ImprimeGarantia(pGarantia_Id As Long, pReimpresion As Boolean) As String
         Try
+
+
             Select Case InfoMaquina.PrintLocation
                 Case PrintLocation.EVISecurity
                     Return ImprimeGarantiaEvySecurity(pGarantia_Id, pReimpresion)
                 Case Else
                     Return ImprimeGarantiaGeneral(pGarantia_Id, pReimpresion)
+
                     'VerificaMensaje("No se ha definido el formato de impresión de garantía")
             End Select
 
@@ -194,7 +197,7 @@ Public Module General
             Return ex.Message
         End Try
     End Function
-    
+
     Public Function ImprimeFactura(pFacturaEncabezado As TFacturaEncabezado)
         Try
             'Cambios Mike: 03/11/2020
@@ -907,6 +910,7 @@ Public Module General
         Dim Reporte As New RptGarantia
         Dim FormaReporte As New FrmReporte
         Dim FacturaDetalleGarantia As New TFacturaDetalleGarantia(EmpresaInfo.Emp_Id)
+
         Try
             Cursor.Current = Cursors.WaitCursor
 
@@ -919,9 +923,19 @@ Public Module General
 
 
 
+            'FacturaDetalleGarantia.Data.Tables.Add(pDs)
             VerificaMensaje(EmpresaInfo.GetLogoEmpresa)
-            Reporte.SetDataSource(FacturaDetalleGarantia.Data.Tables(0))
             Reporte.Subreports(0).SetDataSource(EmpresaInfo.Data.Tables(0))
+            Reporte.Database.Tables(0).SetDataSource(FacturaDetalleGarantia.Data.Tables(0))
+            Reporte.SetParameterValue("NombreEmpresa", EmpresaInfo.Nombre)
+            Reporte.SetParameterValue("CedulaJuridica", EmpresaInfo.Cedula)
+            Reporte.SetParameterValue("Telefono", EmpresaInfo.Telefono)
+            Reporte.SetParameterValue("Email", EmpresaInfo.Email)
+            Reporte.SetParameterValue("LeyendaGarantia", EmpresaParametroInfo.LeyendaGarantia)
+
+
+
+
 
 
             'Reporte.SetParameterValue("SucursalNombre", SucursalInfo.Nombre)

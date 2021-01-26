@@ -174,6 +174,14 @@ Public Class FrmMantarticuloDetalle_
             TxtCodigo.Focus()
             _Nuevo = True
 
+            If Not EmpresaParametroInfo.Lote Then
+                ChkLote.Visible = False
+            End If
+
+            If Not EmpresaParametroInfo.Garantia Then
+                ChkGarantia.Visible = False
+            End If
+
 
             GroupImpuesto.Enabled = False
 

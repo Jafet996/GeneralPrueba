@@ -2648,7 +2648,15 @@ Public Class FrmPuntoVentaRetail
                 .SubItems(ColumnasDetalle.Servicio).Text = pArticuloDetalle.Servicio
                 .SubItems(ColumnasDetalle.CalculaCantidadFactura).Text = pArticuloDetalle.CalculaCantidadFactura
                 .SubItems(ColumnasDetalle.CABYS).Text = Articulo.CodigoCabys
-                .SubItems(ColumnasDetalle.Lote).Text = IIf(pArticuloDetalle.Lote, "SI", "NO")
+                If EmpresaParametroInfo.Lote Then
+                    .SubItems(ColumnasDetalle.Lote).Text = IIf(pArticuloDetalle.Lote, "SI", "NO")
+                Else
+
+                    .SubItems(ColumnasDetalle.Lote).Text = "NO"
+                    pArticuloDetalle.Lote = 0
+
+                End If
+
                 If pArticuloDetalle.Lote Then
                     .UseItemStyleForSubItems = False
                     ListViewCambiaCeldaBackForeColor(Item, Color.Teal, Color.White, ColumnasDetalle.Lote)
@@ -2850,8 +2858,24 @@ Public Class FrmPuntoVentaRetail
                 .SubItems(ColumnasDetalle.CalculaCantidadFactura).Text = InfoArticulo.CalculaCantidadFactura
                 .SubItems(ColumnasDetalle.TotalLinea).Text = Format(((CDbl(.SubItems(ColumnasDetalle.Precio).Text) - CDbl(.SubItems(ColumnasDetalle.MontoDescuento).Text)) + CDbl(.SubItems(ColumnasDetalle.MontoIV).Text)) * CDbl(.SubItems(ColumnasDetalle.Cantidad).Text), "##0.0000")
                 '.SubItems(ColumnasDetalle.Comentario).Text = ""
-                .SubItems(ColumnasDetalle.Lote).Text = IIf(InfoArticulo.Lote, "SI", "NO")
-                .SubItems(ColumnasDetalle.Garantia).Text = IIf(InfoArticulo.Garantia, "SI", "NO")
+                If EmpresaParametroInfo.Lote Then
+                    .SubItems(ColumnasDetalle.Lote).Text = IIf(InfoArticulo.Lote, "SI", "NO")
+                Else
+
+                    .SubItems(ColumnasDetalle.Lote).Text = "NO"
+                    InfoArticulo.Lote = 0
+
+                End If
+                If EmpresaParametroInfo.Garantia Then
+                    .SubItems(ColumnasDetalle.Garantia).Text = IIf(InfoArticulo.Garantia, "SI", "NO")
+                Else
+
+                    .SubItems(ColumnasDetalle.Garantia).Text = "NO"
+                    InfoArticulo.Garantia = 0
+
+                End If
+
+
             End With
 
 
