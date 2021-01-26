@@ -2018,4 +2018,68 @@ Public Module General
             Articulo = Nothing
         End Try
     End Function
+
+    Public Sub IngresaLote(pArt_Id As String, pCantidad As Double, pLote As String, pVencimiento As Date, ByRef pLotes As List(Of TArticuloLote))
+        Dim EncontroArticulo As Boolean = False
+        Dim EncontroLote As Boolean = False
+        Dim TmpLote As TLote
+        Dim TmpArticulo As TArticuloLote
+
+        Try
+            For Each ArticuloLote As TArticuloLote In pLotes
+                EncontroArticulo = False
+                EncontroLote = False
+
+                If ArticuloLote.Art_Id = pArt_Id Then
+                    EncontroArticulo = True
+
+                    For Each Lote As TLote In ArticuloLote.Lotes
+                        If Lote.Lote = pLote AndAlso DateValue(Lote.Vencimiento) = DateValue(pVencimiento) Then
+                            EncontroLote = True
+                            Lote.Cantidad = Lote.Cantidad + pCantidad
+                            Exit For
+                        End If
+                    Next
+
+                    If Not EncontroLote Then
+                        TmpLote = New TLote
+
+                        With TmpLote
+                            .Lote = pLote
+                            .Vencimiento = pVencimiento
+                            .Cantidad = pCantidad
+                        End With
+
+                        ArticuloLote.Lotes.Add(TmpLote)
+                    End If
+
+                    Exit For
+                End If
+            Next
+
+            If Not EncontroArticulo And Not EncontroLote Then
+                TmpLote = New TLote
+
+                With TmpLote
+                    .Lote = pLote
+                    .Vencimiento = pVencimiento
+                    .Cantidad = pCantidad
+                End With
+
+                TmpArticulo = New TArticuloLote
+
+                With TmpArticulo
+                    .Art_Id = pArt_Id
+                    .Nombre = String.Empty
+                    .Cantidad = 0
+                    If pCantidad > 0 Then .Lotes.Add(TmpLote)
+                End With
+
+                pLotes.Add(TmpArticulo)
+            End If
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Sub
+
 End Module

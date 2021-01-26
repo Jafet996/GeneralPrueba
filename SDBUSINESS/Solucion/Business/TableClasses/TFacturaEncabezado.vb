@@ -1199,6 +1199,8 @@ Public Class TFacturaEncabezado
                     .Observacion = Fila("Observacion")
                     .Servicio = Fila("Servicio")
                     .UnidadMedidaNombre = Fila("UnidadMedidaNombre")
+                    .Lote = Fila("Lote")
+                    .Garantia = Fila("Garantia")
                     .CabysCodigo = Fila("CabysCodigo")
                     'Mike 15/12/2020 Para Reimprimir facturas, error DBNULL.
                     If Reimpresion And (Fila("CabysCodigo").ToString = "" Or Fila("CabysCodigo").ToString = Nothing Or IsDBNull(Fila("CabysCodigo"))) Then
@@ -1236,6 +1238,20 @@ Public Class TFacturaEncabezado
                 _FacturaDetalles.Add(FacturaDetalle)
 
             Next
+            Query = " select *" &
+                    " from FacturaDetalleLote" &
+                    " Where  Emp_Id = " & _Emp_Id.ToString() &
+                    " And    Suc_Id =" & _Suc_Id.ToString() &
+                    " And    Caja_Id =" & _Caja_Id.ToString() &
+                    " And    TipoDoc_Id =" & _TipoDoc_Id.ToString() &
+                    " And    Documento_Id =" & _Documento_Id.ToString()
+
+            Tabla = Cn.Seleccionar(Query)
+
+            For Each Row As DataRow In Tabla.Rows
+                IngresaLote(Row("Art_Id"), Row("Cantidad"), Row("Lote"), Row("Vencimiento"), _Lotes)
+            Next
+
 
             _Cliente = New TCliente(_Emp_Id)
             _Cliente.Cliente_Id = _Cliente_Id

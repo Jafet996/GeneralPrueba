@@ -6,3 +6,34 @@
 [20210125 11:44][Error de aplicación] - Debe de seleccionar una garantía
 [20210125 13:37][Conexión] - El password es incorrecto
 [20210125 15:43][Error de aplicación] - No se encontraron garantías
+[20210125 21:46][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:46][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:47][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:48][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:48][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:50][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:51][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:55][Error de aplicación] - InvalidArgument=El valor de '19' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 21:55][Conexión] - El password es incorrecto
+[20210125 21:58][Error de aplicación] - Artículo inválido, no se encontraron datos
+[20210125 22:00][Gurdando en FacturaElectronica] - Almacenadp Doc 50625012100310173467500100251040000000466100002067
+[20210125 22:11][Error de aplicación] - InvalidArgument=El valor de '20' no es válido para 'index'.
+Nombre del parámetro: index
+[20210125 22:24][Error de aplicación] - Debe de seleccionar el tipo de devolución
+[20210125 22:26][Error de aplicación] - Debe de seleccionar el tipo de devolución
+[20210125 22:35][Error de aplicación] - El tipo de documento no es valido para realizar una devolución
+[20210125 22:37][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar
+[20210125 22:38][Error de aplicación] - No se permite modificar la información de lotes 
+[20210125 22:38][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar
+[20210125 22:39][Gurdando en FacturaElectronica] - Almacenadp Doc 50625012100310173467500100251030000000074100002068
+[20210125 22:40][Error de aplicación] - Ya se ha completado la verificación de lotes para el artículo seleccionado
+[20210125 22:41][Gurdando en FacturaElectronica] - Almacenadp Doc 50625012100310173467500100251040000000467100002069
+[20210125 22:44][Gurdando en FacturaElectronica] - Almacenadp Doc 50625012100310173467500100251030000000075100002070

@@ -1765,6 +1765,7 @@ Public Class FrmPuntoVentaRetail
                     End Select
 
 
+
                 Case Keys.F3
                     'VerificaMensaje(VerificaModulo(Modulo_Id))
                     If TxtArticulo.Enabled Then
@@ -2040,6 +2041,8 @@ Public Class FrmPuntoVentaRetail
         Dim Factura As New TFacturaEncabezado(EmpresaInfo.Emp_Id)
         Dim Mensaje As String = ""
         Dim Cliente As New TCliente(EmpresaInfo.Emp_Id)
+        Dim ArticuloLoteTemp As TArticuloLote = Nothing
+        Dim LoteTemp As TLote = Nothing
         'Dim FacturaDev As New TFacturaEncabezado(EmpresaInfo.Email)
         Try
 
@@ -2099,7 +2102,7 @@ Public Class FrmPuntoVentaRetail
             TxtComentario.Text = _Comentario
 
             LvwDetalle.Items.Clear()
-
+            _Lotes.Clear()
             'Detalle
             For Each Linea As TFacturaDetalle In Factura.FacturaDetalles
                 IngresaArticuloCargadoDev(Linea)
@@ -2111,7 +2114,35 @@ Public Class FrmPuntoVentaRetail
                 TxtExento.Text = "SI"
                 _FacturaExoneracion = Factura.FacturaExoneracion
             End If
+            _Lotes = New List(Of TArticuloLote)
 
+            For Each ArticuloLote As TArticuloLote In Factura.Lotes
+                ArticuloLoteTemp = New TArticuloLote
+
+                With ArticuloLoteTemp
+                    .Art_Id = ArticuloLote.Art_Id
+                    .Nombre = ArticuloLote.Nombre
+                    .Cantidad = ArticuloLote.Cantidad
+                    .Escaneado = ArticuloLote.Escaneado
+                End With
+
+                For Each Lote As TLote In ArticuloLote.Lotes
+                    LoteTemp = New TLote
+
+                    With LoteTemp
+                        .Lote = Lote.Lote
+                        .Vencimiento = Lote.Vencimiento
+                        .Cantidad = Lote.Cantidad
+                    End With
+
+                    ArticuloLoteTemp.Cantidad += Lote.Cantidad
+                    ArticuloLoteTemp.Escaneado += Lote.Cantidad
+
+                    ArticuloLoteTemp.Lotes.Add(LoteTemp)
+                Next
+
+                _Lotes.Add(ArticuloLoteTemp)
+            Next
             _FacturaDev = Factura
 
             RecalculaImpuesto()
@@ -2580,7 +2611,7 @@ Public Class FrmPuntoVentaRetail
 
     Private Sub IngresaArticuloCargadoDev(pArticuloDetalle As TFacturaDetalle)
         Dim Item As ListViewItem
-        Dim Items(18) As String
+        Dim Items(20) As String
         Dim Linea_Id As Integer = 0
         Dim ArticuloImpuestos As New List(Of TInfoArticuloImpuesto)
         Dim ArticuloImpuesto As TInfoArticuloImpuesto
@@ -2617,6 +2648,19 @@ Public Class FrmPuntoVentaRetail
                 .SubItems(ColumnasDetalle.Servicio).Text = pArticuloDetalle.Servicio
                 .SubItems(ColumnasDetalle.CalculaCantidadFactura).Text = pArticuloDetalle.CalculaCantidadFactura
                 .SubItems(ColumnasDetalle.CABYS).Text = Articulo.CodigoCabys
+                .SubItems(ColumnasDetalle.Lote).Text = IIf(pArticuloDetalle.Lote, "SI", "NO")
+                If pArticuloDetalle.Lote Then
+                    .UseItemStyleForSubItems = False
+                    ListViewCambiaCeldaBackForeColor(Item, Color.Teal, Color.White, ColumnasDetalle.Lote)
+                    .SubItems(ColumnasDetalle.Lote).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+                End If
+
+                .SubItems(ColumnasDetalle.Garantia).Text = IIf(pArticuloDetalle.Garantia, "SI", "NO")
+                If pArticuloDetalle.Garantia Then
+                    .UseItemStyleForSubItems = False
+                    ListViewCambiaCeldaBackForeColor(Item, Color.Plum, Color.White, ColumnasDetalle.Garantia)
+                    .SubItems(ColumnasDetalle.Garantia).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+                End If
             End With
 
             If Not pArticuloDetalle.ExentoIV Then
