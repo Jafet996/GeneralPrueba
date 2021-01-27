@@ -451,6 +451,11 @@ Public Class FrmAjusteInventario
                     .SubItems(ColumnasDetalle.CantidadLote).Text = "0.00"
                 End If
                 .SubItems(ColumnasDetalle.Nombre).Text = InfoArticulo.Nombre
+
+                If Not EmpresaParametroInfo.Lote Then
+                    InfoArticulo.Lote = False
+                End If
+
                 .SubItems(ColumnasDetalle.Lote).Text = IIf(InfoArticulo.Lote, "Si", "No")
                 .SubItems(ColumnasDetalle.Suelto).Text = IIf(InfoArticulo.Suelto, "Si", "No")
                 .SubItems(ColumnasDetalle.Costo).Text = Format(CDbl(TxtCosto.Text), "##0.0000")
@@ -612,6 +617,7 @@ Public Class FrmAjusteInventario
                     .Detalle_Id = Detalle_Id
                     .Art_Id = Item.SubItems(ColumnasDetalle.Articulo).Text
                     .Cantidad = CDbl(Item.SubItems(ColumnasDetalle.Cantidad).Text) * Factor
+                    .CantidadLote = CDbl(Item.SubItems(ColumnasDetalle.CantidadLote).Text) * Factor
                     .Costo = CDbl(Item.SubItems(ColumnasDetalle.Costo).Text)
                     .TotalLinea = CDbl(Item.SubItems(ColumnasDetalle.TotalLinea).Text)
                     .Suelto = IIf(Item.SubItems(ColumnasDetalle.Suelto).Text.ToLower = "si", 1, 0)
@@ -739,6 +745,12 @@ Public Class FrmAjusteInventario
                     .SubItems(ColumnasDetalle.Linea).Text = Detalle_Id
                     .SubItems(ColumnasDetalle.Articulo).Text = Fila("Art_Id")
                     .SubItems(ColumnasDetalle.Cantidad).Text = Format(Math.Abs(Fila("Cantidad")), "##0.0000")
+
+                    If Not EmpresaParametroInfo.Lote Then
+                        Fila("Lote") = False
+                        Fila("CantidadLote") = "0.00"
+                    End If
+
                     .SubItems(ColumnasDetalle.CantidadLote).Text = Format(Math.Abs(Fila("CantidadLote")), "##0.0000")
                     .SubItems(ColumnasDetalle.Lote).Text = IIf(Fila("Lote"), "Si", "No")
                     .SubItems(ColumnasDetalle.Nombre).Text = Fila("Nombre")

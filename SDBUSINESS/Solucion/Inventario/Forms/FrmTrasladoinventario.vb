@@ -467,6 +467,9 @@ Public Class FrmTrasladoinventario
                 End If
                 .SubItems(ColumnasDetalle.Nombre).Text = InfoArticulo.Nombre
                 .SubItems(ColumnasDetalle.Suelto).Text = IIf(InfoArticulo.Suelto, "Si", "No")
+                If Not EmpresaParametroInfo.Lote Then
+                    InfoArticulo.Lote = False
+                End If
                 .SubItems(ColumnasDetalle.Lote).Text = IIf(InfoArticulo.Lote, "Si", "No")
                 .SubItems(ColumnasDetalle.Costo).Text = Format(CDbl(TxtCosto.Text), "##0.0000")
                 .SubItems(ColumnasDetalle.TotalLinea).Text = Format(CDbl(.SubItems(ColumnasDetalle.Cantidad).Text) * CDbl(.SubItems(ColumnasDetalle.Costo).Text), "##0.0000")
@@ -717,6 +720,11 @@ Public Class FrmTrasladoinventario
                     .SubItems(ColumnasDetalle.Linea).Text = Detalle_Id
                     .SubItems(ColumnasDetalle.Articulo).Text = Fila("Art_Id")
                     .SubItems(ColumnasDetalle.Cantidad).Text = Format(Math.Abs(Fila("Cantidad")), "##0.00")
+                    If Not EmpresaParametroInfo.Lote Then
+                        Fila("CantidadLote") = "0.00"
+                        Fila("Lote") = False
+                    End If
+
                     .SubItems(ColumnasDetalle.CantidadLote).Text = Format(Math.Abs(Fila("CantidadLote")), "##0.00")
                     .SubItems(ColumnasDetalle.Nombre).Text = Fila("Nombre")
                     .SubItems(ColumnasDetalle.Suelto).Text = IIf(Fila("Suelto"), "Si", "No")

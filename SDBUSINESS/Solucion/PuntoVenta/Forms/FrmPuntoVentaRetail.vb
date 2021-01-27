@@ -1150,7 +1150,7 @@ Public Class FrmPuntoVentaRetail
                 Next
             End If
 
-            If _TipoFacturacion = Enum_TipoFacturacion.Factura Then
+            If _TipoFacturacion = Enum_TipoFacturacion.Factura And Int(TxtTipoDocumento.Text) <> Enum_TipoDocumento.DevolucionContado And Int(TxtTipoDocumento.Text) <> Enum_TipoDocumento.DevolucionCredito Then
                 For Each Item As ListViewItem In LvwDetalle.Items
                     If Item.SubItems(ColumnasDetalle.Garantia).Text = "SI" Then
                         If _Garantias.Find(Function(p) p.Art_Id = Item.SubItems(ColumnasDetalle.Articulo).Text) Is Nothing Then
@@ -3093,6 +3093,7 @@ Public Class FrmPuntoVentaRetail
         End Select
     End Sub
     Private Sub EliminaLinea()
+        Dim SelectedLote As TArticuloLote = Nothing
         Try
             If Not TxtArticulo.Enabled Then
                 Exit Sub
@@ -3125,6 +3126,17 @@ Public Class FrmPuntoVentaRetail
 
             If _TipoFacturacion = Enum_TipoFacturacion.Factura Then
                 VerificaMensaje(VerificaModificacionFactura(_TipoFacturacion, _Proforma))
+
+                For Each Lote As TArticuloLote In _Lotes
+                    If Lote.Art_Id = LvwDetalle.SelectedItems(0).SubItems(ColumnasDetalle.Articulo).Text Then
+                        SelectedLote = Lote
+                        Exit For
+                    End If
+                Next
+
+                If Not SelectedLote Is Nothing Then
+                    _Lotes.Remove(SelectedLote)
+                End If
             End If
 
 
@@ -3283,7 +3295,13 @@ Public Class FrmPuntoVentaRetail
                 pSubTotal = pSubTotal + (CDbl(Fila.SubItems(ColumnasDetalle.Precio).Text) * CDbl(Fila.SubItems(ColumnasDetalle.Cantidad).Text))
                 pDescuento = pDescuento + (CDbl(Fila.SubItems(ColumnasDetalle.MontoDescuento).Text) * CDbl(Fila.SubItems(ColumnasDetalle.Cantidad).Text))
                 pIV = pIV + (CDbl(Fila.SubItems(ColumnasDetalle.MontoIV).Text) * CDbl(Fila.SubItems(ColumnasDetalle.Cantidad).Text))
-                pTotal = pTotal + CDbl(Fila.SubItems(ColumnasDetalle.TotalLinea).Text)
+
+                If TxtTipoDocumento.Text = "3" Or TxtTipoDocumento.Text = "4" Then
+                    pTotal = pTotal + Math.Round(CDbl(Fila.SubItems(ColumnasDetalle.TotalLinea).Text))
+                Else
+                    pTotal = pTotal + CDbl(Fila.SubItems(ColumnasDetalle.TotalLinea).Text)
+                End If
+
                 If Fila.SubItems(ColumnasDetalle.Exento).Text = "0" Then
                     pTotalGravado = pTotalGravado + (CDbl(Fila.SubItems(ColumnasDetalle.Precio).Text) * CDbl(Fila.SubItems(ColumnasDetalle.Cantidad).Text))
                 Else
@@ -4312,6 +4330,22 @@ Public Class FrmPuntoVentaRetail
             VerificaMensaje(FacturaEncabezado.Vendedor.ListKey())
             GuardaBitacoraUsuario(Modulos.PuntoVenta, EmpresaInfo.Emp_Id, UsuarioInfo.Usuario_Id, "Creación " & TxtTipoDocumentoNombre.Text & " # " & FacturaEncabezado.Documento_Id.ToString())
 
+            If FacturaEncabezado.TipoDoc_Id = "3" Or FacturaEncabezado.TipoDoc_Id = "4" Then
+
+                FacturaEncabezado.TotalCobrado = Math.Round(FacturaEncabezado.TotalCobrado)
+
+                FacturaEncabezado.Subtotal = Math.Round(FacturaEncabezado.Subtotal)
+
+                FacturaEncabezado.Total = Math.Round(FacturaEncabezado.Total)
+
+                FacturaEncabezado.TotalEfectivo = Math.Round(FacturaEncabezado.TotalEfectivo)
+
+                FacturaEncabezado.Exento = Math.Round(FacturaEncabezado.Exento)
+
+
+
+
+            End If
             If Not InfoMaquina.ConfirmaImpresionFactura Then
                 ThdImpresion = New Thread(AddressOf ImprimeFactura)
                 ThdImpresion.Start(FacturaEncabezado)
@@ -5211,6 +5245,10 @@ Public Class FrmPuntoVentaRetail
     End Sub
 
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
+
+    End Sub
+
+    Private Sub LblTotal_Click(sender As Object, e As EventArgs) Handles LblTotal.Click
 
     End Sub
 

@@ -814,6 +814,9 @@ Public Class FrmEntradaMercaderia
                 .SubItems(ColumnasDetalle.Exento).Text = InfoArticuloCompra.ExentoIV
                 .SubItems(ColumnasDetalle.Suelto).Text = InfoArticuloCompra.Suelto
                 .SubItems(ColumnasDetalle.CostoActual).Text = InfoArticuloCompra.Costo
+                If Not EmpresaParametroInfo.Lote Then
+                    InfoArticuloCompra.Lote = False
+                End If
                 .SubItems(ColumnasDetalle.LoteUU).Text = IIf(InfoArticuloCompra.Lote, "SI", "NO")
             End With
 
@@ -1110,6 +1113,11 @@ Public Class FrmEntradaMercaderia
                     .Margen = CDbl(Item.SubItems(ColumnasDetalle.PorcUtilidad).Text)
                     .Precio = CDbl(Item.SubItems(ColumnasDetalle.Precio).Text)
                     .CantidadEscaneada = CDbl(Item.SubItems(ColumnasDetalle.CantidadEscaneada).Text)
+                    If Not EmpresaParametroInfo.Lote Then
+
+                        Item.SubItems(ColumnasDetalle.LoteUU).Text = "NO"
+
+                    End If
                     .Lote = IIf(Item.SubItems(ColumnasDetalle.LoteUU).Text = "SI", 1, 0)
 
                     For Each impuesto As TInfoArticuloImpuesto In CType(Item.Tag, List(Of TInfoArticuloImpuesto))
@@ -1460,6 +1468,9 @@ Public Class FrmEntradaMercaderia
                     .SubItems(ColumnasDetalle.Suelto).Text = IIf(Fila("Suelto"), -1, 0)
                     .SubItems(ColumnasDetalle.CostoActual).Text = Fila("CostoActual")
                     .SubItems(ColumnasDetalle.CantidadEscaneada).Text = Format(Fila("CantidadEscaneada"), "##0.0000")
+                    If Not EmpresaParametroInfo.Lote Then
+                        Fila("Lote") = False
+                    End If
                     .SubItems(ColumnasDetalle.LoteUU).Text = IIf(Fila("Lote"), "SI", "NO")
 
                 End With

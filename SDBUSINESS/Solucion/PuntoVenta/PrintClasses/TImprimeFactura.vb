@@ -141,8 +141,14 @@ Public Class TImprimeFactura
             If Math.Abs(Fila.Cantidad) > 1 Then
                 Send(Alinea_Columnas(CreaStrNumero(Precio), True, True, 10), PrintFont.FontSingle, 160, y, PrintJustification.epsleft, 15)
             End If
+            If _FacturaEncabezado.TipoDoc_Id = "3" Or _FacturaEncabezado.TipoDoc_Id = "4" Then
 
-            Send(Alinea_Columnas(CreaStrNumero(Precio * Fila.Cantidad), True, True, 10), PrintFont.FontSingle, 160, y, PrintJustification.epsleft, 0)
+                Send(Alinea_Columnas(CreaStrNumero(Math.Round(Precio * Fila.Cantidad)), True, True, 10), PrintFont.FontSingle, 160, y, PrintJustification.epsleft, 0)
+            Else
+                Send(Alinea_Columnas(CreaStrNumero(Precio * Fila.Cantidad), True, True, 10), PrintFont.FontSingle, 160, y, PrintJustification.epsleft, 0)
+            End If
+
+            'Send(Alinea_Columnas(CreaStrNumero(Precio * Fila.Cantidad), True, True, 10), PrintFont.FontSingle, 160, y, PrintJustification.epsleft, 0)
             'If Not Fila.ExentoIV Then
             '    Send(Alinea_Columnas("*", True, True, 10), PrintFont.FontSingle, 242, y, PrintJustification.epsleft, 0)
             'End If

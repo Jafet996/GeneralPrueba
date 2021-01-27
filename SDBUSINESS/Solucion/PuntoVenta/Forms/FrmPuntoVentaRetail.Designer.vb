@@ -85,6 +85,9 @@ Partial Class FrmPuntoVentaRetail
         Me.ColumnHeader18 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader19 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader20 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.CMSDetalle = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.MnuLotes = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MnuGarantia = New System.Windows.Forms.ToolStripMenuItem()
         Me.LblSubTotal = New System.Windows.Forms.Label()
         Me.LblDescuento = New System.Windows.Forms.Label()
         Me.LblImpuestoVenta = New System.Windows.Forms.Label()
@@ -133,11 +136,9 @@ Partial Class FrmPuntoVentaRetail
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.PanlePiePantalla = New System.Windows.Forms.Panel()
         Me.PicLogo = New System.Windows.Forms.PictureBox()
-        Me.CMSDetalle = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.MnuLotes = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MnuGarantia = New System.Windows.Forms.ToolStripMenuItem()
         Me.PanelEncabezado.SuspendLayout()
         Me.PanelDetalle.SuspendLayout()
+        Me.CMSDetalle.SuspendLayout()
         Me.PanelTotales.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.PicF12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -166,7 +167,6 @@ Partial Class FrmPuntoVentaRetail
         Me.StatusStrip1.SuspendLayout()
         Me.PanlePiePantalla.SuspendLayout()
         CType(Me.PicLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.CMSDetalle.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelEncabezado
@@ -781,6 +781,25 @@ Partial Class FrmPuntoVentaRetail
         '
         Me.ColumnHeader18.Width = 20
         '
+        'CMSDetalle
+        '
+        Me.CMSDetalle.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.CMSDetalle.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuLotes, Me.MnuGarantia})
+        Me.CMSDetalle.Name = "CMSDetalle"
+        Me.CMSDetalle.Size = New System.Drawing.Size(135, 52)
+        '
+        'MnuLotes
+        '
+        Me.MnuLotes.Name = "MnuLotes"
+        Me.MnuLotes.Size = New System.Drawing.Size(134, 24)
+        Me.MnuLotes.Text = "Lotes"
+        '
+        'MnuGarantia
+        '
+        Me.MnuGarantia.Name = "MnuGarantia"
+        Me.MnuGarantia.Size = New System.Drawing.Size(134, 24)
+        Me.MnuGarantia.Text = "Garantía"
+        '
         'LblSubTotal
         '
         Me.LblSubTotal.Anchor = System.Windows.Forms.AnchorStyles.Left
@@ -1306,13 +1325,13 @@ Partial Class FrmPuntoVentaRetail
         Me.TSSLDocumentosPendientes.LinkColor = System.Drawing.Color.Red
         Me.TSSLDocumentosPendientes.LinkVisited = True
         Me.TSSLDocumentosPendientes.Name = "TSSLDocumentosPendientes"
-        Me.TSSLDocumentosPendientes.Size = New System.Drawing.Size(300, 18)
+        Me.TSSLDocumentosPendientes.Size = New System.Drawing.Size(300, 19)
         Me.TSSLDocumentosPendientes.VisitedLinkColor = System.Drawing.Color.Red
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(0, 18)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(0, 19)
         '
         'TSSLDocumentosPendientesCxC
         '
@@ -1322,7 +1341,7 @@ Partial Class FrmPuntoVentaRetail
         Me.TSSLDocumentosPendientesCxC.IsLink = True
         Me.TSSLDocumentosPendientesCxC.LinkColor = System.Drawing.Color.Orange
         Me.TSSLDocumentosPendientesCxC.Name = "TSSLDocumentosPendientesCxC"
-        Me.TSSLDocumentosPendientesCxC.Size = New System.Drawing.Size(400, 18)
+        Me.TSSLDocumentosPendientesCxC.Size = New System.Drawing.Size(400, 19)
         Me.TSSLDocumentosPendientesCxC.VisitedLinkColor = System.Drawing.Color.Orange
         '
         'StatusStrip1
@@ -1371,25 +1390,6 @@ Partial Class FrmPuntoVentaRetail
         Me.PicLogo.TabIndex = 68
         Me.PicLogo.TabStop = False
         '
-        'CMSDetalle
-        '
-        Me.CMSDetalle.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.CMSDetalle.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuLotes, Me.MnuGarantia})
-        Me.CMSDetalle.Name = "CMSDetalle"
-        Me.CMSDetalle.Size = New System.Drawing.Size(211, 80)
-        '
-        'MnuLotes
-        '
-        Me.MnuLotes.Name = "MnuLotes"
-        Me.MnuLotes.Size = New System.Drawing.Size(210, 24)
-        Me.MnuLotes.Text = "Lotes"
-        '
-        'MnuGarantia
-        '
-        Me.MnuGarantia.Name = "MnuGarantia"
-        Me.MnuGarantia.Size = New System.Drawing.Size(210, 24)
-        Me.MnuGarantia.Text = "Garantía"
-        '
         'FrmPuntoVentaRetail
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1415,6 +1415,7 @@ Partial Class FrmPuntoVentaRetail
         Me.PanelEncabezado.PerformLayout()
         Me.PanelDetalle.ResumeLayout(False)
         Me.PanelDetalle.PerformLayout()
+        Me.CMSDetalle.ResumeLayout(False)
         Me.PanelTotales.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         CType(Me.PicF12, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1444,7 +1445,6 @@ Partial Class FrmPuntoVentaRetail
         Me.StatusStrip1.PerformLayout()
         Me.PanlePiePantalla.ResumeLayout(False)
         CType(Me.PicLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.CMSDetalle.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -1,0 +1,7 @@
+[20210127 08:54][Error de aplicación] - Debe de ingresar el código de proveedor
+[20210127 08:54][Error de aplicación] - Debe de ingresar el código de proveedor
+[20210127 08:55][Error de aplicación] - No existe información de lotes
+[20210127 14:45][Error de aplicación] - Debe de ingresar el código de proveedor
+[20210127 14:46][Error de aplicación] - No se indicó ninguna factura
+[20210127 14:47][Error de aplicación] - Debe de ingresar el número de factura
+[20210127 14:47][Error de aplicación] - Error buscando lotes para el articulo: MPD9821

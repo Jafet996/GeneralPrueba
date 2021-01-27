@@ -424,6 +424,8 @@
         _UnidadMedidaNombre = ""
         _Compuesto = 0
         _SaldoPropio = 0
+        _Lote = 0
+        _Garantia = 0
         _CalculaCantidadFactura = 0
         _CantidadSinRedondeo = 0
         _ArticuloImpuestos.Clear()

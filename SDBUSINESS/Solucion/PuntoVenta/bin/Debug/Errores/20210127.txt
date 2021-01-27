@@ -1,0 +1,22 @@
+[20210127 09:56][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000468100002071
+[20210127 10:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251030000000076100002072
+[20210127 14:23][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto 657789 - PRUEBA4545, favor verificar
+[20210127 14:24][Error de aplicación] - No se han indicado los datos de la garantía para el producto 657789 - PRUEBA4545, favor verificar
+[20210127 14:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000469100002073
+[20210127 14:33][Error de aplicación] - No se indicaron los lotes para el articulo: 657789
+[20210127 14:35][Error de aplicación] - No se indicaron los lotes para el articulo: 657789
+[20210127 14:55][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000470100002074
+[20210127 15:30][Error de aplicación] - Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+[20210127 15:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000471100002075
+[20210127 15:33][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000472100002076
+[20210127 15:38][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000473100002077
+[20210127 15:40][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000474100002078
+[20210127 15:58][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto 657789 - PRUEBA4545, favor verificar
+[20210127 16:20][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 16:21][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000475100002079
+[20210127 16:22][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251030000000077100002080
+[20210127 16:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000476100002081
+[20210127 16:25][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251030000000078100002082
+[20210127 16:34][Error de aplicación] - Ya se ha completado la verificación de lotes para el artículo seleccionado
+[20210127 16:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000477100002083
+[20210127 16:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251030000000079100002084
