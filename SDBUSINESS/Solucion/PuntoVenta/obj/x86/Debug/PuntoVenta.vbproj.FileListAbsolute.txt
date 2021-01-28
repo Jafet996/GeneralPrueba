@@ -976,3 +976,4 @@ C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Sol
 C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmGarantiaBusqueda.resources
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmGarantiaBusqueda.resources
 C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmRptVentasXArticuloLotes.resources
+C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\PuntoVenta\obj\x86\Debug\PuntoVenta.FrmRptVentasXArticuloLotes.resources

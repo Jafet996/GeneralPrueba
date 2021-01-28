@@ -20,3 +20,16 @@
 [20210127 16:34][Error de aplicación] - Ya se ha completado la verificación de lotes para el artículo seleccionado
 [20210127 16:35][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000477100002083
 [20210127 16:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251030000000079100002084
+[20210127 21:03][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 21:04][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000478100002085
+[20210127 21:07][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 21:08][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210127 21:10][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: MPD9821
+[20210127 21:11][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000479100002086
+[20210127 21:12][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 21:12][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 21:12][Error de aplicación] - El lote seleccionado ha superado el saldo disponible
+[20210127 21:12][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 21:13][Error de aplicación] - El lote seleccionado ha superado el saldo disponible
+[20210127 21:13][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar
+[20210127 21:14][Gurdando en FacturaElectronica] - Almacenadp Doc 50627012100310173467500100251040000000480100002087

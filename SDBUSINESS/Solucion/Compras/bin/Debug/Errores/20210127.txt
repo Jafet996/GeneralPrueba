@@ -5,3 +5,6 @@
 [20210127 14:46][Error de aplicación] - No se indicó ninguna factura
 [20210127 14:47][Error de aplicación] - Debe de ingresar el número de factura
 [20210127 14:47][Error de aplicación] - Error buscando lotes para el articulo: MPD9821
+[20210127 21:20][Error de aplicación] - No se puede cargar el archivo o ensamblado 'CrystalDecisions.Web, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' ni una de sus dependencias. El sistema no puede encontrar el archivo especificado.
+[20210127 21:21][Error de aplicación] - Debe de ingresar el código de proveedor
+[20210127 21:26][Error de aplicación] - Debe de ingresar el código de proveedor

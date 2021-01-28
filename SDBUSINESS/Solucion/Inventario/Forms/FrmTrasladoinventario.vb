@@ -505,6 +505,7 @@ Public Class FrmTrasladoinventario
         End Try
     End Sub
     Private Sub EliminaLinea()
+        Dim SelectedLote As TArticuloLote = Nothing
         Try
             If Not TxtArticulo.Enabled OrElse LvwDetalle.Items.Count = 0 OrElse Not PnLineaDetalle.Enabled OrElse LvwDetalle.SelectedItems.Count = 0 Then
                 Exit Sub
@@ -512,6 +513,18 @@ Public Class FrmTrasladoinventario
 
             If MsgBox("Desea eliminar la línea del detalle", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Eliminar líneas") <> MsgBoxResult.Yes Then
                 Exit Sub
+            End If
+
+
+            For Each Lote As TArticuloLote In _Lotes
+                If Lote.Art_Id = LvwDetalle.SelectedItems(0).SubItems(ColumnasDetalle.Articulo).Text Then
+                    SelectedLote = Lote
+                    Exit For
+                End If
+            Next
+
+            If Not SelectedLote Is Nothing Then
+                _Lotes.Remove(SelectedLote)
             End If
 
 

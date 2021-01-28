@@ -1,12 +1,12 @@
-
 GO
 
-/****** Object:  StoredProcedure [dbo].[RebajaSumaIventario]    Script Date: 1/20/2021 9:56:32 AM ******/
+/****** Object:  StoredProcedure [dbo].[RebajaSumaIventario]    Script Date: 1/27/2021 8:57:00 PM ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
+
 
 ALTER   procedure [dbo].[RebajaSumaIventario]
 (@pEmp_Id smallint
@@ -98,13 +98,16 @@ begin
           --Si es una caja se le suma o resta normal la cantidad al inventario
 
           if @Lote = 1 begin
+		  if 1 = (select count(*) from EmpresaParametro where Lote=1 ) begin
             if 0 = (select count(*) from #InfoLotes) begin
               raiserror('No se indicaron los lotes para el articulo: %s', 16, 1, @pArt_Id)  
-            end
+			  end 
+            
 
             if @pCantidad <> (select CONVERT(float, isnull(sum(Cantidad),0)) from #InfoLotes) begin
               raiserror('La suma de los lotes debe de ser igual a la cantidad para el articulo: %s', 16, 1, @pArt_Id)  
             end
+			end
           end
 
           --Si es devolucion la cantidad viene negativo
