@@ -1,3 +1,0 @@
-[20200807 08:26][Error de aplicación] - Column 'PermiteFacturacionBajoCosto' does not belong to table Table.
-[20200807 08:27][Error de aplicación] - Column 'PermiteFacturacionBajoCosto' does not belong to table Table.
-[20200807 09:05][Error de aplicación] - No se encontraron datos para mostrar el reporte

@@ -1,3 +1,0 @@
-[20200406 11:42][Error de aplicación] - Invalid column name  Nomber .
-[20200406 15:13][Error de aplicación] - Debe de seleccionar al menos una categoría
-[20200406 15:34][Error de aplicación] - Debe de seleccionar al menos una categoría

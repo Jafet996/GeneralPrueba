@@ -1,4 +1,0 @@
-[20200424 07:28][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20200424 07:33][Error de aplicación] - The underlying connection was closed: An unexpected error occurred on a receive.
-[20200424 07:38][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20200424 07:58][Error de aplicación] - El documento ha sido enviado

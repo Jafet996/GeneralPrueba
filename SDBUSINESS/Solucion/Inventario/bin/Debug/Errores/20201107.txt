@@ -1,7 +1,0 @@
-[20201107 18:44][Error de aplicación] - Column 'ActualizacionAutomatica' does not belong to table Table.
-[20201107 18:47][Error de aplicación] - No hay ningun registros para asignar código cabys
-[20201107 19:09][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20201107 19:15][Error de aplicación] - El código de artículo no es válido
-[20201107 19:15][Error de aplicación] - Debe de ingresar un código de artículo válido
-[20201107 19:19][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20201107 19:19][Error de aplicación] - No se encontraron datos para mostrar el reporte

@@ -28,6 +28,8 @@
     Private _CabysCodigo As String
     Private _ArticuloImpuestos As New List(Of TFacturaDetalleImpuesto)
     Private _Data As DataSet
+    Private _Lote As Integer
+    Private _Garantia As Integer
 #End Region
 
 #Region "Definicion de propiedades"
@@ -46,6 +48,22 @@
         End Get
         Set(ByVal Value As Integer)
             _Suc_Id = Value
+        End Set
+    End Property
+    Public Property Lote As Integer
+        Get
+            Return _Lote
+        End Get
+        Set(value As Integer)
+            _Lote = value
+        End Set
+    End Property
+    Public Property Garantia As Integer
+        Get
+            Return _Garantia
+        End Get
+        Set(value As Integer)
+            _Garantia = value
         End Set
     End Property
     Public Property Documento_Id() As Long
@@ -269,6 +287,8 @@
         _Descripcion = ""
         _Usuario = ""
         _Servicio = 0
+        _Lote = 0
+        _Garantia = 0
         _CalculaCantidadFactura = 0
         _Ubicacion = ""
         _CodigoProveedor = ""

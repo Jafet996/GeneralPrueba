@@ -1,6 +1,0 @@
-[20201112 13:16][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20201112 13:16][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20201112 14:09][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20201112 14:10][Error de aplicación] - El cliente no cuenta con un correo valido 
-[20201112 14:10][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
-[20201112 14:12][Gurdando en FacturaElectronica] - Almacenadp Doc 50612112000310173467500100250040000000033100001418

@@ -1,1 +1,0 @@
-[20210113 17:03][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!

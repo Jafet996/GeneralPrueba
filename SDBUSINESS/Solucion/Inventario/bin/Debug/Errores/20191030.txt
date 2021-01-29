@@ -1,3 +1,0 @@
-[20191030 16:21][Error de aplicación] - Proc GuardaArticuloKardex --> Cannot insert the value NULL into column  Saldo , table  SDG-MKM.dbo.ArticuloKardex ; column does not allow nulls. INSERT fails.
-[20191030 16:22][Error de aplicación] - El documento fue modificado por otro usuario, debe de volver a cargar el documento
-[20191030 16:23][Error de aplicación] - Proc GuardaArticuloKardex --> (Art = 110150482) Cannot insert the value NULL into column  Saldo , table  SDG-MKM.dbo.ArticuloKardex ; column does not allow nulls. INSERT fails.

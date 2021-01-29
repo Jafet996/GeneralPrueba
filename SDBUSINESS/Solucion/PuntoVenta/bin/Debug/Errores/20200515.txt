@@ -1,2 +1,0 @@
-[20200515 11:05][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20200515 11:06][Error de aplicación] - El documento ha sido enviado

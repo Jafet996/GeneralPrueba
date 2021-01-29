@@ -1,7 +1,0 @@
-[20200225 10:56][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20200225 10:57][Error de aplicación] - Conversion from string "Producto" to type 'Double' is not valid.
-[20200225 10:57][Error de aplicación] - Conversion from string "Producto" to type 'Double' is not valid.
-[20200225 13:33][Error de aplicación] - Conversion from string "SI" to type 'Boolean' is not valid.
-[20200225 13:34][Error de aplicación] - Conversion from string "SI" to type 'Boolean' is not valid.
-[20200225 14:04][Error de aplicación] - Conversion from string "Producto" to type 'Double' is not valid.
-[20200225 14:27][Error de aplicación] - No se encontro el detalle del documento

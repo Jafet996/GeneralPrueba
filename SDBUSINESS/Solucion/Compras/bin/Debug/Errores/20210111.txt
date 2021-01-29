@@ -1,2 +1,0 @@
-[20210111 09:34][Error de aplicación] - Debe de ingresar el código de proveedor
-[20210111 09:35][Error de aplicación] - Login failed for user  sa .

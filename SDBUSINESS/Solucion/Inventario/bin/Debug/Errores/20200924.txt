@@ -1,5 +1,0 @@
-[20200924 10:33][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
-Parameter name: index
-[20200924 10:59][Error de aplicación] - Conversion from type 'DBNull' to type 'String' is not valid.
-[20200924 11:43][Error de aplicación] - Incorrect syntax near  de .
-[20200924 17:04][Error de aplicación] - Conversion from string "" to type 'Integer' is not valid.

@@ -1,9 +1,0 @@
-[20200821 10:25][Conexión] - El password es incorrecto
-[20200821 10:49][Error de aplicación] - Verifica Módulo : Cannot open database "SDH-TPV" requested by the login. The login failed.
-Login failed for user  sd .
-[20200821 10:51][Error de aplicación] - Verifica Módulo : Login failed for user  sa .
-[20200821 10:52][Error de aplicación] - Verifica Módulo : Login failed for user  sa .
-[20200821 10:53][Error de aplicación] - Verifica Módulo : Login failed for user  sa .
-[20200821 11:09][Error de aplicación] - Column 'ValidaCedulaDuplicada' does not belong to table Table.
-[20200821 11:09][Conexión] - El password es incorrecto
-[20200821 16:19][Error de aplicación] - Column 'Identificador_Id' does not belong to table Table.

@@ -1,6 +1,0 @@
-[20200717 14:49][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20200717 14:49][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20200717 14:54][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20200717 15:43][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20200717 16:11][Conexión] - El password es incorrecto
-[20200717 16:52][Error de aplicación] - No se encontraron datos para mostrar el reporte

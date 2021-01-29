@@ -1,2 +1,0 @@
-[20200324 16:56][Error de aplicación] - El número de cédula ya lo tiene asigando el cliente 7807 - PAULO ANTONIO AGUILAR CASCANTE
-[20200324 16:56][Error de aplicación] - El número de cédula ya lo tiene asigando el cliente 7812 - MARCELA MARIA CAMPOS ARTAVIA

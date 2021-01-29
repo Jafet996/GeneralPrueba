@@ -1,4 +1,0 @@
-[20210107 14:24][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20210107 15:18][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20210107 17:23][Error de aplicación] - Incorrect syntax near  , .
-[20210107 17:23][Error de aplicación] - Incorrect syntax near  , .

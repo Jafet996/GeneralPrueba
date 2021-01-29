@@ -1,4 +1,0 @@
-[20200302 11:40][Error de aplicación] - Column 'ValidaCedulaDuplicada' does not belong to table Table.
-[20200302 11:40][Error de aplicación] - Column 'ValidaCedulaDuplicada' does not belong to table Table.
-[20200302 11:58][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20200302 13:26][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)

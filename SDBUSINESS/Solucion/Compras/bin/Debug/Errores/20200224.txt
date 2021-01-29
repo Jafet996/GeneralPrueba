@@ -1,4 +1,0 @@
-[20200224 10:59][Error de aplicación] - No se encontro el detalle del documento
-[20200224 11:52][Error de aplicación] - InvalidArgument=Value of '4' is not valid for 'index'.
-Parameter name: index
-[20200224 11:57][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)

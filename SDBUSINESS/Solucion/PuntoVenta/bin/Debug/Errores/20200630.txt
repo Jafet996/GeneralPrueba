@@ -1,5 +1,0 @@
-[20200630 22:20][Conexión] - Debe de seleccionar un Password
-[20200630 22:21][Error de aplicación] - Unable to connect to the remote server
-[20200630 22:24][Gurdando en FacturaElectronica] - Almacenadp Doc 50630062000310173467500100135040000000321100001389
-[20200630 23:36][Error de aplicación] - Unable to connect to the remote server
-[20200630 23:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50630062000310173467500100135040000000322100001390

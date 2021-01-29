@@ -1,1 +1,0 @@
-[20200128 10:04][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.

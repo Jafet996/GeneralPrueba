@@ -2519,14 +2519,24 @@ Public Class FrmPuntoVentaRetail
 
     Private Sub IngresaArticuloCargado(pArticuloDetalle As TProformaDetalle)
         Dim Item As ListViewItem
-        Dim Items(18) As String
+        Dim Items(20) As String
         Dim Linea_Id As Integer = 0
         Dim ArticuloImpuestos As New List(Of TInfoArticuloImpuesto)
         Dim ArticuloImpuesto As TInfoArticuloImpuesto
-
+        Dim ArticuloLote As TArticuloLote = Nothing
 
         Try
+            If _TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso pArticuloDetalle.Lote Then
+                ArticuloLote = New TArticuloLote
 
+                With ArticuloLote
+                    .Art_Id = pArticuloDetalle.Art_Id
+                    .Nombre = pArticuloDetalle.Descripcion
+                    .Cantidad = pArticuloDetalle.Cantidad
+                End With
+
+                _Lotes.Add(ArticuloLote)
+            End If
 
             'Crea una nueva linea del detalle
             Item = New ListViewItem(Items)
@@ -2568,6 +2578,22 @@ Public Class FrmPuntoVentaRetail
                 .SubItems(ColumnasDetalle.Servicio).Text = pArticuloDetalle.Servicio
                 .SubItems(ColumnasDetalle.CalculaCantidadFactura).Text = pArticuloDetalle.CalculaCantidadFactura
                 .SubItems(ColumnasDetalle.CABYS).Text = Articulo.CodigoCabys
+
+
+                .SubItems(ColumnasDetalle.Lote).Text = IIf(pArticuloDetalle.Lote, "SI", "NO")
+                If pArticuloDetalle.Lote Then
+                    .UseItemStyleForSubItems = False
+                    ListViewCambiaCeldaBackForeColor(Item, Color.Teal, Color.White, ColumnasDetalle.Lote)
+                    .SubItems(ColumnasDetalle.Lote).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+                End If
+
+                .SubItems(ColumnasDetalle.Garantia).Text = IIf(pArticuloDetalle.Garantia, "SI", "NO")
+                If pArticuloDetalle.Garantia Then
+                    .UseItemStyleForSubItems = False
+                    ListViewCambiaCeldaBackForeColor(Item, Color.Plum, Color.White, ColumnasDetalle.Garantia)
+                    .SubItems(ColumnasDetalle.Garantia).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+                End If
+
             End With
 
             If Not pArticuloDetalle.ExentoIV Then

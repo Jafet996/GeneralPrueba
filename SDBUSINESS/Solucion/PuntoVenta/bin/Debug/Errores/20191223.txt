@@ -1,4 +1,0 @@
-[20191223 16:33][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
-[20191223 16:33][Error de aplicación] - The request failed with HTTP status 503: Service Unavailable.
-[20191223 16:37][Error de aplicación] - El cierre seleccionado aun se encuentra activo, debe de cerrar
-[20191223 16:37][Error de aplicación] - Incorrect syntax near  - .

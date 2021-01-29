@@ -1,1 +1,0 @@
-[20200304 16:29][Error de aplicación] - El margen de utilidad debe de ser mayor o igual a cero

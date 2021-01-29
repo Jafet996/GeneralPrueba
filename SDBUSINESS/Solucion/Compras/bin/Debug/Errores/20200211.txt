@@ -1,7 +1,0 @@
-[20200211 09:37][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20200211 10:37][Error de aplicación] - No tiene permisos para ejecutar esta acción
-[20200211 10:37][Error de aplicación] - No tiene permisos para ejecutar esta acción
-[20200211 10:45][Error de aplicación] - Debe de ingresar el código de proveedor
-[20200211 10:50][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20200211 11:53][Error de aplicación] - Artículo inválido, no se le puede hacer una entrada a un codigo de servicio
-[20200211 11:53][Error de aplicación] - Artículo inválido, no se le puede hacer una entrada a un codigo de servicio

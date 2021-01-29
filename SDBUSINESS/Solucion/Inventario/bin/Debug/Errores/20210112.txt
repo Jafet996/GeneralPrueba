@@ -1,4 +1,0 @@
-[20210112 16:03][Error de aplicación] - No tiene permisos para ejecutar esta acción
-[20210112 16:06][Error de aplicación] - URI no válido: URI está vacío.
-[20210112 16:28][Error de aplicación] - URI no válido: URI está vacío.
-[20210112 16:28][Error de aplicación] - URI no válido: URI está vacío.

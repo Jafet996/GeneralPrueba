@@ -1,2 +1,0 @@
-[20191219 14:49][Error de aplicación] - El artículo es gravado, debe de contener impuestos
-[20191219 14:53][Error de aplicación] - El password es incorrecto

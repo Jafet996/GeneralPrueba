@@ -1,4 +1,0 @@
-[20200401 13:53][Error de aplicación] - Unable to connect to the remote server
-[20200401 13:53][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20200401 13:53][Error de aplicación] - Unable to connect to the remote server
-[20200401 14:17][Error de aplicación] - Unable to connect to the remote server

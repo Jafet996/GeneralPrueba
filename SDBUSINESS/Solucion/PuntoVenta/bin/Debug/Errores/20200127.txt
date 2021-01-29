@@ -1,2 +1,0 @@
-[20200127 16:06][Conexión] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20200127 16:07][Conexión] - El password es incorrecto

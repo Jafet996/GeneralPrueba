@@ -1,6 +1,0 @@
-[20210124 13:06][Error de aplicación] - No se encontraron recursos adecuados para la referencia cultural especificada o para la referencia cultural neutra. Compruebe si "PuntoVenta.FrmGarantiaAsignacion.resources" se ha incrustado o vinculado  correctamente en el ensamblado "PuntoVenta" durante el tiempo de compilación o que todos los ensamblados satélite requeridos pueden cargarse y están completamente firmados.
-[20210124 13:09][Error de aplicación] - Invalid object name  GarantiaPeriodo .
-[20210124 13:09][Error de aplicación] - Invalid object name  GarantiaPeriodo .
-[20210124 13:10][Error de aplicación] - Invalid object name  GarantiaPeriodo .
-[20210124 13:11][Error de aplicación] - Invalid object name  GarantiaPeriodo .
-[20210124 13:12][Error de aplicación] - Invalid object name  GarantiaPeriodo .

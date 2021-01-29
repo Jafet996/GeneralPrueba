@@ -1,3 +1,0 @@
-[20191022 10:04][Error de aplicación] - Imposible facturar, primero debe de abrir caja
-[20191022 15:07][Error de aplicación] - Debe de seleccionar un tipo de documento primero para poder cargar una factura
-[20191022 15:31][Error de aplicación] - El documento ha sido enviado

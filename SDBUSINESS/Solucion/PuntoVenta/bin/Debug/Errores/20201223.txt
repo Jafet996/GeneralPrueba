@@ -1,1 +1,0 @@
-[20201223 15:36][Error de aplicación] - El tipo de compra debe de ser mayor a cero

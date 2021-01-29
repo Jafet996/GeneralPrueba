@@ -1,6 +1,0 @@
-[20191021 15:13][Error de aplicación] - No se ha indicado el motivo
-[20191021 15:18][Error de aplicación] - Imposible facturar, primero debe de abrir caja
-[20191021 15:40][Error de aplicación] - No se ha indicado el motivo
-[20191021 15:40][Error de aplicación] - El monto de salida de efectivo debe de ser mayor a cero
-[20191021 15:44][Error de aplicación] - No se ha indicado el motivo
-[20191021 16:34][Error de aplicación] - Imposible facturar, primero debe de abrir caja

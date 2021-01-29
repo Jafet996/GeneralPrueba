@@ -1,5 +1,0 @@
-[20191125 10:13][Gurdando en FacturaElectronica] - Almacenadp Doc 50625111900310173467500100135010000000255100001283
-[20191125 15:16][Error de aplicación] - El documento aun se encuentra en proceso
-[20191125 15:17][Error de aplicación] - El documento ha sido enviado
-[20191125 15:17][Error de aplicación] - Could not find a part of the path 'Z:\\Factura\2019\11\25'.
-[20191125 15:34][Error de aplicación] - Could not find a part of the path 'Z:\\Factura\2019\11\25'.

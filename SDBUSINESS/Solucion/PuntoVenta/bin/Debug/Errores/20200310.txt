@@ -1,7 +1,0 @@
-[20200310 11:58][Error de aplicación] - Imposible facturar, primero debe de abrir caja
-[20200310 12:21][Error de aplicación] - No tiene permisos para ejecutar esta acción
-[20200310 12:21][Error de aplicación] - No tiene permisos para ejecutar esta acción
-[20200310 12:22][Error de aplicación] - Debe de seleccionar un vendedor
-[20200310 14:09][Error de aplicación] - No tiene permiso para acceder a precios.
-[20200310 14:35][Error de aplicación] - Arithmetic overflow error converting expression to data type varchar.
-[20200310 14:42][Error de aplicación] - Arithmetic overflow error converting expression to data type varchar.

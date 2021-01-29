@@ -1,2 +1,0 @@
-[20200214 11:11][Error de aplicación] - La factura # 10 ya se encuentra registrada para el mismo proveedor
-[20200214 11:12][Error de aplicación] - La factura # 10 ya se encuentra registrada para el mismo proveedor

@@ -1,2 +1,0 @@
-[20191226 11:02][Error de aplicación] - Column 'ArticuloSolicitaCantidadDefecto' does not belong to table Table.
-[20191226 11:36][Gurdando en FacturaElectronica] - Almacenadp Doc 50626121900310173467500100135010000000275100001324

@@ -1,1 +1,0 @@
-[20201126 13:12][Error de aplicación] - Column 'Identificador_Id' does not belong to table Table.

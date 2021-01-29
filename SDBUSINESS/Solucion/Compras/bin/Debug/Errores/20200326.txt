@@ -1,7 +1,0 @@
-[20200326 12:03][Error de aplicación] - No existe información de lotes
-[20200326 12:03][Error de aplicación] - Artículo inválido, no se le puede hacer una entrada a un codigo de servicio
-[20200326 12:03][Error de aplicación] - InvalidArgument=Value of '21' is not valid for 'index'.
-Parameter name: index
-[20200326 12:06][Error de aplicación] - Debe de ingresar el código de proveedor
-[20200326 12:07][Error de aplicación] - Debe de ingresar el código de proveedor
-[20200326 12:07][Error de aplicación] - No existe información de lotes

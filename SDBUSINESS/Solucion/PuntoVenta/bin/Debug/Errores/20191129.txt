@@ -1,4 +1,0 @@
-[20191129 16:30][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20191129 16:30][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20191129 16:30][Error de aplicación] - No se encontró definida una bodega de apartados
-[20191129 16:31][Error de aplicación] - No se encontró definida una bodega de apartados

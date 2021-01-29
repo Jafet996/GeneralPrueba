@@ -1,1 +1,0 @@
-[20200522 17:16][Error de aplicación] - Unable to connect to the remote server

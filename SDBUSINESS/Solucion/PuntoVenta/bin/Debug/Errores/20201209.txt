@@ -1,8 +1,0 @@
-[20201209 11:30][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20201209 14:01][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
-[20201209 14:01][Error de aplicación] - Column 'Identificador_Id' does not belong to table Table.
-[20201209 14:02][Error de aplicación] - Ya exite otro Punto de Venta abierto en este mismo equipo, FAVOR VERIFICAR!!!
-[20201209 14:03][Error de aplicación] - Column 'Identificador_Id' does not belong to table Table.
-[20201209 14:03][Error de aplicación] - Object reference not set to an instance of an object.
-[20201209 14:59][Gurdando en FacturaElectronica] - Almacenadp Doc 50609122000310173467500100251040000000022100001490
-[20201209 16:20][Error de aplicación] - El número de cédula ya lo tiene asigando el cliente 7817 - MIKE

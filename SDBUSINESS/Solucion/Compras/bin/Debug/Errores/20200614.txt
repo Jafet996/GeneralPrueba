@@ -1,5 +1,0 @@
-[20200614 10:20][Error de aplicación] - No tiene permiso para aplicar entradas de mercadería
-[20200614 10:29][Error de aplicación] - Debe de digitar al menos un telefono
-[20200614 10:29][Error de aplicación] - Debe de ingresar el numero de identificacion
-[20200614 10:31][Error de aplicación] - No se indicó ninguna factura
-[20200614 17:12][Error de aplicación] - El password es incorrecto

@@ -1,2 +1,0 @@
-[20200320 08:27][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20200320 09:37][Conexión] - El password es incorrecto

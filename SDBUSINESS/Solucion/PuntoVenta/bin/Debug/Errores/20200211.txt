@@ -1,2 +1,0 @@
-[20200211 09:31][Gurdando en FacturaElectronica] - Almacenadp Doc 50611022000310173467500100135040000000307100001347
-[20200211 15:13][Error de aplicación] - No se encontraron documentos para los criterios seleccionados

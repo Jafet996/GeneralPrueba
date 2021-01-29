@@ -1,6 +1,0 @@
-[20191129 10:02][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
-Parameter name: index
-[20191129 10:04][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
-Parameter name: index
-[20191129 10:08][Error de aplicación] - El password es incorrecto
-[20191129 10:09][Error de aplicación] - El código de artículo no existe

@@ -1,2 +1,0 @@
-[20200302 11:33][Error de aplicación] - Debe de seleccionar al menos una línea
-[20200302 14:24][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)

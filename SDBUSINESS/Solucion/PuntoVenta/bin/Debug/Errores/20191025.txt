@@ -1,4 +1,0 @@
-[20191025 11:14][Gurdando en FacturaElectronica] - Almacenadp Doc 50625101900310173467500100135040000000279100001250
-[20191025 13:09][Error de aplicación] - Error converting data type varchar to smallint.
-[20191025 13:10][Error de aplicación] - Invalid index. (Exception from HRESULT: 0x8002000B (DISP_E_BADINDEX))
-[20191025 13:12][Gurdando en FacturaElectronica] - Almacenadp Doc 50625101900310173467500100135010000000240100001251

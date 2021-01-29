@@ -1,2 +1,0 @@
-[20210111 08:38][Error de aplicación] - El código de artículo no es válido
-[20210111 08:38][Error de aplicación] - Debe de ingresar un código de artículo válido

@@ -1,7 +1,0 @@
-[20201208 09:22][Error de aplicación] - El permiso no se encuenta definido
-[20201208 09:23][Error de aplicación] - El permiso no se encuenta definido
-[20201208 09:30][Error de aplicación] - El permiso no se encuenta definido
-[20201208 09:32][Error de aplicación] - El permiso no se encuenta definido
-[20201208 09:33][Error de aplicación] - Login failed for user  sa .
-[20201208 09:33][Error de aplicación] - Login failed for user  sa .
-[20201208 09:34][Error de aplicación] - El permiso no se encuenta definido

@@ -1,3 +1,0 @@
-[20200724 09:13][Error de aplicación] - El password es incorrecto
-[20200724 12:00][Error de aplicación] - Usuario no válido
-[20200724 12:04][Error de aplicación] - Usuario no válido

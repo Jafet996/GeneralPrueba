@@ -1,6 +1,0 @@
-[20201103 08:29][Conexión] - Usuario no válido
-[20201103 08:29][Conexión] - Debe de seleccionar un Password
-[20201103 16:04][Conexión] - Usuario no válido
-[20201103 16:04][Conexión] - Debe de seleccionar un Password
-[20201103 16:30][Conexión] - El password es incorrecto
-[20201103 16:30][Conexión] - El password es incorrecto

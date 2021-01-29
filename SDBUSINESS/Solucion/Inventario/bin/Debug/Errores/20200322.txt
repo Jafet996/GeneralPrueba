@@ -1,8 +1,0 @@
-[20200322 11:22][Conexión] - Debe de seleccionar un Password
-[20200322 12:51][Error de aplicación] - Debe de seleccionar un item
-[20200322 12:51][Error de aplicación] - Debe de digitar un código
-[20200322 12:56][Error de aplicación] - Debe de seleccionar un item
-[20200322 13:56][Error de aplicación] - Usuario no válido
-[20200322 14:08][Error de aplicación] - Debe de selecciona un UPC
-[20200322 14:08][Error de aplicación] - Debe de selecciona un UPC
-[20200322 14:09][Error de aplicación] - Debe de selecciona un UPC

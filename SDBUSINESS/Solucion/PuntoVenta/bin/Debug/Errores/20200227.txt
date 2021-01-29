@@ -1,3 +1,0 @@
-[20200227 08:59][Error de aplicación] - Imposible facturar, primero debe de abrir caja
-[20200227 09:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50627022000310173467500100135010000000293100001358
-[20200227 09:06][Gurdando en FacturaElectronica] - Almacenadp Doc 50627022000310173467500100135010000000294100001359

@@ -698,7 +698,7 @@
 
             _ProformaDetalles.Clear()
 
-            Query = "select a.*, b.Nombre as NombreArticulo, c.Ubicacion, b.CodigoProveedor" _
+            Query = "select a.*, b.Nombre as NombreArticulo, c.Ubicacion, b.CodigoProveedor,b.Lote, b.Garantia" _
              & " From ProformaDetalle a" _
             & " inner join Articulo b on a.Emp_Id = b.Emp_Id And a.Art_Id = b.Art_Id" _
             & " inner join ArticuloBodega c on a.Emp_Id = c.Emp_Id And a.Suc_Id = c.Suc_Id and a.Art_Id = c.Art_Id" _
@@ -733,6 +733,8 @@
                     .Servicio = Fila("Servicio")
                     .Ubicacion = Fila("Ubicacion")
                     .CodigoProveedor = Fila("CodigoProveedor")
+                    .Lote = Fila("Lote")
+                    .Garantia = Fila("Garantia")
                 End With
 
 

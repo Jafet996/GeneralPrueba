@@ -1,8 +1,0 @@
-[20200925 08:55][Error de aplicación] - No hay ningun registros para asignar código cabys
-[20200925 10:10][Error de aplicación] - No se ha asignado ningun código a los articulos
-[20200925 10:11][Error de aplicación] - No se ha asignado ningun código a los articulos
-[20200925 13:51][Error de aplicación] - No se ha asignado ningun código a los articulos
-[20200925 13:54][Error de aplicación] - No se ha asignado ningun código a los articulos
-[20200925 13:58][Error de aplicación] - No se ha asignado ningun código a los articulos
-[20200925 13:59][Error de aplicación] - No hay ningun registros para asignar código cabys
-[20200925 14:00][Error de aplicación] - No hay ningun registros para asignar código cabys

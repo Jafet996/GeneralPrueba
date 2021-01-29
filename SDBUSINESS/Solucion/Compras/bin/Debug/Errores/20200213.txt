@@ -1,2 +1,0 @@
-[20200213 15:20][Error de aplicación] - Debe de ingresar al menos una linea
-[20200213 15:45][Error de aplicación] - La factura # 123 ya se encuentra registrada para el mismo proveedor

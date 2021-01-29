@@ -1,2 +1,0 @@
-[20201022 00:42][Gurdando en FacturaElectronica] - Almacenadp Doc 50622102000310173467500100250040000000030100001407
-[20201022 01:12][Error de aplicación] - Artículo inválido, no se encontraron datos

@@ -1,3 +1,0 @@
-[20191127 12:30][Error de aplicación] - Imposible facturar, primero debe de abrir caja
-[20191127 13:01][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo BS22951-125 está definido como gravado pero no tiene impuestos asignados, por favor verificar
-[20191127 13:07][Error de aplicación] - Error ConsultaArticuloImpuesto: El artículo BS22951-125 está definido como gravado pero no tiene impuestos asignados, por favor verificar

@@ -1,2 +1,0 @@
-[20200710 19:33][Error de aplicación] - Unable to connect to the remote server
-[20200710 19:34][Gurdando en FacturaElectronica] - Almacenadp Doc 50610072000310173467500100135040000000323100001395

@@ -1,6 +1,0 @@
-[20200205 17:44][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
-[20200205 17:48][Error de aplicación] - La receta se almaceno de manera correcta
-[20200205 17:50][Error de aplicación] - Conversion from string "" to type 'Double' is not valid.
-[20200205 17:52][Error de aplicación] - La receta se almaceno de manera correcta
-[20200205 17:53][Error de aplicación] - La receta se almaceno de manera correcta
-[20200205 17:54][Error de aplicación] - La receta se almaceno de manera correcta

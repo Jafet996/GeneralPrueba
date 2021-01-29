@@ -1,4 +1,0 @@
-[20210126 11:42][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20210126 11:42][Error de aplicación] - No se encontraron datos para mostrar el reporte
-[20210126 11:47][Conexión] - El password es incorrecto
-[20210126 15:20][Error de aplicación] - No se han indicado los datos de la garantía para el producto MPD9821 - PRUEBAS, favor verificar

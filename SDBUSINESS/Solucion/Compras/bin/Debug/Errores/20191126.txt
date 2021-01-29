@@ -1,2 +1,0 @@
-[20191126 15:44][Error de aplicación] - InvalidArgument=Value of '0' is not valid for 'index'.
-Parameter name: index

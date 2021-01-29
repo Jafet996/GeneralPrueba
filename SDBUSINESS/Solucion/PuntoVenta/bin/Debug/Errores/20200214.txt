@@ -1,3 +1,0 @@
-[20200214 15:49][Error de aplicación] - El número de identificacion debe de contener 9 digitos
-[20200214 15:56][Error de aplicación] - Debe de seleccionar el tipo de documento
-[20200214 15:56][Error de aplicación] - Formato de email no válido

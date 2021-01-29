@@ -1,8 +1,0 @@
-[20200116 09:57][Gurdando en FacturaElectronica] - Almacenadp Doc 50616012000310173467500100135040000000297100001325
-[20200116 11:50][Error de aplicación] - No Existe existencia suficiente
-[20200116 11:51][Gurdando en FacturaElectronica] - Almacenadp Doc 50616012000310173467500100135010000000276100001326
-[20200116 14:41][Error de aplicación] - El precio no  puede ser menor al costo
-[20200116 15:08][Error de aplicación] - El precio no  puede ser menor al costo
-[20200116 15:12][Error de aplicación] - NO TIENE PERMISO PARA FACTURAR BAJO COSTO
-[20200116 15:13][Gurdando en FacturaElectronica] - Almacenadp Doc 50616012000310173467500100135010000000277100001327
-[20200116 16:04][Error de aplicación] - Column 'PermiteFacturacionBajoCosto' does not belong to table Table.

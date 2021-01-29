@@ -1,1 +1,0 @@
-[20200225 15:09][Error de aplicación] - No tiene permisos para ejecutar esta acción

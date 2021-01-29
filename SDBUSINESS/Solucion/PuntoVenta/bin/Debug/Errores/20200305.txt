@@ -1,4 +1,0 @@
-[20200305 14:26][Error de aplicación] - Los datos del documento han sido guardados de manera correcta para su posterior Facturación
-[20200305 14:39][Error de aplicación] - No se puede poner en espera un documento que ha sido cargado
-[20200305 15:05][Gurdando en FacturaElectronica] - Almacenadp Doc 50605032000310173467500100135010000000299100001366
-[20200305 15:48][Error de aplicación] - Column 'ValidaCedulaDuplicada' does not belong to table Table.

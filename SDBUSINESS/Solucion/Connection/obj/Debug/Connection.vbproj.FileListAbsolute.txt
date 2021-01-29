@@ -56,4 +56,3 @@ C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Conn
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.dll
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.xml
 C:\Users\jafet\OneDrive\Documentos\GitHub\GeneralPrueba\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.pdb
-C:\Users\Desarrollo Facturar\Documents\GitHub\sdb.general - copia\SDBUSINESS\Solucion\Connection\obj\Debug\Connection.vbprojAssemblyReference.cache

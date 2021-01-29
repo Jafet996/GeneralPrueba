@@ -1,6 +1,0 @@
-[20200207 11:22][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
-[20200207 13:11][Error de aplicación] - InvalidArgument=Value of '4' is not valid for 'index'.
-Parameter name: index
-[20200207 13:50][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
-[20200207 14:07][Error de aplicación] - Conversion from string "A transport-level error has occu" to type 'Date' is not valid.
-[20200207 16:40][Error de aplicación] - There is an error in XML document (1, 5346).

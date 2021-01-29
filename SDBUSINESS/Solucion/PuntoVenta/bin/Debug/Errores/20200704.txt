@@ -1,2 +1,0 @@
-[20200704 07:53][Error de aplicación] - Unable to connect to the remote server
-[20200704 07:59][Error de aplicación] - Unable to connect to the remote server

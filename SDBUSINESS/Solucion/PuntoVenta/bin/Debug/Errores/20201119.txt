@@ -1,8 +1,0 @@
-[20201119 08:04][Error de aplicación] - No se encontraron usuarios relacionados con esta descripción
-[20201119 08:05][Error de aplicación] - Artículo inválido, no se encontraron datos
-[20201119 08:05][Error de aplicación] - Artículo inválido, no se encontraron datos
-[20201119 08:19][Error de aplicación] - El monto de descuento no puede ser mayor a 100
-[20201119 08:21][Error de aplicación] - No tiene permiso cambiar el descuento x línea de la factura
-[20201119 15:44][Error de aplicación] - El cliente no posee apartados
-[20201119 15:46][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20201119 17:22][Error de aplicación] - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)

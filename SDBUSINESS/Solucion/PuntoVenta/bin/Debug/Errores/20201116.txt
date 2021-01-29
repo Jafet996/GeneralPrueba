@@ -1,9 +1,0 @@
-[20201116 08:41][Error de aplicación] - No se encontraron documentos para los criterios seleccionados
-[20201116 08:57][Error de aplicación] - Artículo inválido, no se encontraron datos
-[20201116 08:58][Error de aplicación] - Exception has been thrown by the target of an invocation.
-[20201116 08:59][Error de aplicación] - Exception has been thrown by the target of an invocation.
-[20201116 08:59][Gurdando en FacturaElectronica] - Almacenadp Doc 50616112000310173467500100250040000000036100001421
-[20201116 09:02][Error de aplicación] - Column 'IVA1' does not belong to table Table.
-[20201116 09:02][Error de aplicación] - Column 'IVA1' does not belong to table Table.
-[20201116 09:05][Error de aplicación] - Column 'IVA13' does not belong to table Table.
-[20201116 09:21][Conexión] - Usuario no válido

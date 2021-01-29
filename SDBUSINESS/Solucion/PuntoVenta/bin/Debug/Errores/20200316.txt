@@ -1,3 +1,0 @@
-[20200316 15:54][Error de aplicación] - Imposible guardar el documento, al menos tiene que ingresar un producto
-[20200316 15:54][Error de aplicación] - Los datos del documento han sido guardados de manera correcta para su posterior Facturación
-[20200316 15:55][Gurdando en FacturaElectronica] - Almacenadp Doc 50616032000310173467500100135040000000314100001369
