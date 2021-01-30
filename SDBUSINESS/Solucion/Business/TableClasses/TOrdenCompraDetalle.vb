@@ -396,7 +396,7 @@
             _Data.Tables.Add(TablaImpuesto)
 
 
-            Query = "select a.*, b.Nombre as NombreArticulo, b.FactorConversion, b.Suelto, c.Minimo, c.Maximo, c.PromedioVenta, c.Margen, c.Precio, c.Costo as CostoActual " &
+            Query = "select a.*, b.Nombre as NombreArticulo, b.FactorConversion, b.Suelto, c.Minimo, c.Maximo, c.PromedioVenta, c.Margen, c.Precio, c.Costo as CostoActual,b.Lote " &
                 " From OrdenCompraDetalle a, Articulo b, ArticuloBodega c" &
                 " where a.Emp_Id = b.Emp_Id and a.Art_Id = b.Art_Id" &
                 " and a.Emp_Id = c.Emp_Id and a.Suc_Id = c.Suc_Id and a.Bod_Id = c.Bod_Id and a.Art_Id = c.Art_Id " &

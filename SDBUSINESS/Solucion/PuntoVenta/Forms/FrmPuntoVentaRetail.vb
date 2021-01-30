@@ -2917,30 +2917,31 @@ Public Class FrmPuntoVentaRetail
             If Accion = AccionDetalle.Nuevo Then
                 LvwDetalle.Items.Add(Item)
                 Item.EnsureVisible()
+                If _TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso Item.SubItems(ColumnasDetalle.Lote).Text = "SI" Then
+                    Item.UseItemStyleForSubItems = False
+                    ListViewCambiaCeldaBackForeColor(Item, Color.Teal, Color.White, ColumnasDetalle.Lote)
+                    Item.SubItems(ColumnasDetalle.Lote).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+
+                    ArticuloLote = New TArticuloLote
+
+                    With ArticuloLote
+                        .Art_Id = InfoArticulo.Art_Id
+                        .Nombre = InfoArticulo.Nombre
+                        .Cantidad = CDbl(TxtCantidad.Text)
+                        .Escaneado = 0
+                    End With
+
+                    _Lotes.Add(ArticuloLote)
+                End If
+
+                If Item.SubItems(ColumnasDetalle.Garantia).Text = "SI" Then
+                    Item.UseItemStyleForSubItems = False
+                    ListViewCambiaCeldaBackForeColor(Item, Color.Plum, Color.White, ColumnasDetalle.Garantia)
+                    Item.SubItems(ColumnasDetalle.Garantia).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
+                End If
             End If
 
-            If _TipoFacturacion = Enum_TipoFacturacion.Factura AndAlso Item.SubItems(ColumnasDetalle.Lote).Text = "SI" Then
-                Item.UseItemStyleForSubItems = False
-                ListViewCambiaCeldaBackForeColor(Item, Color.Teal, Color.White, ColumnasDetalle.Lote)
-                Item.SubItems(ColumnasDetalle.Lote).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
 
-                ArticuloLote = New TArticuloLote
-
-                With ArticuloLote
-                    .Art_Id = InfoArticulo.Art_Id
-                    .Nombre = InfoArticulo.Nombre
-                    .Cantidad = CDbl(TxtCantidad.Text)
-                    .Escaneado = 0
-                End With
-
-                _Lotes.Add(ArticuloLote)
-            End If
-
-            If Item.SubItems(ColumnasDetalle.Garantia).Text = "SI" Then
-                Item.UseItemStyleForSubItems = False
-                ListViewCambiaCeldaBackForeColor(Item, Color.Plum, Color.White, ColumnasDetalle.Garantia)
-                Item.SubItems(ColumnasDetalle.Garantia).Font = New Font(LvwDetalle.Font, FontStyle.Bold)
-            End If
 
             'Marca la ultima linea modificada o ingresada
             LvwDetalle.SelectedItems.Clear()
@@ -2994,6 +2995,7 @@ Public Class FrmPuntoVentaRetail
                 .Suc_Id = CajaInfo.Suc_Id
                 .Bod_Id = CajaInfo.Bod_Id
                 .Lotes = _Lotes
+               
 
                 If Not _FacturaDev Is Nothing OrElse CInt(TxtTipoDocumento.Text.Trim) = Enum_TipoDocumento.DevolucionContado Or CInt(TxtTipoDocumento.Text.Trim) = Enum_TipoDocumento.DevolucionContado Then
                     .ReadLonly = True

@@ -1189,7 +1189,7 @@ Public Class FrmEntradaMercaderia
         Dim OrdenCompraEncabezado As New TOrdenCompraEncabezado(EmpresaInfo.Emp_Id)
         Dim OrdenCompraDetalle As New TOrdenCompraDetalle(EmpresaInfo.Emp_Id)
         Dim Item As ListViewItem = Nothing
-        Dim Items(20) As String
+        Dim Items(22) As String
         Dim OCImpuesto As List(Of TInfoArticuloImpuesto)
         Dim Mensaje As String = ""
         Dim Detalle_Id As Integer = 0
@@ -1316,6 +1316,7 @@ Public Class FrmEntradaMercaderia
                     .SubItems(ColumnasDetalle.Exento).Text = IIf(Fila("ExentoIV"), -1, 0)
                     .SubItems(ColumnasDetalle.Suelto).Text = IIf(Fila("Suelto"), -1, 0)
                     .SubItems(ColumnasDetalle.CostoActual).Text = Fila("CostoActual")
+                    .SubItems(ColumnasDetalle.LoteUU).Text = IIf(Fila("Lote"), "SI", "NO")
 
                 End With
 
@@ -1324,6 +1325,10 @@ Public Class FrmEntradaMercaderia
                 LvwDetalle.Items.Add(Item)
 
                 Item.EnsureVisible()
+                If Fila("Lote") Then
+                    IngresaLote(Fila("Art_Id"), 0, String.Empty, #1900/01/01#)
+                End If
+
 
             Next
 
@@ -2849,6 +2854,10 @@ Public Class FrmEntradaMercaderia
     End Sub
 
     Private Sub TxtCantidad_TextChanged(sender As Object, e As EventArgs) Handles TxtCantidad.TextChanged
+
+    End Sub
+
+    Private Sub TxtOrden_TextChanged(sender As Object, e As EventArgs) Handles TxtOrden.TextChanged
 
     End Sub
 End Class

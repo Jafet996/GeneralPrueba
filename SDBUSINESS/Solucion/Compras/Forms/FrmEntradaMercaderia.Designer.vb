@@ -71,6 +71,7 @@ Partial Class FrmEntradaMercaderia
         Me.ColumnHeader20 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader21 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader22 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader23 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.MenuDetalle = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.MnuModificarLinea = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnuEliminarLinea = New System.Windows.Forms.ToolStripMenuItem()
@@ -143,7 +144,6 @@ Partial Class FrmEntradaMercaderia
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.ColumnHeader23 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.PnEncabezado.SuspendLayout()
         Me.MenuDetalle.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -480,7 +480,7 @@ Partial Class FrmEntradaMercaderia
         Me.LvwDetalle.Location = New System.Drawing.Point(0, 298)
         Me.LvwDetalle.Margin = New System.Windows.Forms.Padding(4)
         Me.LvwDetalle.Name = "LvwDetalle"
-        Me.LvwDetalle.Size = New System.Drawing.Size(1644, 449)
+        Me.LvwDetalle.Size = New System.Drawing.Size(1644, 448)
         Me.LvwDetalle.TabIndex = 17
         Me.LvwDetalle.UseCompatibleStateImageBehavior = False
         Me.LvwDetalle.View = System.Windows.Forms.View.Details
@@ -776,29 +776,29 @@ Partial Class FrmEntradaMercaderia
         'BtnCargarArchivoArticulos
         '
         Me.BtnCargarArchivoArticulos.Name = "BtnCargarArchivoArticulos"
-        Me.BtnCargarArchivoArticulos.Size = New System.Drawing.Size(244, 26)
+        Me.BtnCargarArchivoArticulos.Size = New System.Drawing.Size(252, 26)
         Me.BtnCargarArchivoArticulos.Text = "Cargar Archivo Artículos"
         '
         'BtnCreacionDeArticulos
         '
         Me.BtnCreacionDeArticulos.Name = "BtnCreacionDeArticulos"
-        Me.BtnCreacionDeArticulos.Size = New System.Drawing.Size(244, 26)
+        Me.BtnCreacionDeArticulos.Size = New System.Drawing.Size(252, 26)
         Me.BtnCreacionDeArticulos.Text = "Creación de Artículos"
         '
         'BtnEscaneo
         '
         Me.BtnEscaneo.Name = "BtnEscaneo"
-        Me.BtnEscaneo.Size = New System.Drawing.Size(244, 26)
+        Me.BtnEscaneo.Size = New System.Drawing.Size(252, 26)
         Me.BtnEscaneo.Text = "Escaneo"
         '
         'StatusBar
         '
         Me.StatusBar.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.StatusBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.TSSNombreEmpresa, Me.ToolStripStatusLabel3, Me.TSSNombreSucursal, Me.TSSClaveTitulo, Me.TSSClave})
-        Me.StatusBar.Location = New System.Drawing.Point(0, 806)
+        Me.StatusBar.Location = New System.Drawing.Point(0, 805)
         Me.StatusBar.Name = "StatusBar"
         Me.StatusBar.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
-        Me.StatusBar.Size = New System.Drawing.Size(1644, 25)
+        Me.StatusBar.Size = New System.Drawing.Size(1644, 26)
         Me.StatusBar.TabIndex = 12
         Me.StatusBar.Text = "StatusStrip1"
         '
@@ -1260,7 +1260,7 @@ Partial Class FrmEntradaMercaderia
         Me.Panel2.Controls.Add(Me.PictureBox2)
         Me.Panel2.Controls.Add(Me.PictureBox5)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 747)
+        Me.Panel2.Location = New System.Drawing.Point(0, 746)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(1644, 59)
         Me.Panel2.TabIndex = 78

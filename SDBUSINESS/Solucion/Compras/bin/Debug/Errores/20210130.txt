@@ -1,0 +1,9 @@
+[20210130 10:35][Error de aplicación] - No se indicó ninguna factura
+[20210130 10:39][Error de aplicación] - Error buscando lotes para el articulo: MPD9821
+[20210130 10:41][Error de aplicación] - Procedure or function  GuardaMovimientoDetalle  expects parameter  @pCantidadLote , which was not supplied.
+[20210130 10:42][Error de aplicación] - InvalidArgument=El valor de '21' no es válido para 'index'.
+Nombre del parámetro: index
+[20210130 10:44][Error de aplicación] - InvalidArgument=El valor de '21' no es válido para 'index'.
+Nombre del parámetro: index
+[20210130 11:13][Error de aplicación] - InvalidArgument=El valor de '22' no es válido para 'index'.
+Nombre del parámetro: index
