@@ -45,3 +45,7 @@
 [20210130 13:06][Error de aplicación] - Debe de seleccionar una línea
 [20210130 13:06][Error de aplicación] - No se permite modificar la información de lotes 
 [20210130 13:12][Error de aplicación] - No se permite modificar la información de lotes 
+[20210130 15:46][Error de aplicación] - El tipo de documento no es valido para realizar una devolución
+[20210130 15:47][Error de aplicación] - No se permite modificar la información de lotes 
+[20210130 16:01][Error de aplicación] - Existe diferencia entre la cantidad ingresada y la cantidad total de lotes indicados para el producto 657789 - PRUEBA4545, favor verificar
+[20210130 16:13][Error de aplicación] - La suma de los lotes debe de ser igual a la cantidad para el articulo: 657789

@@ -1316,6 +1316,7 @@ Public Class FrmEntradaMercaderia
                     .SubItems(ColumnasDetalle.Exento).Text = IIf(Fila("ExentoIV"), -1, 0)
                     .SubItems(ColumnasDetalle.Suelto).Text = IIf(Fila("Suelto"), -1, 0)
                     .SubItems(ColumnasDetalle.CostoActual).Text = Fila("CostoActual")
+                    .SubItems(ColumnasDetalle.CantidadEscaneada).Text = "0.00"
                     .SubItems(ColumnasDetalle.LoteUU).Text = IIf(Fila("Lote"), "SI", "NO")
 
                 End With
@@ -2700,7 +2701,7 @@ Public Class FrmEntradaMercaderia
                             If IsNumeric(item.SubItems(ColumnasDetalle.CantidadBonificada).Text) Then
                                 .Cantidad += item.SubItems(ColumnasDetalle.CantidadBonificada).Text
                             End If
-                            '.Escaneado = item.SubItems(ColumnasDetalle.CantidadEscaneada).Text
+                            .Escaneado = item.SubItems(ColumnasDetalle.CantidadEscaneada).Text
                         End With
                         Exit For
                     End If

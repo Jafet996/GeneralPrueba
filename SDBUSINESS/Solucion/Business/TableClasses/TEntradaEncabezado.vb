@@ -1174,7 +1174,7 @@
                 With Detalle
                     Query = "GuardaMovimientoDetalle " & .Emp_Id.ToString & "," & .Suc_Id.ToString & "," & .TipoMov_Id.ToString & "," & MovimientoEncabezado.Mov_Id.ToString() & "," &
                         .Detalle_Id.ToString & ",'" & .Art_Id & "'," & .Cantidad.ToString & "," & .Costo.ToString & "," & .TotalLinea & "," & .Suelto & ",'" &
-                        Format(_Fecha, "yyyyMMdd HH:mm:ss") & "'"
+                        Format(_Fecha, "yyyyMMdd HH:mm:ss") & "'" & ", 0,0"
                 End With
 
                 Cn.Ejecutar(Query)
